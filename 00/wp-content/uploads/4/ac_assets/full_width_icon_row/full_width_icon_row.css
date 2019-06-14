@@ -1,0 +1,33 @@
+.uc_full_width_icon_row * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.uc_full_width_icon_row {
+	overflow: hidden;
+}
+.uc_full_width_icon_row .uc_social_item {
+	background: #333 none repeat scroll 0 0;
+	float: left;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	width: 20%;
+  	border-right:1px solid #888888;
+}
+
+.uc_full_width_icon_row .uc_social_item .uc_social_item_link {
+	display: block;
+	text-decoration: none;
+}
+.uc_full_width_icon_row .uc_social_item .uc_social_item_link i {
+	color: #fff;
+	display: block;
+	font-size: 23px;
+	padding: 44px 0;
+	transition: color 0.3s ease-out;
+}
+.uc_social_item:hover .uc_social_item_link i {
+	color: #fff;
+	transition: color 0.3s ease-out;
+}

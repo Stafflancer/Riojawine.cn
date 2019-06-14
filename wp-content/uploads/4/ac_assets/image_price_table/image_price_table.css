@@ -1,0 +1,117 @@
+.uc_image_price_table * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_image_price_table .uc_content_box{
+	max-width:590px;
+	margin:0 auto ;
+	background:#ffffff;
+	border-top:5px solid #1b253b;
+	font-size:13px;
+	font-weight:300;
+	text-align:center;
+	overflow:hidden;
+	transition:all 1s linear 0s;
+	-webkit-transition:all 1s linear 0s;
+	-moz-transition:all 1s linear 0s;
+	-ms-transition:all 1s linear 0s;
+	position:relative;
+}
+
+.uc_image_price_table .uc_plan_name{
+	padding:50px 0 10px;
+	color:#999999;
+}
+
+.uc_image_price_table .uc_price {
+  	background: #1b253b;
+	margin:-50px auto 10px;
+  	border-radius: 0;
+  	color: #ffffff;
+  	display: block;
+  	font-size: 32px;
+  	height: 45px;
+  	left: 0;
+  	line-height: 34px;
+  	padding: 5px;
+  	position: absolute;
+  	top: -150px;
+  	transition: all 1s linear 0s;
+	-webkit-transition: all 1s linear 0s;
+	-moz-transition: all 1s linear 0s;
+	-ms-transition: all 1s linear 0s;
+  	width: 100%;
+}
+
+.uc_image_price_table .uc_plan_name h3{
+	font-size:25px;
+	color:#333333;
+	line-height:40px;
+}
+
+.uc_image_price_table .uc_plan_features{
+	padding:10px;
+}
+
+.uc_image_price_table .uc_plan_features ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+.uc_image_price_table .uc_plan_features ul li{
+	padding:13px 0;
+	line-height:20px;
+}
+
+.uc_image_price_table .uc_btn {
+  	border-radius: 0;
+  	box-sizing: border-box;
+  	color: #ffffff;
+  	font-size: 15px;
+  	margin: 0 auto;
+  	padding: 20px 30px;
+  	transition: all 0.51s ease-in-out 0s;
+	-webkit-transition: all 0.51s ease-in-out 0s;
+	-moz-transition: all 0.51s ease-in-out 0s;
+	-ms-transition: all 0.51s ease-in-out 0s;
+  	width: 162px;
+	line-height:20px;
+	text-decoration:none;
+	border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-width:1px;
+	border-style:solid;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
+	display:inline-block;
+	box-shadow:0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.uc_image_price_table .uc_content_box:hover {
+  	border-top: 0 solid #1b253b;
+  	transition: all 1s linear 0s;
+	-webkit-transition: all 1s linear 0s;
+	-moz-transition: all 1s linear 0s;
+	-ms-transition: all 1s linear 0s;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+    z-index: 2;
+}
+
+.uc_image_price_table .uc_content_box:hover a.uc_btn{
+	width:100%;
+}
+
+.uc_image_price_table .uc_content_box:hover .uc_price {
+  	top: 50px;
+  	transition: all 1s linear 0s;
+	-webkit-transition: all 1s linear 0s;
+	-moz-transition: all 1s linear 0s;
+	-ms-transition: all 1s linear 0s;
+}

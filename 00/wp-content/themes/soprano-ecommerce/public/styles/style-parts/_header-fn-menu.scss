@@ -1,0 +1,209 @@
+/* ============================================================================= */
+/* Fullscreen mobile navigation. */
+/* ============================================================================= */
+
+#sp-mobile-nav-bg, #sp-mobile-nav-container {
+  -webkit-transition : opacity 0.3s, visibility 0.3s;
+  transition : opacity 0.3s, visibility 0.3s;
+  opacity    : 0;
+  visibility : hidden;
+}
+
+#sp-mobile-nav-bg {
+  @include overlay-base();
+  z-index    : $zindex-fixed;
+  background : rgba(#000, 0.85);
+}
+
+#sp-mobile-nav-container {
+  @include overlay-base();
+  z-index       : $zindex-fixed + 10;
+  border-top    : 0 solid transparent;
+  border-bottom : 25px solid transparent;
+  overflow      : hidden;
+}
+
+#sp-mobile-nav-container > .overlay-inner-wrap {
+  position    : absolute;
+  -webkit-transform   : translateY(-50%);
+          transform   : translateY(-50%);
+  top         : 50%; left : 50%;
+  margin-left : -200px;
+  width       : 400px;
+  max-height  : 100%;
+  overflow-x  : hidden;
+  overflow-y  : auto;
+  text-align  : center;
+}
+
+
+/* ================================= fn menu toggle */
+#sp-primary-nav #sp-mobile-nav-trigger {
+  display        : inline-block;
+  vertical-align : middle;
+  position       : relative;
+  font-size      : 18px;
+  z-index        : $zindex-fixed + 10;
+  margin         : 15px 0;
+  width          : 1.5em;
+  height         : 1em;
+  color          : inherit;
+  -webkit-transition     : none;
+  transition     : none;
+
+  > span {
+    display    : block;
+    position   : absolute;
+    height     : 2px;
+    width      : 100%;
+    background : currentColor;
+    opacity    : 1;
+    left       : 0;
+    -webkit-transform  : rotate(0deg);
+            transform  : rotate(0deg);
+    -webkit-transition : all .3s ease-in-out, color 0.25s;
+    transition : all .3s ease-in-out, color 0.25s;
+
+    &:nth-child(1) { top: 0; }
+    &:nth-child(2), &:nth-child(3) { top: 50%; margin-top: -1px; }
+    &:nth-child(4) { bottom: 0; }
+  }
+
+  .sp-active-burger-menu & > span {
+    &:nth-child(1) { top: 50%; width: 0; left: 50%; }
+    &:nth-child(2) { -webkit-transform : rotate(45deg); transform : rotate(45deg); }
+    &:nth-child(3) { -webkit-transform : rotate(-45deg); transform : rotate(-45deg); }
+    &:nth-child(4) { bottom: 50%; width: 0; left: 50%; }
+  }
+
+  //&:hover { opacity: 0.6; }
+}
+
+/* ================================= social icons */
+#sp-mobile-nav-container .sp-soc-icons {
+  margin-top : 15px;
+  font-size  : 0;
+  opacity    : 0;
+
+  > a {
+    display   : inline-block;
+    color     : $brand-primary;
+    padding   : 0 15px;
+    opacity   : 1;
+    font-size : 23px;
+
+    &:hover { color : #fff; }
+  }
+}
+
+/* ================================= inner nav menu */
+#sp-mobile-nav-container .nav_menu {
+  @include reset-box-model(true);
+
+  li > a.sub-active { color : $brand-primary; }
+
+  li.menu-item-has-children > a { position : relative; }
+  li.menu-item-has-children > a:after {
+    content     : '\f3d0';
+    font-family : $icon-font-family;
+    margin-left : 5px;
+    font-size   : 12px;
+    position    : absolute;
+    top         : 50%;
+    margin-top  : 2px;
+    line-height : 1;
+    -webkit-transform   : translateY(-50%);
+            transform   : translateY(-50%);
+  }
+
+  > li {
+    position : relative;
+    opacity  : 0;
+
+    > a {
+      font-size      : 20px;
+      line-height    : 35px;
+      text-transform : uppercase;
+      margin-bottom  : 15px;
+      display        : block;
+      color          : #fff;
+      font-weight    : 400;
+
+      &:hover { color : $brand-primary; }
+    }
+  }
+
+  .sub-menu {
+    @include reset-box-model(true);
+    padding  : 0 0 15px;
+    display : none;
+
+    a {
+      font-size      : 16px;
+      font-weight    : 400;
+      text-align     : center;
+      margin-bottom  : 10px;
+      color          : #fff;
+      text-transform : none;
+      display        : block;
+
+      &:hover { color : $brand-primary; }
+    }
+
+    .sub-menu { padding-top : 5px; }
+  }
+}
+
+/* ================================= active state */
+html.sp-active-burger-menu {
+  &, > body {
+    height   : 100%;
+    overflow : hidden;
+  }
+
+  #sp-mobile-nav-bg, #sp-mobile-nav-container {
+    opacity    : 1;
+    visibility : visible;
+  }
+
+  #sp-mobile-nav-container {
+    .nav_menu > li, .sp-soc-icons {
+      @include prefix(animation, sp-menu-effect 0.4s linear forwards, webkit);
+    }
+  }
+
+  #sp-header.header-stuck .brand-logo {
+    .logo-dark { display : none; }
+    .logo-white { display : block; }
+  }
+}
+
+@-webkit-keyframes sp-menu-effect {
+  from {
+    opacity    : 0;
+    visibility : hidden;
+    -webkit-transform  : translateY(15px);
+            transform  : translateY(15px);
+  }
+  to {
+    opacity    : 1;
+    visibility : visible;
+    -webkit-transform  : translateY(0);
+            transform  : translateY(0);
+  }
+}
+
+@keyframes sp-menu-effect {
+  from {
+    opacity    : 0;
+    visibility : hidden;
+    -webkit-transform  : translateY(15px);
+            transform  : translateY(15px);
+  }
+  to {
+    opacity    : 1;
+    visibility : visible;
+    -webkit-transform  : translateY(0);
+            transform  : translateY(0);
+  }
+}

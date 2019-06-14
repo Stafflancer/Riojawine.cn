@@ -1,0 +1,42 @@
+	.uc-foodie-video-teaser * { 
+margin: 0; 
+padding: 0; 
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+box-sizing: border-box; 
+}
+
+
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner{max-width: 100%;display: flex;height: calc(100vh);align-items: center;}
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content{ display: flex;text-align: center; margin: 0 auto;}
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p{ font-weight:normal;font-size:15px;line-height:27px;width: 70%;margin: 0 auto;}
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p a{text-decoration: none; margin-bottom:60px; width:96px; height:96px; border:2px solid; border-radius:50%;  display:inline-block;}.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p a i{  line-height:96px; margin-left:8px; color:#fff; display:block; font-size:33px; color:#fff; }
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p strong{ display:block;font-size:56px; text-transform:uppercase; line-height:76px;font-weight:100;}
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p .btn_mobile{display:none;}
+
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p a{ background:none;}
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p a i{line-height: 87px;}
+
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p a{transition: all 1s ease-out;}
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p a:hover{ background:#000 !important; color:#fff !important; transition: all 1s ease-out;}
+
+
+
+
+@media only screen and (max-width: 767px) {
+	.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p strong{ font-size:44px; line-height:61px;}
+	.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p a{ width:70px; height:70px;}
+	.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p a i{ font-size:24px; line-height:70px;}
+	.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p a i{    line-height: 61px;}
+}
+@media only screen and (max-width: 640px) {
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p{width: 90%;}
+  .uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p a{margin-bottom: 25px;}
+  .uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p strong{font-size: 33px;line-height: normal;}
+}
+
+@media only screen and (max-width:480px) {
+.uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p strong{font-size: 35px;}
+  .uc-foodie-video-teaser .uc-foodie-video-teaser-inner .uc-banner-content p{width: 90%;}
+}
+

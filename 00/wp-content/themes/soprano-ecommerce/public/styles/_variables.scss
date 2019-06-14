@@ -1,0 +1,157 @@
+/*! ===================================
+ *  File authors:
+ *  - Roman Nazarkin
+ *  - Egor Dankov
+ *  -----------------------------------
+ *  PuzzleThemes
+ *  =================================== */
+
+
+// General
+// ======================================
+$brand-primary : #C3AC6D !default;
+$body-bg : #fff !default;
+$body-color : #333 !default;
+
+$link-color : $brand-primary;
+$link-hover-color : lighten($link-color, 15%);
+$link-hover-decoration : none;
+
+$enable-rounded : true;
+$icon-font-family : "sp-theme-icons";
+$assetsdir: '../' !default;
+
+
+// Spacings
+// ======================================
+$spacer:   1rem;
+$spacer-x: $spacer;
+$spacer-y: $spacer;
+$spacers : (
+        0: (
+                x: 0,
+                y: 0
+        ),
+        1: (
+                x: ($spacer-x * .25), // 4px
+                y: ($spacer-y * .25)
+        ),
+        2: (
+                x: ($spacer-x * .5), // 8px
+                y: ($spacer-y * .5)
+        ),
+        3: (
+                x: ($spacer-x * .9375), // 15px
+                y: ($spacer-y * .9375)
+        ),
+        4: (
+                x: ($spacer-x * 1.25), // 20px
+                y: ($spacer-y * 1.25)
+        ),
+        5: (
+                x: ($spacer-x * 1.875), // 30px
+                y: ($spacer-y * 1.875)
+        ),
+        6: (
+                x: ($spacer-x * 3), // 48px
+                y: ($spacer-y * 3)
+        ),
+        7: (
+                x: ($spacer-x * 3.5), // 56px
+                y: ($spacer-y * 3.5)
+        )
+);
+
+
+// Grid options
+// ======================================
+$grid-columns : 12;
+$grid-gutter-width-base : 30px;
+//$grid-breakpoints : (xs: 0px, sm: 568px, md: 768px, lg: 1200px);
+//$container-max-widths : (xs: 0px, sm: 568px, md: 768px, lg: 1200px);
+
+
+// Typography options
+// ======================================
+$theme-primary-font : "Source Sans Pro" !default;
+$font-family-base : quote($theme-primary-font), "Montserrat", Arial, "Helvetica Neue", sans-serif;
+$font-size-base : 1rem;
+$line-height-base : 1.75;
+$font-weight-base : 400;
+
+$paragraphs-margin-bottom : 2rem;
+
+
+// Headings
+// ======================================
+$theme-headings-font : "Montserrat" !default;
+$headings-font-family : quote($theme-headings-font), "Source Sans Pro", Arial, "Helvetica Neue", sans-serif;
+$headings-font-weight : 400;
+$headings-margin-bottom : 2rem;
+$headings-line-height : 1.5;
+$headings-color : #111;
+
+$display1-weight : inherit;
+$display2-weight : inherit;
+$display3-weight : inherit;
+$display4-weight : inherit;
+
+$lead-font-weight : inherit;
+
+
+// Buttons
+// ======================================
+$btn-line-height : 1.75;
+$btn-font-weight : 400;
+$btn-padding-x : 1.3rem;
+$btn-padding-y : .4rem;
+
+$btn-primary-border : $brand-primary;
+$btn-primary-bg : $brand-primary;
+$btn-primary-color : #fff;
+
+$btn-border-radius : 30px;
+$btn-border-radius-lg : 30px;
+$btn-border-radius-sm : 30px;
+
+$btn-padding-x-sm : 0.8rem;
+$btn-padding-y-sm : 0.4rem;
+
+$btn-padding-x-lg : 2.5rem;
+$btn-padding-y-lg : 1rem;
+
+
+// Forms
+// ======================================
+$input-bg : #fff;
+$input-color: $brand-primary;
+$input-border-color : #eee;
+
+$input-border-focus : #ddd;
+$input-color-placeholder : rgba(#333, 0.5);
+
+$input-padding-x : 1rem;
+$input-padding-y : 0.65rem;
+$input-padding-x-lg : 1.5rem;
+$input-padding-y-lg : 1rem;
+
+$input-line-height : 1.4;
+
+$input-border-radius : 0;
+$input-border-radius-lg : 0;
+$input-border-radius-sm : 0;
+
+$form-group-margin-bottom: 20px;
+
+
+// Carousel
+// ======================================
+$carousel-indicator-width : 1rem;
+$carousel-indicator-height: 1rem;
+$carousel-indicator-spacer : 0.4rem;
+$carousel-indicator-spacer : 0.4rem;
+
+
+// Bootstrap default settings
+// ======================================
+@import 'assets/bootstrap/variables';

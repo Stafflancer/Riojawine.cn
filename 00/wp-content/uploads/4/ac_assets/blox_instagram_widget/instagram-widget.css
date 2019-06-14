@@ -1,0 +1,140 @@
+
+.blox_instagram_widget * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.blox_instagram_widget .blox_instagram_widget_container {
+	background-color: #fff;
+	padding: 0px;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0 20px 30px 0 rgba(0,0,0,0.06);
+}
+
+.blox_instagram_widget .blox_instagram_widget_container img {
+	vertical-align: top;
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+}
+
+.blox_instagram_widget .blox_image_box {
+	position: relative;
+	z-index: 2;
+}
+.blox_instagram_widget .blox_profile_pic {
+	max-width: 124px;
+	max-height: 124px;
+	width: 23%;
+	margin: -86px auto 0;
+	border: 3px solid #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	overflow: hidden;
+	float: left;
+}
+
+.blox_instagram_widget ul.blox_image_list {
+	list-style: none !important;
+	padding: 0 !important;
+	margin: 0 -4px !important;
+	overflow: hidden;
+}
+
+.blox_instagram_widget ul.blox_image_list li:first-child {
+	width: 50%;
+}
+
+.blox_instagram_widget ul.blox_image_list li {
+	list-style: none !important;
+	width: 25%;
+	float: left;
+	padding: 0 2px;
+	margin: 0 0 4px;
+}
+
+.blox_instagram_widget .blox_instagram_info {
+	padding:20px;
+	color: #4A4A4A;
+	position: relative;
+	z-index: 5;
+}
+
+.blox_instagram_widget .blox_profile_name {
+	font-family: inherit;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.blox_instagram_widget .blox_follow_count {
+	font-size: 13px;
+	line-height: 22px;
+	font-family: inherit;
+}
+
+.blox_instagram_widget .blox_follow_btn {
+	font-size: 13px;
+	line-height: 22px;
+	font-family: inherit;
+	margin: 0;
+	float: right;
+}
+
+.blox_instagram_widget .blox_follow_btn a {
+	color: #000000;
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 28px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 2px 30px;
+}
+
+.blox_instagram_widget .blox_profile_content {
+	float: left;
+	margin-top: -12px;
+	margin-left: 12px;
+}
+
+.blox_instagram_widget .blox_instagram_info:before,
+.blox_instagram_widget .blox_instagram_info:after {
+ content: '\0020';
+ display: block;
+ overflow: hidden;
+ visibility: hidden;
+ width: 0;
+ height: 0;
+}
+
+.blox_instagram_widget .blox_instagram_info:after {
+ clear: both;
+}
+
+@media (max-width:600px){
+	.blox_instagram_widget .blox_profile_pic {margin-top: -15.6%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

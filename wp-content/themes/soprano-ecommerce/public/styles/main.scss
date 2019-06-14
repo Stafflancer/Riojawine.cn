@@ -1,0 +1,88 @@
+/*! ===================================
+ *  File authors:
+ *  - Roman Nazarkin
+ *  - Egor Dankov
+ *  -----------------------------------
+ *  PuzzleThemes
+ *  =================================== */
+
+
+// ==== variables & deps.
+// ==============================
+@import 'variables';
+@import 'assets/bootstrap/mixins';
+@import 'assets/mixins';
+@import 'assets/animate';
+
+
+// ==== base
+// ==============================
+@import 'style-parts/base';
+@import 'style-parts/preloader';
+@import 'style-parts/scroll-to-top';
+@import 'style-parts/wp-galleries';
+@import 'style-parts/pagination';
+@import 'style-parts/comments';
+@import 'style-parts/password-protected';
+
+
+// ==== 3rd-party modules
+// ==============================
+@import 'third-party-modules/bootstrap-customizations';
+@import 'third-party-modules/contact-form-7';
+@import 'third-party-modules/slick-slider';
+@import 'third-party-modules/textrorator';
+@import 'third-party-modules/woocommerce';
+@import 'third-party-modules/woocommerce_widgets';
+@import 'third-party-modules/swipebox';
+@import 'third-party-modules/typedjs';
+
+
+// ==== header, footer
+// ==============================
+@import 'style-parts/header-base';
+@import 'style-parts/header-fn-menu';
+@import 'style-parts/header-woocommerce';
+@import 'style-parts/header-search';
+@import 'style-parts/header-states';
+@import 'style-parts/footer';
+
+
+// ==== visual composer widgets
+// ==============================
+@import 'vc-widgets/promo-title';
+@import 'vc-widgets/text-widget';
+@import 'vc-widgets/intro';
+@import 'vc-widgets/site-socials';
+@import 'vc-widgets/clients-slider';
+@import 'vc-widgets/services';
+@import 'vc-widgets/team';
+@import 'vc-widgets/fun-fact';
+@import 'vc-widgets/portfolio';
+@import 'vc-widgets/portfolio-single';
+@import 'vc-widgets/animated-circle';
+@import 'vc-widgets/testimonials';
+@import 'vc-widgets/contacts';
+@import 'vc-widgets/quote';
+@import 'vc-widgets/progress-bar';
+@import 'vc-widgets/pricing-tables';
+@import 'vc-widgets/latest-news';
+@import 'vc-widgets/faq';
+@import 'vc-widgets/clients';
+@import 'vc-widgets/subscribe';
+@import 'vc-widgets/countdown-block';
+
+
+// ==== blogroll
+// ==============================
+@import 'style-parts/blog-base';
+@import 'style-parts/blog-noposts';
+@import 'style-parts/blog-post-formats';
+@import 'style-parts/blog-sidebar';
+@import 'style-parts/blog-single-page';
+
+
+// ==== service pages
+// ==============================
+@import 'style-parts/page-base';
+@import 'style-parts/404';

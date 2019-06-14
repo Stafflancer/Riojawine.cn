@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>white instagrm widget</title>
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<link href="uc-white-instagrm-widget.css" rel="stylesheet" type="text/css" >
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
+<script src="instafeed.min.js"></script>
+</head>
+
+<body>
+    <div class="uc-white-instagrm-widget">
+        <div class="uc-widget-container" style="background-color:#ffffff;">
+           	<div class="uc-widget-header">
+            	<div class="uc-profile-pic"><img src="profile-image.jpg" alt=""></div>
+                <div class="uc-title">
+                	<h2 style="color:#000;">James Statham</h2>
+                    <span style="color:#bfbfbf;">Lorem ipsum dolor sit amet, consectetur 
+ elit, sed do eiusmod tempor </span>
+                </div>
+               
+                <div class="uc-widget-nav">
+                	<ul style="color:#bfbfbf;">
+                    	<li><strong style="color:#000;">110</strong>Photos</li>
+                        <li><strong style="color:#000;">540</strong>Followers</li>
+                        <li><strong style="color:#000;">160</strong>Following</li>
+                    </ul>
+                </div>
+                 <a style="color:#fff; background-color:#1f1f1f;" class="uc-btn" href="#">Follow</a>
+            </div>
+            <div class="uc-widget-gallery">
+            	<ul id="instafeed"></ul>
+            </div>
+        </div>
+    </div>
+<script>
+jQuery(document).ready(function($) {
+	if($('#instafeed').length > 0) {
+		var feed = new Instafeed({
+			get: 'user',
+			userId : 31027484,
+			accessToken: '1415045487.ba4c844.3b7642adc62c4045a1eb16a92d8f282e',
+			limit :6,
+			resolution: 'standard_resolution',
+			template: '<li style="background-image:url({{image}})"><a href="{{link}}"><img src="placeholder.png"></a></li>'
+		});
+		feed.run();
+	}
+});
+</script>
+</body>
+</html>

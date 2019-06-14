@@ -1,0 +1,70 @@
+#menu-uvas-tintas-es,
+#menu-uvas-blancas-es,
+#menu-red-grapes,
+#menu-white-grapes{
+	margin: 15px !important;
+}
+
+
+#menu-uvas-tintas-es li a,
+#menu-uvas-blancas-es li a,
+#menu-red-grapes li a,
+#menu-white-grapes li a{
+	font-size: 18px;
+    text-decoration: none;
+    line-height: 2.5em;
+	font-weight: 600;
+	color: #333;
+}
+
+#menu-uvas-tintas-es li a:hover,
+#menu-uvas-blancas-es li a:hover,
+#menu-red-grapes li a:hover,
+#menu-white-grapes li a:hover{
+    text-decoration: underline;
+	color: #c5003e;
+}
+
+#menu-uvas-blancas-es li,
+#menu-uvas-tintas-es li{
+	display: block;
+}
+
+
+
+
+
+/*--------------------------------MENÚ UVAS PÁGINAS-----------------------------------*/
+.menu-uvas-pages{
+	display: inline-block !important;
+}
+
+.menu-uvas-pages li{
+	display: inline !important;
+}
+
+.menu-uvas-pages li::after{
+	content: "|";
+    margin: 0 0.4em;
+}
+
+.menu-uvas-pages li:last-child::after{
+	content: unset;
+    margin: unset;
+}
+
+.menu-uvas-pages li a{
+	font-size: 16px !important;
+}
+
+/*--------------------------------MENÚ UVAS PÁGINAS-----------------------------------*/
+
+
+/* #menu-uvas-blancas-es li:before , */
+/* #menu-uvas-tintas-es li:before { */
+  /* content: "\f00c"; /* FontAwesome Unicode */ */
+  /* font-family: FontAwesome; */
+  /* display: inline-block; */
+  /* margin-left: -1.3em; /* same as padding-left set on li */ */
+  /* width: 1.3em; /* same as padding-left set on li */ */
+/* } */

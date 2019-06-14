@@ -1,0 +1,64 @@
+.uc_material-flipbox * {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*=========================
+ Flip-css ======================= */
+
+.flip-box-wrap {display: block;	text-align: center;	position: relative;	-webkit-perspective: 1000px;-o-perspective: 1000px;-ms-perspective: 1000px;perspective: 1000px}
+.flip-box-wrap .flip-box {cursor: pointer;position: relative;width: 100%;height: 100%;-webkit-transition: 750ms;transition: 750ms;-ms-perspective: 1000px;-webkit-transform-style: eserve-3d;transform-style: preserve-3d}
+.flip-box-wrap .ifb-auto-height .ifb-face, .flip-box-wrap .ifb-custom-height .ifb-face {overflow: hidden}
+.flip-box-wrap .ifb-flip-box {height: 100%;	position: relative;	display: block;	-webkit-transform-style: preserve-3d;transform-style: preserve-3d}
+.flip-box-wrap .ifb-back, .flip-box-wrap .ifb-front {padding: 0;height: 100%;margin-bottom: 0;-moz-box-sizing: border-box;	-webkit-box-sizing: border-box;	box-sizing: border-box;-webkit-backface-visibility: hidden;backface-visibility: hidden;-webkit-transition: 750ms;	transition: 750ms;-webkit-transform-style: preserve-3d;	transform-style: preserve-3d}
+.flip-box-wrap .ifb-front {	z-index: 9;	-webkit-backface-visibility: hidden;backface-visibility: hidden}
+.flip-box-wrap .ifb-front * {-webkit-backface-visibility: hidden;backface-visibility: hidden}
+.flip-box-wrap .ifb-back {position: absolute;top: 0;z-index: -1}
+.flip-box-wrap:hover .ifb-back {z-index: 1}
+.flip-box-wrap .ifb-jq-height .ifb-back {display: block;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;	box-sizing: border-box;	height: 100%;bottom: 0}
+.flip-box-wrap .horizontal_flip_left .ifb-front {-webkit-transform: rotateY(0);	-ms-transform: rotateY(0);	transform: rotateY(0)}
+.flip-box-wrap .horizontal_flip_left .ifb-back {-webkit-transform: rotateY(-180deg);-ms-transform: rotateY(-180deg);transform: rotateY(-180deg)}
+.flip-box-wrap .horizontal_flip_left .ifb-hover .ifb-back {-webkit-transform: rotateY(0);-ms-transform: rotateY(0);transform: rotateY(0)}
+.flip-box-wrap .horizontal_flip_left .ifb-hover .ifb-front {-webkit-transform: rotateY(180deg);	-ms-transform: rotateY(180deg);	transform: rotateY(180deg)}
+.flip-box-wrap .horizontal_flip_right .ifb-front {-webkit-transform: rotateY(0);-ms-transform: rotateY(0);transform: rotateY(0)}
+
+/*=========================
+ Flip-css ======================= */
+.uc_material-flipbox, .uc_material-flipbox .flip-box-wrap .ifb-flip-box{  width: 100%; height: 370px;}	
+
+/*=========================
+ front pane ======================= */
+.uc_material-flipbox .uc_front { padding:0px; text-align:center; padding:0px;}
+
+/*=========================
+ front pane inner======================= */
+
+.uc_material-flipbox .uc_front .uc_front_inner-box{ width:100%; margin: 10% 0 0 0; text-align:center;}
+.uc_material-flipbox .uc_front .uc_front_inner-box h2{ font-size:36px; color:#fff; line-height:76px;}
+.uc_material-flipbox .uc_front .uc_front_inner-box h2 .border{ width:30px; height:2px; margin:0 auto;}
+.uc_material-flipbox .uc_front .uc_front_inner-box p{ font-size:20px; color:#fff; line-height:38px; padding:0 40px; margin:27px 0 0;}
+
+/*=========================
+ back pane ======================= */
+.uc_material-flipbox .uc_back { padding:0px; text-align:cente;}
+
+/*=========================
+ front pane inner======================= */
+
+.uc_material-flipbox .uc_back .uc_front_inner-box{ width:100%;height: 100%; border:1px solid #31b041; position:relative;}
+.uc_material-flipbox .uc_back .uc_front_inner-box img{ width:100%;height: 100%;}
+.uc_material-flipbox .uc_back .uc_front_inner-box .overlay{ width:100%; height:100%;position:absolute;left:0; top:0px; opacity:0.5}
+.uc_material-flipbox .uc_back .uc_front_inner-box .inner-box{position:absolute; width:100%; left:0; top:50%;
+-webkit-transform:translatey(-50%);
+-moz-transform:translatey(-50%);
+-ms-transform:translatey(-50%);
+-o-transform:translatey(-50%);
+transform:translatey(-50%); text-align:center;}
+.uc_material-flipbox .uc_back .uc_front_inner-box .inner-box .icon-box .fa-life-ring{ font-size:90px; color:#3d5afe;}
+.uc_material-flipbox .uc_back .uc_front_inner-box .inner-box a{font-size:16px; color:#fff; text-decoration:none; display:inline-block; padding:10px 25px; background:#3d5afe; border-radius:30px; margin:30px 0 0;
+-webkit-box-shadow: 0px 0px 17px 1px rgba(71,182,167,1);
+-moz-box-shadow: 0px 0px 17px 1px rgba(71,182,167,1);
+box-shadow: 0px 0px 17px 1px rgba(71,182,167,1);}
+

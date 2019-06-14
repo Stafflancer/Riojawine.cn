@@ -1,0 +1,263 @@
+
+	@page { size: 100%;  margin: 30mm 0; }
+
+@media print {
+	#Header, #Footer { display: none !important; }
+	#sp-header, 
+	.post-carousel-container, 
+	.container_link_category,
+	.container_social_buttons,
+	.footer-newsletter,
+	.footer-riojawine, 
+	.subfooter-riojawine,
+	.wwp-vc-breadcrumbs,
+	.sidebar-column{
+       display: none !important;
+	}
+	
+	body{
+		padding-top: 0px !important;
+	}
+	
+	#sp-header {
+		display: none;
+	}
+	
+	.banner-full-buscador {
+		display: none;
+	}
+	
+	.wpfm-floating-wh-wrapper {
+		display:none;
+	}
+	
+	.row.pagination {
+		display: none;
+	}
+	
+	.intro-buscador {
+		display: none !important;
+	}
+	
+	section.sp-intro-carousel {
+	display: none;	
+	
+	}
+	
+	.wwp-vc-breadcrumbs {
+		display: none;	
+	}
+	
+	.sp-search-form  {
+		display: none;
+	}
+	
+	.rioja_button_container {
+		display:none;
+	}
+	
+	#mapa {
+	display:none;
+	}
+	
+	
+	#seccion-actividades {
+		display:none;
+	}
+	
+	.insert-page {
+		display:none;
+	}
+	
+	.buscador-bodega-mini{
+		display: none;
+	}
+	
+	.sticky-map{
+		display: none;
+	}
+			
+	.wineries-list, .cities-list, .cultural-spaces-list, .description-winery-col, .vc_col-sm-8{
+		width: 100% !important;
+		max-width: 100% !important;
+		-ms-flex: 0 0 100% !important;
+		flex: 0 0 100% !important;
+		display: inline-block;
+	}
+	
+	.winery-item{
+		width: calc(100% / 2 - 30px) !important;
+		height: calc(100% / 3) !important;
+		border: 1px solid #e5e5e5;
+	}
+	
+	.content-menu-bodega, .content-menu-municipio{
+		display: none;
+	}
+	
+	.banner-full-bodega{
+		background: none;
+	}
+	
+	.banner-full-bodega h1{
+		color: #333;
+		text-align: left;
+	}
+	
+	.card-bodega, .en-redes, ul.social-bodega{
+		display: none;
+	}
+	
+	#seccion-galeria{
+		display: none;
+	}
+	
+	#seccion-servicios, #seccion-vinos, #seccion-bodegas{
+		page-break-before:always;
+	}
+	
+	
+	/* .imagen-vino { */
+		/* display:none; */
+	/* } */
+	
+	.ficha-vino, .ficha-bodega-municipio{
+		width: calc(100% / 3 - 30px) !important;
+		max-width: calc(100% / 3 - 30px) !important;
+		-ms-flex: 0 0 calc(100% / 3 - 30px) !important;
+		flex: 0 0 calc(100% / 3 - 30px) !important;
+		display: inline-block;
+		margin-top: 30px;
+		border: 1px solid #e5e5e5;
+	}
+	
+	.imagen-vino, .imagen-bodega{
+		height: 100px !important;
+	}
+	
+	.image-item {
+		position: absolute;
+		top: 0;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	
+	.b-description_readmore_button{
+		display: none;
+	}
+	
+	.js-description_readmore{
+		min-height: 100% !important;
+		height: 100% !important;
+		max-height: 100% !important;
+		overflow: unset !important;
+	}
+	.js-description_readmore_wrapper{
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	
+	.b-description_readmore_ellipsis:after{
+		display: none;
+	}
+	
+	.embed-responsive iframe, .wpb_video_widget, iframe, .embed-responsive {
+		display: none !important;
+	}
+	
+	.search-form{
+		display: none;
+	}
+	
+	.item-primary .container_image img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+	
+	.item-primary .capa_negra, .item-primary .velo-magenta-noticias-rioja{
+		display: none;
+	}
+	
+	.item-primary .container_image img{
+		z-index: 999;
+	}
+	
+	.item-primary .post-item-contain{
+		z-index: 9999;
+	}
+	
+	article.sp-blog-block.masonry{
+		margin: 0 !important;
+	}
+	
+	.post-item-mini{
+		width: calc(100% / 2 - 30px) !important;
+		border: 1px solid #e5e5e5;
+	}
+	
+	.shuffle-item, .container-post-mini{
+		transform: none !important;
+		transition: none !important;
+		position: relative !important;
+		display: block !important;
+	}
+	
+	.post-item-mini, .post-item-large{
+		margin-bottom: 30px !important;
+	}
+	
+	.item-primary{
+		min-height: 300px !important;
+	}
+	.post-item-mini .container_image img{
+		height: 150px !important;
+	}
+	
+	.post-item-mini.left{
+		margin-right: 30px !important;
+		padding-right: 0px !important;
+	}
+	.post-item-mini.right{
+		margin-left: 30px !important;
+		padding-left: 0px !important;
+	}
+	
+	.sp-section.cover-news{
+		padding: 0px !important;
+	}
+	
+	.date-group{
+		display: none;
+	}
+	
+	.sp-pagination{
+		display: none;
+	}
+	
+	.accordion_menu_lateral{
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

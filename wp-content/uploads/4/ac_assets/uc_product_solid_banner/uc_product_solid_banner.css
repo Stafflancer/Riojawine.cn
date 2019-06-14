@@ -1,0 +1,21 @@
+
+
+
+.uc_product_solid_banner{text-align:center; background:#f29d7e; padding:20px 0;font-family: 'Lato', sans-serif; color:#ffffff;}
+.uc_product_solid_banner h2{color: #ffffff; font-family: 'Pacifico'; font-size: 90px; font-weight: 400; margin:0px; padding:0px; line-height:112px;}
+.uc_product_solid_banner h3 { font-size: 30px; color: #ffffff;margin:30px 0 0;}
+.uc_product_solid_banner p{ text-transform:uppercase; font-weight: 900;letter-spacing: 5px;}
+.uc_product_solid_banner p span{ display:block;font-size:9px; margin:5px 0 0;}
+.uc_product_solid_banner_main a{ text-decoration:none; color:#ffffff;}
+
+
+@media only screen and (max-width: 414px) {	
+.simple_overlay_product_box{ width:100% !important; height:100% !important;}
+.uc_white_overlay_product_box .us_hover_box .us_hover_inner_box .product-name {font-size:16px;}
+.uc_white_overlay_product_box .us_hover_box .us_hover_inner_box a{font-size:12px;}
+}
+
+
+
+
+

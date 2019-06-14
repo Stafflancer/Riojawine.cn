@@ -1,0 +1,89 @@
+
+.blox-diagonal-news-ticker * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.blox-diagonal-news-ticker{
+	font-family: inherit;
+	
+	display: table;
+    height: 100%;
+    width: 100%;
+}
+.blox-diagonal-news-ticker .bx-wrapper {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
+}
+.blox-diagonal-news-ticker .blox-ticker-heading{
+	background: transparent;
+	padding:12px 17px;
+	position:relative;
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	
+	display:table;
+	vertical-align:middle;
+	height:100%;
+}
+.blox-diagonal-news-ticker .blox-ticker-heading .blox-heading-content{
+	
+	display:table-cell;
+	vertical-align:middle;
+	position:relative;
+}
+.blox-diagonal-news-ticker .blox-ticker-heading:after{
+	position:absolute;
+	content:"";
+	width: 0; 
+	height: 0;
+	border: 0 solid transparent;
+	border-left-width: 0px;
+	border-right-width: 20px;
+	right: -22px;
+    top: 0px;
+	z-index:999;
+}
+.blox-diagonal-news-ticker .blox-ticker-content{
+	padding:12px 50px 12px 25px;
+	overflow:hidden;
+	position:relative;
+	
+	display:table-cell;
+	vertical-align:middle;
+	height:100%;
+}
+.blox-diagonal-news-ticker .blox-ticker-content .blox-ticker-box{
+	color: #ffffff; 
+	font-size: 14px; 
+	line-height: 19px;
+}
+.blox-diagonal-news-ticker .blox-ticker-content .blox-ticker-box a{
+	color:#fff;
+	text-decoration:none;
+}
+.blox-diagonal-news-ticker .blox-ticker-content .blox-ticker-control{
+	position: absolute;
+    right: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.blox-diagonal-news-ticker .blox-ticker-content .blox-ticker-control .blox-ticker-nav a{
+	color:inherit !important;
+	font-size:12px;
+}
+.blox-ticker-nav { float: right; margin: 0 4px;}
+.blox-ticker-nav + .blox-ticker-nav { float: left; margin: 0 4px;}
+
+@media screen and (max-width: 639px) {
+	.blox-diagonal-news-ticker .blox-ticker-heading:after{ display:none;}
+	.blox-diagonal-news-ticker .blox-ticker-content{ padding-left:12px;}
+}

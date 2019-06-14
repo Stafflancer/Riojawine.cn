@@ -1,0 +1,115 @@
+/*
+    Theme Name: Soprano (+ecommerce)
+    Description: Powerful WordPress theme designed in a clean and minimalistic style. This theme can be used for any type of website, business, corporate, portfolio, products, marketing, shop, etc. Soprano has been coded with love in PHP, HTML5, CSS3 and JavaScript. It's compatible with Visual Composer, WooCommerce, WPML and much other WordPress plugins.
+    Version: 1.0.2
+    Author: PuzzleThemes
+    Author URI: https://themeforest.net/user/puzzlethemes/
+    Theme URI: https://wp.puzzlethemes.net/soprano-pro/
+    License: GNU General Public License version 1.0
+    License URI: https://www.gnu.org/licenses/gpl-1.0.html
+    Text Domain: soprano-ecommerce
+    Domain Path: /languages
+*/
+
+.aligncenter, div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 1.5rem 1.5rem;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 1.5rem 1.5rem 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 1.5rem 1.5rem;
+}
+
+a img.alignnone {
+    margin: 5px 1.5rem 1.5rem 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 1.5rem 1.5rem 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 100%;
+    padding: 10px 8px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 1.5rem 1.5rem 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 1.5rem 1.5rem;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    white-space: nowrap;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    clip: auto !important;
+    display: block;
+    font-size: 14px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+.sticky {
+    position: relative;
+}
+
+.gallery-caption {
+    font-size: 1rem;
+    line-height: 1.75;
+    font-style: italic;
+}
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #333;
+    padding: 2px;
+}

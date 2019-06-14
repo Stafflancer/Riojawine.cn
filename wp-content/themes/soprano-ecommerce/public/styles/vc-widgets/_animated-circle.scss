@@ -1,0 +1,33 @@
+
+/* Animated Circle */
+.sp-circle {
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  vertical-align: top;
+  text-align: center;
+  width: 125px;
+  padding-top: 42px;
+  height: 125px;
+  canvas {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  span {
+    font-weight: 700;
+    font-size: 17px;
+  }
+  span:after {
+    content: '%';
+    margin-left: 0.1em;
+  }
+  @include media-breakpoint-down(xs) {margin-top: 15px;margin-bottom: 0;}
+  @include media-breakpoint-down(md) {margin-bottom: 15px;}
+}
+.sp-circle-text {
+  margin-top: -5px;
+  font-size: 14px;
+}
+  @include media-breakpoint-down(md) {#sp-magic .text-right {text-align: center !important}}

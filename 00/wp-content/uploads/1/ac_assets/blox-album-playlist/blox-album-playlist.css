@@ -1,0 +1,371 @@
+.blox-album-playlist * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+/***Custom****/
+.blox-album-playlist {
+	font-family: inherit;
+	font-size:17px;
+	line-height:22px;
+	box-shadow: 0 20px 30px 0 rgba(0,0,0,0.06);
+	background-color: #F4F8FA;
+}
+
+.blox-album-playlist .blox-album-image {
+	max-height: 250px;
+	min-height: 250px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px 0px;
+	position: relative;
+}
+
+.blox-album-playlist .blox-album-image .box-overlay {
+	background-color: #000;
+	opacity: 0.3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.blox-album-playlist .blox-album-desc {
+	color: #000;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.blox-album-playlist .blox-artist-name {font-size: 14px;}
+.blox-album-playlist .blox-album-name {font-size: 24px;}
+
+
+/*Blox Player Global*/
+
+.jp-audio *:focus,
+.jp-audio-stream *:focus,
+.jp-video *:focus {
+    outline: none;
+}
+.jp-audio button::-moz-focus-inner,
+.jp-audio-stream button::-moz-focus-inner,
+.jp-video button::-moz-focus-inner {
+    border: 0;
+}
+.jp-audio {
+    
+}
+
+.jp-jplayer audio,
+.jp-jplayer {
+    width: 0px;
+    height: 0px;
+}
+
+.blox-album-playlist .jp-jplayer {
+    background-color: #000000;
+}
+
+/*@ends*/
+
+.blox-album-playlist .jp-audio {
+    width: 100%;
+    padding: 0px;
+}
+.blox-album-playlist .jp-interface {
+    position: relative;
+    width: 100%;
+}
+/* @group CONTROLS */
+
+.blox-album-playlist .jp-audio .jp-controls-holder {
+	padding: 0px 0 3px;
+    width: 100%;
+	position: absolute;
+	z-index: 2;
+	bottom: 8px;
+	left: 0;
+}
+.blox-album-playlist .jp-controls {
+    padding: 0;
+    width: 100%;
+}
+.blox-album-playlist .jp-audio .jp-controls {margin: 5px auto 20px;text-align: center;}
+.blox-album-playlist .jp-controls button {
+    display: inline-block;
+    overflow: hidden;
+    height: 45px;
+	width: 45px;
+    margin: 0 8px;
+    padding: 0;
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 16px;
+	line-height: 16px;
+	border-radius: 50%;
+	color: #000;
+	border: 1px solid #FFFFFF;
+	background-color: #FFFFFF;
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
+}
+.blox-album-playlist .jp-type-playlist .jp-controls button.jp-next {}
+.blox-album-playlist .jp-type-playlist .jp-play {
+	height: 75px;
+	width: 75px;
+	font-size: 26px;
+	line-height: 26px;
+} 
+.jp-type-playlist .jp-play:before {content: "\f04b";}
+.blox-album-playlist .jp-type-playlist .jp-play:focus:before {content: "\f04b";}
+.blox-album-playlist .jp-state-playing div.jp-type-playlist .jp-play:before {content: "\f04c";}
+.blox-album-playlist .jp-state-playing div.jp-type-playlist .jp-play:focus:before {content: "\f04c";}
+.blox-album-playlist .jp-type-playlist .jp-stop:before {content: "\f04d";}
+.blox-album-playlist .jp-type-playlist .jp-stop:focus {content: "\f04d";}
+.blox-album-playlist .jp-type-playlist .jp-previous:before {content: "\f04a";}
+.blox-album-playlist .jp-type-playlist .jp-previous:focus:before {content: "\f04a";}
+.blox-album-playlist .jp-type-playlist .jp-next:before {content: "\f04e";}
+.blox-album-playlist .jp-type-playlist .jp-next:focus:before {content: "\f04e";}
+
+.blox-album-playlist .jp-toggles {
+    padding: 0;
+    margin: 20px auto 10px;
+    overflow: hidden;
+}
+.blox-album-playlist .jp-audio .jp-toggles {text-align: center;}
+.blox-album-playlist .jp-toggles button {
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+	margin: 0 8px;
+    line-height: 100%;
+    /* need this for IE6 */
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-size: 15px;
+	color: #3F4247;
+}
+.blox-album-playlist .jp-controls button.jp-repeat,
+.blox-album-playlist .jp-controls button.jp-shuffle {
+	margin-left: 0;
+	color: #3F4247;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0;
+}
+.blox-album-playlist .jp-repeat:focus {color: #3F4247;}
+.blox-album-playlist .jp-state-looped .jp-repeat {color: #3F4247;}
+.blox-album-playlist .jp-state-looped .jp-repeat:focus {color: #57B9F9;}
+.blox-album-playlist .jp-shuffle {}
+.blox-album-playlist .jp-shuffle:focus {color: #3F4247;}
+.blox-album-playlist .jp-state-shuffled .jp-shuffle {color: #57B9F9;}
+.blox-album-playlist .jp-state-shuffled .jp-shuffle:focus {color: #57B9F9;}
+.blox-album-playlist .jp-audio .jp-shuffle {}
+
+/* @group progress bar */
+/* The seeking class is added/removed inside jPlayer */
+
+.blox-album-playlist div.jp-seeking-bg {} 
+
+.blox-album-playlist .jp-playlist {clear: both;}
+
+.blox-album-playlist .jp-progress {
+    width: 100%;
+    height: 8px;
+    padding: 0;
+    overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+}
+.blox-album-playlist .jp-seek-bar {
+    background-color: transparent;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.blox-album-playlist .jp-play-bar {
+    background-color: rgba(255,255,255,0.6);
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+/* @group volume controls */
+
+.blox-album-playlist .jp-state-no-volume .jp-volume-controls {display: none;}
+.blox-album-playlist .jp-audio .jp-volume-controls {
+	position: relative;
+	width: 100%;
+	height: 53px;
+	color: #fff;
+}
+.blox-album-playlist .jp-volume-controls button {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 17px;
+    height: 17px;
+    border: none;
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #3F4247;
+    font-size: 17px;
+}
+.blox-album-playlist .jp-audio .jp-volume-controls .jp-mute {top:18px;left: 20px;}
+.blox-album-playlist .jp-audio .jp-volume-controls .jp-volume-max {top: 18px;right: 20px;}
+.blox-album-playlist .jp-volume-controls .jp-mute {background: none; color: #3F4247;}
+.blox-album-playlist .jp-volume-controls .jp-mute:focus {color: #3F4247;}
+.blox-album-playlist .jp-state-muted .jp-volume-controls .jp-mute {color: #0076FF;}
+.blox-album-playlist .jp-state-muted .jp-volume-controls .jp-mute:focus {color: #0076FF;}
+.blox-album-playlist .jp-volume-controls .jp-volume-max {background: none;text-align: left;}
+.blox-album-playlist .jp-volume-controls .jp-volume-max:focus {color: #0076FF;}
+.blox-album-playlist .jp-volume-bar {
+    background-color: #E9EEF5;
+    position: absolute;
+    width: calc(100% - 100px);
+    height: 3px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    margin: auto;
+	left: 0;
+	right: 0;
+	top: 25px;
+}
+.blox-album-playlist .jp-audio .jp-interface .jp-volume-bar {top: 0px;left: 0;right: 0; }
+.blox-album-playlist .jp-volume-bar-value {background-color: #57B9F9;height: 3px;position:absolute;bottom: 0;}
+
+.blox-album-playlist .jp-current-time,
+.blox-album-playlist .jp-duration {
+    width: 70px;
+    font-size: 14px;
+    color: #fff;
+	padding: 0 10px;
+}
+.blox-album-playlist .jp-current-time {
+    float: left;
+    cursor: default;
+}
+.blox-album-playlist .jp-duration {
+    float: right;
+    text-align: right;
+    cursor: pointer;
+}
+/* @group playlist */
+
+.blox-album-playlist .jp-details {
+    font-size: .7em;
+    margin: 0;
+    padding: 0;
+}
+.blox-album-playlist .jp-details .jp-title {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    cursor: default;
+}
+.blox-album-playlist .jp-playlist ul {
+    list-style-type: none;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.blox-album-playlist .jp-playlist li {
+    position: relative;
+    padding: 12px 20px;
+    overflow: hidden;
+}
+/* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
+
+.blox-album-playlist div.jp-type-playlist div.jp-playlist li:first-child {
+   
+}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist li:last-child {
+    
+    
+}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist a {
+    color: #9B9B9B;
+    text-decoration: none;
+}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist a:hover {
+    color: #FAD200;
+}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+    
+    margin: 0px;
+}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist li.jp-playlist-current:before {
+	content: "";
+    color: #0076FF;
+    position: absolute;
+    left: 0px;
+    font-size: 20px;
+    height: 21px;
+    width: 6px;
+    top: 50%;
+    background-color: #0076FF;
+    margin-top: -12px;
+}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {color: #000;}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
+    float: right;
+    display: inline;
+    text-align: right;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #8C7A99;
+}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover {color: #E892E9;}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist span.jp-free-media {
+    float: right;
+    display: inline;
+    text-align: right;
+    color: #8C7A99;
+}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist span.jp-free-media a {color: #8C7A99;}
+.blox-album-playlist div.jp-type-playlist div.jp-playlist span.jp-free-media a:hover {color: #E892E9;}
+.blox-album-playlist span.jp-artist {font-size: .8em;color: #8C7A99;}
+/* @end */
+
+
+/* @group NO SOLUTION error feedback */
+
+.jp-no-solution {
+    padding: 5px;
+    font-size: .8em;
+    background-color: #3a2a45;
+    border-top: 2px solid #554461;
+    border-left: 2px solid #554461;
+    border-right: 2px solid #180a1f;
+    border-bottom: 2px solid #180a1f;
+    color: #FFF;
+    display: none;
+}
+.jp-no-solution a {
+    color: #FFF;
+}
+.jp-no-solution span {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+/* @end */

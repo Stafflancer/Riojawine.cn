@@ -1,0 +1,44 @@
+/*! ===================================
+ *  Author: Roman Nazarkin, Egor Dankov
+ *  -----------------------------------
+ *  PuzzleThemes
+ *  =================================== */
+
+
+/* ================================= common styles */
+#setting-error-tgmpa.update-nag { display : block; }
+
+
+/* ================================= custom admin columns */
+.pzt_revealid_column { white-space : nowrap; }
+.manage-column.column-revealid_id { width : 25px; }
+.manage-column.column-featured_thumb { width : 150px; }
+.featured_thumb.column-featured_thumb a { box-shadow : none; -webkit-box-shadow : none; }
+.featured_thumb.column-featured_thumb img { width : 150px; height : auto; }
+
+/* hide custom columns for mobile */
+@media screen and (max-width : 782px) {
+    .revealid_id.column-revealid_id,
+    .featured_thumb.column-featured_thumb,
+    .manage-column.column-revealid_id,
+    .manage-column.column-featured_thumb { display : none !important; }
+}
+
+
+/* ================================= visual composer admin styles */
+#vc_license-activation-notice { display : none; }
+.plugins-php .plugin-update-tr[data-slug="js_composer"] { display : none; }
+
+#adminmenu a[href="admin.php?page=vc-updater"],
+#wpb-js-composer-settings a.nav-tab[href$="admin.php?page=vc-updater"] { display : none; }
+
+.vc_param-group-admin-labels {
+    text-align    : left;
+    white-space   : nowrap;
+    text-overflow : ellipsis;
+    width         : 70%;
+    max-width     : 500px;
+    overflow      : hidden;
+}
+
+.vc_checkbox-label:first-child > input[type=checkbox] { margin-left: 0; }

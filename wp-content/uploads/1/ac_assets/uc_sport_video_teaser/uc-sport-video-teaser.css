@@ -1,0 +1,78 @@
+.uc-sport-video-teaser * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+.uc-sport-video-teaser .uc-sport-video-teaser-inner{ max-width: 100%; display: flex; height: 100vh; align-items: center;}
+.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content{ display: flex; margin: 0 auto;}
+.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box{
+	font-family: 'Oswald', sans-serif;
+	margin: 0 auto;
+	text-align:center;
+}
+.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box strong{ 
+	display:block; 
+	font-size:125px; 
+	line-height:30px; 
+	font-weight:700; 
+	text-transform:uppercase;
+	margin-bottom:60px;
+	position:relative;
+	z-index:2;
+}
+.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box span{
+	font-weight:400; 
+	font-size:35px; 
+	line-height:30px; 
+	text-transform:uppercase;
+	position:relative;
+	z-index:2;
+	letter-spacing:2px;
+}
+
+.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box a.btn{ 
+	display: inline-block; 
+	font-size:16px;
+	line-height:45px;
+	text-decoration:none;
+	position:relative;
+	border-radius:50%;
+	padding:8px 0;
+	text-align:center;
+	font-weight:600;
+	text-transform:uppercase;
+	width:278px;
+	height:278px;
+	z-index:1;
+}
+.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box a.btn i{ font-size: 120px; padding: 70px 103px;} 
+
+
+.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box a.btn{transition: all 1s ease-out;}
+.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box a.btn:hover{ background:rgba(231, 51, 37, 0.6) !important; color:#fff !important; transition: all 1s ease-out;}
+
+
+@media only screen and (max-width: 900px) {
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box strong{ font-size:100px;}
+}
+@media only screen and (max-width: 767px) {
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box strong{ font-size:86px;}
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box a.btn{ width:210px; height:210px;}
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box a.btn i { font-size: 80px; padding: 60px 82px;}
+}
+@media only screen and (max-width: 639px) {
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box strong{ font-size:60px; margin-bottom:35px;}
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box span{ font-size:28px;}
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box a.btn{ width:150px; height:150px;}
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box a.btn i { font-size: 65px; padding: 38px 58px;}
+}
+@media only screen and (max-width: 479px) {
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box strong{ font-size:42px; margin-bottom:20px; line-height:16px;}
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box span{ font-size:20px;}
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box a.btn{ width:110px; height:110px;}
+	.uc-sport-video-teaser .uc-sport-video-teaser-inner .uc-banner-content .uc-content-box a.btn i { font-size: 50px; padding: 24px 40px;}
+}
+

@@ -1,0 +1,88 @@
+
+.blox-intro-text-news-ticker * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.blox-intro-text-news-ticker{
+	font-family: inherit;
+	overflow:hidden;
+	
+	display: table;
+    height: 100%;
+    width: 100%;
+}
+.blox-intro-text-news-ticker .bx-wrapper {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
+}
+.blox-intro-text-news-ticker .blox-ticker-heading{
+	background: transparent;
+	padding:10px 17px;
+	position:relative;
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	
+	display:table;
+	vertical-align:middle;
+	height:100%;
+}
+.blox-intro-text-news-ticker .blox-ticker-heading .blox-heading-content{
+	
+	display:table-cell;
+	vertical-align:middle;
+	position:relative;
+}
+.blox-intro-text-news-ticker .blox-ticker-heading .blox-date{
+	font-size: 28px;
+	line-height: 26px;
+	font-weight: bold;
+}
+.blox-intro-text-news-ticker .blox-ticker-heading .blox-month{
+	font-weight: bold;
+}
+.blox-intro-text-news-ticker .blox-ticker-content{
+	padding:12px 50px 12px 25px;
+	overflow:hidden;
+	position:relative;
+	
+	display:table-cell;
+	vertical-align:middle;
+	height:100%;
+}
+.blox-intro-text-news-ticker .blox-ticker-content .blox-ticker-box{
+	color: #000000; 
+	font-size: 14px; 
+	line-height: 19px; 
+}
+.blox-intro-text-news-ticker .blox-ticker-content .blox-ticker-box a{
+	color:#000;
+	text-decoration:none;
+}
+.blox-intro-text-news-ticker .blox-ticker-content .blox-ticker-box .blox-sub-title{
+	color: #818181; 
+	font-size: 12px; 
+	font-style: italic; 
+	line-height: 17px;
+}
+.blox-intro-text-news-ticker .blox-ticker-content .blox-ticker-control{
+	position:absolute;
+	right:18px;
+	top: 50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	z-index:999;
+}
+.blox-intro-text-news-ticker .blox-ticker-content .blox-ticker-control .blox-ticker-nav a{
+	color:inherit !important;
+	font-size:12px;
+}
+.blox-ticker-nav { float: right; margin: 0 4px;}
+.blox-ticker-nav + .blox-ticker-nav { float: left; margin: 0 4px;}

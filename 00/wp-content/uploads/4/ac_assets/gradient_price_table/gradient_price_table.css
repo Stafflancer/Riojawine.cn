@@ -1,0 +1,108 @@
+.uc_gradient_price_table* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_gradient_price_table .uc_content_box{
+	padding:60px 0 74px 0;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	color:#ffffff;
+}
+
+.uc_gradient_price_table h4{
+	font-size:18px;
+	font-weight:700;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	line-height:25px;
+	margin:0px 0 0px;
+}
+
+
+.uc_gradient_price_table .uc_price_marker { 	
+	display:block;
+	max-width:200px;
+  	margin:0px auto 24px;
+	font-size:70px;
+	line-height:70px;
+
+	padding:0px 0px 0px;
+	font-weight:300;
+	text-align:center;
+	position:relative;
+
+}
+.uc_gradient_price_table .uc_price_marker sup
+{
+	font-size:19px;
+	font-weight:700;
+	position:absolute;
+	top:8px;
+	left:23%;
+
+}
+.uc_gradient_price_table .uc_price_marker_content{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.uc_gradient_price_table .uc_price_marker sub{
+
+	font-size:14px;
+	font-weight:700;
+	line-height:10px;
+	text-transform:uppercase;
+	position:absolute;
+	bottom:9px;
+	
+}
+
+.uc_gradient_price_table .uc_price_marker small{
+	display:block;
+	font-size:14px;
+	line-height:14px;
+}
+
+.uc_gradient_price_table .uc_price_detail ul{
+	list-style:none;
+	padding:0 0 30px 0;
+	margin:0;
+}
+
+.uc_gradient_price_table .uc_price_detail ul li{
+	display:block;
+	font-weight:400;
+	font-size:14px;
+	padding:14px;
+	line-height:16px;
+	margin:0;
+
+}
+
+.uc_gradient_price_table .uc_price_detail ul li strong
+{
+	font-weight:700;
+	
+}
+
+.uc_gradient_price_table a.uc_btn{
+
+	font-size:14px;
+	font-weight:400;
+	border-radius:2px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	text-decoration:none;
+	padding:16px 45px 16px;
+	display:inline-block;
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+	
+	

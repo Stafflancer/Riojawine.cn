@@ -1,0 +1,54 @@
+.uc_background_image_banner * {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    }
+
+.uc_background_image_banner {
+    padding:20px;
+    min-height:260px;
+    font-family: 'Droid Sans', sans-serif;
+    color:#fff;
+  	background-repeat:no-repeat;
+    background-position:100% top;
+    }
+      
+.uc_background_image_banner_wrapper {
+    padding-top:100px;
+    }
+    
+.uc_background_image_banner h5 {
+	font-family: 'Asap', sans-serif;
+	font-size:17px;
+    font-weight:400;
+    color:#fff;
+    margin:0px 0 15px;
+    }
+    
+.uc_background_image_banner span {
+	color: #ffffff;
+    display: block;
+    font-size: 13px;
+    line-height: 22px;
+    max-width: 220px;
+    padding: 0 5px 15px;
+    text-align:left;
+ }
+    
+.uc_background_image_banner a.uc_view{
+	display:inline-block;
+	border: 2px solid #ffffff;
+	font-size:13px;
+	padding: 0.4em 1.4em;
+    border-radius: 1.5em;
+	text-decoration:none;
+	line-height:20px;
+	transition:all 0.25s ease-in-out;
+	}
+.uc_background_image_banner em.btext{
+	font-style:normal;
+	color:#fff;
+	}

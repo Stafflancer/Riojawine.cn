@@ -1,0 +1,26 @@
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+img{ width:100%; display:block;}
+
+
+.uc_side_solid_banner{ overflow:hidden;font-family: 'Droid Serif', serif; color:#fff;}
+.uc_side_solid_banner .uc_banner-content_outer{ float:left; width:45%; height:350px; position:relative;}
+.uc_side_solid_banner .uc_banner-content{  padding:0px 25px; position:absolute; left:0px; top:50%; transform:translatey(-50%); width:100%;}
+.uc_side_solid_banner .uc_banner-content h3{ font-weight:700; font-size:22px;font-style: italic;line-height:30px;margin:0px;}
+.uc_side_solid_banner .uc_banner-content p{ font-weight:400; font-size:14px; margin:25px 0;line-height: 24px;}
+.uc_side_solid_banner .uc_banner-content a{ color:#fff; font-weight:700; text-align:right; font-size:14px;line-height:18px; float:right;}
+.uc_side_solid_banner .uc_banner-img { width:55%; float:right; height:350px;}
+
+ 
+
+
+@media only screen and (max-width: 900px) {
+  .uc_side_solid_banner .uc_banner-content{padding: 0px 14px;}
+  .uc_side_solid_banner .uc_banner-content p{margin: 10px 0;}
+	
+}
+@media only screen and (max-width: 370px) {
+  .uc_side_solid_banner .uc_banner-content_outer{ width:50%;}
+  .uc_side_solid_banner .uc_banner-img {width: 50%;}
+  .uc_side_solid_banner .uc_banner-content h3{font-size: 20px;} 
+  .uc_side_solid_banner .uc_banner-content p{line-height: 20px;}
+}

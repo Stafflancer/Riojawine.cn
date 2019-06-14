@@ -1,0 +1,25 @@
+/* ============================================================================= */
+/* Theme progress bars. */
+/* ============================================================================= */
+
+.sp-progress-bar {
+  margin : 1rem 0 2rem 0;
+
+  .title {
+    display       : inline-block;
+    width         : 100%;
+    margin-bottom : 0.5rem;
+
+    span {
+      float     : right;
+      font-size : 15px;
+      position  : relative;
+      top       : 2px;
+    }
+  }
+
+  .progress-bar {
+    -webkit-transition : none;
+    transition : none;
+  }
+}

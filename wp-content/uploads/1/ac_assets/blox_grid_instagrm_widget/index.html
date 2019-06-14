@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>grid instagrm widget</title>
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<link href="uc-grid-instagrm-widget.css" rel="stylesheet" type="text/css" >
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
+<script src="instafeed.min.js"></script>
+</head>
+
+<body>
+    <div class="uc-grid-instagrm-widget">
+        <div class="uc-widget-container" style="background-color:#ffffff;">
+           	<div class="uc-widget-header">
+            	<div class="uc-profile-pic"><a style="background-color:#3897f0;" class="uc-profile-pic-click" href="#">+</a><img src="profile-image.jpg" alt=""></div>
+                <div class="uc-title">
+                	<h2 style="color:#101010;">Angel Kortoa</h2>
+                    <span style="color:#b9b9b9;">Photographer</span>
+                </div>
+                <div class="uc-widget-nav">
+                	<ul style="color:#3897f0;">
+                    	<li>Photos<span style="color:#656565;">76</span></li>
+                        <li>Followers<span style="color:#656565;">875</span></li>
+                        <li>Following<span style="color:#656565;">120</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="uc-widget-gallery">
+            	<ul id="instafeed"></ul>
+            </div>
+        </div>
+    </div>
+<script>
+jQuery(document).ready(function($) {
+	if($('#instafeed').length > 0) {
+		var feed = new Instafeed({
+			get: 'user',
+			userId : 31027484,
+			accessToken: '1415045487.ba4c844.3b7642adc62c4045a1eb16a92d8f282e',
+			limit :9,
+			resolution: 'standard_resolution',
+			template: '<li style="background-image:url({{image}})"><a href="{{link}}"><img src="placeholder.png"></a></li>'
+		});
+		feed.run();
+	}
+});
+</script>
+</body>
+</html>

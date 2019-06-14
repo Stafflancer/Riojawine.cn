@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html xmlns="http://www.w3.org/1999/xhtml" class="ie8" lang="es-ES">
+<![endif]-->
+<!--[if !(IE 8) ]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es-ES">
+<!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Log In &lsaquo; Consejo Regulador DOCa Rioja &#8211; Riojawine &#8212; WordPress</title>
+    <link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' href='https://www.riojawine.com/wp-admin/load-styles.php?c=0&amp;dir=ltr&amp;load%5B%5D=dashicons,buttons,forms,l10n,login&amp;ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='svc-front-css-css'  href='https://www.riojawine.com/wp-content/plugins/svc-post-grid-addon/assets/css/front.css' type='text/css' media='all' />
+<link rel='stylesheet' id='svc-fontawosem-css-css'  href='https://www.riojawine.com/wp-content/plugins/svc-post-grid-addon/assets/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/uploads/1/fbrfg/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/1/fbrfg/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/uploads/1/fbrfg/favicon-16x16.png">
+<link rel="manifest" href="/wp-content/uploads/1/fbrfg/site.webmanifest">
+<link rel="mask-icon" href="/wp-content/uploads/1/fbrfg/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/wp-content/uploads/1/fbrfg/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/wp-content/uploads/1/fbrfg/browserconfig.xml">
+<meta name="theme-color" content="#ffffff"><meta name='robots' content='noindex,follow' />
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body class="login login-action- wp-core-ui  locale-es-es">
+<div id="login">
+    <h1><a href="https://www.riojawine.com/" title="Network Site" tabindex="-1">Consejo Regulador DOCa Rioja &#8211; Riojawine</a></h1>
+    
+<form name="loginform" id="loginform" action="https://www.riojawine.com/media-center/" method="post">
+	<p>
+		<label for="user_login">Username or Email<br />
+		<input type="text" name="log" id="user_login" class="input" value="" size="20" /></label>
+	</p>
+	<p>
+		<label for="user_pass">Contraseña<br />
+		<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" /></label>
+	</p>
+		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Remember Me</label></p>
+	<p class="submit">
+		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Log In" />
+        <input type="hidden" name="redirect_to" value="https://www.riojawine.com/wp-admin/" />
+            		<input type="hidden" name="testcookie" value="1" />
+	</p>
+</form>
+
+        <p id="nav">
+            <a rel="nofollow" href="https://www.riojawine.com/media-center/?action=register">Register</a> |         	<a href="https://www.riojawine.com/media-center/?action=lostpassword">Lost your password?</a>
+                    </p>
+    
+<script type="text/javascript">
+function wp_attempt_focus(){
+setTimeout( function(){ try{
+        d = document.getElementById('user_login');
+        d.focus();
+d.select();
+} catch(e){}
+}, 200);
+}
+
+wp_attempt_focus();
+if(typeof wpOnload=='function')wpOnload();
+</script>
+
+	<p id="backtoblog"><a href="https://www.riojawine.com/es-es/">&larr; Back to Consejo Regulador DOCa Rioja &#8211; Riojawine</a></p>
+	    
+</div>
+
+
+<script type="text/javascript">
+			(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=es-es; expires=" + expirationDate.toUTCString() + "; path=/";
+			}());</script><div class="clear"></div>
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk: enhanced 
+Database Caching using disk
+
+Served from: www.riojawine.com @ 2018-09-26 08:26:31 by W3 Total Cache
+-->

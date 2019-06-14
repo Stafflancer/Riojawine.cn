@@ -1,0 +1,49 @@
+/* ============================================================================= */
+/* Basic pages styles. */
+/* ============================================================================= */
+
+#sp-page-inner {
+  display   : -webkit-box;
+  display   : -ms-flexbox;
+  display   : flex;
+  -ms-flex-wrap : nowrap;
+      flex-wrap : nowrap;
+
+  > .content-column {
+    -webkit-box-flex      : 1;
+        -ms-flex      : 1 1 auto;
+            flex      : 1 1 auto;
+    min-width : 0;
+    -webkit-box-ordinal-group     : 3;
+        -ms-flex-order     : 2;
+            order     : 2;
+  }
+
+  > .sidebar-column {
+    -webkit-box-flex          : 0;
+        -ms-flex          : 0 0 360px;
+            flex          : 0 0 360px;
+    min-width     : 0;
+    margin-bottom : -50px;
+    -webkit-box-ordinal-group         : 4;
+        -ms-flex-order         : 3;
+            order         : 3;
+
+    &.left { padding-right : 60px; -webkit-box-ordinal-group : 2; -ms-flex-order : 1; order : 1; }
+    &.right { padding-left : 60px; }
+    &:empty { display : none; }
+  }
+
+  @include media-breakpoint-down(sm) {
+    -ms-flex-wrap : wrap;
+        flex-wrap : wrap;
+
+    > .sidebar-column, > .content-column { -ms-flex-preferred-size : 100%; flex-basis : 100%; }
+
+    > .content-column { -webkit-box-ordinal-group : 2; -ms-flex-order : 1; order : 1; }
+    > .sidebar-column { margin-top : 80px; -webkit-box-ordinal-group : 3; -ms-flex-order : 2; order : 2; }
+
+    > .sidebar-column.left { padding-right : 0; }
+    > .sidebar-column.right { padding-left : 0; }
+  }
+}

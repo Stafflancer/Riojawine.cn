@@ -1,0 +1,65 @@
+.image_product_flipbox * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+.image_product_flipbox {
+    text-align: center;
+    color: #fff;
+	 font-family: 'Raleway', sans-serif;
+}
+.uc-card {
+    height: 250px;
+    position: relative;
+}
+.uc-card-back .uc-content, .uc-card-front .uc-content {
+    padding: 15px;
+    position:absolute;
+    top:50%;
+    width:100%;
+    transform:translateY(-50%);
+}
+.uc-card-back, .uc-card-front {
+    backface-visibility: hidden;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: transform 0.3s ease 0s;
+}
+.uc-card-front {
+}
+.uc-card-back {
+    transform: rotateY(-180deg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image_product_flipbox .uc-icon {
+    font-size: 40px;
+}
+.image_product_flipbox h4 {
+   
+    font-weight: 500;
+    font-size: 18px;
+    margin: 13px 0;
+}
+.image_product_flipbox .uc-label {
+    font-weight: 700;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 20px;
+    color: #fff;
+    display:inline-block;
+}
+.uc-card:hover .uc-card-front {
+    transform: rotateY(-180deg);
+}
+.uc-card:hover .uc-card-back {
+    transform: rotateY(0deg);
+}

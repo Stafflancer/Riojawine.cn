@@ -1,0 +1,96 @@
+
+._blox_diagonal_event_box * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+._blox_diagonal_event_box img{ max-width:100%; border:0; outline:0;} 
+._blox_diagonal_event_box ._blox_event_box{
+	color:#fff;
+	font-family: inherit;
+}
+._blox_diagonal_event_box ._blox_event_box ._blox_image_box{
+	position:relative;
+	text-align:center;
+}
+._blox_diagonal_event_box ._blox_event_box ._blox_image_box img{
+	width:100%;
+	display:block;
+}
+._blox_diagonal_event_box ._blox_event_box ._blox_image_box ._blox_date_box{
+	width:80px;
+	height:80px;
+	position:absolute;
+	right:50%;
+	margin-right:-35px;
+	bottom:5px;
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	border:2px solid transparent;
+	z-index:100;
+}
+._blox_diagonal_event_box ._blox_event_box ._blox_image_box ._blox_date_box ._blox_date{
+	font-size:30px;
+	line-height:30px;
+	font-weight:700;
+	padding-top:7px;
+}
+._blox_diagonal_event_box ._blox_event_box ._blox_image_box ._blox_date_box ._blox_month{
+	font-size:13px;
+	line-height:18px;
+	font-weight:400;
+}
+._blox_diagonal_event_box ._blox_event_box ._blox_content_box{
+	background:#fff;
+	color:#4A4A4A;
+	padding:35px 27px 0;
+	font-size:14px;
+	position: relative;
+	text-align:center;
+	z-index:99;
+}
+._blox_diagonal_event_box ._blox_event_box ._blox_rotate{
+	position:absolute;
+	top:-40px;
+	background:#fff;
+	width:100%;
+	height:80px;
+	left:0;
+	background:#fff;
+	z-index:98;
+	
+	-ms-transform: skew(0deg, -7deg); /* IE 9 */
+	-webkit-transform: skew(0deg, -7deg); /* Safari */
+	transform: skew(0deg, -7deg);
+}
+._blox_diagonal_event_box ._blox_event_box ._blox_content_box ._blox_heading{
+	color:#4A4A4A;
+	font-size:18px;
+	line-height:28px;
+	font-weight:700;
+	margin:0 0 4px;
+	z-index:100;
+	position:relative;
+}
+._blox_diagonal_event_box ._blox_event_box ._blox_content_box ._blox_paragraph{
+	line-height:22px;
+	margin:0 0 17px;
+	z-index:100;
+	position:relative;
+}
+._blox_diagonal_event_box ._blox_event_box ._blox_content_box a._blox_book_now{
+	line-height:33px;
+	width:123px;
+	text-align:center;
+	display:inline-block;
+	text-decoration:none;
+	z-index:100;
+	position:relative;
+	font-size:13px;
+	font-weight:600;
+}
+
+

@@ -1,0 +1,18 @@
+/* Services */
+
+.sp-services-container {
+  margin-bottom : -50px;
+
+  .sp-services-block { margin-bottom : 50px; }
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom : -30px;
+    .sp-services-block { margin-bottom : 30px; }
+  }
+}
+
+.sp-services-block {
+  .icon { font-size : 65px; margin-bottom : 1rem; color : #111; }
+  .title h4 { font-size : 19px; margin-bottom : 1rem }
+  .text { margin-bottom : 0; }
+}

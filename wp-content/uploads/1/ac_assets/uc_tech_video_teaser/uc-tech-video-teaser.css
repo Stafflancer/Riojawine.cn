@@ -1,0 +1,87 @@
+.uc-tech-video-teaser * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+.uc-tech-video-teaser .uc-tech-video-teaser-inner{ max-width: 100%; display: flex; height: 100vh; align-items: center;}
+.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content{ display: flex; margin: 0 auto; }
+.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box{
+	margin: 0 auto;
+	text-align:center;
+}
+.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box strong{ 
+	display:block; 
+	font-size:90px; 
+	line-height:normal;
+	font-weight:900; 
+	text-transform:uppercase;
+	margin-bottom:40px;
+	position:relative;
+}
+.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box a.more-btn{ 
+	border-radius: 30px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    height: 60px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    padding: 8px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box a.btn{ 
+	display: inline-block; 
+	font-size:16px;
+	line-height:45px;
+	text-decoration:none;
+	position:relative;
+	border-radius:50%;
+	padding:8px 0;
+	text-align:center;
+	font-weight:600;
+	text-transform:uppercase;
+	width:100px;
+	height:100px;
+	border:3px solid transparent;
+	text-align:center;
+	margin-bottom:38px;
+}
+.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box a.btn i{ font-size: 30px; padding: 25px 38px; display:block;} 
+
+
+.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box a.btn{transition: all 1s ease-out;}
+.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box a.btn:hover{ background:#fff !important; color:#fff !important; transition: all 1s ease-out;}
+.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box a.btn:hover .fa{color:#9e6eff !important;}
+
+
+@media only screen and (max-width: 900px) {
+	.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box strong{ font-size:74px;}
+}
+@media only screen and (max-width: 767px) {
+	.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box strong{ font-size:60px;}
+}
+@media only screen and (max-width: 640px) {
+	.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box strong{ font-size:48px; margin-bottom:15px;}
+	.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box a.btn{ margin-bottom:15px; width:70px; height:70px;}
+	.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box a.btn i{ padding: 12px 25px; font-size:24px;}
+	
+}
+@media only screen and (max-width: 480px) {
+	.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box strong{ font-size:38px;}
+	.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box a.more-btn{ height:auto; width:auto; padding: 0 40px;}
+}
+@media only screen and (max-width: 413px) {
+	.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box strong{ font-size:26px;}
+}
+
+@media only screen and (max-width: 357px) {
+.uc-tech-video-teaser .uc-tech-video-teaser-inner .uc-banner-content .uc-content-box a.more-btn{padding: 0 28px;}
+}

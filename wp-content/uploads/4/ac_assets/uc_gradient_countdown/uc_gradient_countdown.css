@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_gradient_countdown * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_gradient_countdown .uc_gradient_countdown_inner{ background-size:cover !important;}
+.uc_gradient_countdown .uc_gradient_countdown_inner .timer { width: 100%; text-align: center; padding:20px 0 25px; clear:both; overflow:hidden;}
+.uc_gradient_countdown .uc_gradient_countdown_inner .timer div { 
+	width: 17%; 
+	margin: 0 4%;
+	float:left;
+	text-align: center; 
+	display: inline-block;
+	color: #fff; 
+	line-height: normal; 
+	font-weight:400;
+	font-size:55px;
+	background:none;
+	border-bottom:0px;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	text-shadow:0px 5px 5px rgba(0,0,0,0.1);
+}
+.uc_gradient_countdown .uc_gradient_countdown_inner .timer div:last-child { border-right:0px;} 
+.uc_gradient_countdown .uc_gradient_countdown_inner .timer div span{ 
+	display: block; 
+	padding: 10px 0 0; 
+	margin: 7px 0 0; 
+	position: relative;
+	color: #fff; 
+	line-height: 31px; 
+	font-weight:700;
+	font-size:18px;
+	border-top:1px solid rgba(255,255,255,0.5);
+	font-family: 'Lato', sans-serif;
+}
+
+@media only screen and (max-width: 540px) {
+	.uc_gradient_countdown .uc_gradient_countdown_inner .timer div{ font-size:38px;}
+	.uc_gradient_countdown .uc_gradient_countdown_inner .timer div span{ font-size:14px; padding:5px 0;}
+}

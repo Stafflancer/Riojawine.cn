@@ -1,0 +1,35 @@
+.blox-square-border-icon-box * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+	}
+.blox-square-border-icon-box{
+	font-family: inherit;
+	padding:34px 31px 40px;
+	}
+
+.blox-square-border-icon-box .blox-square-border-icon-box-icon{
+	font-size:28px;
+	line-height:65px;
+	margin:0 auto 25px auto;
+	height: 71px;	
+	width: 72px;	
+	
+	}
+.blox-square-border-icon-box .blox-square-border-icon-box-icon i{
+	}		
+.blox-square-border-icon-box .blox-square-border-icon-box-heading{
+	color:#000000;
+	font-size:24px;
+	line-height:33px;
+	margin:0 0 14px 0;
+	
+	}
+
+.blox-square-border-icon-box .blox-square-border-icon-box-content{
+	font-size:15px;
+	line-height:24px;
+	color: #9B9B9B;
+	}

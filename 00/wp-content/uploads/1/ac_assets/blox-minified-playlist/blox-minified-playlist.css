@@ -1,0 +1,357 @@
+.blox-minified-playlist * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+/***Custom****/
+.blox-minified-playlist {
+	font-family: inherit;
+	font-size:17px;
+	line-height:22px;
+	box-shadow: 0 20px 30px 0 rgba(0,0,0,0.06);
+	background-color: #262626;
+}
+
+.blox-minified-playlist .blox-album-image {
+	max-height: 250px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px 30px;
+}
+
+.blox-minified-playlist .blox-album-image .box-overlay {
+	background-color: #000;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.blox-minified-playlist .blox-album-desc {
+	position: absolute;
+	top: 95px;
+	left: 20px;
+	z-index: 2;
+	color: #fff;
+}
+
+.blox-minified-playlist .blox-artist-name {font-size: 14px;}
+.blox-minified-playlist .blox-album-name {font-size: 24px;}
+
+
+/*Blox Player Global*/
+
+.jp-audio *:focus,
+.jp-audio-stream *:focus,
+.jp-video *:focus {
+    outline: none;
+}
+.jp-audio button::-moz-focus-inner,
+.jp-audio-stream button::-moz-focus-inner,
+.jp-video button::-moz-focus-inner {
+    border: 0;
+}
+.jp-audio {
+    
+}
+
+.jp-jplayer audio,
+.jp-jplayer {
+    width: 0px;
+    height: 0px;
+}
+
+.blox-minified-playlist .jp-jplayer {
+    background-color: #000000;
+}
+
+/*@ends*/
+
+.blox-minified-playlist .jp-audio {
+    width: 100%;
+    padding: 0px;
+}
+.blox-minified-playlist .jp-interface {
+    position: relative;
+    width: 100%;
+}
+/* @group CONTROLS */
+
+.blox-minified-playlist .jp-audio .jp-controls-holder {
+	padding: 0px;
+    width: 100%;
+}
+.blox-minified-playlist .jp-controls {
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.blox-minified-playlist .jp-audio .jp-controls {margin: 0 auto 25px;text-align: center;}
+.blox-minified-playlist .jp-controls button {
+    display: inline-block;
+    overflow: hidden;
+    height: 45px;
+	width: 45px;
+    margin: 0 8px;
+    padding: 0;
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 16px;
+	line-height: 16px;
+	border-radius: 50%;
+	border: 0;
+	color: #fff;
+	background-color: #525252;
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
+}
+.blox-minified-playlist .jp-type-playlist .jp-controls button.jp-next {}
+.blox-minified-playlist .jp-type-playlist .jp-play {
+	height: 75px;
+	width: 75px;
+	font-size: 26px;
+	line-height: 26px;
+} 
+.jp-type-playlist .jp-play:before {content: "\f04b";}
+.blox-minified-playlist .jp-type-playlist .jp-play:focus:before {content: "\f04b";}
+.blox-minified-playlist .jp-state-playing div.jp-type-playlist .jp-play:before {content: "\f04c";}
+.blox-minified-playlist .jp-state-playing div.jp-type-playlist .jp-play:focus:before {content: "\f04c";}
+.blox-minified-playlist .jp-type-playlist .jp-stop:before {content: "\f04d";}
+.blox-minified-playlist .jp-type-playlist .jp-stop:focus {content: "\f04d";}
+.blox-minified-playlist .jp-type-playlist .jp-previous:before {content: "\f04a";}
+.blox-minified-playlist .jp-type-playlist .jp-previous:focus:before {content: "\f04a";}
+.blox-minified-playlist .jp-type-playlist .jp-next:before {content: "\f04e";}
+.blox-minified-playlist .jp-type-playlist .jp-next:focus:before {content: "\f04e";}
+
+.blox-minified-playlist .jp-toggles {
+    padding: 0;
+    margin: 20px auto 10px;
+    overflow: hidden;
+}
+.blox-minified-playlist .jp-audio .jp-toggles {text-align: center;}
+.blox-minified-playlist .jp-toggles button {
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+	margin: 0 8px;
+    line-height: 100%;
+    /* need this for IE6 */
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-size: 15px;
+	color: #8D8D8D;
+}
+.blox-minified-playlist .jp-repeat {margin-left: 0;}
+.blox-minified-playlist .jp-repeat:focus {color: #CBCBCB;}
+.blox-minified-playlist .jp-state-looped .jp-repeat {color: #FAD200;}
+.blox-minified-playlist .jp-state-looped .jp-repeat:focus {color: #FAD200;}
+.blox-minified-playlist .jp-shuffle {}
+.blox-minified-playlist .jp-shuffle:focus {color: #CBCBCB;}
+.blox-minified-playlist .jp-state-shuffled .jp-shuffle {color: #FAD200;}
+.blox-minified-playlist .jp-state-shuffled .jp-shuffle:focus {color: #FAD200;}
+.blox-minified-playlist .jp-audio .jp-shuffle {}
+
+/* @group progress bar */
+/* The seeking class is added/removed inside jPlayer */
+
+.blox-minified-playlist div.jp-seeking-bg {} 
+
+.blox-minified-playlist .jp-playlist {clear: both;	background-color: #303030;}
+
+.blox-minified-playlist .jp-progress {
+    width: 100%;
+    height: 8px;
+    padding: 0;
+    overflow: hidden;
+}
+.blox-minified-playlist .jp-seek-bar {
+    background-color: #545454;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.blox-minified-playlist .jp-play-bar {
+    background-color: #FAD200;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+/* @group volume controls */
+
+.blox-minified-playlist .jp-state-no-volume .jp-volume-controls {display: none;}
+.blox-minified-playlist .jp-audio .jp-volume-controls {
+	position: relative;
+	width: 100%;
+	height: 53px;
+	color: #fff;
+}
+.blox-minified-playlist .jp-volume-controls button {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 17px;
+    height: 17px;
+    border: none;
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #8D8D8D;
+    font-size: 17px;
+}
+.blox-minified-playlist .jp-audio .jp-volume-controls .jp-mute {top:18px;left: 20px;}
+.blox-minified-playlist .jp-audio .jp-volume-controls .jp-volume-max {top: 18px;right: 20px;}
+.blox-minified-playlist .jp-volume-controls .jp-mute {background: none; color: #8D8D8D;}
+.blox-minified-playlist .jp-volume-controls .jp-mute:focus {color: #8D8D8D;}
+.blox-minified-playlist .jp-state-muted .jp-volume-controls .jp-mute {color: #FAD200;}
+.blox-minified-playlist .jp-state-muted .jp-volume-controls .jp-mute:focus {color: #FAD200;}
+.blox-minified-playlist .jp-volume-controls .jp-volume-max {background: none;text-align: left;}
+.blox-minified-playlist .jp-volume-controls .jp-volume-max:focus {color: #FAD200;}
+.blox-minified-playlist .jp-volume-bar {
+    background: #545454;
+    position: absolute;
+    width: calc(100% - 100px);
+    height: 3px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    margin: auto;
+	left: 0;
+	right: 0;
+	top: 25px;
+}
+.blox-minified-playlist .jp-audio .jp-interface .jp-volume-bar {top: 0px;left: 0;right: 0; }
+.blox-minified-playlist .jp-volume-bar-value {background: #FAD200;height: 3px;position:absolute;bottom: 0;}
+
+.blox-minified-playlist .jp-current-time,
+.blox-minified-playlist .jp-duration {
+    width: 70px;
+    font-size: 14px;
+    color: #fff;
+}
+.blox-minified-playlist .jp-current-time {
+    float: left;
+    cursor: default;
+}
+.blox-minified-playlist .jp-duration {
+    float: right;
+    text-align: right;
+    cursor: pointer;
+}
+/* @group playlist */
+
+.blox-minified-playlist .jp-details {
+    font-size: .7em;
+    margin: 0;
+    padding: 0;
+}
+.blox-minified-playlist .jp-details .jp-title {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    cursor: default;
+}
+.blox-minified-playlist .jp-playlist ul {
+    list-style-type: none;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.blox-minified-playlist .jp-playlist li {
+    position: relative;
+    padding: 12px 30px;
+    overflow: hidden;
+}
+/* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
+
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist li:first-child {
+   
+}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist li:last-child {
+    
+    
+}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist a {
+    color: #9B9B9B;
+    text-decoration: none;
+}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist a:hover {
+    color: #FAD200;
+}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+    
+    margin: 0px;
+}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist li.jp-playlist-current:before {
+	content: "";
+    color: #FAD200;
+    position: absolute;
+    left: 14px;
+    font-size: 20px;
+    height: 13px;
+    width: 6px;
+    top: 50%;
+	border-radius: 3px;
+    background-color: #FAD200;
+    margin-top: -7px;
+}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {color: #fff;}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
+    float: right;
+    display: inline;
+    text-align: right;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #8C7A99;
+}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover {color: #E892E9;}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist span.jp-free-media {
+    float: right;
+    display: inline;
+    text-align: right;
+    color: #8C7A99;
+}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist span.jp-free-media a {color: #8C7A99;}
+.blox-minified-playlist div.jp-type-playlist div.jp-playlist span.jp-free-media a:hover {color: #E892E9;}
+.blox-minified-playlist span.jp-artist {font-size: .8em;color: #8C7A99;}
+/* @end */
+
+
+/* @group NO SOLUTION error feedback */
+
+.jp-no-solution {
+    padding: 5px;
+    font-size: .8em;
+    background-color: #3a2a45;
+    border-top: 2px solid #554461;
+    border-left: 2px solid #554461;
+    border-right: 2px solid #180a1f;
+    border-bottom: 2px solid #180a1f;
+    color: #FFF;
+    display: none;
+}
+.jp-no-solution a {
+    color: #FFF;
+}
+.jp-no-solution span {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+/* @end */

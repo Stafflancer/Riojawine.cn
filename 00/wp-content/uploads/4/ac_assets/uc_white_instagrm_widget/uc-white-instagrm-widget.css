@@ -1,0 +1,92 @@
+
+.uc-white-instagrm-widget * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.uc-white-instagrm-widget .uc-widget-container{
+	
+	padding:15px;
+
+}
+
+.uc-white-instagrm-widget .uc-widget-container .uc-widget-header {
+	overflow:hidden;
+	text-align:center;
+	}
+.uc-white-instagrm-widget .uc-widget-container .uc-widget-header .uc-profile-pic img{
+	width:100%;
+	}	
+.uc-white-instagrm-widget .uc-widget-container .uc-widget-header .uc-profile-pic {
+	width:100px;
+	height:100px;
+	margin:0 auto 14px;
+	border-radius:100%;
+	overflow:hidden;
+	}
+
+.uc-white-instagrm-widget.uc-widget-container .uc-widget-header .uc-title {
+	float:left;
+	}
+.uc-white-instagrm-widget .uc-widget-container .uc-widget-header .uc-title h2{
+	font-size:15px;
+	line-height:20px;
+	padding:0px;
+	margin:0px;
+	font-weight:600;
+	}
+	
+.uc-white-instagrm-widget .uc-widget-container .uc-widget-header .uc-title span {
+	font-size:13px;
+	}
+.uc-white-instagrm-widget .uc-widget-container .uc-widget-header a.uc-btn {
+	width:110px;
+	display:block;
+	line-height:35px;
+	font-size:14px;
+	border-radius:3px;
+	font-weight:400;
+	text-align:center;
+	text-decoration:none;
+	margin:0 auto 20px;
+	} 	
+.uc-white-instagrm-widget .uc-widget-container .uc-widget-nav ul {
+	padding:15px 0 15px;
+	margin:0px;
+	list-style:none;
+	overflow:hidden;
+	}
+.uc-white-instagrm-widget .uc-widget-container .uc-widget-nav ul li {
+	font-size:12px;
+	line-height:22px;
+	width:33.33%;
+	font-weight:300;
+	float:left;
+	}
+.uc-white-instagrm-widget .uc-widget-container .uc-widget-nav ul li strong{
+	font-size:15px;
+	line-height:18px;
+	display:block;
+	font-weight:600;
+	}	
+
+.uc-white-instagrm-widget .uc-widget-gallery ul {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	overflow:hidden;
+	}
+.uc-white-instagrm-widget .uc-widget-gallery ul li img {
+	width:100%;
+	display:block;
+	}	
+.uc-white-instagrm-widget .uc-widget-gallery ul li {
+	float:left;
+	width:33.33%;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+	}
+

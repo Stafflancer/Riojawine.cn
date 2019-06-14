@@ -1,0 +1,100 @@
+/* ============================================================================= */
+/* Comments */
+/* ============================================================================= */
+
+.sp-comments-area {
+  width: 100%;
+
+  ol.commentlist-root > li:first-child {
+    padding-top : 0;
+  }
+
+  ol {
+    @include reset-box-model(true);
+    margin-bottom : 2rem;
+
+    >  ol.children {
+      padding-left : 30px;
+      @include media-breakpoint-down(sm) { padding-left : 15px; }
+    }
+
+    > li {
+      border-bottom: 5px solid darken($body-bg, 5%);
+      padding : 30px;
+      @include media-breakpoint-down(sm) { padding : 15px; }
+
+      .comment-meta {
+        @include clearfix;
+        @include media-breakpoint-down(sm) { margin-bottom : 15px; }
+
+        img.avatar {
+          float         : left;
+          margin-right  : 20px;
+          margin-bottom : 20px;
+          border-radius : 50%;
+          @include media-breakpoint-down(sm) { float : none; margin-right : 0; }
+        }
+
+        .author-card { margin-bottom : 0.4rem; }
+        .author-card > a { color: inherit; }
+        .comment-time { font-size : 14px; }
+      }
+
+      .comment-content {
+        @include clearfix();
+        width         : 100%;
+        margin-bottom : 1rem;
+
+        p { margin-bottom : 1rem; }
+        ol {
+          padding-left: 40px;
+          list-style-type: decimal;
+          margin: 0;
+          li  {border:none; padding: 0;}
+        }
+        img { max-width: 100%; height: auto; }
+        select { max-width: 100%; }
+      }
+
+      .comment-awaiting-moderation {
+        color         : $text-muted;
+        font-style    : italic;
+        margin-bottom : 1rem;
+      }
+
+      .comment-respond {
+        margin-top: 1rem;
+
+        .comment-reply-title {
+          font-size: $font-size-h5;
+
+          > small {
+            margin-left : 1rem;
+            font-size   : 60%;
+            vertical-align: bottom;
+          }
+        }
+
+        .comment-notes { margin-bottom: 1.5rem; }
+      }
+    }
+  }
+
+  p.form-submit {
+    margin-bottom : 0;
+    margin-top    : 0.75rem;
+    display       : inline-block;
+  }
+
+  .comment-reply-title { margin-bottom : 1rem; }
+  .logged-in-as { margin-bottom : 1rem }
+
+  .navigation {
+    margin-top : 30px;
+    display    : inline-block;
+    width      : 100%;
+    .nav-previous { float : left; }
+    .nav-next { float : right; }
+  }
+}
+

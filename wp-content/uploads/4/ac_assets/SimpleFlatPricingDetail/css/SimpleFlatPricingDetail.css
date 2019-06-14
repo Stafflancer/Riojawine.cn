@@ -1,0 +1,123 @@
+body {
+-webkit-font-smoothing: antialiased;
+font-size: 16px;
+font-family:verdana;
+}
+
+.sfpd
+{
+	text-align:center;
+}
+
+.sfpd .span4 {
+width:100%;
+display:inline-block;
+min-height: 1px;
+}
+
+
+
+.sfpd .price-plan {
+border-radius: 4px;
+padding: 40px 20px;
+box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+-webkit-transition:0.5s;
+-moz-transition:0.5s;
+-ms-transition:0.5s;
+-o-transition:0.5s;
+transition:0.5s;
+}
+
+.sfpd .price-plan .plan-title {
+margin: 0 0 20px 0;
+}
+.sfpd h1, h2, h3 {
+letter-spacing: -0.05em;
+}
+
+.sfpd .text-light {
+color: #FFF;
+}
+
+.sfpd .price-plan .price {
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0.18);
+border-radius: 120px;
+width: 120px;
+height: 120px;
+margin: 0 auto;
+}
+
+.sfpd .price-plan .amount-container {
+padding: 35px 0 0;
+}
+
+.sfpd .price-plan .currency {
+left: -7px;
+line-height: 14px;
+position: relative;
+top: -8px;
+}
+
+.sfpd .price-plan .amount {
+font-size: 40px;
+font-weight: bold;
+margin: 0 0 0 -10px;
+}
+
+.sfpd .price-plan .period {
+font-size: 12px;
+line-height: 14px;
+margin: -3px 0 0;
+}
+
+.sfpd .text-shadow-dark {
+text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+.sfpd .text-center {
+text-align: center;
+}
+
+.sfpd .price-plan .plan-features {
+list-style: none outside none;
+margin: 20px 0 30px;
+padding: 0px;
+}
+
+.sfpd li {
+line-height: 30px;
+}
+
+.sfpd a {
+background-color: #222;
+border-radius: 2px;
+box-shadow: none;
+padding: 11px 19px;
+font-size: 17.5px;
+color:#fff;
+text-decoration:none;
+-webkit-transition:0.5s;
+-moz-transition:0.5s;
+-ms-transition:0.5s;
+-o-transition:0.5s;
+transition:0.5s;
+}
+
+.sfpd a:hover
+{
+background:#000;
+-webkit-transition:0.5s;
+-moz-transition:0.5s;
+-ms-transition:0.5s;
+-o-transition:0.5s;
+transition:0.5s;
+}
+
+.sfpd .price-plan:hover
+{
+box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+-webkit-transition:0.5s;
+-moz-transition:0.5s;
+-ms-transition:0.5s;
+-o-transition:0.5s;
+transition:0.5s;
+}

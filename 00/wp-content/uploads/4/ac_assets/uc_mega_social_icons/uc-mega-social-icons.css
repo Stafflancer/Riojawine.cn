@@ -1,0 +1,46 @@
+
+.uc-mega-social-icons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc-mega-social-icons {
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+.uc-mega-social-icons .uc-social-icons-box{
+	display:inline-block;
+	margin:0 -2px 17px;
+	width:25%;
+}
+.uc-mega-social-icons .uc-social-icons-box a{
+	font-size:100px;
+	line-height:normal;
+    display: block;
+	padding:67px 0px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+	font-weight:400;
+	font-family: 'PT Sans', sans-serif;
+}
+.uc-mega-social-icons .uc-social-icons-box a:hover{
+	background: inherit !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.uc-mega-social-icons .uc-social-icons-box a{ font-size:70px; padding:45px 0px;}
+}
+@media only screen and (max-width: 639px) {
+	.uc-mega-social-icons .uc-social-icons-box a{ font-size:55px; padding:35px 0px;}
+}
+@media only screen and (max-width: 479px) {
+	.uc-mega-social-icons .uc-social-icons-box a{ font-size:44px; padding:30px 0px;}
+}
+@media only screen and (max-width: 400px) {
+	.uc-mega-social-icons .uc-social-icons-box a{ font-size:34px; padding:20px 0px;}
+}

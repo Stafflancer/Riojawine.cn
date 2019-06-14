@@ -1,0 +1,69 @@
+
+.uc_subtle_food_menu *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_subtle_food_menu .uc_subtle_container_holder
+{
+	font-family: 'Lato', sans-serif;
+	background:#ffffff;
+	border-radius:5px;
+	border:#f5f3f3 3px solid;
+	padding:40px 0 0 0;
+	text-align:center;
+	font-size:16px;
+	line-height:normal;
+	color:#a9a9a9;
+	height:387px;
+	overflow:hidden;
+	position:relative;
+}
+
+.uc_subtle_food_menu .uc_subtle_container_holder h2
+{
+	font-family: 'Tangerine', cursive;
+	font-size:50px;
+	color:#000000;
+	margin-bottom:14px;
+}
+
+.uc_subtle_food_menu .uc_subtle_container_holder p
+{
+	margin-bottom:38px;
+	letter-spacing:2px;
+	line-height:30px;
+}
+
+.uc_subtle_food_menu .uc_subtle_container_holder .uc_placeholder
+{
+	height:193px;
+	width:100%;
+	border-radius:3px;
+	margin:0px;
+	overflow:hidden;
+	position:absolute;
+	bottom:0px;
+}
+.uc_subtle_food_menu .uc_subtle_container_holder .uc_placeholder img
+{
+	max-width:100%;
+	width:100%;
+}
+
+@media only screen and (max-width :394px)
+{
+	.uc_subtle_food_menu .uc_subtle_container_holder .uc_placeholder
+	{
+		height:auto;
+		bottom:-2px;
+        position:relative;
+	}
+	.uc_subtle_food_menu .uc_subtle_container_holder .uc_placeholder img
+	{
+		border-radius:3px;
+	}	
+}

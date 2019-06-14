@@ -1,0 +1,98 @@
+
+.uc-grid-instagrm-widget * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.uc-grid-instagrm-widget .uc-widget-container{
+	
+	padding:15px 10px;
+	font-weight:500;
+
+}
+.uc-grid-instagrm-widget .uc-profile-pic {
+	width:75px;
+	height:75px;
+	border-radius:100%;
+	position:relative;
+	margin:17px auto 4px;
+}
+.uc-grid-instagrm-widget .uc-profile-pic img {
+	width:100%;
+	}
+.uc-grid-instagrm-widget .uc-profile-pic-click {
+	width:28px;
+	height:28px;
+	border-radius:100%;
+	display:block;
+	position:absolute;
+	right:-11px;
+	top:0px;
+	text-decoration:none;
+	text-align:center;
+	color:#ffffff;
+	font-size:25px;
+	line-height:32px;
+	font-weight:300;
+	} 
+	
+.uc-grid-instagrm-widget .uc-title {
+	text-align:center;
+	}
+.uc-grid-instagrm-widget .uc-title h2 {
+	font-size:14px;
+	font-weight:400;
+	}
+
+.uc-grid-instagrm-widget .uc-title span {
+	font-size:12px;
+	font-weight:400;
+	display:block;
+	}
+	
+.uc-grid-instagrm-widget .uc-widget-nav ul {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	overflow:hidden;
+	text-align:center;
+	font-weight:400;
+	overflow:hidden;
+	}
+	
+.uc-grid-instagrm-widget .uc-widget-nav ul li {
+	padding:10px;
+	width:33.33%;
+	float:left;
+	font-size:12px;
+	line-height:18px;
+	}
+	
+.uc-grid-instagrm-widget .uc-widget-nav ul li span {
+	font-size:22px;
+	line-height:24px;
+	display:block;
+	}
+	
+.uc-grid-instagrm-widget .uc-widget-gallery img{
+	width:100%;
+	display:block;
+	}
+	
+.uc-grid-instagrm-widget .uc-widget-gallery ul{
+	padding:0px;
+	margin:30px -5px 0px;
+	list-style:none;
+	overflow:hidden;
+	}
+.uc-grid-instagrm-widget .uc-widget-gallery ul li {
+	float:left;
+	border:5px solid #fff;
+	width:33.33%;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;	
+	}
+

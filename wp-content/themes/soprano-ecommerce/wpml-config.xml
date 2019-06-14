@@ -1,0 +1,7 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">caption</custom-field>
+        <custom-field action="translate">quote_text</custom-field>
+        <custom-field action="translate">quote_author</custom-field>
+    </custom-fields>
+</wpml-config>

@@ -1,0 +1,108 @@
+
+
+
+
+
+/*---------------------------------------------GLOBALES-----*/
+.no-padding {
+	padding: 0;
+}
+
+.search-result-wineries{
+	margin: 30px 0;
+	text-align: center;
+    width: 100%;
+
+    /*padding: 5% 0;*/
+}
+
+.search-result-cities{
+	margin: 30px 0;
+	text-align: center;
+    width: 100%;
+}
+
+
+/*---------------------------------------------BUSCADOR------*/
+
+
+.banner-full-buscador {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	height: 550px;
+	background: url('../img_bodegas/bck-buscador.png') no-repeat center center;
+	background-size: cover;
+}
+
+.buscador-mini{
+	height: auto;
+	width: 100%;
+}
+
+.wineries_types{
+	/* display: none; */
+
+    border: 1px solid #eee;
+    border-left: none;
+    color: #333;
+}
+
+.intro-buscador {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.banner-full-buscador .intro-buscador h2 {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+
+.banner-full-buscador .intro-buscador h3 {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 48px;
+	color: #fff;
+	line-height: 56px;
+	font-family: 'PT Serif', serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+}
+
+.banner-full-buscador p {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+	line-height: 25px;
+	color:#fff;
+}
+
+.intro-buscador .input-group {
+	width: 80%;
+	max-width: 740px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+
+.intro-buscador .input-group input{
+	border-radius: 0;
+	margin: 0;
+}
+
+.intro-buscador .input-group input:focus{
+	border:none;
+}

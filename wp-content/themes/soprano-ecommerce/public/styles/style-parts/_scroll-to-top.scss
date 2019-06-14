@@ -1,0 +1,54 @@
+/* ============================================================================= */
+/* Scroll top button. */
+/* ============================================================================= */
+
+.sp-scroll-top {
+  position         : fixed;
+  padding          : 10px;
+  text-align       : center;
+  right            : 30px;
+  bottom           : 30px;
+  color            : #fff;
+  -webkit-transform        : translate3d(0, 20px, 0);
+          transform        : translate3d(0, 20px, 0);
+  -webkit-transition       : all 0.55s ease;
+  transition       : all 0.55s ease;
+  z-index          : 1000;
+  border-radius    : 20px;
+  background-color : $brand-primary;
+  opacity          : 0;
+  line-height      : 1;
+  visibility       : hidden;
+  &.scroll-top-visible {
+    -webkit-transform  : translate3d(0, 0, 0);
+            transform  : translate3d(0, 0, 0);
+    opacity    : 1;
+    visibility : visible;
+  }
+
+  > i {
+    width          : 20px;
+    height         : 20px;
+    line-height    : 20px;
+    color          : #fff;
+    display        : inline-block;
+    opacity        : 1;
+    font-size      : 20px;
+    vertical-align : middle;
+  }
+
+  > .anno-text {
+    padding-left   : 10px;
+    padding-right  : 5px;
+    white-space    : nowrap;
+    display        : none;
+    font-size      : 14px;
+    text-transform : uppercase;
+    vertical-align : middle;
+  }
+
+  &:hover {
+    background : #222;
+    color      : #fff;
+  }
+}

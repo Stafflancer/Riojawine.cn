@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_soft_product_box * { 
+	margin: 0; padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+img{ max-width:100%;}
+
+.uc_soft_product_box .uc_box_product{ 
+	position:relative;
+	overflow: hidden;
+	padding:0px;
+}
+.uc_soft_product_box .uc_box_product .uc_product_col{
+	background:#fff;
+	width:100%;
+	margin:0%;
+	float:left;
+	/*height:510px;*/
+	padding:0 0px 40px;
+	box-shadow:0 10px 10px #e7eaed;
+	-webkit-box-shadow:0 10px 10px #e7eaed;
+	-moz-box-shadow:0 10px 10px #e7eaed;
+}
+
+.uc_soft_product_box .uc_box_product .uc_product_col .uc_box_pic{ 
+	text-align:center;
+	height:340px;
+	position:relative;
+	overflow: hidden;
+}
+.uc_soft_product_box .uc_box_product .uc_product_col .uc_box_pic .uc_pic_box{ 
+	position:absolute; 
+	left:50%; 
+	width:75%; 
+	top:50%; 
+	transform:translate(-50%,-50%);
+	overflow: hidden;
+}
+.uc_soft_product_box .uc_box_product .uc_product_col .uc_product_details{ 
+	text-align:center;
+	color:#37c3d5;
+}
+.uc_soft_product_box .uc_box_product .uc_product_col .uc_product_details span{ 
+	font-size:16px;
+	font-weight:400;
+	display:block;
+	margin-bottom:6px;
+}
+.uc_soft_product_box .uc_box_product .uc_product_col .uc_product_details span.uc_price{ 
+	font-size:20px;
+	font-weight:700;
+}
+
+.uc_soft_product_box .uc_box_product .uc_product_col .uc_product_details .uc_view_cart{
+	position:relative;
+	margin:15px auto 0;
+	height:53px;
+	width:169px;
+	border:1px solid #e7eaed;
+	border-radius:30px;
+}
+.uc_soft_product_box .uc_box_product .uc_product_col .uc_product_details .uc_view_cart:hover{
+	box-shadow:0 6px 15px #ebedee;
+}
+.uc_soft_product_box .uc_box_product .uc_product_col .uc_product_details .uc_view_cart a{
+	padding:15px 28px;
+	display:inline-block;
+	font-size:18px;
+	color:#545454;
+}
+.uc_soft_product_box .uc_box_product .uc_product_col .uc_product_details .uc_view_cart span{
+	display:inline-block;
+	color:#dcdedf;
+	font-size:18px;
+	margin:0;
+}
+.uc_soft_product_box .uc_box_product .uc_product_col .uc_product_details .uc_view_cart a:hover{
+	color:#37c3d5;
+}
+
+
+
+

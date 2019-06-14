@@ -1,0 +1,141 @@
+#This Apache config file was created by Duplicator Installer on 2019-05-01 11:58:52.
+#The original can be found in archived file with the name htaccess.orig
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+#Redirect /es-en https://uk.riojawine.com
+Redirect /es https://www.riojawine.com
+Redirect /de https://de.riojawine.com/de/
+Redirect /fr https://www.riojawine.com
+Redirect /en https://uk.riojawine.com
+
+RewriteCond %{QUERY_STRING} (<|%3C).*script.*(>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} GLOBALS(=|[|%[0-9A-Z]{0,2}) [OR]
+RewriteCond %{QUERY_STRING} _REQUEST(=|[|%[0-9A-Z]{0,2})
+
+RewriteRule ^index\.php$ - [L]
+
+# add a trailing slash to /wp-admin
+RewriteRule ^([_0-9a-zA-Z-]+/)?wp-admin$ $1wp-admin/ [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(wp-(content|admin|includes).*) $2 [L]
+RewriteRule ^([_0-9a-zA-Z-]+/)?(.*\.php)$ $2 [L]
+RewriteRule . index.php [L]
+</IfModule>
+# END WordPress
+
+## EXPIRES HEADER CACHING ##
+
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType image/svg "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType application/javascript "access 1 month"
+ExpiresByType application/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 2 days"
+
+## EXPIRES HEADER CACHING ##
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/shtml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+RedirectMatch 301 /10-cosechas.html http://www.riojawine.cn/es-es/el-rioja/anadas-y-cosechas/
+RedirectMatch 302 /10-cosechas.html http://www.riojawine.cn/es-es/el-rioja/anadas-y-cosechas/ 
+
+RedirectMatch 302 /12-elaboracion-y-crianzas.html http://www.riojawine.cn/es-es/el-rioja/elaboracion-y-crianza/
+RedirectMatch 301 /12-elaboracion-y-crianzas.html http://www.riojawine.cn/es-es/el-rioja/elaboracion-y-crianza/
+RedirectMatch 301 /14-anadas.html http://www.riojawine.cn/es-es/el-rioja/anadas-y-cosechas/
+RedirectMatch 302 /14-anadas.html http://www.riojawine.cn/es-es/el-rioja/anadas-y-cosechas/
+RedirectMatch 301 /170-las-categorias-del-rioja.html http://www.riojawine.cn/es-es/el-rioja/tipos-de-vino/
+RedirectMatch 302 /170-las-categorias-del-rioja.html http://www.riojawine.cn/es-es/el-rioja/tipos-de-vino/
+RedirectMatch 302 /18-aula-de-cata.html http://www.riojawine.cn/es-es/el-rioja/
+RedirectMatch 301 /20-noticias.html http://www.riojawine.cn/es-es/noticias-rioja/
+RedirectMatch 302 /20-noticias.html http://www.riojawine.cn/es-es/noticias-rioja/
+RedirectMatch 301 /20-noticias/4941-el-consejo-regulador-de-la-doca-rioja-aprueba-las-‘normas-de-campaña’-para-la-vendimia-2017-.html http://www.riojawine.cn/es-es/noticias-rioja/
+RedirectMatch 302 /20-noticias/4941-el-consejo-regulador-de-la-doca-rioja-aprueba-las-‘normas-de-campaña’-para-la-vendimia-2017-.html http://www.riojawine.cn/es-es/noticias-rioja/
+RedirectMatch 301 /20-noticias/5129-la-cosecha-mas-temprana-de-la-historia-de-rioja-escasa-y-de-gran-calidad.html http://www.riojawine.cn/es-es/noticias/la-cosecha-mas-temprana-de-la-historia-de-rioja-escasa-y-de-gran-calidad/
+RedirectMatch 302 /20-noticias/5129-la-cosecha-mas-temprana-de-la-historia-de-rioja-escasa-y-de-gran-calidad.html http://www.riojawine.cn/es-es/noticias/la-cosecha-mas-temprana-de-la-historia-de-rioja-escasa-y-de-gran-calidad/
+RedirectMatch 301 /20-noticias/5237-abierta-la-convocatoria-2018-del-'programa-oficial-de-educadores-de-rioja'-.html http://www.riojawine.cn/es-es/noticias/abierta-la-convocatoria-2018-del-programa-oficial-de-educadores-de-rioja/
+RedirectMatch 302 /20-noticias/5237-abierta-la-convocatoria-2018-del-'programa-oficial-de-educadores-de-rioja'-.html http://www.riojawine.cn/es-es/noticias/abierta-la-convocatoria-2018-del-programa-oficial-de-educadores-de-rioja/
+RedirectMatch 301 /0-noticias/5339--rioja-pisa-fuerte-en-2017.html http://www.riojawine.cn/es-es/noticias/rioja-pisa-fuerte-en-2017/
+RedirectMatch 302 /0-noticias/5339--rioja-pisa-fuerte-en-2017.html http://www.riojawine.cn/es-es/noticias/rioja-pisa-fuerte-en-2017/
+RedirectMatch 301 /22-publicaciones.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/estadisticas/
+RedirectMatch 302 /22-publicaciones.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/estadisticas/
+RedirectMatch 301 /29-pleno-y-comisiones.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/plenos-y-comisiones/
+RedirectMatch 302 /29-pleno-y-comisiones.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/plenos-y-comisiones/
+RedirectMatch 301 /32-vocales-y-representacion.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/plenos-y-comisiones/vocales-y-representacion/
+RedirectMatch 302 /32-vocales-y-representacion.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/plenos-y-comisiones/vocales-y-representacion/
+RedirectMatch 301 /33-estructura-y-organigrama.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/estructura-y-organigrama/
+RedirectMatch 302 /33-estructura-y-organigrama.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/estructura-y-organigrama/
+RedirectMatch 301 /35-servicios.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/
+RedirectMatch 302 /35-servicios.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/
+RedirectMatch 301 /36-legislacion.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/pliego-de-condiciones/
+RedirectMatch 302 /36-legislacion.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/pliego-de-condiciones/
+RedirectMatch 301 /37-estatutos.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/estatutos/
+RedirectMatch 302 /37-estatutos.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/estatutos/
+RedirectMatch 301 /38-normativas.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/normativas/ 
+RedirectMatch 302 /38-normativas.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/normativas/ 
+RedirectMatch 301 /39-legislacion-vitivinicola.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/ 
+RedirectMatch 302 /39-legislacion-vitivinicola.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/ 
+RedirectMatch 301 /402-descarga-de-impresos.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/zona-para-viticultores-y-bodegueros-inscritos/ 
+RedirectMatch 302 /402-descarga-de-impresos.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/zona-para-viticultores-y-bodegueros-inscritos/
+RedirectMatch 301 /40-consejo-regulador-doca-rioja.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/
+RedirectMatch 302 /40-consejo-regulador-doca-rioja.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/
+RedirectMatch 301 /41-memoria.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/memoria/
+RedirectMatch 302 /41-memoria.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/memoria/
+RedirectMatch 301 /4-comunicacion-rioja.html http://www.riojawine.cn/es-es/noticias-rioja/
+RedirectMatch 302 /4-comunicacion-rioja.html http://www.riojawine.cn/es-es/noticias-rioja/
+RedirectMatch 302 /53-legal.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/
+RedirectMatch 302 /5-conoce-el-rioja.html http://www.riojawine.cn/es-es/el-rioja/
+RedirectMatch 302 /6-la-zona-de-produccion.html http://www.riojawine.cn/es-es/zona-de-produccion/
+RedirectMatch 302 /71-viticultura.html http://www.riojawine.cn/es-es/el-rioja/elaboracion-y-crianza/
+RedirectMatch 302 /72-vendimia.html http://www.riojawine.cn/es-es/doca-rioja/
+RedirectMatch 302 /74-control-bodega.html http://www.riojawine.cn/es-es/doca-rioja/
+RedirectMatch 302 /75-documentos-de-garantia.html http://www.riojawine.cn/es-es/doca-rioja/control-de-calidad-y-certificacion/
+RedirectMatch 302 /7-enoturismo.html http://www.riojawine.cn/es-es/visita-rioja/
+RedirectMatch 302 /842-guia-informativa-del-etiquetado.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/zona-para-viticultores-y-bodegueros-inscritos/
+RedirectMatch 302 /893-pliego-de-condiciones.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/pliego-de-condiciones/
+RedirectMatch 302 /8-variedades-de-vid.html http://www.riojawine.cn/es-es/el-rioja/variedades-de-uva/
+RedirectMatch 302 /979-eventos.html http://www.riojawine.cn/es-es/eventos/
+RedirectMatch 302 /99-bodegas-rioja.html http://www.riojawine.cn/es-es/bodegas-rioja/
+RedirectMatch 302 /9-tipos-de-vino.html http://www.riojawine.cn/es-es/el-rioja/tipos-de-vino/
+RedirectMatch 302 /contacto.html http://www.riojawine.cn/es-es/contacto/
+RedirectMatch 302 /home.html http://www.riojawine.cn/es-es/
+RedirectMatch 302 /noticias/4590-el-consejo-regulador-lanza-el-programa-de-educadores-oficiales-de-rioja-su-red-de-formadores-a-nivel-mundial-.html http://www.riojawine.cn/es-es/noticias/el-consejo-regulador-lanza-el-programa-de-educadores-oficiales-de-rioja-su-red-de-formadores-a-nivel-mundial/
+RedirectMatch 302 /noticias/4750-estudios-de-nielsen-y-oemv-sobre-el-posicionamiento-del-vino-de-rioja-en-el-mercado-espanol-e-internacional-los-vinos-de-calidad-liderados-por-rioja-contribuyen-a-la-recuperacion-del-consumo-de-vino-en-espana.html http://www.riojawine.cn/es-es/noticias/estudios-de-nielsen-y-oemv-sobre-el-posicionamiento-del-vino-de-rioja-en-el-mercado-espanol-e-internacional-los-vinos-de-calidad-liderados-por-rioja-contribuyen-a-la-recuperacion-del-consumo-de-vin/
+RedirectMatch 302 /noticias/4842-la-doca-rioja-aprueba-la-regulacion-para-la-identificacion-de-vinos-de-vinedos-singulares-y-la-elaboracion-de-espumosos-de-maxima-calidad-.html http://www.riojawine.cn/es-es/noticias/la-d-o-ca-rioja-aprueba-la-regulacion-para-la-identificacion-de-vinos-de-vinedos-singulares-y-la-elaboracion-de-espumosos-de-maxima-calidad/
+RedirectMatch 302 /noticias/4997-los-vinos-de-pueblo-y-los-de-zona-completan-la-renovacion-del-actual-sistema-de-rioja.html http://www.riojawine.cn/es-es/noticias/los-vinos-de-pueblo-y-los-de-zona-completan-la-renovacion-del-actual-sistema-de-rioja/
+RedirectMatch 302 /noticias/5283-presupuestos-consejo-regulador-2018.html http://www.riojawine.cn/es-es/noticias/presupuestos-consejo-regulador-2018/
+RedirectMatch 302 /paginas/3936-requisitos-minimos-a-cumplir-por-los-etiquetados.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/normativas/
+RedirectMatch 301 /paginas/4946-rioja-vendimia-2017.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/normativas/
+RedirectMatch 301 /paginas/5501-circular-52018-normas-de-campana-para-la-vendimia.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/normativas/
+RedirectMatch 301 /paginas/5501-rioja-vendimia-2018.html http://www.riojawine.cn/es-es/consejo-regulador-doca-rioja/legislacion/normativas/

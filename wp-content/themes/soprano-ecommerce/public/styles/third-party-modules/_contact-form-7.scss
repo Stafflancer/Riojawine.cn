@@ -1,0 +1,39 @@
+/* ============================================================================= */
+/* Contact Form 7 integration. */
+/* ============================================================================= */
+
+div.wpcf7-mail-sent-ok {
+  border: none;
+  color:#4CAF50;
+}
+div.wpcf7-mail-sent-ng {
+  border: none;
+  color:#F44336;
+}
+div.wpcf7-spam-blocked {
+  border: none;
+  color:#FF9800;
+}
+div.wpcf7-validation-errors {
+  border: none;
+  color: $brand-primary;
+}
+div.wpcf7-response-output {
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+span.wpcf7-not-valid-tip {
+  color: #F44336;
+  padding-top: 0.5rem;
+  font-size: 14px;
+}
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+  border: none;
+  color: #F44336;
+}
+div.wpcf7 .ajax-loader {
+  margin-left: 10px;
+}
+.wpcf7 p:last-child {
+  margin-bottom: 0;
+}

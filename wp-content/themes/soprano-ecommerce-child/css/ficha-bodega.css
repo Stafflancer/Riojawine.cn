@@ -1,0 +1,1180 @@
+
+
+
+
+
+/*---------------------------------------------GLOBALES-----*/
+.no-padding {
+	padding: 0;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------LISTADO BODEGAS------*/
+.background-list{
+    background: transparent url(../img_posts/cover-news-bg.jpg) repeat-y 0 0;
+    background-size: cover;
+    margin: 0;
+}
+
+.winery-no-logo{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	
+	opacity: 0.6;
+}
+
+.winery-item {
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: calc(100%/2 - 30px);
+	height: 510px;
+    background: #fff;
+	margin: 0px 10px;
+	margin-bottom: 30px;
+	padding: 15px;
+	-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+}
+
+.route-item{
+	width: calc(100%/3 - 50px);
+}
+
+.winery-item .detail {
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	overflow: hidden;
+}
+
+.winery-item h2 {
+	display: inline-block;
+	width: 100%;
+	height: 75px;
+	margin: 0 0 0 0;
+	padding: 5px 0;
+	font-family: "PT Serif", serif;
+	font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+	
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    max-height: 45px;
+    height: 45px;
+    overflow: hidden;
+	
+	color:#333;
+}
+
+.winery-item .detail ul {
+    width: 100%;
+	display: inline-block;
+	padding: 0 0 0 0;
+	list-style: none;
+	text-align: left;
+}
+
+.winery-item .detail ul li strong{
+	float: left;
+	width: 100%;
+	padding-left: 10px;
+	font-weight: 600;
+}
+
+.winery-item .detail ul li span{
+	float: left;
+	width: 100%;
+	padding-left: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.winery-item .thumbnail {
+	display: inline-block;
+	width: 100%;
+	height: 150px;
+	margin: 0 0 0 0;
+    margin-bottom: 20px;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+.winery-item .thumbnail img{
+	display: inline-block; 
+	width: 100%;
+	height: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	object-fit: cover;
+}
+
+.winery-item .thumbnail .list-companies-img{
+	display: inline-block; 
+	max-width: 100%;
+	width: auto;
+	height: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+    object-fit: unset;
+}
+
+
+.winery-item .rioja_button_container {
+position:absolute;
+	width: calc(100% - 30px);
+	bottom:20px;
+	text-align: center;
+}
+
+
+.sticky-map{
+    position: sticky !important;
+	position: -webkit-sticky !important;
+    top: 150px;
+}
+
+#map_canvas{
+	height: 510px; 
+	width:100%;
+}
+
+#map_canvas_city{
+	height: 450px; 
+	width:100%;
+}
+/*-----------------------------------------------------------------------------------------------------------------LISTADO BODEGAS------*/
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------FICHA BODEGA------*/
+
+/*-----BODEGA: IMAGEN PORTADA*/
+.banner-full-bodega {
+display: flex;
+align-content: center;
+align-items: center;
+height: 550px;
+}
+
+.banner-full-bodega h1 {
+	display: inline-block;
+	margin: 0 auto;
+	font-family: 'PT Serif', serif;
+	font-size: 64px;
+	font-weight: 700;
+	text-align: center;
+	color:#fff;
+	z-index: 9999;
+}
+
+.capa_negra_banner{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+}
+/*-----BODEGA: SUBMENU FICHA BODEGA*/
+
+
+
+
+/*-----BODEGA: SUBMENU FICHA BODEGA*/
+.content-menu-bodega {
+	text-align: left;
+	background: #F8F8F8;
+}
+
+ul.menu-bodega {
+	display: inline-block;
+	padding: 20px 0 !important;
+	margin: 0 0 0 0;
+	list-style: none;	
+}
+
+.menu-bodega li {
+	float:left;
+	list-style: none;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+}
+
+.menu-bodega li a{
+	padding: 20px 10px;
+	text-decoration: none;
+	color:#333;	
+}
+
+.menu-bodega li a:hover{
+	text-decoration: none;
+	color:#971B2F;
+	border-bottom: 6px solid #971B2F;
+}
+/*-----BODEGA: SUBMENU FICHA BODEGA*/
+
+
+
+
+/*-----BODEGA: CARD DATOS DE LA BODEGA*/
+#seccion-descripcion.row {
+	padding: 0 0 150px 0;
+}
+
+
+
+
+.shadow-on {
+-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+}
+
+.card-bodega {
+	margin-top:-200px;
+	padding:10px 10px 25px 10px !important;
+	text-align: center;
+	background:#fff url(../img_bodegas/marco-datos-bodega.png) no-repeat center bottom;
+}
+
+.card-bodega img{
+	width: 100%;
+}
+
+ul.datos-bodega {
+	padding: 20px 0 !important;
+	display: inline-block;
+	list-style: none;
+	text-align: left;
+}
+
+ul.datos-bodega li {
+	float:left;
+	width: 100%;
+	list-style: none;
+	padding: 5px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+}
+
+ul.datos-bodega li strong {
+	float:left;
+	width: 100%;
+	padding-left: 10px;
+	font-weight: 600;
+}
+
+ul.datos-bodega li span {
+	float:left;
+	width: 100%;
+	padding-left: 10px;
+}
+
+ul.datos-bodega li span a {
+	color:#c5003e;
+	text-decoration: underline;
+}
+
+ul.datos-bodega li span a:hover {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn.btn-primary,
+.btn.btn-primary:active{
+	color: #fff;
+	background-color: #c5003e;
+	border:2px solid #c5003e;
+	padding: 8px 22px;
+	font-weight: 400;
+	margin:0 auto;
+	border-radius: 0;
+	-webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.btn.btn-primary:hover {
+	color: #c5003e;
+	background-color: #fff;
+}
+
+.btn.btn-primary:focus {
+	color: #fff;
+	background-color: #76232F;
+	border-color: #76232F;
+}
+
+h5 {
+	font-family: 'PT Serif', serif;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 40px;
+	color:#333;	
+}
+
+img.logo-bodega {
+	max-width: 270px;
+	padding: 20px 0;
+}
+
+p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+p a.leer-mas {
+	color:#333;
+	text-decoration: underline;
+}
+/*-----BODEGA: CARD DATOS DE LA BODEGA*/
+
+
+
+/*-----BODEGA: REDES SOCIALES*/
+p.en-redes {
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 15px 0;
+	font-size:14px;
+	text-align: center;
+}
+
+ul.social-bodega {
+	display: inline-block;
+	width: 100%;
+	margin:0 0 0 0;
+	padding: 0 0 0 ;
+	text-align: center;
+	list-style: none;	
+}
+
+ul.social-bodega li{
+	display: inline-block;
+}
+
+ul.social-bodega li a i {
+	width: 45px;
+	height: 45px;
+	margin:0 5px;
+	line-height: 45px;
+	border-radius: 100%;
+	font-size: 23px;
+	color:#76232f;
+	border:2px solid #76232f;
+}
+
+ul.social-bodega li i.disabled {
+	width: 45px;
+	height: 45px;
+	margin:0 5px;
+	line-height: 45px;
+	border-radius: 100%;
+	font-size: 23px;
+	color:#c7c7c7;
+	border:2px solid #c7c7c7;
+}
+
+ul.social-bodega li a:hover i{
+	color:#fff;
+	background:#76232f;
+}
+/*-----BODEGA: REDES SOCIALES*/
+
+
+/*-----BODEGA: VEN A VISITARNOS*/
+
+h2.ante-title {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	color:#aeb862;
+}
+
+h3.pro-title {
+	width: 75%;
+	font-family: 'PT Serif', serif;
+	font-size: 48px;
+	font-weight: 700;
+	color:#c5003e;
+}
+
+
+/*-----BODEGA: VEN A VISITARNOS*/
+
+p.list-title {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0 ;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+.row.content-servicios {
+	padding:0 0;
+	background: #f8f8f8;
+	margin-bottom: 100px;
+}
+
+
+
+
+.servicios-bodega:nth-child(1),
+.servicios-bodega:nth-child(2){
+	float: left;
+	width: calc(100%/3 - 40px);
+	margin:0 20px 0 0;
+	padding: 40px 30px;
+	background: #f8f8f8;
+}
+
+.servicios-bodega:nth-child(3) {
+	float: left;
+	width: calc(100%/3 + 40px);
+	margin:0 0 0 0;
+	padding: 40px 30px;
+	background: #f8f8f8;	
+}
+
+ul.caracteristicas-bodega {
+	display: inline-block;
+	padding: 0 30px !important;
+	list-style-image:url(../img_bodegas/dot-list.png) ;
+}
+
+ul.caracteristicas-bodega li {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+/*-----BODEGA: VEN A VISITARNOS*/
+
+
+
+
+
+
+
+
+/*-----BODEGA: SERVICIOS*/
+
+#seccion-servicios.row {
+	margin: 100px 0 0 0;
+	background:#fff url(../img_bodegas/bck-seccion-imagenes.png) no-repeat center right;
+}
+
+
+/*-----BODEGA: SERVICIOS*/
+
+
+
+
+
+/*-----BODEGA: GALERIA MASONRY*/
+
+#seccion-galeria.row {
+	margin: 0 0 0 0;
+	margin-bottom: 150px;
+	background:#fff url(../img_bodegas/bck-seccion-imagenes.png) no-repeat center right;
+}
+
+
+/*-----BODEGA: GALERIA MASONRY*/
+
+
+
+
+
+
+
+/*-----BODEGA: LISTA DE VINOS*/
+#seccion-vinos.row {
+	margin: 0 0 0 0;
+	padding: 100px 0;
+	background:#fff url(../img_bodegas/bck-seccion-vinos.png) no-repeat top left;
+}
+
+.ficha-vino {
+	margin-top:100px;
+}
+
+p.titulo-vino {
+	font-family: 'PT Serif', serif;
+	font-size: 24px;
+	font-weight: 700;
+	height: 65px;
+	/* border:1px solid #333; */
+}
+
+p.intro-conoce {
+	width: 50%;	
+}
+
+.datos-vol-grape {
+	display: inline-block;
+	width: 100%;
+	padding: 0 0;
+	margin:0 0;
+}
+
+.datos-vol-grape:nth-child(1) {
+	margin:20px 0 0 0;
+}
+
+.datos-vol-grape:nth-child(2) {
+	margin:10px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.caracteristicas-vino .datos-vol-grape p {
+	float: left;
+	width: calc(100% - 22px);
+	height: auto;
+	max-height: 55px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0 0 0 10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+.caracteristicas-vino .datos-vol-grape p span {
+	float: left;
+	width: auto;
+	padding:0 5px 0 0;
+}
+
+
+
+
+
+
+
+.datos-vol-grape img{
+	float: left;
+	width: 22px;
+	margin-top: 4px;
+}
+
+
+.imagen-vino {
+	position: relative;
+	margin:0 0 0 0 ;
+	width: 100%;
+	height: 380px;
+	text-align: center;
+}
+
+.velo-gris {
+	position: absolute;
+	top:0;
+	left: 0;
+ 	width: 100%;
+	height: 100%;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+	background: rgba(0,0,0,0.04);
+}
+
+.image-item {
+	display: inline-block;
+	width: auto;
+	max-width: 348px;
+	height: 100%;
+	
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #C5003E;
+}
+
+.imagen-vino:hover .overlay {
+	opacity: 0.7;
+}
+
+.boton-overlay {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+	z-index: 9999;
+	opacity: 0;
+	transition: .5s ease;
+}
+
+
+.imagen-vino:hover .boton-overlay {
+	 opacity: 1;
+}
+
+
+.btn.btn-primary.ghost,
+.btn.btn-primary.ghost:active{
+	color: #fff;
+	background:none;
+	border:2px solid #fff;
+}
+
+.btn.btn-primary.ghost:hover {
+	color: #333;
+	background-color: #fff;
+}
+
+.btn.btn-primary.ghost:focus {
+	color: #fff;
+	background-color: #767676;
+	border-color: #767676;
+}
+
+/*-----BODEGA: LISTA DE VINOS*/
+
+
+
+
+/*-----BODEGA: MAPA*/
+
+#seccion-actividades.row{
+	height: 800px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background:#fde2ef;	
+}
+
+.contiene-filtros {
+	margin: 0 0 0 0;
+	padding: 130px 0 0 0;
+
+}
+
+
+.no-padding{
+	padding: 0 !important;
+}
+
+.contiene-filtros-group {
+	float: left;
+	text-align: left;
+	padding-left: 40%;
+}
+
+.contiene-filtros .checkbox-custom{
+	width: 90%;
+	padding: 10px 0;
+	max-width: 300px;
+	border-bottom: 1px solid #EF6079;
+}
+
+.contiene-filtros .checkbox-custom label { 
+	margin:0;
+	padding: 0;	
+	cursor: pointer;
+}
+
+.contiene-filtros .checkbox-custom input { 
+	cursor: pointer;
+}
+
+.contiene-filtros .checkbox-custom.municipios-vino {
+	background: url(../img_bodegas/municipios-pin-map.png) no-repeat center right;
+    background-size: 30px;
+}
+
+.contiene-filtros .checkbox-custom.restaurantes-cercanos {
+	background: url(../img_bodegas/restaurantes-pin-map.png) no-repeat center right;
+    background-size: 30px;
+}
+
+.contiene-filtros .checkbox-custom.alojamientos-cercanos {
+	background: url(../img_bodegas/alojamientos-pin-map.png) no-repeat center right;
+    background-size: 30px;
+	border:none;
+}
+
+
+
+/*-------------------------------------------------------------------RESPONSIVE---------991*/
+
+
+
+@media (max-width: 991px) {
+
+.banner-full-bodega {
+	height: 200px;	
+}
+
+.banner-full-bodega h1 {
+	font-size: 48px;	
+}
+	
+h2.ante-title {
+	font-size:17px;	
+}	
+
+h3.pro-title {
+	font-size: 32px;	
+}	
+	
+	
+h5 {
+    font-size: 20px;
+    line-height: 30px;
+}
+	
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.card-bodega {
+margin-top: 30px;
+}
+	
+.content-menu-bodega {
+    text-align: center;
+}
+	
+.servicios-bodega:nth-child(1),
+.servicios-bodega:nth-child(2)     {
+	float: left;
+	width: calc(100%/2 );
+	margin:0 0 0 0;
+	padding:0 30px;
+	background: #f8f8f8;
+}
+
+.servicios-bodega:nth-child(3) {
+	float: left;
+	width: 100%;
+	margin:0 0 0 0;
+	padding:0 30px;
+	background: #f8f8f8;	
+}
+	
+
+/*vinos*/	
+	
+.ficha-vino {
+padding-top:20px;
+padding-bottom:20px;
+}			
+
+p.titulo-vino {
+	font-size: 20px;	
+}	
+	
+	
+#seccion-actividades.row {
+	height: 450px;
+		
+}
+
+#seccion-actividades.row iframe{
+	height: 450px !important;
+		
+}	
+
+.contiene-filtros-group {
+	float: left;
+	text-align: left;
+	padding-left: 15%;
+}
+
+	
+	
+	
+	
+p.list-title {
+margin-top:30px;	
+}	
+
+#seccion-descripcion.row {
+	padding: 0 0 40px 0;
+}
+	
+#seccion-galeria.row {
+padding: 40px 0;
+}
+	
+#seccion-vinos.row {
+padding: 0 0 40px 0;
+}
+	
+.contiene-filtros {
+padding: 80px 0 0 0;
+}	
+	
+
+	
+	
+
+	
+	
+	
+}
+
+
+
+
+
+/*-------------------------------------------------------------------RESPONSIVE---------767*/
+
+
+
+@media (max-width: 767px) {
+
+
+.row.content-servicios {
+	background: none;
+}
+	
+	
+.row.content-servicios {
+	flex-wrap: wrap !important;
+	padding-bottom: 40px;
+}
+
+.banner-full-bodega h1 {
+	font-size: 32px;	
+}	
+		
+h5 {
+    font-size: 20px;
+    line-height: 30px;
+}
+	
+p {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.card-bodega {
+margin-top: 30px;
+}
+	
+	
+p.list-title {
+	margin-top:30px;	
+}	
+	
+.servicios-bodega:nth-child(1),
+.servicios-bodega:nth-child(2),
+.servicios-bodega:nth-child(3){
+	width: 100%;
+	padding:0 30px;
+	background: none;
+}
+
+
+	
+#seccion-galeria.row {
+padding: 0 0 40px 0;
+background: none;
+}
+	
+#seccion-galeria.row h2.ante-title,
+#seccion-galeria.row h3.pro-title	{
+display: none;
+}
+	
+#seccion-vinos.row {
+padding: 0 0 40px 0;
+background: none;
+}
+
+.ficha-vino {
+margin: 0 0 0 0;
+border-bottom: 1px solid #c1c1c1;
+}
+	
+.caracteristicas-vino .datos-vol-grape p span {
+width: 100%;
+}		
+	
+#seccion-vinos.row h2,
+#seccion-vinos.row h3,
+#seccion-vinos.row p.intro-conoce{
+display: none;
+}
+	
+.contiene-filtros {
+padding: 20px 0;
+}
+	
+#seccion-descripcion.row {
+	padding: 0 0 40px 0;
+}	
+	
+.contiene-filtros-group h2 {
+display: none;		
+}
+	
+#seccion-servicios {
+display: none;		
+}	
+	
+	
+	
+	
+	
+}
+
+
+/*-----------------------------------------------------LEER MÁS--------------------------------------------------*/
+.b-description_readmore_wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: none !important;
+    width: 100%;
+}
+
+.b-description_readmore {
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 30px;
+	font-size: 22px;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0;
+    padding-right: 15px;
+}
+
+
+.c-description_readmore {
+    position: relative;
+    margin-bottom: 15px;
+    line-height: 48px;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0;
+    padding-right: 15px;
+}
+
+.b-description_readmore_button {
+    display: inline-block;
+    width: 100%;
+	margin-bottom: 30px;
+    cursor: pointer;
+    text-align: left;
+    color:#c5003e;
+	font-weight: 600;
+}
+
+.b-description_readmore_button:hover{
+	text-decoration: underline;
+}
+
+.b-description_readmore_ellipsis:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 75%;
+    height: 25px;
+    background: rgba(255,255,255,0.65);
+	background: -moz-linear-gradient(left, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.7) 18%, rgba(255,255,255,0.71) 22%, rgba(255,255,255,0.72) 26%, rgba(255,255,255,0.75) 44%, rgba(255,255,255,0.8) 58%, rgba(255,255,255,0.85) 68%, rgba(255,255,255,1) 82%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0.65)), color-stop(18%, rgba(255,255,255,0.7)), color-stop(22%, rgba(255,255,255,0.71)), color-stop(26%, rgba(255,255,255,0.72)), color-stop(44%, rgba(255,255,255,0.75)), color-stop(58%, rgba(255,255,255,0.8)), color-stop(68%, rgba(255,255,255,0.85)), color-stop(82%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.7) 18%, rgba(255,255,255,0.71) 22%, rgba(255,255,255,0.72) 26%, rgba(255,255,255,0.75) 44%, rgba(255,255,255,0.8) 58%, rgba(255,255,255,0.85) 68%, rgba(255,255,255,1) 82%);
+	background: -o-linear-gradient(left, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.7) 18%, rgba(255,255,255,0.71) 22%, rgba(255,255,255,0.72) 26%, rgba(255,255,255,0.75) 44%, rgba(255,255,255,0.8) 58%, rgba(255,255,255,0.85) 68%, rgba(255,255,255,1) 82%);
+	background: -ms-linear-gradient(left, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.7) 18%, rgba(255,255,255,0.71) 22%, rgba(255,255,255,0.72) 26%, rgba(255,255,255,0.75) 44%, rgba(255,255,255,0.8) 58%, rgba(255,255,255,0.85) 68%, rgba(255,255,255,1) 82%);
+	background: linear-gradient(to right, rgba(255,255,255,0.65) 0%, rgba(255,255,255,0.7) 18%, rgba(255,255,255,0.71) 22%, rgba(255,255,255,0.72) 26%, rgba(255,255,255,0.75) 44%, rgba(255,255,255,0.8) 58%, rgba(255,255,255,0.85) 68%, rgba(255,255,255,1) 82%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+}
+/*-----------------------------------------------------LEER MÁS--------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------RESPONSIVE---------1199*/
+
+@media (max-width: 1199px) {
+	.winery-item {
+		width: calc(100%/2 - 20px);
+		height: 510px;
+		margin: 20px 10px;
+		padding: 10px;
+	}
+}
+/*-------------------------------------------------------------------RESPONSIVE---------1199*/
+
+
+
+/*-------------------------------------------------------------------RESPONSIVE---------991*/
+
+@media (max-width: 991px) {
+	.winery-item {
+		width: calc(100% - 20px);
+		height: 510px;
+		margin: 20px 10px;
+		padding: 10px;
+	}
+}
+/*-------------------------------------------------------------------RESPONSIVE---------991*/
+
+/*-------------------------------------------------------------------RESPONSIVE---------767*/
+
+@media (max-width: 767px) {
+	.winery-item {
+		width: 80%;
+		height: 510px;
+		margin: 20px 10%;
+		padding: 10px;
+	}
+}
+/*-------------------------------------------------------------------RESPONSIVE---------767*/
+
+
+
+/*-------------------------------------------------------------------RESPONSIVE---------479*/
+
+
+
+@media (max-width: 767px) {
+/*.grid-item {
+	width: 100% !important;
+	height: 300px !important;
+}
+*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

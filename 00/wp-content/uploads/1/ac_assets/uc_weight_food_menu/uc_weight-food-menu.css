@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_weight-food-menu *{margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;}
+   
+
+
+
+.uc_weight-food-menu{ height:485px;position:relative;
+-webkit-box-shadow: 0px 0px 7px 0px rgba(209,207,209,1);
+-moz-box-shadow: 0px 0px 7px 0px rgba(209,207,209,1);
+box-shadow: 0px 0px 7px 0px rgba(209,207,209,1);}
+.uc_weight-food-menu .uc_weight-food-menu_pic{width:100%; height:260px; }
+
+
+.uc_weight-food-menu .uc_weight-food-menu_content{ }
+.uc_weight-food-menu .uc_weight-food-menu_content .top-box{ border-bottom:1px solid #f7f7f7;padding:19px;}
+.uc_weight-food-menu .uc_weight-food-menu_content .top-box h3{font-size:14px;font-family: 'Aref Ruqaa', serif; margin:0px; font-weight:700;}
+.uc_weight-food-menu .uc_weight-food-menu_content .top-box h2{font-size:20px; font-family: 'Montserrat', sans-serif;margin:15px 0 10px; font-weight:700;text-transform:uppercase;}
+.uc_weight-food-menu .uc_weight-food-menu_content p{ padding:15px 19px;font-family: 'Lato', sans-serif; font-size:16px; line-height:28px;}
+
+
+@media screen and (max-width:414px){
+.uc_price-tag-food-menu h2{ font-size:18px;}	
+}
+
+
+
+
+

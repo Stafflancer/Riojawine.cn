@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_mega_circle_countdown * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_mega_circle_countdown .uc_mega_circle_countdown_inner{ background-size:cover !important;}
+.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer { width: 100%; text-align: center; padding:27px 0; clear:both; overflow:hidden;}
+.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div {
+	width:184px;
+	margin: 8px 15px;
+	display:inline-block;
+	text-align: center; 
+	position:relative;
+}
+
+.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div span{
+	position: relative;
+	border-radius:50%;
+	color:#fff;
+	width:184px;
+	height:184px;
+	line-height: 70px; 
+	font-size:40px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	border:2px solid #ff9a7f;
+	display:inline-block;
+}
+.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div span strong{
+	display:block;
+	position: relative;
+	border-radius:50%;
+	width:170px;
+	height:170px;
+	padding:28px 0;
+	margin:5px;
+}
+.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div em{ 
+	font-style:normal;
+	display: block;
+	line-height: 31px; 
+	font-weight:700;
+	font-size:15px;
+	text-transform:uppercase;
+	font-family: 'Lato', sans-serif;
+}
+/*
+@media only screen and (max-width: 840px) {
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div span{ width:150px; height:150px; line-height:52px;}
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div span strong{ width:136px; height:136px;}
+}
+@media only screen and (max-width: 725px) {
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div span{ width:110px; height:110px; line-height:normal; font-size:28px;}
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div span strong{ width:96px; height:96px; padding:15px 0;}
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div em{ font-size:12px;}
+}
+@media only screen and (max-width: 550px) {
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div span{ width:80px; height:80px; line-height:normal; font-size:22px;}
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div span strong{ width:66px; height:66px; padding:5px 0;}
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div em{ font-size:10px; line-height:normal;}
+}
+@media only screen and (max-width: 408px) {
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div { width:23%; margin:0 1%;}
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div span{ width:66px; height:66px; line-height:normal; font-size:18px;}
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div span strong{ width:56px; height:56px; padding:7px 0; margin:3px;}
+	.uc_mega_circle_countdown .uc_mega_circle_countdown_inner .timer div em{ font-size:9px; line-height:normal;}
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

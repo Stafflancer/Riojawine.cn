@@ -1,0 +1,73 @@
+/* ============================================================================= */
+/* Simple text rotator plugin styles. */
+/* ============================================================================= */
+
+.sp-text-rotate {
+  display     : inline-block;
+  white-space : nowrap;
+
+  @include media-breakpoint-down(sm) { white-space : normal; }
+}
+
+.rotating {
+  display: inline-block;
+  @include prefix(transform-style, preserve-3d, webkit moz);
+  @include prefix(transform, rotateX(0) rotateY(0) rotateZ(0), webkit moz);
+  @include prefix(transition, 0.5s, webkit moz);
+  -webkit-transform-origin-x: 50%;
+}
+
+.rotating.flip {
+  position: relative;
+}
+
+.rotating .front, .rotating .back {
+  left: 0;
+  top: 0;
+  @include prefix(backface-visibility, hidden, webkit moz ms);
+}
+
+.rotating .front {
+  position: absolute;
+  display: inline-block;
+  @include prefix(transform, translate3d(0,0,1px), webkit moz);
+}
+
+.rotating.flip .front {
+  z-index: 1;
+}
+
+.rotating .back {
+  display: block;
+  opacity: 0;
+}
+
+.rotating.spin {
+  @include prefix(transform, rotate(360deg) scale(0), webkit moz);
+}
+
+
+/* ================================= flip transitions */
+.rotating.flip .back {
+  z-index: 2;
+  display: block;
+  opacity: 1;
+
+  @include prefix(transform, rotateY(180deg) translate3d(0,0,0), webkit moz);
+}
+
+.rotating.flip.up .back {
+  @include prefix(transform, rotateX(180deg) translate3d(0,0,0), webkit moz);
+}
+
+.rotating.flip.cube .front {
+  @include prefix(transform, translate3d(0,0,100px) scale(0.85,0.85), webkit moz);
+}
+
+.rotating.flip.cube .back {
+  @include prefix(transform, rotateY(180deg) translate3d(0,0,100px) scale(0.9,0.9), webkit moz);
+}
+
+.rotating.flip.cube.up .back {
+  @include prefix(transform, rotateX(180deg) translate3d(0,0,100px) scale(0.9,0.9), webkit moz);
+}

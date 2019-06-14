@@ -1,0 +1,1 @@
+Powerful WordPress theme designed in a clean and minimalistic style. This theme can be used for any type of website, business, corporate, portfolio, products, marketing, etc. Soprano has been coded with love in PHP, HTML5, CSS3 and JavaScript. It is compatible with much premium plugins.

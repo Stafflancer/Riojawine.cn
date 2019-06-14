@@ -1,0 +1,106 @@
+/* ============================================================================= */
+/* Header stuck state. */
+/* ============================================================================= */
+
+#sp-header {
+  position : fixed;
+
+  body.admin-bar & { top : 32px; }
+
+  @media (max-width : 782px) {
+    body.admin-bar & { top : 46px; }
+  }
+
+  @media (max-width : 600px) {
+    body.admin-bar & { top : 0; }
+  }
+}
+
+#sp-header.header-stuck {
+  padding-top    : 15px;
+  padding-bottom : 15px;
+
+  .brand-logo {
+    font-size : 2rem;
+
+    .logo-dark { display : block; }
+    .logo-white { display : none; }
+  }
+}
+
+/* ================================= transform scroll animation */
+#sp-header.stuck-transform {
+  @media (max-width : 600px) {
+    body.admin-bar & { position : absolute; top : 0; }
+  }
+}
+
+/* ================================= slide-in scroll animation */
+#sp-header.stuck-slidein {
+  position   : absolute;
+  -webkit-transition : none;
+  transition : none;
+
+  body.admin-bar &:not(.header-stuck) { top : 0; }
+
+  &.header-stuck {
+    position  : fixed;
+    -webkit-animation : sp-header-stuck-slidein 500ms 1 forwards;
+            animation : sp-header-stuck-slidein 500ms 1 forwards;
+  }
+}
+
+@-webkit-keyframes sp-header-stuck-slidein {
+  from {
+    -webkit-transform : translate3d(0, -100%, 0);
+            transform : translate3d(0, -100%, 0);
+    opacity   : 0;
+  }
+
+  to {
+    -webkit-transform : translate3d(0, 0, 0);
+            transform : translate3d(0, 0, 0);
+    opacity   : 1;
+  }
+}
+
+@keyframes sp-header-stuck-slidein {
+  from {
+    -webkit-transform : translate3d(0, -100%, 0);
+            transform : translate3d(0, -100%, 0);
+    opacity   : 0;
+  }
+
+  to {
+    -webkit-transform : translate3d(0, 0, 0);
+            transform : translate3d(0, 0, 0);
+    opacity   : 1;
+  }
+}
+
+/* ================================= scroll styles */
+body:not(.sp-active-burger-menu) #sp-header.header-stuck {
+  background          : #ffffff;
+  border-bottom-color : #eeeeee;
+  color               : #333333;
+  -webkit-box-shadow          : 0 3px 20px 5px rgba(0, 0, 0, 0.1);
+          box-shadow          : 0 3px 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* ============================================================================= */
+/* Header responsiveness. */
+/* ============================================================================= */
+@include media-breakpoint-down(lg) {
+  #sp-primary-nav > .nav_menu { display : none; }
+}
+
+@include media-breakpoint-up(xl) {
+  #sp-primary-nav > #sp-mobile-nav-trigger { display : none; }
+}
+
+@include media-breakpoint-down(xs) {
+  #sp-header { padding : 10px 15px !important; }
+  #sp-header .brand-logo { font-size : 1.6rem !important; padding-right : $grid-gutter-width-base; }
+  #sp-header .header-extras { display : none; }
+}

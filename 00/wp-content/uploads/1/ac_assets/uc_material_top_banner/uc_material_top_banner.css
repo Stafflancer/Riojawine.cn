@@ -1,0 +1,17 @@
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.uc_material_top_banner img{ width:100%; display:block;}
+
+
+.uc_material_top_banner{ position:relative;font-family: 'Open Sans', sans-serif; color:#fff;overflow: hidden; background:#fff;}
+.uc_material_top_banner .uc_banner-content{ text-align:center; padding:25px 0 15px;}
+.uc_material_top_banner .uc_banner-content h3{ font-weight:600; font-size:16px;text-transform:uppercase;line-height: 16px;margin: 0 0 15px; text-align:center;}
+.uc_material_top_banner .uc_banner-content p{ font-weight:400; font-size:14px; margin:0px;line-height: 18px;}
+.uc_material_top_banner .uc_banner-img {float: left; height: 100%; width:100%; }
+
+ 
+
+
+@media only screen and (max-width: 767px) {
+	
+	
+}

@@ -1,0 +1,32 @@
+
+._blox_simple-event-box * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+	overflow: hidden; 
+}
+
+._blox_simple-event-box ._blox_event_box{
+	
+	padding:35px 27px;
+	overflow:hidden;
+}
+._blox_simple-event-box ._blox_event_box ._blox_left-img{
+	float:left;
+	width: 60px;
+height: 60px;
+border-radius: 50%;
+overflow: hidden;	
+
+}
+._blox_simple-event-box ._blox_event_box ._blox_content{
+	float:left;
+	left:80px;
+	padding:0 0 0 15px;
+}
+
+._blox_simple-event-box ._blox_event_box ._blox_content ._blox_heading{font-size: 18px;	font-weight: 600;	line-height: 28px; color:#fff;}
+._blox_simple-event-box ._blox_event_box ._blox_content ._blox_sub-heading{	color: #7C7F87;	font-family: "Open Sans";	font-size: 13px;	line-height: 22px;}
+._blox_simple-event-box ._blox_event_box a{border-radius: 3px; color:#fff;font-size: 13px;font-weight: 600;line-height: 28px;	text-align: center;padding: 4px 15px;display: inline-block; text-decoration:none; float:right; margin: 12px 0 0;}

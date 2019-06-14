@@ -1,0 +1,60 @@
+.uc_jumbo_food_menu * {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_jumbo_food_menu {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.uc_jumbo_food_menu .uc_menu_list {
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+	margin: 0;
+	overflow: hidden;
+	padding: 1.5em 0;
+}
+.uc_jumbo_food_menu .uc_menu_image {
+	float: left;
+	width: 15%;
+}
+.uc_jumbo_food_menu .uc_menu_image img {
+	vertical-align: top;
+	max-width: 100%;
+}
+.uc_jumbo_food_menu .uc_menu_description {
+	float: left;
+	width: 75%;
+	padding: 0 40px;
+}
+.uc_jumbo_food_menu .uc_menu_description h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+.uc_jumbo_food_menu .uc_menu_description h2 {
+	color: #333;
+	text-decoration: none;
+	padding-bottom: 3px;
+}
+.uc_jumbo_food_menu .us_menu_text {
+	padding: 15px 0;
+}
+
+.uc_jumbo_food_menu .uc_menu_price {
+	float: right;
+	color:#7AB163;
+	font-size: 76px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+@media (max-width:480px) {
+.uc_jumbo_food_menu {
+	text-align: center;
+}
+.uc_jumbo_food_menu .uc_menu_image, .uc_jumbo_food_menu .uc_menu_description, .uc_jumbo_food_menu .uc_menu_price {
+	float: none;
+	width: 100%;
+	margin-bottom: 15px;
+}
+}

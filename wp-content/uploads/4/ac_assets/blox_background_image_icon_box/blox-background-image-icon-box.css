@@ -1,0 +1,57 @@
+.blox-background-image-icon-box * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.blox-background-image-icon-box{
+	font-family: inherit;
+	position:relative;
+	padding:30px;
+	}
+
+.blox-background-image-icon-box .blox-background-image-icon-box-inner{
+	position: relative;
+	z-index: 1;
+}
+.blox-background-image-icon-box .blox-background-image-icon-box-overlay{
+	background: linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%);
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index: 0;
+	}
+.blox-background-image-icon-box .blox-background-image-icon-box-icon{
+	color:#ffffff;
+	font-size:28px;
+	width:72px;
+	height:72px;
+	position:relative;
+	border-radius:100%;
+	border:#ffffff 2px solid;
+	margin-bottom: 20px;
+	display: inline-block;
+	}
+.blox-background-image-icon-box .blox-background-image-icon-box-icon i{
+	position:absolute;
+	top:50%;
+	bottom:50%;
+	left:50%;
+	right:50%;
+	margin:-14px;
+	} 	
+	
+.blox-background-image-icon-box .blox-background-image-icon-box-heading{
+	color:#ffffff;
+	font-size:24px;
+	line-height:33px;
+	margin:0 0 14px 0;
+	}
+.blox-background-image-icon-box .blox-background-image-icon-box-content{
+	font-size:15px;
+	line-height:24px;
+	color: #ffffff;
+	}

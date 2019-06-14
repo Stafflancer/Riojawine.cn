@@ -1,0 +1,99 @@
+
+.blox-news-ticker-with-date-label * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.blox-news-ticker-with-date-label{
+	border: 2px solid transparent;
+	font-family: inherit;
+	
+	display: table;
+    height: 100%;
+    width: 100%;
+}
+.blox-news-ticker-with-date-label .bx-wrapper {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
+}
+.blox-news-ticker-with-date-label .blox-ticker-heading{
+	background: transparent;
+	padding:12px 17px;
+	position:relative;
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	font-weight:bold;
+	
+	display:table;
+	vertical-align:middle;
+	height:100%;
+}
+.blox-news-ticker-with-date-label .blox-ticker-heading .blox-heading-content{
+	
+	display:table-cell;
+	vertical-align:middle;
+	position:relative;
+}
+.blox-news-ticker-with-date-label .blox-ticker-content{
+	padding:12px 110px 12px 12px;
+	overflow:hidden;
+	position:relative;
+	
+	display:table-cell;
+	vertical-align:middle;
+	height:100%;
+}
+.blox-news-ticker-with-date-label .blox-ticker-content .blox-ticker-box{
+	color: #000000; 
+	font-size: 14px; 
+	line-height: 19px; 
+}
+.blox-news-ticker-with-date-label .blox-ticker-content .blox-ticker-box a{
+	color:#000;
+	text-decoration:none;
+}
+.blox-news-ticker-with-date-label .blox-ticker-content .blox-ticker-control{
+	position: absolute;
+    right: 0;
+    top: 50%;
+	height:100%;
+    transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+.blox-news-ticker-with-date-label .blox-ticker-content .blox-ticker-control .blox-ticker-nav a{
+    color: inherit !important;
+    display: table-cell;
+    font-size: 12px;
+    padding: 14px 20px;
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+}
+
+.blox-ticker-nav { 
+	float: right; 
+	border: 0 none;
+    display: table;
+    height: inherit;
+    vertical-align: top;
+}
+.blox-ticker-nav + .blox-ticker-nav{ 
+	border: 0 none;
+    display: table;
+    float: left;
+    height: inherit;
+    vertical-align: top;
+	margin-right:1px;
+}
+
+
+@media screen and (max-width: 639px) {
+	.blox-news-ticker-with-date-label .blox-ticker-content .blox-ticker-control .blox-ticker-nav a{ top:0;}
+}

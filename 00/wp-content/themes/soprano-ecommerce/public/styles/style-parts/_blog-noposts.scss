@@ -1,0 +1,52 @@
+/* ============================================================================= */
+/* No posts found page. */
+/* Search without results or when blog does not have any posts. */
+/* ============================================================================= */
+
+#sp-blog-inner .sp-loop-noposts {
+  width      : 100%;
+  text-align : center;
+
+  form.search-form {
+    position : relative;
+    width    : 400px;
+    margin   : auto;
+
+    label {
+      width         : 100%;
+      margin-bottom : 0;
+    }
+
+    .screen-reader-text { display : none; }
+
+    input[name="s"] {
+      width         : 100%;
+      padding       : 6px 85px 6px 15px;
+      border        : 1px solid #eee;
+      border-radius : 30px;
+      outline       : none;
+      -webkit-transition    : border 0.25s linear;
+      transition    : border 0.25s linear;
+      &:focus {
+        border     : 1px solid #ddd;
+        -webkit-transition : border 0.25s linear;
+        transition : border 0.25s linear;
+      }
+    }
+
+    input[type="submit"] {
+      position      : relative;
+      float         : right;
+      margin-top    : -42px;
+      background    : $brand-primary;
+      border        : none;
+      padding       : 7px 15px;
+      color         : #fff;
+      border-radius : 30px;
+      z-index       : 6;
+      outline       : none;
+
+      &:hover { cursor : pointer; }
+    }
+  }
+}

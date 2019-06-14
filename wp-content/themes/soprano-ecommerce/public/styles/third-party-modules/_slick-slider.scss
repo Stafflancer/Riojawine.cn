@@ -1,0 +1,231 @@
+/* Slider */
+
+.slick-slider {
+  position                    : relative;
+  display                     : block;
+  -webkit-box-sizing                  : border-box;
+          box-sizing                  : border-box;
+  -webkit-touch-callout       : none;
+  -webkit-user-select         : none;
+  -moz-user-select            : none;
+  -ms-user-select             : none;
+  user-select                 : none;
+  -ms-touch-action            : pan-y;
+  touch-action                : pan-y;
+  -webkit-tap-highlight-color : transparent;
+
+  &:hover .slick-arrow.circle {
+    &.slick-next {
+      right   : 15px;
+      opacity : 1;
+    }
+    &.slick-prev {
+      left    : 15px;
+      opacity : 1;
+    }
+  }
+}
+
+.slick-list {
+  position : relative;
+  overflow : hidden;
+  display  : block;
+  margin   : 0;
+  padding  : 0;
+
+  &:focus {
+    outline : none;
+  }
+
+  &.dragging {
+    cursor : pointer;
+    cursor : hand;
+  }
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform : translate3d(0, 0, 0);
+  transform         : translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position : relative;
+  left     : 0;
+  top      : 0;
+  display  : block;
+
+  &:before,
+  &:after {
+    content : "";
+    display : table;
+  }
+
+  &:after {
+    clear : both;
+  }
+
+  .slick-loading & {
+    visibility : hidden;
+  }
+}
+
+.slick-slide {
+  float      : left;
+  height     : 100%;
+  min-height : 1px;
+  [dir="rtl"] & {
+    float : right;
+  }
+  img {
+    display   : inline-block;
+    max-width : 100%; height : auto;
+  }
+  &.slick-loading img {
+    display : none;
+  }
+
+  display    : none;
+
+  &.dragging img {
+    pointer-events : none;
+  }
+
+  .slick-initialized & {
+    display : block;
+  }
+
+  .slick-loading & {
+    visibility : hidden;
+  }
+
+  .slick-vertical & {
+    display : block;
+    height  : auto;
+    border  : 1px solid transparent;
+  }
+}
+
+.slick-arrow.slick-hidden {
+  display : none;
+}
+
+.slick-arrow {
+  position           : absolute;
+  left               : 0; top : 0; bottom : 0;
+  width              : 15%;
+  opacity            : 0.6;
+  color              : inherit;
+  border             : 0;
+  outline            : none !important;
+  background         : transparent;
+  -webkit-appearance : none;
+  font-size          : 0;
+  display            : inline-block;
+  padding            : 0;
+  line-height        : 1;
+  z-index            : 100;
+
+  &:hover { opacity : 1; }
+
+  &:before {
+    font-family : $icon-font-family;
+    content     : "\f3d2";
+    font-size   : 40px;
+  }
+
+  &.slick-next {
+    left  : auto;
+    right : 0;
+
+    &:before { content : '\f3d3' }
+  }
+
+  &.slick-disabled {
+    opacity        : 0.2;
+    //visibility : hidden;
+    pointer-events : none;
+  }
+
+  &.circle {
+    font-size       : 18px;
+    background      : #fff;
+    cursor          : pointer;
+    position        : absolute;
+    top             : 50%;
+    text-align      : center;
+    margin-top      : -18px;
+    -webkit-transition      : all 0.25s;
+    transition      : all 0.25s;
+    text-decoration : none;
+    border-radius   : 50%;
+    width           : 36px;
+    height          : 36px;
+    line-height     : 36px;
+
+    &:before { content : none; }
+
+    > i {
+      position : relative;
+      color    : #333;
+    }
+
+    &:hover { background : $brand-primary; }
+    &:hover i { color : #fff; }
+
+    &.slick-next {
+      right   : 0;
+      opacity : 0;
+    }
+    &.slick-prev {
+      left    : 0;
+      opacity : 0;
+    }
+  }
+}
+
+.slick-dots {
+  @include reset-box-model(true);
+  margin-top  : 30px;
+  left        : 0; width : 100%;
+  text-align  : center;
+  z-index     : 150;
+  line-height : 1;
+  font-size   : 0;
+
+  > li { display : inline-block; }
+
+  button {
+    color              : transparent;
+    text-indent        : -9999px;
+    -webkit-appearance : none;
+    display            : inline-block;
+    height             : 1em;
+    width              : 1em;
+    margin-right       : .4em;
+    margin-left        : .4em;
+    padding            : 0;
+    border             : 0;
+    outline            : none !important;
+    border-radius      : 50%;
+    background         : #ddd;
+    -webkit-transition         : background-color 0.25s;
+    transition         : background-color 0.25s;
+    font-size          : 0.9375rem;
+  }
+
+  > li:hover button, > li.slick-active button {
+    background-color : $brand-primary;
+  }
+}
+
+.slick-dots-inside .slick-dots {
+  position   : absolute;
+  bottom     : 2.625rem;
+  margin-top : 0;
+
+  button {
+    background : #fff;
+    font-size  : 1rem;
+  }
+}

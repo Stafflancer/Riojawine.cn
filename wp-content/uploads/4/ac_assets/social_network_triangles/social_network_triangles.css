@@ -1,0 +1,47 @@
+.uc_social_network_triangles *{
+	margin: 0;
+	padding: 0;
+}
+.uc_social_network_triangles{
+	margin: 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+.uc_social_network_triangles li {
+    margin:0px 0;
+    list-style: none;
+}
+.uc_social_network_triangles .uc_social_list{
+	padding-left: 0;
+    list-style: none;
+	margin:0;
+}
+.uc_social_network_triangles .uc_social_list .uc_social_link{
+    box-sizing: border-box;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.uc_social_network_triangles .uc_social_list .uc_social_link div.uc_triangle-down{
+	
+	border-left: 43px solid transparent;
+    border-right: 43px solid transparent;
+}
+
+.uc_social_network_triangles .uc_social_list .uc_social_link .uc_triangle-down {
+ 
+    height: 0;
+    margin: 0 auto;
+    width: 0;
+}
+.uc_social_network_triangles .uc_social_list .uc_social_link .uc_triangle-down .uc_social_item {
+    margin: -65px 0 0 -20px;
+	width:40px;
+	text-align:center;
+}
+.uc_social_network_triangles .uc_social_list .uc_social_link .uc_triangle-down .uc_social_item a i{
+	font-size: 32px;
+	color:#fff;
+}

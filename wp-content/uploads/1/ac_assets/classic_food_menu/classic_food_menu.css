@@ -1,0 +1,44 @@
+.uc_classic_food_menu * {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_classic_food_menu {
+	position: relative;
+	font-family: Helvetica, ​Arial, ​sans-serif;
+}
+.uc_classic_food_menu ul {
+	margin: 0;
+	padding: 0px;
+	list-style: 0;
+}
+.uc_classic_food_menu ul li {
+	border-bottom: 1px dashed #555;
+	display: block;
+	overflow: hidden;
+	padding: 15px 10px 15px;
+	color: #fff;
+}
+.uc_classic_food_menu ul .uc_grid2column {
+	font-size: 17px;
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	width: 48.5%;
+	margin-right: 3%;
+	float: left;
+}
+.uc_classic_food_menu .uc-clearfix {
+	clear: both;
+}
+.uc_classic_food_menu .uc_lastcolumn {
+	margin-right: 0 !important;
+	text-align: right;
+}
+.uc_classic_food_menu .uc-item-description-menu {
+	color: #888;
+	font-size: 12px;
+	margin-top: 5px;
+	width: 60%;
+}

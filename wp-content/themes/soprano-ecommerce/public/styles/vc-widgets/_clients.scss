@@ -1,0 +1,34 @@
+/* ============================================================================= */
+/* Clients page. */
+/* ============================================================================= */
+
+.sp-clients-grid .sp-clients-block {
+  background    : #fff;
+  padding       : 2rem;
+  margin-bottom : 30px;
+  -webkit-transition    : -webkit-box-shadow 0.5s;
+  transition    : -webkit-box-shadow 0.5s;
+  transition    : box-shadow 0.5s;
+  transition    : box-shadow 0.5s, -webkit-box-shadow 0.5s;
+  will-change   : box-shadow;
+
+  > img {
+    padding-bottom : 1.5rem;
+    display        : inline-block;
+    max-width      : 100%;
+    opacity        : 0.85; 
+    -webkit-transition     : opacity 0.25s; 
+    transition     : opacity 0.25s;
+    will-change    : opacity;
+  }
+
+  &:hover {
+    -webkit-box-shadow : 0 0 25px 1px rgba(0, 0, 0, 0.075);
+            box-shadow : 0 0 25px 1px rgba(0, 0, 0, 0.075);
+    > img { opacity : 1; }
+  }
+
+  > .client-title { margin-bottom : 1.5rem; }
+
+  .btn { -webkit-transition-property: background, border; transition-property: background, border; }
+}

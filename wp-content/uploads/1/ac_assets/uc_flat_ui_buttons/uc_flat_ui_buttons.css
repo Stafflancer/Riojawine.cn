@@ -1,0 +1,88 @@
+/* Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.uc_flat_ui_buttons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_flat_ui_buttons .uc_container_holder{
+	position:relative;
+	text-align:center;
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+
+/* start da css for da buttons */
+.uc_flat_ui_buttons .uc_container_holder .uc_btn {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 0px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_blue:hover {
+  background-color: #6FC6FF;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_green:hover {
+  background-color: #48E68B;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_red {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_red:hover {
+  background-color: #FF6656;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_purple {
+  background-color: #9b59b6;
+  box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_purple:hover {
+  background-color: #B573D0;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_orange {
+  background-color: #e67e22;
+  box-shadow: 0px 5px 0px 0px #CD6509;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_orange:hover {
+  background-color: #FF983C;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_yellow {
+  background-color: #f1c40f;
+  box-shadow: 0px 5px 0px 0px #D8AB00;
+}
+
+.uc_flat_ui_buttons .uc_container_holder .uc_yellow:hover {
+  background-color: #FFDE29;
+}

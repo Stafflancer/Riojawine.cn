@@ -1,0 +1,77 @@
+
+.uc_round_row_food_menu *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_round_row_food_menu .uc_round_row_container_holder
+{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	line-height:30px;
+	overflow:hidden;
+	color:#7e7e7e;
+}
+
+.uc_round_row_food_menu .uc_round_row_container_holder .uc_placeholder
+{
+	float:left;
+	margin-right:12px;
+	margin-top:10px;
+	width:110px;
+	height:110px;
+	border-radius:50%;
+	overflow:hidden;
+}
+
+.uc_round_row_food_menu .uc_round_row_container_holder .uc_right_content h2
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	line-height:normal;
+	padding:0px 0 16px 0;
+	margin:0px;
+	color:#161616;
+}
+.uc_round_row_food_menu .uc_round_row_container_holder .uc_right_content h2 span
+{
+	font-weight:normal;
+	color:#a0a0a0;
+	margin-left:12px;
+	word-break:break-all;
+}
+.uc_round_row_food_menu .uc_round_row_container_holder .uc_right_content
+{
+	float:left;
+	width:calc(100% - 122px);
+}
+
+.uc_round_row_food_menu .uc_round_row_container_holder .uc_right_content p
+{
+	margin:0px;
+	padding-bottom:10px;
+}
+
+.uc_round_row_food_menu .uc_round_row_container_holder .uc_right_content strong
+{
+	font-family: 'Montserrat', sans-serif;
+	color:#e60d00;
+	font-size:16px;
+	font-weight:700;
+}
+
+@media only screen and (max-width :414px)
+{
+	.uc_round_row_food_menu .uc_round_row_container_holder .uc_placeholder
+	{
+		float:none;
+		margin:20px auto;
+	}
+
+}
+
+
+

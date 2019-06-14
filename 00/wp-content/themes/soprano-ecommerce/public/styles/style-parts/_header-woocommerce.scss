@@ -1,0 +1,108 @@
+/* ============================================================================= */
+/* WooCommerce. */
+/* ============================================================================= */
+#sp-header .header-extras > .sp-shop-icon {
+  position : relative;
+  display  : inline-block;
+  padding  : 5px 10px;
+
+  > .hover-icon {
+    position : relative;
+    color    : inherit;
+    display  : inline-block;
+
+    > .cart-badge {
+      position      : absolute;
+      font-size     : 12px;
+      line-height   : 1;
+      top           : -8px;
+      right         : -10px;
+      background    : $brand-primary;
+      color         : #fff;
+      padding       : 2px 5px;
+      border-radius : 10px;
+    }
+
+    i { font-size : 22px; -webkit-transition : opacity 0.25s; transition : opacity 0.25s; }
+  }
+
+  > .hover-cart-wrap {
+    position   : absolute;
+    top        : 100%;
+    right      : 10px;
+    width      : 250px;
+    opacity    : 0;
+    visibility : hidden;
+    -webkit-transform  : translateY(-10px);
+            transform  : translateY(-10px);
+    -webkit-transition : all 0.25s;
+    transition : all 0.25s;
+
+    > .hover-cart-contents {
+      margin-top : 15px;
+      background : #fff;
+      color      : $body-color;
+      font-size  : 15px;
+      -webkit-box-shadow : 0 6px 12px rgba(0, 0, 0, 0.175);
+              box-shadow : 0 6px 12px rgba(0, 0, 0, 0.175);
+      padding    : 15px;
+      border-top : 1px solid #eee;
+
+      > ul.product_list_widget li {
+        padding: 0 0 15px 0;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 15px;
+        position: relative;
+        .remove_from_cart_button {
+          position: absolute;
+          right: 0;
+          padding: 0;
+          margin: 0;
+          color: #000 !important;
+          &:hover {
+            background: none;
+            color: red !important;
+          }
+        }
+
+        a {
+          font-size: 1rem;
+          font-weight: 600;
+          padding-bottom: 7px;
+        }
+        img {
+          width: 48px;
+        }
+      }
+
+      p:last-child { margin-bottom : 0; }
+
+      p.woocommerce-mini-cart__total {
+        margin-bottom: 1rem;
+      }
+
+      .woocommerce-mini-cart__buttons a {
+        display: inline-block;
+        &:first-child {
+          text-align: left;
+        }
+        &:last-child {
+          float: right;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    > .hover-cart-wrap {
+      opacity    : 1;
+      visibility : visible;
+      -webkit-transform  : translate3d(0, 0, 0);
+              transform  : translate3d(0, 0, 0);
+    }
+
+    > .hover-icon > i {
+      opacity : 0.6;
+    }
+  }
+}

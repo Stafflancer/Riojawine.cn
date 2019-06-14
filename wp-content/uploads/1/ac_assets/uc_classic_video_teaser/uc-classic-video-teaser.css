@@ -1,0 +1,113 @@
+.uc-classic-video-teaser * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+.uc-classic-video-teaser .uc-classic-video-teaser-inner{
+	height:100vh;
+	display:flex;
+	font-weight:400;
+	align-items:center;
+}
+
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner {
+	display: flex;
+	margin: 0 auto;
+	text-align: left;
+	width:70%;
+}
+
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content {
+  	width: 58%;
+}
+
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-title{
+	display:block;
+	font-size:80px;
+	line-height:95px;
+	font-weight:300;
+	text-transform:uppercase;
+}
+
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-desc{
+	font-size:18px;
+	line-height:26px;
+	margin:45px 0;
+}
+
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-play-btn{
+	width:100px;
+	height:100px;
+	display:block;
+	background-color:rgba(58,240,225,0.70);
+	line-height:100px;
+	text-align:center;
+	color:#ffffff;
+	border-radius:50%;
+	font-size:30px;
+	box-shadow:0 18px 20px rgba(0, 0, 0, 0.28);
+}
+
+
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-play-btn{transition: all 1s ease-out;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-play-btn:hover{ background:#3af07d !important; color:#fff !important; transition: all 1s ease-out;}
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1860px) {
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-title{ font-size:70px; line-height:90px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content { width: 60%;}
+}
+
+@media only screen and (min-width: 1260px) and (max-width: 1599px) {
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-title{ font-size:60px; line-height:80px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content { width: 65%;}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1259px) {
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-title{ font-size:50px; line-height:75px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner{ width:75%;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content { width: 70%;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-desc {  font-size: 16px;  line-height: 26px;  margin: 20px 0 35px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-play-btn {  font-size: 26px;  height: 85px;  line-height: 85px;  width: 85px;}
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1024px) {
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-title{ font-size:40px; line-height:55px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner{ width:75%;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content { width: 70%;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-desc {  font-size: 15px;  line-height: 26px;  margin: 15px 0 30px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-play-btn {  font-size: 24px;  height: 75px;  line-height: 75px;  width: 75px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-title{ font-size:35px; line-height:50px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner{ width:75%;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content { width: 70%;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-desc {  font-size: 14px;  line-height: 24px;  margin: 15px 0 30px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-play-btn {  font-size: 22px;  height: 68px;  line-height: 68px;  width: 68px; box-shadow:0 10px 20px rgba(0, 0, 0, 0.28);}
+}
+
+@media only screen and (max-width: 767px) {
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-title{ font-size:32px; line-height:50px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner{ width:75%;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content { width: 70%;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-desc {  font-size: 13px;  line-height: 24px;  margin: 10px 0 24px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-play-btn {  font-size: 20px;  height: 55px;  line-height: 55px;  width: 55px; box-shadow:0 10px 20px rgba(0, 0, 0, 0.28);}
+}
+
+@media only screen and (max-width: 590px) {
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-title {  font-size: 28px;  line-height: 45px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-desc {  font-size: 12px;  line-height: 20px;  margin: 6px 0 20px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-play-btn {  box-shadow: 0 6px 11px rgba(0, 0, 0, 0.28);  font-size: 15px;  height: 40px;  line-height: 40px;  width: 40px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner {  width: 80%;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content {  width: 75%;}
+}
+
+@media only screen and (max-width: 455px) {
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content {  width: 100%;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-title {  font-size: 25px;  line-height: 40px;}
+.uc-classic-video-teaser .uc-classic-video-teaser-inner .uc-banner .uc-banner-content .uc-desc {  margin: 10px 0 15px;  text-align: justify;}
+}

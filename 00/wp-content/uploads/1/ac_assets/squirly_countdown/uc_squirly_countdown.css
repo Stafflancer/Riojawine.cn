@@ -1,0 +1,58 @@
+
+.uc_squirly_countdown *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_squirly_countdown .uc_countdown_box{
+	position:relative;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:normal;
+	text-align:center;
+}
+.uc_squirly_countdown .uc_countdown_box .uc_countdown span{
+    color: #000;
+    display: inline-block;
+    font-size: 22px;
+	font-size:60px;
+	margin:8px 20px;
+}
+.uc_squirly_countdown .uc_countdown_box .uc_countdown strong{
+	display:block;
+	padding:20px 0;
+	font-weight:400;
+	margin-bottom:20px;
+  width:160px;
+}
+.uc_squirly_countdown .uc_countdown_box .uc_countdown b{
+	display:block;
+	font-weight:400;
+	font-size:8px;
+	font-size:20px;
+	color:#000;
+}
+
+@media (max-width:960px)
+  {
+    .uc_squirly_countdown .uc_countdown_box .uc_countdown span{
+ 
+	font-size:20px;
+	margin:8px 10px;
+}
+    
+    .uc_squirly_countdown .uc_countdown_box .uc_countdown strong{
+	padding:10px 0;
+	font-weight:400;
+	margin-bottom:10px;
+  width:auto;
+}
+.uc_squirly_countdown .uc_countdown_box .uc_countdown b{
+	font-size:12px;
+}
+    
+    
+    
+    
+  }

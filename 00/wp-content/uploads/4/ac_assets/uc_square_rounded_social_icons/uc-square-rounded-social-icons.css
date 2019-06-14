@@ -1,0 +1,42 @@
+
+.uc-square-rounded-social-icons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc-square-rounded-social-icons {
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+.uc-square-rounded-social-icons .uc-social-icons-box{
+	display:inline-block;
+	margin:0 30px 15px;
+}
+.uc-square-rounded-social-icons .uc-social-icons-box a{
+	font-size:30px;
+	line-height:32px;
+    display: block;
+	padding:29px 0px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+	font-weight:400;
+	font-family: 'PT Sans', sans-serif;
+	border:2px solid transparent;
+	border-radius:16px;
+	width:91px;
+	height:91px;
+}
+.uc-square-rounded-social-icons .uc-social-icons-box:hover a{
+	color: inherit !important;
+	background:#fff;
+	border-color:#fff !important; 
+}
+.uc-square-rounded-social-icons .uc-social-icons-box span{
+	text-transform:capitalize;
+	display:inline-block;
+	margin-left:7px;
+}

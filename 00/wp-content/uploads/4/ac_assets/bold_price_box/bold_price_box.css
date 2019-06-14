@@ -1,0 +1,55 @@
+.uc_bold_price_box * {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_bold_price_box .uc_bold_barber_image img {
+	width: 100%;
+	display: block;
+}
+.uc_bold_price_box .uc_bold_price_content {
+	padding: 28px 28px 30px;
+	margin: 3px 0 0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #999999;
+	font-weight: 400;
+	line-height: 20px;
+	font-size: 14px;
+	position: relative;
+	z-index: 5;
+}
+.uc_bold_price_box .uc_bold_price_content h3 {
+	font-weight: 400;
+	color: #ffffff;
+	margin: 0;
+	font-size: 24px;
+	line-height: 34px;
+	transition-delay: 0s;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.uc_bold_price_box p {
+	color: rgba(255,255,255,0.7);
+}
+.uc_bold_price_box .uc_bold_price_content .uc_bold_price {
+	
+	height: 65px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -40px;
+	border: 3px solid #ffffff;
+	z-index: 10;
+	padding: 12px 0;
+	font-size: 24px;
+	line-height: 34px;
+	color: #ffffff;
+}
+.uc_bold_price_box .uc_bold_price_content .uc_bold_price h3:hover {
+	color: #ffffff;
+}

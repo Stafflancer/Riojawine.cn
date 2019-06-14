@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_sale_product_box * { 
+	margin: 0; padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+.uc_sale_product_box .uc_top_product{ height:360px; position:relative;overflow: hidden;padding: 20px; text-align:center}
+.uc_sale_product_box .uc_top_product .uc_top_pic{position:absolute; top:50%; transform:translateY(-50%);width: 100%;left: 0;}
+.uc_sale_product_box .uc_top_product .uc_top_pic img{ max-width:100%;}
+.uc_sale_product_box .uc_top_product .uc_price-tag{ position:absolute; top:20px; right:0px; background:#f84848;font-family: 'Open Sans', sans-serif; font-weight:700; font-size:18px; padding:10px 14px;}
+
+
+.uc_sale_product_box .uc_sale_product_box_inner{overflow:hidden; padding:0px;/*font-family: 'Droid Serif', serif;*/font-family: 'Open Sans', sans-serif;}
+.uc_sale_product_box .uc_sale_product_box_inner .uc_left{ padding:20px; text-align:center;}
+.uc_sale_product_box .uc_sale_product_box_inner .uc_left p{ font-size:20px;font-weight:600; margin:0px; line-height:normal; text-transform:uppercase;}
+.uc_sale_product_box .uc_sale_product_box_inner .uc_left h2{ font-size:18px;font-weight:700; line-height:normal; margin:14px 0 8px;  text-transform:uppercase;}
+.uc_sale_product_box .uc_sale_product_box_inner .uc_left h2 span{ font-weight:700;font-weight:400; margin-left:20px; text-decoration:line-through;}
+.uc_sale_product_box .uc_sale_product_box_inner .uc_left .fa{ font-size:14px; margin:0 3px 0 0; color:#ffc24b;}
+.uc_sale_product_box .uc_sale_product_box_inner .uc_left .uc_button_box{ text-align:center; padding:15px 0;}
+.uc_sale_product_box .uc_sale_product_box_inner .uc_left a{ padding:5px 0; text-transform:uppercase; font-size:14px;font-weight:700; text-decoration:none;font-family: 'Open Sans', sans-serif; margin:0px; display:inline-block;width:44%; line-height:normal;}
+
+.uc_sale_product_box:hover .uc_left p{ color:#328cd8 !important;}
+
+
+
+@media only screen and (max-width: 767px) {
+/*.uc_sale_product_box .uc_sale_product_box_inner .uc_left a{ width:49%;}*/
+	
+}

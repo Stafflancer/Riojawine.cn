@@ -1,0 +1,131 @@
+/* ============================================================================= */
+/* Helper mixins */
+/* ============================================================================= */
+
+// list with icons instead of bullets
+@mixin iconic-list($icon-width: 2em) {
+  padding-left    : 0;
+  margin-left     : $icon-width;
+  list-style-type : none;
+
+  > li { position : relative; }
+
+  > li .li-icon {
+    position   : absolute;
+    left       : -$icon-width;
+    width      : $icon-width;
+    top        : 0;
+    text-align : left;
+  }
+}
+
+// overlay shorthand
+@mixin overlay-base($position: absolute) {
+  position : $position;
+  top      : 0; bottom : 0;
+  right    : 0; left : 0;
+  width    : 100%; height : 100%;
+}
+
+// shorthand for bg size cover declaration
+@mixin cover-bg-base() {
+  background-size     : cover;
+  background-position : center;
+  background-repeat   : no-repeat;
+}
+
+// shorthand for object-fit prefixized definition
+@mixin object-fit($value: cover) {
+  -o-object-fit : $value;
+  object-fit    : $value;
+
+  @if $value != none {
+    font-family : 'object-fit: #{$value};'
+  }
+
+  @if $value == none {
+    font-family : inherit;
+  }
+}
+
+// box model reset helper
+@mixin reset-box-model($ul-reset: false) {
+  margin  : 0;
+  padding : 0;
+  border  : 0;
+
+  @if $ul-reset == true {
+    list-style : none;
+  }
+}
+
+// makes text invisible
+@mixin hide-text() {
+  font             : #{'0/0'} a;
+  color            : transparent;
+  text-shadow      : none;
+  background-color : transparent;
+  border           : 0;
+}
+
+// shorthand for prefixed placeholder styles
+@mixin placeholder-styles() {
+  &::-webkit-input-placeholder { @content }
+  &::-moz-placeholder { @content }
+  &:-moz-placeholder { @content }
+  &:-ms-input-placeholder { @content }
+}
+
+// make element visible only for screen readers
+@mixin only-for-sr() {
+  clip        : rect(1px, 1px, 1px, 1px);
+  position    : absolute !important;
+  white-space : nowrap;
+  height      : 1px;
+  width       : 1px;
+  overflow    : hidden;
+}
+
+// border-radius shorthand
+@mixin _border-radius-extended($topLeft: 0, $topRight: 0, $bottomRight: 0, $bottomLeft: 0) {
+  @if $topLeft != 0 { border-top-left-radius: $topLeft; }
+  @if $topRight != 0 { border-top-right-radius: $topRight; }
+  @if $bottomRight != 0 { border-bottom-right-radius: $bottomRight; }
+  @if $bottomLeft != 0 { border-bottom-left-radius: $bottomLeft; }
+}
+
+@mixin border-radius($size...) {
+  @if length($size) == 1 {
+    border-radius: $size;
+  } @else {
+    @include _border-radius-extended($size...);
+  }
+}
+
+// shorthand helper for prefixing variables
+@mixin prefix($property, $value, $prefixes: (webkit ms moz o)) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+
+  // Output standard non-prefixed declaration
+  #{$property}: $value;
+}
+
+// shorthand mixin for equipping icons from fonts
+@mixin equip-icon($charcode, $font: $icon-font-family) {
+  font-family             : $font;
+  font-style              : normal;
+  font-weight             : normal;
+  speak                   : none;
+  display                 : inline-block;
+  text-decoration         : inherit;
+  width                   : 1em;
+  text-align              : center;
+  font-variant            : normal;
+  text-transform          : none;
+  line-height             : 1em;
+  -webkit-font-smoothing  : antialiased;
+  -moz-osx-font-smoothing : grayscale;
+  content                 : $charcode;
+}

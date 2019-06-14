@@ -1,0 +1,39 @@
+/* ============================================================================= */
+/* Latest news masonry widget. */
+/* ============================================================================= */
+
+.sp-latest-news-widget {
+  @include clearfix;
+  > .post-item-wrapper { float : left; width : 100%; }
+  > .post-item-wrapper > .sp-blog-block { margin-bottom : 0; }
+
+  /* ================================= layout modifications */
+  &.layout-4cols > .post-item-wrapper { width: (100% / 4); }
+  &.layout-3cols > .post-item-wrapper { width: (100% / 3); }
+  &.layout-2cols > .post-item-wrapper { width: (100% / 2); }
+
+  /* ================================= gutter modifications */
+  &.regular-gutters {
+    margin : 0 -15px -50px;
+    > .post-item-wrapper { padding : 0 15px 50px; }
+  }
+
+  &.small-gutters {
+    margin : 0 -2px -10px;
+    > .post-item-wrapper { padding : 0 2px 10px; }
+  }
+
+  &.no-gutters {
+    margin : 0;
+    > .post-item-wrapper { padding : 0; }
+  }
+
+  /* ================================= responsive */
+  @include media-breakpoint-down(md) {
+    > .post-item-wrapper { width: (100% / 2) !important; }
+  }
+
+  @include media-breakpoint-down(sm) {
+    > .post-item-wrapper { width: 100% !important; }
+  }
+}

@@ -1,0 +1,87 @@
+.uc_mini_price_table* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_mini_price_table .uc_content_box{
+	font-family: 'Droid Sans', sans-serif;
+	text-align:center;
+}
+
+
+.uc_mini_price_table .uc_content_box ul
+{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+
+.uc_mini_price_table .uc_content_box ul li
+{
+	background:#ffffff;
+	border-radius:4px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.uc_mini_price_table .uc_content_box ul li .uc_top
+{
+	padding:37px 0px;
+	color:#383838;
+	text-align:center;
+}
+
+.uc_mini_price_table .uc_content_box ul li .uc_top h2
+{
+	font-size:24px;
+	line-height:36px;
+	font-weight:400;
+	padding:0px;
+	margin:0 0 3px 0;
+}
+
+.uc_mini_price_table .uc_content_box ul li .uc_top span
+{
+	display:block;
+	font-size:12px;
+	line-height:normal;
+	color:#909090;
+	text-transform:uppercase;
+}
+
+.uc_mini_price_table .uc_content_box ul li a.uc-btn-select
+{
+	display:block;
+	text-align:center;
+	padding:14px 0px;
+	font-size:14px;
+	font-weight:700;
+	color:#5e571a;
+	text-decoration:none;
+	text-transform:uppercase;
+
+}
+
+.uc_mini_price_table .uc_content_box ul li a.uc-btn-select.yellow
+{
+	
+	position:relative;
+}
+
+.uc_mini_price_table .uc_content_box ul li a.uc-btn-select.yellow:after
+{
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(234, 218, 66, 0);
+	border-width: 7px;
+	margin-left: -7px;
+}

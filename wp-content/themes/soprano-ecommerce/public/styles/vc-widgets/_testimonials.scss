@@ -1,0 +1,16 @@
+/* ============================================================================= */
+/* Testimonials slider. */
+/* ============================================================================= */
+
+.sp-slick-testimonials .slick-dots {
+  margin-top : 15px;
+}
+
+.sp-testimonials-block {
+  text-align: center;
+
+  .text { margin-bottom : 0; }
+  .photo img { border-radius : 50%; width : 80px; height : 80px; margin-top : 2rem; }
+  .name { margin-bottom : 1rem; margin-top : 2rem; }
+  .name:empty { display : none; }
+}

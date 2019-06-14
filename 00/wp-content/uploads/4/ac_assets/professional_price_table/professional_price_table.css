@@ -1,0 +1,153 @@
+.uc_professional_price_table * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_professional_price_table .uc_content_box{
+	background:#f8f8f8;
+	font-family: 'PT Sans', sans-serif;
+	box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.08);
+    box-sizing: content-box;
+    padding: 9px;
+    position: relative;
+	cursor:pointer;
+}
+
+.uc_professional_price_table .uc_content_box_top
+{
+	position:relative;
+	border:#ededed 1px solid;
+}
+
+
+.uc_professional_price_table .uc_content_box_top h3{
+	background-color:#ffffff;
+	font-family: 'Slabo 27px', serif;
+	font-size: 19px;
+    font-weight: 400;
+	color:#a0ce4e;
+	display:block;
+    line-height: normal;
+	padding:20px;
+	text-align:center;
+	border-bottom:#ededed 1px solid;
+}
+
+.uc_professional_price_table .uc_content_box_top em
+{
+	position:absolute;
+	top:52px;
+	right:-25px;
+	font-weight:300;
+	font-size:12px;
+	line-height:15px;
+	font-style:italic;
+	color:#888;
+}
+
+.uc_professional_price_table .uc_price_marker {
+	font-family: 'Slabo 27px', serif;
+  	color: #a0ce4e;
+	display:block;
+  	margin:0px auto;
+	padding:7px 0 18px;
+  	width: 100px;
+	font-size:55px;
+	font-weight:600;
+	text-align:center;
+	position:relative;
+
+}
+ 
+.uc_professional_price_table .uc_price_marker sup
+{
+	font-size:23px;
+	color:#505050;
+	font-weight:300;
+	position:absolute;
+	top:25px;
+	left:8px;
+}
+
+.uc_professional_price_table .uc_price_marker sub
+{
+	font-size:18px;
+	color:#a0ce4e;
+	font-weight:600;
+	position:absolute;
+	top:21px;
+}
+
+.uc_professional_price_table .uc_price_marker_content{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.uc_professional_price_table .uc_price_detail ul{
+	background-color:#ffffff;
+	font-family: 'PT Sans', sans-serif;
+	list-style:none;
+	padding:0;
+	margin:0;
+	border-bottom:#ededed 1px solid;
+	border-left: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+	text-align:center;
+}
+
+.uc_professional_price_table .uc_price_detail ul li{
+	display:block;
+	font-weight:300;
+	font-size:13px;
+	padding:15px;
+	line-height:20px;
+	margin:0;
+	color:#747474;
+	border-bottom: 1px solid #ededed;
+}
+
+.uc_professional_price_table .uc_price_detail ul li:last-child
+{
+	border-bottom:0px;
+	padding:27px;
+	background-color:#f8f8f8;
+}
+
+.uc_professional_price_table .uc_price_detail ul li strong
+{
+	font-size:12px;
+	font-weight:600;
+	color:#6d7272;
+}
+
+.uc_professional_price_table a.uc_btn{
+	background-color:#a0ce4e;
+	font-size:12px;
+	line-height:14px;
+	padding:9px 20px;
+	border-radius:2px;
+	text-decoration:none;
+	font-weight:700;
+	text-transform:uppercase;
+	color:rgba(255, 255, 255, 0.8);
+	transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+.uc_professional_price_table a.uc_btn:hover{
+	background-color:#96c346;
+}
+
+.uc_professional_price_table .uc_content_box:hover .uc_content_box_top h3
+{
+	background-color:#f8f8f8;
+}
+
+.uc_professional_price_table .uc_content_box:hover .uc_price_detail ul li
+{
+	background-color:#f8f8f8;
+}

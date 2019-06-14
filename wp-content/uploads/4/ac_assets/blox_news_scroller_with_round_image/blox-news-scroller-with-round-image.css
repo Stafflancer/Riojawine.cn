@@ -1,0 +1,100 @@
+
+.blox-news-scroller-with-round-image * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.blox-news-scroller-with-round-image{
+	font-family: inherit;
+}
+.blox-news-scroller-with-round-image .bx-wrapper {
+    background: transparent;
+    border: 0px;
+    box-shadow: none;
+}
+.blox-news-scroller-with-round-image .blox-scroller-box{
+	overflow:hidden;
+	clear:both;
+	position:relative;
+	margin-bottom:2px;
+}
+.blox-news-scroller-with-round-image .blox-scroller-box:last-child{
+	margin-bottom:0;
+}
+.blox-news-scroller-with-round-image .blox-scroller-box a{
+	color:#fff;
+	text-decoration:none;
+	display:table;
+	width:100%;
+	padding:21px 50px 21px 30px;
+}
+.blox-news-scroller-with-round-image .blox-scroller-box a .blox-right-bar{
+	background-color: #C5C5C5;
+	position:absolute;
+	right:0;
+	top:0;
+	width:38px;
+	height:100%;
+	text-align:center;
+	font-family:FontAwesome;
+}
+.blox-news-scroller-with-round-image .blox-scroller-box a .blox-right-bar i{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	-webkit-transform:translate(-50%, -50%);
+	font-size:22px;
+}
+.blox-news-scroller-with-round-image .blox-scroller-box .blox-scroller-content{
+	overflow:hidden;
+	width:calc(100% - 93px);
+	display:table-cell;
+	vertical-align: middle;
+    width: 100%;
+	position:relative;
+}
+
+.blox-news-scroller-with-round-image .blox-scroller-box .blox-scroller-content .blox-heading{
+	color: #4A4A4A; 
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.blox-news-scroller-with-round-image .blox-scroller-box .blox-scroller-content .blox-date{
+	color: #9B9B9B;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 22px;
+}
+.blox-news-scroller-with-round-image .blox-scroller-box .blox-round-image{
+	float:left;
+	margin-right:20px;
+}
+.blox-news-scroller-with-round-image .blox-scroller-box .blox-round-image img{
+	border-radius:50%;
+	width:73px;
+	height:73px;
+	max-width:inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

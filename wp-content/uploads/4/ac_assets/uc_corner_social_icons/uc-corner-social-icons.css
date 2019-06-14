@@ -1,0 +1,48 @@
+
+.uc-corner-social-icons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc-corner-social-icons {
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+.uc-corner-social-icons .uc-social-icons-box{
+	display:inline-block;
+	margin:0 10px 20px;
+}
+.uc-corner-social-icons .uc-social-icons-box a{
+	font-size:30px;
+	line-height:normal;
+    display: block;
+	padding:14px 0px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+	font-weight:400;
+	font-family: 'PT Sans', sans-serif;
+	width:110px;
+	height:70px;
+  overflow:hidden;
+}
+.uc-corner-social-icons .uc-social-icons-box a:hover{
+	background: inherit !important;
+	color:#fff !important;
+}
+.uc-corner-social-icons .uc-social-icons-box a span{
+	position: absolute;
+	background: #fff;
+	left: -15px;
+	top: -15px;
+	height: 30px;
+	width: 30px;
+	transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	z-index:9999;
+}

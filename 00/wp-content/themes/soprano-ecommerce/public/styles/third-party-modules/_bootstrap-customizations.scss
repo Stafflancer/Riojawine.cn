@@ -1,0 +1,99 @@
+/* ============================================================================= */
+/* Bootstrap style customizations. */
+/* ============================================================================= */
+
+/* ================================= grid rows */
+.row { max-width : none !important; }
+
+
+/* ================================= buttons and other form controls */
+.btn {
+  cursor : pointer;
+}
+
+.btn-lg {
+  font-size   : 15px;
+  font-weight : 400;
+}
+
+.btn-white {
+  color            : #333;
+  background-color : #fff;
+  border-color     : #fff;
+  -webkit-transition       : all 0.25s linear;
+  transition       : all 0.25s linear;
+  &:hover {
+    background : rgba(255,255,255,0.6);
+    -webkit-transition : all 0.25s linear;
+    transition : all 0.25s linear;
+  }
+}
+
+.btn-border {
+  color            : #333;
+  background-color : transparent;
+  border           : 2px solid  #333;
+  -webkit-transition       : all 0.25s linear;
+  transition       : all 0.25s linear;
+  &:hover {
+    background : #fff;
+    -webkit-transition : all 0.25s linear;
+    transition : all 0.25s linear;
+  }
+}
+
+.form-control {
+  letter-spacing : 0.04em;
+  color          : $body-color;
+
+  &:focus { color : $body-color; }
+}
+
+.form-control:-webkit-autofill { // remove yellow autofill chrome highlight
+  -webkit-transition : none;
+  -webkit-box-shadow : 0 0 0 30px $input-bg inset;
+}
+
+
+/* ================================= progress bar */
+.progress {
+  background-color : #ddd;
+  border-radius    : 0;
+
+  .progress-bar {
+    background-color : #222;
+    height           : 5px;
+  }
+}
+
+
+/* ================================= input groups */
+.input-group .form-control:not(:first-child),
+.input-group-addon:not(:first-child),
+.input-group-btn:not(:first-child) > .btn,
+.input-group-btn:not(:first-child) > .btn-group > .btn,
+.input-group-btn:not(:first-child) > .dropdown-toggle,
+.input-group-btn:not(:last-child) > .btn:not(:first-child),
+.input-group-btn:not(:last-child) > .btn-group:not(:first-child) > .btn {
+  @include border-radius(0);
+}
+
+.input-group .font-size,
+.input-group .input-group-addon,
+.input-group .input-group-btn {
+  z-index : 10;
+}
+
+.select2-dropdown {
+  border-color: #eee !important;
+  .select2-results__option {
+    padding: 5px 10px;
+    &.select2-results__option--highlighted {
+      background-color: $brand-primary !important;
+    }
+    &.select2-results__option[data-selected=true] {
+      background: #f4f4f4 !important;
+      color:#333;
+    }
+  }
+}

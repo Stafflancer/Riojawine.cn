@@ -1,0 +1,52 @@
+
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.uc_gride_item_wrapper img{ width:100%;display: block;}
+
+.uc_gride_item_wrapper{ width:400px; margin:0 auto;}
+.uc_gride_item_outer{ padding:0px;margin: 0px;position: relative;font-family: 'Lato', sans-serif;}
+.uc_gride_item_outer .uc_content_box{position:absolute;left:0px; top:5%;width:90%; margin:4% 5%;border:2px solid #ffffff; height:90%;opacity:0;transition:all 0.4s ease-out;}
+.uc_gride_item_outer:hover .uc_content_box{ top:0px; opacity:1;transition: all 0.4s ease-out;}
+.uc_gride_item_outer .uc_content_box .grid_image_frame{ width:100%; height:100%;display:table; padding:20px; color:#ffffff;}
+
+.uc_gride_item_outer .uc_content_box .grid_image_frame h5{font-size: 14px; font-weight: 600; text-transform: uppercase;font-family: 'Lato', sans-serif; font-size:17px; margin:0px;}
+.uc_gride_item_outer .uc_content_box .grid_image_frame .menu_content_classic{ display: table-cell; float: none; vertical-align: middle; position: relative;}
+.uc_gride_item_outer .uc_content_box .grid_image_frame p{ margin:3px 0 0;}
+.uc_gride_item_outer .uc_content_box .grid_image_frame span{ display:block; margin-top:15%; font-size:18px;}
+.uc_gride_item_outer .uc_content_box .grid_image_frame a{ display:inline-block;background: #cfa670;border-radius: 5px;bottom: 5px; color: #fff; font-size: 10px;font-weight: 600;line-height: 14px; padding: 3px 7px 5px; text-align: center;text-transform: uppercase;position: absolute;}
+
+
+
+
+
+@media only screen and (max-width:1300px) {
+	
+}
+@media only screen and (max-width: 1024px) {
+	
+}
+@media only screen and (max-width: 980px) {	
+	
+}
+@media only screen and (max-width: 800px) {	
+	
+}
+	
+@media only screen and (max-width: 768px) {	
+	
+	
+}
+@media only screen and (max-width: 640px) {	
+	
+}
+@media only screen and (max-width: 414px) {	
+.uc_gride_item_wrapper{ width:100%;}
+
+}
+@media only screen and (max-width: 360px) {	
+
+
+}
+@media only screen and (max-width: 320px) {	
+
+
+}

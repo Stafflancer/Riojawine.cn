@@ -1,0 +1,240 @@
+/* ============================================================================= */
+/* Site header commons. */
+/* ============================================================================= */
+#sp-header {
+  position      : absolute;
+  top           : 0; left : 0;
+  right         : 0;
+  width         : 100%;
+  z-index       : $zindex-fixed + 20;
+  background    : transparent;
+  color         : #ffffff;
+  padding       : 20px 30px;
+  border-bottom : 1px solid transparent;
+  -webkit-transition    : all 0.25s linear;
+  transition    : all 0.25s linear;
+
+  a { -webkit-transition-duration : 0.25s; transition-duration : 0.25s; }
+}
+
+#sp-header-inner {
+  display         : -webkit-box;
+  display         : -ms-flexbox;
+  display         : flex;
+  -webkit-box-pack : justify;
+      -ms-flex-pack : justify;
+          justify-content : space-between;
+  -webkit-box-align     : center;
+      -ms-flex-align     : center;
+          align-items     : center;
+}
+
+#sp-header-right-block {
+  display     : -webkit-box;
+  display     : -ms-flexbox;
+  display     : flex;
+  -webkit-box-align : center;
+      -ms-flex-align : center;
+          align-items : center;
+}
+
+
+/* ============================================================================= */
+/* Header elements (logo, extras, etc) */
+/* ============================================================================= */
+#sp-header .brand-logo {
+  -webkit-user-select  : none;
+     -moz-user-select  : none;
+      -ms-user-select  : none;
+          user-select  : none;
+  color        : inherit;
+  font-size    : 2.1rem;
+  margin-right : auto;
+  min-width    : 0;
+  line-height  : 1;
+
+  > h1 {
+    @include reset-box-model();
+    font-size : inherit;
+    color     : inherit;
+  }
+
+  > h1 > span { color: $brand-primary; }
+
+  img {
+    max-width : 100%;
+    height    : auto;
+    &.logo-dark { display : none; }
+  }
+}
+
+#sp-header .header-extras {
+  font-size    : 0;
+  line-height  : 1;
+  margin-left  : 30px;
+  margin-right : -10px;
+  border-left  : 1px solid currentColor;
+  padding-left : 20px;
+
+  > * {
+    vertical-align : middle;
+  }
+
+  > a {
+    padding   : 5px 10px;
+    color     : inherit;
+    display   : inline-block;
+
+    > i { font-size : 22px; }
+    &:hover { opacity : 0.6; }
+  }
+
+  > .v-separator {
+    display    : inline-block;
+    width      : 1px;
+    height     : 22px;
+    background : currentColor;
+    margin     : 0 30px;
+  }
+}
+
+
+/* ============================================================================= */
+/* Header desktop navigation. */
+/* ============================================================================= */
+#sp-primary-nav {
+  text-align  : right;
+  line-height : 1;
+}
+
+#sp-primary-nav > .nav_menu {
+  @include reset-box-model(true);
+  @include clearfix;
+  margin    : 0 -17px;
+  font-size : 0;
+
+  // root-level menu items
+  > li {
+    position  : relative;
+    display   : inline-block;
+
+    > a {
+      display             : inline-block;
+      font-size           : 16px;
+      white-space         : nowrap;
+      padding             : 15px 17px;
+      font-weight         : 400;
+      color               : inherit;
+      text-transform      : uppercase;
+      -webkit-transition-property : opacity, color, background;
+      transition-property : opacity, color, background;
+    }
+
+    &.menu-item-has-children > a:after {
+      padding-left : 7px;
+      content      : '\e821';
+      font-size    : 14px;
+      font-family  : $icon-font-family;
+    }
+
+    &:hover > a { opacity: 0.6; }
+
+    &.menu-item-has-children:hover > a {
+      opacity    : 1;
+      background : #fff;
+      color      : #333;
+    }
+  }
+
+  // drop-downs
+  .sub-menu {
+    @include reset-box-model(true);
+    -webkit-transform  : translate3d(0, -10px, 0);
+            transform  : translate3d(0, -10px, 0);
+    -webkit-transition : opacity 0.25s, visibility 0.35s, -webkit-transform 0.35s;
+    transition : opacity 0.25s, visibility 0.35s, -webkit-transform 0.35s;
+    transition : transform 0.35s, opacity 0.25s, visibility 0.35s;
+    transition : transform 0.35s, opacity 0.25s, visibility 0.35s, -webkit-transform 0.35s;
+    opacity    : 0;
+    visibility : hidden;
+    position   : absolute;
+    top        : 100%; left : 0;
+    -webkit-box-shadow : 0 6px 12px rgba(0, 0, 0, 0.175);
+            box-shadow : 0 6px 12px rgba(0, 0, 0, 0.175);
+    background : #fff;
+    text-align : left;
+
+    &.invert-attach-point {
+      left  : auto;
+      right : 0;
+    }
+
+    > li {
+      display  : inline-block;
+      position : relative;
+
+      > a {
+        position            : relative;
+        display             : inline-block;
+        padding             : 10px 20px;
+        font-size           : 15px;
+        color               : #333;
+        width               : 220px;
+        line-height         : 1.75;
+        white-space         : normal;
+        -webkit-transition-property : background;
+        transition-property : background;
+        text-transform      : capitalize;
+        border-top          : 1px solid #eee;
+      }
+
+      &.menu-item-has-children > a:after {
+        right        : 20px;
+        position     : absolute;
+        padding-left : 7px;
+        content      : '\e81f';
+        font-size    : 14px;
+        font-family  : $icon-font-family;
+      }
+
+      &:hover > a { background : #f5f5f5; }
+    }
+
+    // deep-level drop-downs
+    .sub-menu {
+      -webkit-transform : translate3d(-10px, 0, 0);
+              transform : translate3d(-10px, 0, 0);
+      left      : 100%;
+      top       : 0;
+
+      &.invert-attach-point {
+        -webkit-transform : translate3d(10px, 0, 0);
+                transform : translate3d(10px, 0, 0);
+        right     : 100%;
+        left      : auto;
+      }
+    }
+  }
+
+  // multi-column modes
+  > li.sp-mega-menu > ul {
+    border-top : 1px solid #eee;
+
+    > li > a {
+      width         : 200px;
+      border-top    : 0;
+      border-bottom : 1px solid #eee;
+      border-right  : 1px solid #eee;
+    }
+  }
+  > li.sp-mega-menu.mega-2-columns > ul { @include prefix(columns, 2, webkit moz); }
+  > li.sp-mega-menu.mega-3-columns > ul { @include prefix(columns, 3, webkit moz); }
+
+  // hover effect
+  li.menu-item-has-children:hover > .sub-menu {
+    -webkit-transform  : translate3d(0, 0, 0);
+            transform  : translate3d(0, 0, 0);
+    opacity    : 1;
+    visibility : visible;
+  }
+}

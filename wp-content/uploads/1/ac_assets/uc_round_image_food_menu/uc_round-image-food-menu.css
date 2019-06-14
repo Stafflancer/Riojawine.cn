@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_round-image-food-menu *{margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;}
+   
+
+
+
+.uc_round-image-food-menu{ height:386px; border:11px solid #fff;position:relative;
+-webkit-box-shadow: 0px 2px 7px 0px rgba(166,161,166,1);
+-moz-box-shadow: 0px 2px 7px 0px rgba(166,161,166,1);
+box-shadow: 0px 2px 7px 0px rgba(166,161,166,1);}
+.uc_round-image-food-menu .uc_round-image-food-menu_pic{ display: inline-block;width: 135px;height: 135px;border-radius: 50%;position: absolute;top: -80px;overflow: hidden; transform:translateX(-50%); left:50%;}
+.uc_round-image-food-menu .uc_round-image-food-menu_content{height: 100%; padding:70px 15px  0;}
+.uc_round-image-food-menu .uc_round-image-food-menu_content .star{ text-align:center; margin:5px 0 22spx;}
+.uc_round-image-food-menu .uc_round-image-food-menu_content .star .fa{ font-size:14px;}
+
+.uc_round-image-food-menu h3{font-size:50px; text-align:center;font-family: 'Open Sans', sans-serif; text-transform:uppercase; margin:0px; font-weight:700;}
+.uc_round-image-food-menu h2{font-size:40px; text-align:center;font-family: 'Roboto Slab', serif;margin:0px; font-weight:700;}
+.uc_round-image-food-menu p{font-family: 'Lato', sans-serif; font-size:16px; text-align:center; margin:15px 0 0;line-height: 27px;}
+
+
+@media screen and (max-width:414px){
+.uc_price-tag-food-menu h2{ font-size:18px;}	
+}
+
+
+
+
+

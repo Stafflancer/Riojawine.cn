@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_clean_product_box_two * { 
+	margin: 0; padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.uc_clean_product_box_two{ position:relative;}
+.uc_clean_product_box_two img{ max-width:100%;}
+.uc_clean_product_box_two .uc_clean_product_box_two_inner{width:100%; height:170px; overflow:hidden; padding:15px;font-family: 'Open Sans', sans-serif;	
+-webkit-box-shadow:0px 5px 30px rgba(0,0,0,0.15);
+-moz-box-shadow:0px 5px 30px rgba(0,0,0,0.15);
+box-shadow:0px 5px 30px rgba(0,0,0,0.15);
+}
+.uc_clean_product_box_two .uc_clean_product_box_two_inner .uc_left{ width:50%; float:left; height:100%; position:relative; text-align:left;}
+.uc_clean_product_box_two .uc_clean_product_box_two_inner .uc_left .uc_pic_box{ position:absolute; left:0%; top:50%; transform:translatey(-50%);}
+.uc_clean_product_box_two .uc_clean_product_box_two_inner .uc_left p{ font-size:12px; color:#838383; text-transform:uppercase;  font-weight:400; margin:0 0 5px; line-height:normal;}
+.uc_clean_product_box_two .uc_clean_product_box_two_inner .uc_left h2{ font-size:18px; color:#343434;font-weight:600; line-height:normal;}
+.uc_clean_product_box_two .uc_clean_product_box_two_inner .uc_left h2 span{ display:block;}
+
+.uc_clean_product_box_two .uc_hover_box{ position:absolute; left:0px; width:100%; top:0px; height:100%; background:rgba(255, 255, 255, 0.9);
+transform: scale(0);
+-webkit-transition: all 0.5s ease; 
+-moz-transition: all 0.5s ease; 
+-ms-transition: all 0.5s ease; 
+transition: all 0.5s ease;
+}
+.uc_clean_product_box_two .uc_hover_box a{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); background:#4cdcc3; padding:15px 45px; font-weight:700; text-transform:uppercase; color:#fff; border-radius:35px;font-family: 'Open Sans', sans-serif; text-decoration:none; font-size:14px;}
+.uc_clean_product_box_two:hover .uc_hover_box{
+	transform: scale(1);
+-webkit-transition: all 0.5s ease; 
+-moz-transition: all 0.5s ease; 
+-ms-transition: all 0.5s ease; 
+transition: all 0.5s ease;}
+
+@media only screen and (max-width: 767px) {
+	.uc_clean_product_box_two .uc_clean_product_box_two_inner { width: 100%;height: auto;}
+	.uc_clean_product_box_two .uc_clean_product_box_two_inner .uc_left{ width:100%;}
+	.uc_clean_product_box_two .uc_clean_product_box_two_inner .uc_left .uc_pic_box { position: inherit; left: 0; top: 0; transform: inherit; text-align:center;}
+	.uc_clean_product_box_two .uc_clean_product_box_two_inner .uc_left p { margin-top:15px;}

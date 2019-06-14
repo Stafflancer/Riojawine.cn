@@ -1,0 +1,34 @@
+/* ============================================================================= */
+/* Site pagination. */
+/* ============================================================================= */
+
+.sp-pagination {
+  text-align : center;
+  //margin-top : 55px;
+  font-size  : 0;
+
+  ul {
+    @include reset-box-model(true);
+
+    li {
+      font-weight : bold;
+      display     : inline;
+
+      a, span {
+        display   : inline-block;
+        font-size : 18px;
+        padding   : 10px 25px;
+        color     : #333;
+      }
+
+      span { color : $brand-primary; cursor : default; }
+      span.dots { color : lighten(#333, 35%); }
+
+      &.current, &:hover {
+        a { color : $brand-primary; }
+      }
+    }
+  }
+
+  @include media-breakpoint-down(sm) { margin-top : 0; }
+}

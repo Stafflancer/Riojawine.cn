@@ -1,0 +1,51 @@
+
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+img{ width:100%;display: block;}
+
+.uc_menu_item_box_wrapper{ width:400px; margin:0 auto;}
+.uc_menu_item_box_outer{ }
+
+
+.uc_menu_item_box_outer .uc_menu_item_box{ -webkit-box-shadow: 0px 0px 2px 0px rgba(120,119,120,1);-moz-box-shadow: 0px 0px 2px 0px rgba(120,119,120,1);box-shadow: 0px 0px 2px 0px rgba(120,119,120,1);}
+.uc_menu_item_box_outer .uc_our-menu-about{ padding:15px; position: relative;  font-family: "Work Sans",sans-serif;}
+.uc_menu_item_box_outer .uc_our-menu-about .uc_our-menu-info{ color: #333;font-weight: 600;   font-family: "Work Sans",sans-serif;}
+.uc_menu_item_box_outer .uc_our-menu-about .uc_our-menu-info .uc_color{color: #16d428;}
+.uc_menu_item_box_outer .uc_our-menu-about p{margin: 0 0 10px;color: #888; font-size: 14px;line-height: 22px;}
+.uc_menu_item_box_outer .uc_our-menu-about .uc_rate{padding-top: 10px;text-align: right; font-size: 17px;}
+.uc_menu_item_box_outer .uc_our-menu-about .uc_rate .fa.fa-star{ border-radius: 0; font-size: 17px;height: 20px; line-height: 25px; margin: 0; padding: 0;    text-shadow: none; width: 20px;color: #fc9b00}
+.uc_menu_item_box_outer .uc_menu_item_box .uc_our-menu-about h4 { margin: 0; padding: 10px 0; font-size:18px; font-family: "Work Sans",sans-serif; font-weight: 500;}
+.uc_menu_item_box_outer .uc_our-menu-prix{ position:absolute; right:-8px; top:12px; padding:16px 8px 16px 18px; background:url(tag.png); width:70px; height:48px; color:#ffffff; font-size: 18px; font-weight: bold; text-align:right;}
+
+
+@media only screen and (max-width:1300px) {
+	
+}
+@media only screen and (max-width: 1024px) {
+	
+}
+@media only screen and (max-width: 980px) {	
+	
+}
+@media only screen and (max-width: 800px) {	
+	
+}
+	
+@media only screen and (max-width: 768px) {	
+	
+	
+}
+@media only screen and (max-width: 640px) {	
+	
+}
+@media only screen and (max-width: 414px) {	
+.uc_menu_item_box_wrapper{ width:100%;}
+
+}
+@media only screen and (max-width: 360px) {	
+
+
+}
+@media only screen and (max-width: 320px) {	
+
+
+}

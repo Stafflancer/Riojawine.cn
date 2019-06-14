@@ -1,0 +1,668 @@
+
+/*-----------------------------------------------------------------------------ESSENTIAL RIOJA DOBLE VERTICAL----*/
+
+._essential_rioja_event_box {
+	position: relative;
+	padding: 15px 15px 25px 15px;
+	-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	background: #fff url(../img_bodegas/marco-datos-bodega.png) no-repeat center bottom;
+}
+
+._essential_rioja_box {
+	display: inline-block;
+	width: 100%;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+._essential_rioja_control_box {
+	position:absolute;
+	width: 75%;
+	top:30px;
+	left:50px;
+	margin: 0 0 0 0 ;
+	padding: 0 0 0 0 ;
+	text-align: left;
+}
+
+._essential_rioja_control_box .btn-primary {
+	margin:20px 0 0 0;
+}
+
+._essential_rioja_control_box .btn-primary:hover,
+._essential_rioja_control_box .btn-primary:focus{
+	margin:20px 0 0 0;
+
+}
+
+._essential_rioja_image_box {
+	display: inline-block;
+	width: 100%;
+	height:640px;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+
+
+
+
+._essential_rioja_image_box img {
+	width: 100%;
+	height: 100% !important;
+	object-fit: cover;
+}
+
+._essential_rioja_image_box {
+	text-align: center;
+}
+
+._essential_rioja_image_box .btn-primary.outline {
+	display: inline-block;
+	max-width: 80%;
+}
+/*-----------------------------------------------------------------------------ESSENTIAL RIOJA DOBLE VERTICAL----*/
+
+
+/*-----------------------------------------------------------------------------ESSENTIAL RIOJA DOBLE HORIZONTAL----*/
+
+._essential_rioja_event_box_h {
+	position: relative;
+	padding: 15px 15px 25px 15px;
+	-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	background: #fff url(../img_bodegas/marco-datos-bodega.png) no-repeat center bottom;
+}
+
+._essential_rioja_event_box_h ._essential_rioja_image_box {
+	display: inline-block;
+	width: 100%;
+	height: 395px;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+._essential_rioja_event_box_h ._essential_rioja_image_box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+.velo-magenta-rioja {
+position: absolute;
+top: 15px;
+bottom: 0;
+left: 15px;
+right: 0;
+height: calc(100% - 40px);
+width: calc(100% - 30px);
+background-color: #C5003E;
+opacity: 0.2;
+}
+
+/*-----------------------------------------------------------------------------ESSENTIAL RIOJA DOBLE HORIZONTAL----*/
+
+
+
+
+/*-----------------------------------------------------------------------------------------------h2 white style----*/
+._essential_rioja_control_box h2 {
+	position:relative;
+	float: left;
+	width: 100%;
+	height: auto;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+	overflow: hidden;
+	font-family: 'PT Serif', serif;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 64px;
+	text-align: left;
+	color:#fff;
+}
+
+/*-------------------------------------------------------------------------------------------------h2 red style----*/
+._essential_rioja_event_box.red  h2,
+._essential_rioja_event_box_h.red_version h2 {
+	color:#c5003e;
+}
+
+
+/*-----------------------------------------------------------------------------ESSENTIAL RIOJA NORMAL VERTICAL----*/
+._essential_normal_rioja_event_box {
+	position: relative;
+	width: 100%;
+	padding: 15px;
+	margin: 20px 0;
+	line-height: 100%;
+	-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	background: #fff;
+}
+
+._essential_normal_rioja_box {
+	display: inline-block;
+	text-align: right;
+	width: 100%;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+._essential_normal_rioja_box h3    {
+	position:absolute;
+	top:15px;
+	left: 30px;
+	width: 40%;
+	height: 130px;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+	overflow: hidden;
+	font-family: 'PT Serif', serif;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 28px;
+	text-align: left;
+	color:#333;
+}
+
+._essential_normal_rioja_image_box {
+	display: inline-block;
+	width: 50%;
+	height: 340px;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+._essential_normal_rioja_image_box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+
+._essential_normal_rioja_image_box .velo-magenta-rioja {
+position: absolute;
+top: 15px;
+bottom: 0;
+left: inherit;
+right: 15px;
+width: calc(50% - 15px) !important;
+height: calc(100% - 30px);
+background-color: #C5003E;
+opacity: 0.2;
+}
+
+
+._essential_normal_rioja_content_box {
+	position:absolute;
+	width: calc(100% - 30px);
+	height: 222px;
+	bottom:15px;
+	left:15px;
+	margin: 0 0 0 0 ;
+	padding: 0 0 0 0 ;
+	text-align: left;
+	background: url(../images-modules/bck-essential-normal.png) no-repeat bottom left;
+}
+
+._essential_normal_rioja_content_box p{
+	display: inline-block;
+	width: 40%;
+	height: 75px;
+	overflow: hidden;
+	margin: 60px 0 0 20px;
+	padding: 0 0 0 0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+	line-height: 25px;
+	text-align: left;
+	color:#fff;
+}
+
+
+._essential_normal_rioja_content_box .btn.btn-primary {
+	position: absolute;
+	width: 50%;
+	bottom: 30px;
+	left: 20px;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------ESSENTIAL RIOJA NORMAL VERTICAL----*/
+
+
+/*--------------------------------------ESSENTIAL RIOJA NORMAL HORIZONTAL---------------------------------*/
+._essential_normal_rioja_event_box_h {
+	position: relative;
+	max-width: 490px;
+	padding: 15px;
+	line-height: 100%;
+	-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	background: #fff;
+}
+
+._essential_normal_rioja_event_box_h ._essential_normal_rioja_image_box {
+  display: inline-block;
+  width: 100%;
+  height: 290px;
+  margin:0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+
+._essential_normal_rioja_event_box_h ._essential_normal_rioja_image_box .velo-magenta-rioja {
+position: absolute;
+top: inherit;
+bottom: 15px;
+left: inherit;
+right: 15px;
+width: calc(100% - 30px) !important;
+height: 290px;
+background-color: #C5003E;
+opacity: 0.2;
+}
+
+._essential_normal_rioja_event_box_h h3 {
+  position:relative;
+  margin:0 0 0 0 ;
+  padding:0 0 0 0;
+  width: 100%;
+  height: 100px;
+  top:inherit;
+  left:inherit;
+  font-size:20px;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------SLIDER COMPLEMENT----*/
+
+.row-slider-compartido{
+	height: 550px;
+}
+
+.row-slider-compartido > .wpb_column,
+.row-slider-compartido > .wpb_column > .vc_column-inner  > .wpb_wrapper {
+	height: 100%;
+}
+
+
+.slider-compartido {
+	padding: 0 0 10px 0;
+	height: 100%;
+	background: #fff;
+}
+
+.slider-compartido .wpb_wrapper,
+.slider-compartido .wpb_wrapper .sp-intro,
+.slider-compartido .wpb_wrapper .sp-intro .slick-list.draggable,
+.slider-compartido .wpb_wrapper .sp-intro .slick-list.draggable .slick-track{
+	height: 100%;
+    display: block;
+}
+
+.slider-no-fullscreen,
+.container-slide-nofullscreen,
+.container-slide-nofullscreen .wpb_wrapper,
+.container-slide-nofullscreen .wpb_wrapper .sp-intro,
+.container-slide-nofullscreen .wpb_wrapper .sp-intro .slick-list.draggable,
+.container-slide-nofullscreen .wpb_wrapper .sp-intro .slick-list.draggable .slick-track{
+	height: auto;
+	display: block;
+}
+
+._slider_complement_event_box {
+	position: relative;
+    height: 50%;
+	padding: 0 0 10px 10px;
+	background: #fff ;
+}
+
+._slider_complement_event_box:first-child {
+	background:none !important;
+}
+
+._slider_complement_box {
+	display: inline-block;
+	width: 100%;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+._slider_complement_control_box {
+	position:absolute;
+	width: 50%;
+	bottom:40px;
+	left:40px;
+	margin: 0 0 0 0 ;
+	padding: 0 0 0 0 ;
+	text-align: left;
+}
+
+._slider_complement_control_box .btn-primary {
+	display: inline-block;
+	margin:20px 0 0 0;
+}
+
+._slider_complement_control_box .btn-primary:hover,
+._slider_complement_control_box .btn-primary:focus{
+	margin:20px 0 0 0;
+
+}
+
+._slider_complement_image_box {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+.row-slider-compartido ._slider_complement_image_box ,
+.row-slider-compartido ._slider_complement_box {
+	height: 100%;
+}
+
+._slider_complement_image_box img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+._slider_complement_image_box .btn-primary {
+	display: inline-block;
+	max-width: 80%;
+}
+
+
+._slider_complement_event_box h3 {
+	display: inline-block;
+	width: 100%;
+	height: 120px;
+	margin:0 0 0 0;
+	padding: 0 0 0 0;
+	overflow: hidden;
+	font-family: 'PT Serif', serif;
+	font-size: 33px;
+	font-weight: 700;
+	line-height: 38px;
+	text-align: left;
+	color:#fff;
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------SLIDER COMPLEMENT----*/
+
+
+@media (max-width: 1280px) {
+	._slider_complement_event_box h3 {
+		font-size: 32px;
+		line-height: normal;
+	}
+
+}
+
+@media (max-width: 1024px) {
+
+	._slider_complement_control_box {
+		width: 60%;
+	}
+
+	._slider_complement_event_box h3 {
+		font-size: 24px;
+		line-height: normal;
+	}
+
+}
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 991 px-----------------------------------*/
+@media (max-width: 991px) {
+
+	.row-slider-compartido{
+		height: 350px;
+	}
+
+	._slider_complement_event_box h3 {
+		height: 45px;
+		font-size: 18px;
+	}
+
+	._slider_complement_control_box .btn{
+		padding: 3px 30px;
+	}
+
+	._slider_complement_control_box {
+		width: 70%;
+		bottom: 30px;
+	}
+
+/*Essential Doble V*/
+._essential_rioja_event_box {
+	padding: 5px 5px 20px 5px;
+}
+
+._essential_rioja_control_box {
+	top: 20px;
+	left: 20px;
+}
+
+._essential_rioja_control_box h2 {
+	font-size: 36px;
+	line-height: 44px;
+	height: 90px;
+}
+
+._essential_rioja_image_box {
+	height: 440px;
+}
+
+._essential_rioja_image_box img {
+	width: 100%;
+}
+
+.columna-espacio {display:none !important}
+.row-destacados .wpb_column.vc_column_container.vc_col-sm-5 {
+width: 50%;
+}
+
+/*Essential Doble V*/
+
+
+
+/*Essential Normal*/
+._essential_normal_rioja_event_box {
+width: 100%;
+padding: 5px;
+}
+
+._essential_normal_rioja_content_box {
+bottom: 5px;
+left: 5px;
+width: calc(100% - 10px);
+background-position: 0 bottom;
+background-size: 100% 50%;
+}
+
+._essential_normal_rioja_image_box {
+	height: 220px;
+}
+
+._essential_normal_rioja_box h3 {
+top: 10px;
+left: 10px;
+width: 45%;
+font-size: 17px;
+line-height: 25px;
+}
+
+._essential_normal_rioja_content_box p {
+display:none;
+}
+
+._essential_normal_rioja_content_box .btn.btn-primary {
+bottom: 10px;
+left: 10px;
+width: calc(100% - 40px);
+}
+
+
+
+/*Essential Normal*/
+
+
+
+._essential_rioja_event_box .velo-magenta-rioja	 {
+	top: 5px;
+	left: 5px;
+	height: 440px;
+	width: calc(100% - 10px);
+}
+
+
+
+
+
+
+
+}
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 991 px-----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 767 px-----------------------------------*/
+@media (max-width: 767px) {
+
+
+	.row-slider-compartido{
+		height: auto;
+	}
+
+	._slider_complement_event_box h3 {
+		font-size: 48px;
+		line-height: 48px;
+		height: 120px;
+	}
+
+	._slider_complement_control_box .btn {
+		padding: 10px 30px;
+		font-size: 18px;
+	}
+
+	._slider_complement_control_box {
+		width: 80%;
+		bottom: 30px;
+	}
+
+/*Essential Doble V*/
+._essential_rioja_control_box h2 {
+	font-size: 28px;
+	line-height: 36px;
+	height: 90px;
+}
+
+._essential_rioja_image_box {
+	height: 330px;
+}
+
+._essential_rioja_image_box img {
+	width: 100%;
+}
+
+.row-destacados .wpb_column.vc_column_container.vc_col-sm-5 {
+width: 100%;
+}
+/*Essential Doble V*/
+
+
+/*Essential Normal*/
+
+._essential_rioja_event_box .velo-magenta-rioja	 {
+	top: 5px;
+	left: 5px;
+	height: 330px;
+	width: calc(100% - 10px);
+}
+
+
+
+/*Essential Normal*/
+
+
+
+/*asi es el rioja*/
+.asi-es-rioja .wpb_text_column p{
+display:none;
+	}
+/*asi es el rioja*/
+
+
+
+
+
+
+}
+/*--------------------------------------------------------------------------------------------RESPONSIVE 767 px-----------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 490 px-----------------------------------*/
+@media (max-width: 490px) {
+	._slider_complement_event_box h3 {
+		font-size: 36px;
+		line-height: 36px;
+		height: 80px;
+	}
+	._slider_complement_control_box {
+		width: 85%;
+		bottom: 20px;
+	}
+}
+/*--------------------------------------------------------------------------------------------RESPONSIVE 490 px-----------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 425 px-----------------------------------*/
+@media (max-width: 425px) {
+	._slider_complement_event_box h3 {
+		font-size: 28px;
+		line-height: 30px;
+		height: 60px;
+	}
+
+	._slider_complement_control_box {
+		width: 85%;
+		bottom: 20px;
+	}
+}

@@ -1,0 +1,66 @@
+
+.uc_image_overlay_banner *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_image_overlay_banner .uc_container_holder {
+	position:relative;
+	text-align:center;
+}
+/*.uc_image_overlay_banner .uc_container_holder .uc_entry-link{
+	position:relative;	
+	display:inline-block;
+}*/
+.uc_image_overlay_banner .uc_pic{overflow:hidden;}
+.uc_image_overlay_banner .uc_pic img{ width:100%;}
+.uc_image_overlay_banner .uc_container_holder .uc_entry-link {
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.uc_image_overlay_banner .uc_container_holder .uc_entry-link .uc_entry-text {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+	display:table;
+}
+.uc_image_overlay_banner .uc_container_holder .uc_entry-link .uc_overlay{
+	opacity:0;
+	height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+	display:table;
+	z-index:1;
+}
+.uc_image_overlay_banner .uc_container_holder .uc_entry-link:hover .uc_overlay{
+	background: rgba(0,0,0,1);
+	opacity:0.6;
+    transition: opacity 0.35s ease-in-out 0s;
+}
+.uc_image_overlay_banner .uc_container_holder .uc_entry-text .uc_inner {
+    display: table-cell;
+    height: 100%;
+	vertical-align:middle;
+}	
+.uc_image_overlay_banner .uc_container_holder .uc_entry-link > .uc_entry-text h2{
+	font-size: 26px;
+    opacity: 1;
+    visibility: visible;
+	color:#fff;
+	font-family: "Playfair Display";
+	font-weight:700;
+	margin: 0 auto;
+    width: 70%;
+}	

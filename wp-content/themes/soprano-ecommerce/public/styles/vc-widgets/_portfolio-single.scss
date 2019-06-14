@@ -1,0 +1,116 @@
+/* ============================================================================= */
+/* Portfolio single page styling. */
+/* ============================================================================= */
+
+.sp-portfolio-list {
+  &.unlist {
+    margin-bottom: 3rem;
+    li {
+      display: inline-block;
+      margin: 0 20px;
+      &:last-child {margin: 0 20px}
+    }
+  }
+  ul {padding: 0;margin: 0;
+    li {
+      list-style: none;
+      line-height: 1;
+      margin-bottom: 1rem;
+      &:last-child {margin: 0;}
+      i {font-size: 30px;padding-right: 8px;position: relative; top:5px;}
+    }
+  }
+}
+
+.sp-portfolio-bar-left, .sp-portfolio-bar-center, .sp-portfolio-bar-right {
+  a {
+    color      : #333;
+    -webkit-transition : color 0.25s;
+    transition : color 0.25s;
+
+    &:hover { color : $brand-primary; }
+
+    &:before, &:after {
+      font-family  : $icon-font-family;
+      font-size    : 21px;
+      color        : currentColor;
+      content      : none;
+      top          : 2px;
+      position     : relative;
+    }
+
+    &:before { margin-right : 10px; }
+    &:after { margin-left : 10px; }
+  }
+
+  &.disabled > a {
+    color          : $text-muted;
+    cursor         : default;
+    pointer-events : none;
+  }
+}
+
+.sp-portfolio-bar-left {
+  text-align : left;
+  a:before { content : '\f3d2'; }
+}
+
+.sp-portfolio-bar-right {
+  text-align : right;
+  a:after { content : '\f3d3'; }
+}
+
+.sp-portfolio-bar-center {
+  margin-top : 5px;
+  text-align : center;
+
+  > a {
+    line-height : 1;
+    font-size   : 30px;
+  }
+}
+
+#sp-single-portfolio {
+  .sp-single-heading {
+    position: relative;
+    h1 {
+      position: absolute;
+      top:0;
+      line-height: 1;
+      font-weight: bold;
+      &:after {
+        font-family: $icon-font-family;
+        font-size: 50px;
+        color: #333;
+        content: '\f3d6';
+        padding-left: 30px;
+        line-height: 1;
+        position: relative;
+        top: 3px;
+      }
+    }
+  }
+  h3 {
+    margin-top: 5px;
+  }
+  .sp-single-portfolio-soc {
+    margin-top: 2rem;
+    ul {
+      @include reset-box-model(true);
+      font-size  : 0;
+      max-width  : none;
+
+      li {
+        display : inline;
+
+        a {
+          display   : inline-block;
+          font-size : 18px;
+          color     : #333;
+          padding   : 5px 14px;
+          &:hover { color : $brand-primary; }
+        }
+      }
+    }
+  }
+}

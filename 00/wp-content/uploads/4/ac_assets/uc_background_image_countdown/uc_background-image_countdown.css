@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_background-image_countdown * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_background-image_countdown .uc_background-image_countdown_inner { font-family: 'Lato', sans-serif;}
+.uc_background-image_countdown .uc_background-image_countdown_inner{ background-size:cover !important;}
+.uc_background-image_countdown .uc_background-image_countdown_inner .timer { width: 100%; text-align: center; padding:27px 0;}
+.uc_background-image_countdown .uc_background-image_countdown_inner .timer div { 
+	width: 25%; 
+	margin: 0 0 0 -3px;
+	padding: 5px 0px; 
+	text-align: center; 
+	display: inline-block;
+	color: #fff; 
+	line-height: normal; 
+	font-weight:100;
+	font-size:70px;
+	background:none;
+	border-bottom:0px;
+	border-right:1px solid rgba(255,255,255,0.5);
+}
+.uc_background-image_countdown .uc_background-image_countdown_inner .timer div:last-child { border-right:0px;} 
+.uc_background-image_countdown .uc_background-image_countdown_inner .timer div span{ 
+	display: block; 
+	padding: 0 7%; 
+	margin: 7px 0 0; 
+	position: relative;
+	color: #fff; 
+	line-height: 31px; 
+	font-weight:700;
+	font-size:20px;
+}
+
+@media only screen and (max-width: 540px) {
+	.uc_background-image_countdown .uc_background-image_countdown_inner .timer div{ font-size:38px;}
+	.uc_background-image_countdown .uc_background-image_countdown_inner .timer div span{ font-size:14px; padding:5px 0;}
+}

@@ -1,0 +1,151 @@
+.uc-designer-slider-mt * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.uc-designer-slider{
+	position:relative;
+}
+.uc-designer-slider-mt .uc-designer-slider-container{ 
+	max-width: 100%; 
+	height: 100vh;
+	display: flex; 
+	align-items: flex-end;
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-slide{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-slide ul li{
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.uc-designer-slider-mt .uc-designer-slider-container .flexslider .slides li { height:100vh; }
+.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-image{ 
+	width:100%;
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content{ 
+    margin: 80px auto 80px;
+    position: relative;
+    text-align: center;
+    width: 75%;
+	z-index:999;
+  
+    
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content strong{ 
+	display:block; 
+	font-size:90px; 
+	line-height:63px;
+	font-family: 'Roboto Slab', serif;
+	font-weight:400;
+	margin:13px 0 40px;	
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content p{ 
+	display:block; 
+	font-size:22px; 
+	line-height:45px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	margin-bottom:50px;
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content .uc-play-btn{
+	height:100px;
+	width:100px;
+	text-align:center;
+	position:relative;
+	border-radius:50%;
+	display:inline-block;
+	font-size: 30px;
+	padding: 34px 0;
+	margin-bottom:55px;
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content{
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box{
+    display: inline-block;
+    margin: 0 -2px;
+    padding:32px 32px 39px;
+    text-align: center;
+    vertical-align: top;
+    width: 33.33%;
+	border-right:1px solid transparent;
+	font-size:19px;
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box:last-child{
+	border-right:0px;
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box b{
+	margin-bottom:10px;
+	display:block;
+	font-family: 'Raleway', sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+	letter-spacing:4px;
+}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box p{
+	line-height:27px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	font-size:19px;
+	margin:0;
+}
+
+
+.uc-designer-slider-mt .uc-designer-slider-container .uc-slide .flex-control-nav { display:none !important;}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-slide .flex-direction-nav { display:none !important;}
+.uc-designer-slider-mt .uc-designer-slider-container .uc-slide .flexslider {
+    background:none !important;
+    border: 0px solid #ffffff !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+    position: relative !important;
+}
+
+@media only screen and (max-width: 1190px) {
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content{ width:82%;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box p{ font-size:18px;}
+}
+@media only screen and (max-width: 980px) {
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content strong{ font-size:76px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box{ padding:20px 10px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box p{ font-size:16px;}
+}
+@media only screen and (max-width: 767px) {
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content strong{ font-size:60px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box{ padding:20px 10px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box p{ font-size:14px; line-height:normal;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content{ width: 96%;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content p{ font-size:18px; line-height:26px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box b{ font-size:14px; letter-spacing:1px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content{ margin-bottom:15px;}
+	
+}
+@media only screen and (max-width: 655px) {
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content .uc-play-btn{ width:50px; height:50px; font-size: 20px; padding: 15px 0; margin-bottom: 20px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content strong{ font-size:40px;  margin: 13px 0 10px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content p{ font-size:16px; margin-bottom:20px;}
+}
+@media only screen and (max-width: 639px) {
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box{ display:block; width:100%; border:0;}
+}
+@media only screen and (max-width: 500px) {
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content strong{ font-size:30px; line-height:normal; margin: 10px 0px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content p{ font-size:14px; margin-bottom:20px; line-height:normal;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box p{ font-size:12px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box{ padding:5px 5px;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-bottom-content .uc-bottom-content-box b{ margin-bottom:0;}
+	.uc-designer-slider-mt .uc-designer-slider-container .uc-designer-slider-content .uc-play-btn{ margin-bottom:10px;}
+}
+
+

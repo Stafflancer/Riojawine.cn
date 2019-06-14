@@ -1,0 +1,202 @@
+/* ============================================================================= */
+/* Blogroll single page styles. */
+/* ============================================================================= */
+.sp-intro.single-post {
+  text-align : center;
+
+  .intro-title {
+    line-height    : 1.3;
+    font-size      : 3.5rem;
+    text-transform : capitalize;
+    margin-bottom  :  1.5rem;
+
+    @include media-breakpoint-down(md) { font-size: 2.5rem; }
+    @include media-breakpoint-down(sm) { font-size: 2rem; }
+    @include media-breakpoint-down(xs) { font-size: 1.8rem; }
+  }
+
+  .sp-single-meta {
+    margin-bottom : 0;
+    width         : 100%;
+    font-size     : 0;
+
+    ul {
+      @include reset-box-model(true);
+
+      li {
+        display        : inline;
+        font-size      : 18px;
+        text-transform : capitalize;
+
+        &:after {
+          content : '/';
+          padding : 0 10px;
+          color   : #fff;
+        }
+
+        &:last-child:after { content : none; }
+
+        a { color : #fff; }
+      }
+    }
+  }
+}
+
+.sp-blog-block.single {
+  .sp-blog-block { margin-bottom : 50px; }
+
+  .sp-blog-image {
+    img {
+      //@include object-fit(none);
+      position : static;
+      height   : auto;
+    }
+
+    &:hover { opacity : 1; }
+
+    .caption {
+      color     : #999;
+      font-size : 14px;
+      width     : 100%;
+
+      &:empty { display : none; }
+    }
+  }
+
+  blockquote {
+    padding       : 15px 30px;
+    border-left   : 5px solid #eee;
+    margin-bottom : 1.5rem;
+
+    p:last-child { margin-bottom : 0; }
+  }
+
+  .sp-single-tags {
+    position     : relative;
+    font-size    : 16px;
+    padding-left : 30px;
+    margin-top   : 2rem;
+
+    &:empty { display : none; }
+
+    &:before {
+      font-family : $icon-font-family;
+      content     : '\f48e';
+      position    : absolute;
+      top         : 0;
+      left        : 0;
+      font-size   : 22px;
+      color       : #333;
+      line-height : 28px;
+    }
+
+    a {
+      color         : #333;
+      padding-right : 5px;
+
+      &:hover { color : $brand-primary; }
+      &:before { content: '#'; }
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding-left: 0;
+      &:before { display : none; }
+    }
+  }
+
+  .sp-single-soc ul {
+    @include reset-box-model(true);
+    font-size  : 0;
+    margin     : -5px -15px;
+    max-width  : none;
+
+    li {
+      display : inline;
+
+      a {
+        display   : inline-block;
+        font-size : 18px;
+        color     : #222;
+        padding   : 5px 15px;
+        &:hover { color : $brand-primary; }
+      }
+    }
+  }
+  .sp-link-pages {
+    text-align: center;
+    a {
+      color: #c3ac6d;
+      cursor: default;
+    }
+    span.page-link {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-weight: bold;
+    }
+
+  }
+}
+
+
+/* ============================================================================= */
+/* Related blog posts. */
+/* ============================================================================= */
+.sp-related-posts {
+  overflow : hidden;
+  width    : 100%;
+
+  .sp-blog-image {
+    margin-bottom : 1rem;
+    display       : block;
+    height        : 240px;
+
+    img { @include object-fit(); width : 100%; height : 100%; }
+  }
+
+  .entry-title {
+    margin-bottom : 1rem;
+    line-height   : 1.4;
+    a { color : #333; }
+  }
+
+  .sp-blog-meta {
+    margin-bottom : 0;
+    width         : 100%;
+
+    ul {
+      @include reset-box-model(true);
+      display   : block;
+      font-size : 0;
+
+      li {
+        display        : inline;
+        font-size      : 14px;
+        text-transform : capitalize;
+
+        &:after {
+          display : inline-block;
+          content : '/';
+          padding : 0 10px;
+          color   : #999;
+        }
+
+        &:last-child:after { content : none; }
+        a, & { color : #999; }
+        &:empty { display : none; }
+      }
+    }
+  }
+
+  // posts slider
+  .sp-slick-related {
+    margin : 0 -15px;
+
+    .item { padding : 0 15px; }
+
+    &:not(.slick-initialized) {
+      @include clearfix;
+      .item { float: left; width: 50%; }
+    }
+  }
+}

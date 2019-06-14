@@ -1,0 +1,52 @@
+.uc_image_icon_banner {
+    padding:20px;
+    min-height:220px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    color:#ff;
+	background-repeat:no-repeat;
+	background-position:100% 0
+    }
+    
+.uc_image_icon_banner i.uc_icon {
+    color:#fff;
+    font-size:30px;
+    margin-top:12px;
+    }
+    
+.uc_image_icon_banner h4 {
+    font-weight:400;
+    font-size:20px;
+    text-transform:uppercase;
+    color:#fff;
+    margin:15px 0 20px;
+  line-height:25px;
+    }
+    
+.uc_image_icon_banner a.uc_btn {
+    display:inline-block;
+    color:#fff;
+    text-decoration:none;
+    font-size:14px;
+    padding:10px 22px;
+    border:1px solid #fff;
+    
+    }
+    
+.uc_image_icon_banner a.uc_btn i {
+    margin-left:10px;
+    }
+    
+.uc_image_icon_banner a.uc_btn:hover {
+    transition:all 0.25s ease-in-out;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -ms-transition:all 0.25s ease-in-out;
+    background:#262529;
+    border-color:#262529;
+    } 
+    
+.uc_image_icon_banner a.uc_btn:hover i  {
+    color:#d02111;
+    }

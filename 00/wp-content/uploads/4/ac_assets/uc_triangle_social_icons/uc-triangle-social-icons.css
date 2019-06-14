@@ -1,0 +1,56 @@
+
+.uc-triangle-social-icons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc-triangle-social-icons {
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+.uc-triangle-social-icons .uc-social-icons-box{
+	display:inline-block;
+	margin:0 50px 20px;
+}
+.uc-triangle-social-icons .uc-social-icons-box a{
+	font-size:20px;
+	line-height:normal;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+	font-weight:400;
+	font-family: 'PT Sans', sans-serif;
+	padding: 43px 45px 16px 16px;
+	width:76px;
+	height:76px;
+	overflow:hidden;
+}
+.uc-triangle-social-icons .uc-social-icons-box a:hover{
+	background: inherit !important;
+	color:#fff !important;
+}
+.uc-triangle-social-icons .uc-social-icons-box a span{
+	position: absolute;
+	background: #fff;
+	right: -56px;
+	top: -56px;
+	height: 110px;
+	width: 110px;
+	transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	z-index:9999;
+}
+
+@media only screen and (max-width: 915px) {
+	.uc-triangle-social-icons .uc-social-icons-box{ margin:0 30px 20px;}
+}
+
+@media only screen and (max-width: 715px) {
+	.uc-triangle-social-icons .uc-social-icons-box{ margin:0 20px 20px;}
+}

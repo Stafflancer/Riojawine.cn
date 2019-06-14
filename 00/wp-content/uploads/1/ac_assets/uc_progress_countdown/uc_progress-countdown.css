@@ -1,0 +1,76 @@
+.uc_progress-countdown * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_progress-countdown .uc_progress-countdown_inner .timer { width: 100%; text-align: center; padding:20px 0 25px; clear:both; overflow:hidden;}
+.uc_progress-countdown .uc_progress-countdown_inner .timer div{
+	width: 172px;
+	margin: 8px 15px;
+	text-align: center;
+	text-transform:uppercase;
+    display: inline-block;
+}
+.uc_progress-countdown .uc_progress-countdown_inner .timer div span.circle{
+	height:172px;
+	width:172px;
+	position:relative;
+	padding:55px 0;
+	display: inline-block;
+	border-radius:100%;
+	
+	
+}
+.uc_progress-countdown .uc_progress-countdown_inner .timer div span.number
+{
+  line-height: 31px;
+	font-weight:600;
+	font-size:50px;
+    color: #4d4d4d;
+}
+.uc_progress-countdown .uc_progress-countdown_inner .timer div span em{
+	display: block; 
+	margin: 12px 0 0; 
+	position: relative;
+	color: #4d4d4d; 
+	line-height: 31px; 
+	font-weight:700;
+	font-size:15px;
+	font-style:normal;
+}
+
+
+@media only screen and (max-width: 790px) {
+  .uc_progress-countdown .uc_progress-countdown_inner .timer div {width:auto;margin: 8px 1px;}
+	.uc_progress-countdown .uc_progress-countdown_inner .timer div span{ height:140px; width:140px;}
+}
+
+@media only screen and (max-width: 639px) {
+	.uc_progress-countdown .uc_progress-countdown_inner .timer div span{ height:90px; width:90px; font-size:13px; padding:2px 0;}
+	.uc_progress-countdown .uc_progress-countdown_inner .timer div span em{ font-size:8px; line-height:normal; margin-top:7px;}
+}
+
+@media only screen and (max-width: 399px) {
+	.uc_progress-countdown .uc_progress-countdown_inner .timer div span{ height:63px; width:63px; font-size:12px; padding:2px 0;}
+	.uc_progress-countdown .uc_progress-countdown_inner .timer div span em{ font-size:8px; line-height:normal; margin-top:0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

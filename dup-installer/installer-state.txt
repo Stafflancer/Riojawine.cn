@@ -1,0 +1,1 @@
+{"mode":1,"ovr_wp_content_dir":"\/home\/riojawine\/web\/riojawine.cn\/public_html\/wp-content"}

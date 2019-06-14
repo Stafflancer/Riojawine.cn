@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>uc-fresh-instagram-widget</title>
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,700" rel="stylesheet">
+<link href="uc-fresh-instagram-widget.css" rel="stylesheet" type="text/css" >
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
+<script src="instafeed.min.js"></script>
+</head>
+
+<body style="background:#fff;">
+    <div class="uc-fresh-instagram-widget">
+        <div class="uc-widget-container" style="border-color:#ececec;">
+        	<div class="uc-content-box">
+            	<div class="uc-image-area">
+                	<ul id="instafeed"></ul>
+                </div>
+                
+                <div class="uc-profile-area" style="color:#292929;">
+                    <img src="profile-image.jpg" alt="">
+                    
+                    <div class="uc-profile-text">
+                        <strong>James Statham</strong>
+                        <a href="#" style="background:#3897f0; color:#fff;">Follow</a>
+                        
+                        <div class="uc-follow">
+                        	<div class="uc-follow-box" style="border-color:#c8cbd1;">
+                            	<span style="color:#0d0d0d;">110 Photos</span>
+                            </div>
+                            
+                            <div class="uc-follow-box" style="border-color:#c8cbd1;">
+                            	<span style="color:#0d0d0d;">540 Followers</span>
+                            </div>
+                            
+                            <div class="uc-follow-box" style="border-color:#c8cbd1;">
+                            	<span style="color:#0d0d0d;">160 Following</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<script>
+jQuery(document).ready(function($) {
+	if($('#instafeed').length > 0) {
+		var feed = new Instafeed({
+			get: 'user',
+			userId : 31027484,
+			accessToken: '1415045487.ba4c844.3b7642adc62c4045a1eb16a92d8f282e',
+			limit :6,
+			resolution: 'standard_resolution',
+			template: '<li style="background-image:url({{image}})"><a href="{{link}}"><img src="placeholder.png"></a></li>'
+		});
+		feed.run();
+	}
+});
+</script>
+</body>
+</html>

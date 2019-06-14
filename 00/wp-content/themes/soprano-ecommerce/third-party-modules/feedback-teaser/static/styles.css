@@ -1,0 +1,107 @@
+/*! ===================================
+ *  Author: Roman Nazarkin, Egor Dankov
+ *  -----------------------------------
+ *  PuzzleThemes
+ *  =================================== */
+.sp-notice {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background: #fff;
+  margin: 50px 20px 25px 0;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04); }
+  .sp-notice > .sp-notice-body {
+    flex: 1;
+    position: relative;
+    overflow: hidden; }
+    .sp-notice > .sp-notice-body > .sp-notice-body-inner {
+      position: absolute;
+      padding: 30px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      transition: all 0.35s;
+      transform: translateX(-15px);
+      opacity: 0;
+      visibility: hidden;
+      box-sizing: border-box; }
+      .sp-notice > .sp-notice-body > .sp-notice-body-inner.current {
+        transition-delay: 0.25s;
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible; }
+      .sp-notice > .sp-notice-body > .sp-notice-body-inner p {
+        font-size: 16px;
+        margin: 20px 0 0 0;
+        max-width: 600px; }
+      .sp-notice > .sp-notice-body > .sp-notice-body-inner h1 {
+        font-weight: 400;
+        margin: 0;
+        line-height: 1.25; }
+  .sp-notice > .sp-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f7f7f7;
+    padding: 50px;
+    user-select: none;
+    pointer-events: none; }
+    .sp-notice > .sp-logo img {
+      width: 100px; }
+    @media (max-width: 600px) {
+      .sp-notice > .sp-logo {
+        display: none; } }
+  .sp-notice i[class^="em-"] {
+    font-style: normal;
+    display: inline-block;
+    margin-left: 5px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1em;
+    width: 1em;
+    vertical-align: baseline; }
+  .sp-notice i.em-party-popper {
+    background-image: url("./emojis/party-popper.png"); }
+  .sp-notice i.em-glowing-star {
+    background-image: url("./emojis/glowing-star.png"); }
+  .sp-notice i.em-happy-person {
+    background-image: url("./emojis/happy-person.png"); }
+  .sp-notice i.em-clapping-hands {
+    background-image: url("./emojis/clapping-hands.png"); }
+
+.sp-buttons {
+  margin: 20px -5px -5px; }
+  .sp-buttons a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 15px;
+    border-radius: 3px;
+    border: none;
+    margin: 5px;
+    display: inline-block;
+    transition: opacity 0.25s; }
+  .sp-buttons a:hover {
+    opacity: 0.8; }
+  .sp-buttons a:focus {
+    outline: none; }
+  .sp-buttons a.sp-gray {
+    background: #868e96; }
+  .sp-buttons a.sp-green {
+    background: #4caf50; }
+  .sp-buttons a.sp-red {
+    background: #f44336; }
+  .sp-buttons a.sp-seamless {
+    margin-left: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+    color: #72777c;
+    font-style: italic; }
+    .sp-buttons a.sp-seamless:first-child {
+      margin-left: 5px;
+      padding: 0; }
+
+/*# sourceMappingURL=styles.css.map */

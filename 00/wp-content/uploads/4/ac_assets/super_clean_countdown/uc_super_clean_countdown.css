@@ -1,0 +1,33 @@
+
+.uc_super_clean_countdown *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_super_clean_countdown .uc_countdown_box{
+	position:relative;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	text-align:center;
+}
+
+.uc_super_clean_countdown .uc_countdown_box .uc_countdown span.sss {
+    background-color: #fff;
+    color:#000;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 22px;
+	font-size:60px;
+	padding:50px 37px 28px;
+	margin:8px 24px;
+}
+.uc_super_clean_countdown .uc_countdown_box .uc_countdown span.sss b{
+	display:block;
+	font-weight:400;
+	font-size:8px;
+	margin-top:40px;
+	font-size:20px;
+	font-weight:600;
+}

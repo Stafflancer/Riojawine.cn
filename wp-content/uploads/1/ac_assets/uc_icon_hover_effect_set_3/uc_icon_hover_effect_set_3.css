@@ -1,0 +1,91 @@
+.uc_icon_hover_effect_set_3
+{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_icon_hover_effect_set_3 .uc-icon-set-hi-icon-wrap {
+	text-align: center;
+	margin: 0 auto;
+	padding: 2em 0 3em;
+}
+
+.uc_icon_hover_effect_set_3 .uc-icon-set-hi-icon {
+	display: inline-block;
+	font-size: 0px;
+	cursor: pointer;
+	margin: 15px 30px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+}
+
+.uc_icon_hover_effect_set_3 .uc-icon-set-hi-icon:after {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	-webkit-box-sizing: content-box; 
+	-moz-box-sizing: content-box; 
+	box-sizing: content-box;
+}
+
+.uc_icon_hover_effect_set_3 .uc-icon-set-hi-icon:before {
+
+	speak: none;
+	font-size: 47px;
+	line-height: 90px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* Effect 3 */
+.uc_icon_hover_effect_set_3 .uc-icon-set-hi-icon-effect-3 .uc-icon-set-hi-icon {
+	box-shadow: 0 0 0 4px #fff;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+	text-decoration:none;
+}
+
+.uc_icon_hover_effect_set_3 .uc-icon-set-hi-icon-effect-3 .uc-icon-set-hi-icon:after {
+	top: -2px;
+	left: -2px;
+	padding: 2px;
+	z-index: -1;
+	background: #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.2s, opacity 0.3s;
+	transition: transform 0.2s, opacity 0.3s;
+}
+
+/* Effect 3a */
+.uc_icon_hover_effect_set_3 .uc-icon-set-hi-icon-effect-3a .uc-icon-set-hi-icon {
+	color: #f06060;
+}
+
+.uc_icon_hover_effect_set_3 .uc-icon-set-hi-icon-effect-3a .uc-icon-set-hi-icon:hover {
+	color: #fff;
+}
+
+.uc_icon_hover_effect_set_3 .uc-icon-set-hi-icon-effect-3a .uc-icon-set-hi-icon:hover:after {
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+	opacity: 0;
+}

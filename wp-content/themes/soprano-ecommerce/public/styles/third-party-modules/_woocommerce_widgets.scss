@@ -1,0 +1,160 @@
+/*! ===================================
+ *  Author: Roman Nazarkin, Egor Dankov
+ *  -----------------------------------
+ *  PuzzleThemes
+ *  =================================== */
+
+.sp-widget-block.woocommerce {
+  &.widget_shopping_cart {
+    .widget_shopping_cart_content {
+      ul li {
+        padding-left: 0;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        &:last-child {
+          border: none;
+          margin-bottom: 5px;
+        }
+        img {
+          width: 60px;
+          margin: 0;
+          padding: 0;
+        }
+        .remove_from_cart_button {
+          position: absolute;
+          right: 0;
+          left: auto;
+          font-size: 1rem;
+          color: #000 !important;
+          &:hover {
+            color: red !important;
+            background: none;
+          }
+        }
+      }
+      .woocommerce-mini-cart__total {
+        border-color: #eee;
+        margin-bottom: 1rem;
+      }
+      .woocommerce-mini-cart__buttons {
+        a {
+          display: inline-block;
+          margin: 0;
+          &:last-child {
+            float: right;
+          }
+        }
+      }
+    }
+  }
+
+  &.widget_product_search {
+    form.woocommerce-product-search {
+      position: relative;
+      label {
+        width: 100%;
+        margin-bottom: 0;
+      }
+      .screen-reader-text {display: none;}
+      input[name="s"] {
+        width: 100%;
+        padding: 6px 85px 6px 15px;
+        border: 1px solid #eee;
+        border-radius: 30px;
+        outline: none;
+        -webkit-transition: border 0.25s linear;
+        transition: border 0.25s linear;
+        &:focus {
+          border: 1px solid #ddd;
+          -webkit-transition: border 0.25s linear;
+          transition: border 0.25s linear;
+        }
+      }
+      input[type="submit"] {
+        position: relative;
+        float: right;
+        margin-top: -42px;
+        background: #c3ac6d;
+        border: none;
+        padding: 7px 15px;
+        color: #fff;
+        border-radius: 30px;
+        z-index: 6;
+        outline: none;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &.widget_layered_nav {
+    .select2-selection {
+      border: 1px solid #eee;
+      outline: none;
+      padding: 0 5px;
+      li {
+        padding-bottom: 0;
+        &.select2-selection__choice {
+          background-color: $brand-primary !important;
+          color: #fff;
+          border: none;
+          padding: 0 10px;
+          span {color: #333;}
+        }
+      }
+    }
+    .woocommerce-widget-layered-nav-dropdown__submit {padding: 2px 15px;}
+  }
+
+  &.widget_price_filter {
+    .price_slider_wrapper {
+      .ui-widget-content {
+        background: lighten(#333, 15%);
+        margin-bottom: 1rem;
+        display: inline-block;
+        width: 100%;
+        .ui-widget-header {
+          background: $brand-primary;
+        }
+        span {
+          border: 2px solid $brand-primary;
+          background: #fff;
+          width: 18px;
+          height: 18px;
+        }
+      }
+      .button {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  ul.product_list_widget {
+    del {
+      opacity: 0.6;
+      text-decoration: line-through;
+      font-weight: 400;
+    }
+
+    ins {
+      display: inline-block;
+      margin-left: 5px;
+      text-decoration: none;
+    }
+
+    li {
+      padding: 0 0 10px 0;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #eee;
+      .star-rating span:before {
+        color: $brand-primary;
+      }
+      img {
+        width: 60px;
+      }
+    }
+  }
+}

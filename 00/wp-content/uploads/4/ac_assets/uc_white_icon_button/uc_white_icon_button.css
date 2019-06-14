@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.uc_white_icon_button *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_white_icon_button .uc_container_holder {
+	position:relative;
+	text-align:center;
+}
+
+.uc_white_icon_button .uc_container_holder button {
+	position: relative;
+	margin: 0;
+	padding: 1em;
+	z-index: 1;
+}
+.uc_white_icon_button .uc_container_holder .uc_color-1 {
+}
+
+/* General button style (reset) */
+.uc_white_icon_button .uc_container_holder .uc_btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: #fff;
+	background: #F9A81E;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.uc_white_icon_button .uc_container_holder .uc_btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Button 3 */
+
+
+.uc_white_icon_button .uc_container_holder .uc_btn-3:hover {
+	background: #f29e0d;
+}
+
+.uc_white_icon_button .uc_container_holder .uc_btn-3:active {
+	background: #f58500;
+	top: 2px;
+}
+
+.uc_white_icon_button .uc_container_holder .uc_btn-3:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3;
+	font-size: 140%;
+	width: 60px;
+}
+
+/* Button 3d */
+.uc_white_icon_button .uc_container_holder .uc_btn-3d {
+	padding: 25px 60px 25px 120px;
+	border-radius: 10px;
+}
+.uc_white_icon_button .uc_container_holder .uc_btn-3d:before {
+	background: #fff;
+	color: #fcad26;
+	z-index: 2;
+	border-radius: 10px 0 0 10px;
+}
+
+.uc_white_icon_button .uc_container_holder .uc_btn-3d:after {
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	z-index: 1;
+	left: 55px;
+	top: 50%;
+	margin: -10px 0 0 -10px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.uc_white_icon_button .uc_container_holder .uc_btn-3d:active:before {
+	color: #f58500;
+}
+
+.uc_white_icon_button .uc_container_holder .uc_btn-3d:active {
+	top: 0;
+}
+
+.uc_white_icon_button .uc_container_holder .uc_btn-3d:active:after {
+	left: 60px;
+}
+
+.uc_white_icon_button .uc_container_holder .uc_btn i{
+	position:absolute;
+	top:0;
+	left:0;
+	width:60px;
+	height:100%;
+	text-align:center;
+	background:#fff;
+	border-radius:10px 0 0 10px;	
+	color:#FCAD26;
+	font-size:26px;
+	line-height:72px;
+	
+}
+

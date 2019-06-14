@@ -1,0 +1,123 @@
+.uc_diagonal_price_table * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_diagonal_price_table .uc_content_box{
+	border-radius:4px;
+	overflow:hidden;
+	padding:0px 0 28px 0;
+	text-align:center;
+	color:#403e3e;
+	font-size:16px;
+	font-weight:300;
+	line-height:30px;
+}
+
+.uc_diagonal_price_table .uc_content_box_top
+{
+	position:relative;
+}
+
+.uc_diagonal_price_table .uc_content_box_top:after
+{
+	background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #039be5 50%, #ffffff 50%) repeat scroll 0 0;
+    height: 30px;
+	width:100%;
+	left:0px;
+	content:'';
+	position:absolute;
+	bottom:-30px;
+}
+
+.uc_diagonal_price_table .uc_content_box_top span.title{
+	font-size: 15px;
+    font-weight: 300;
+	color:#ffffff;
+	display:block;
+	text-transform:uppercase;
+    line-height: normal;
+    padding-bottom:13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.uc_diagonal_price_table .uc_content_box_top em
+{
+	color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    padding:5px 0 10px 0;
+	margin-bottom:20px;
+	font-style:normal;
+	display:block;
+	position:relative;
+	text-transform:uppercase;
+}
+
+.uc_diagonal_price_table .uc_price_marker {
+  	color: #ffffff;
+	display:block;
+  	margin:0px auto;
+  	width: 100px;
+	font-size:44px;
+	font-weight:600;
+	text-align:center;
+
+}
+.uc_diagonal_price_table .uc_price_marker sup
+{
+	font-size:30px;
+}
+.uc_diagonal_price_table .uc_price_marker_content{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+
+
+.uc_diagonal_price_table .uc_price_detail ul{
+	list-style:none;
+	padding:55px 0 40px 0;
+	margin:0;
+}
+
+.uc_diagonal_price_table .uc_price_detail ul li{
+	display:block;
+	font-weight:300;
+	font-size:16px;
+	padding:10px 0;
+	line-height:20px;
+	margin:0;
+	color:#6d7272;
+}
+
+.uc_diagonal_price_table .uc_price_detail ul li strong
+{
+	font-size:12px;
+	font-weight:600;
+	color:#6d7272;
+}
+
+.uc_diagonal_price_table a.uc_btn{
+	background-color: #e5e5e5;
+    border-radius: 4px;
+    color: #666666;
+    font-size: 14px;
+    padding: 10px 30px;
+    text-align: center;
+    width: 100%;
+	text-decoration:none;
+	transition:all 0.25s ease-in-out;
+
+}
+
+
+
+.uc_content_box_top{
+	padding:42px 0 1px 0;
+	background:#039be5;
+}

@@ -1,0 +1,148 @@
+.uc_custom_price_table* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_custom_price_table .uc_content_box
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	color:#777777;
+	margin:50px 0 0;
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table{
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 7px;
+	border:3px solid;
+    box-sizing: border-box;
+	margin:0 auto;
+    padding: 24px;
+    position: relative;
+    text-align: center;
+    transition: margin-top 0.5s linear 0s;
+	-moz-transition: margin-top 0.5s linear 0s;
+	-ms-transition: margin-top 0.5s linear 0s;
+	-webkit-transition: margin-top 0.5s linear 0s;
+	color:#9f9f9f;
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table:hover
+{
+	margin-top:-30px;
+	transition: margin-top 0.3s linear 0s;
+	-moz-transition: margin-top 0.3s linear 0s;
+	-ms-transition: margin-top 0.3s linear 0s;
+	-webkit-transition: margin-top 0.3s linear 0s;
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table:before {
+    border-style: solid;
+    border-width: 64px 64px 0 0;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.uc_custom_price_table .uc_content_box .uc_price_table:after {
+    color: white;
+    content: "";
+    font-family: "FontAwesome";
+    font-size: 1.4rem;
+    left: 9px;
+    position: absolute;
+    text-shadow: 0 0 2px #37c5b6;
+    top: 6px;
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table ul
+{
+	font-size:15px;
+	font-weight:400;
+	padding:0px;
+	margin:38px 0 0 0;
+	list-style:none;
+	text-align:left;
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table ul li
+{
+	margin-bottom: 15px;
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table ul li:last-child
+{
+	margin-bottom:0px;
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table ul li strong
+{
+	font-weight:600;
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table ul li:before {
+    content: "";
+    font-family: "FontAwesome";
+    font-size: 1.3rem;
+    margin-right: 3px;
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table h2
+{
+	font-size:48px;
+	color:#565656;
+	font-weight:300;
+	margin:0 0 10px 0;
+} 
+.uc_custom_price_table .uc_content_box .uc_price_table small
+{
+	font-size:15px;
+	line-height:20px;
+	font-weight:400;
+	display:block;
+	
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table span
+{
+	background-color:#ffffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 15px;
+    bottom: -20px;
+ 
+    display: inline-block;
+    font-size:15px;
+    font-weight:400;
+    padding: 2px 21px;
+    position: relative;
+}
+
+.uc_custom_price_table .uc_content_box .uc_price_table span:before
+{
+	background-color: #dedede;
+    border: medium none;
+    height: 1px;
+	width:46px;
+	position:absolute;
+	content:'';
+	left:-46px;
+	top:12px;
+}
+
+
+.uc_custom_price_table .uc_content_box .uc_price_table span:after
+{
+	background-color: #dedede;
+    border: medium none;
+    height: 1px;
+	width:46px;
+	position:absolute;
+	content:'';
+	right:-46px;
+	top:12px;
+}

@@ -1,0 +1,40 @@
+.uc-basic-video-teaser * { 
+margin: 0; 
+padding: 0; 
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+box-sizing: border-box; 
+}
+
+
+.uc-basic-video-teaser .uc-basic-video-teaser-inner{max-width: 100%;display: flex;height: calc(100vh);align-items: center;}
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content{ display: flex;text-align: center; margin: 0 auto;width: 100%;text-align: left; align-items: center;
+font-weight: normal;font-size: 15px;line-height: 27px;}
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p{width: 70%;margin: 0 auto;}
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p a{ color:#fff; display: inline-block;  color:#fff;border-radius: 50%;line-height: 100px;text-align: center;font-size: 27px;width: 100px;height: 100px; background:#fff; position:relative;}
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p a .fa{ color:#000;font-size:30px; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%)}
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p em{ font-size:25px; text-transform:uppercase; font-style:inherit;display: block; margin-top:20px;}
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p strong{ display:block;font-size:90px;line-height:100px;font-weight:100;}
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p .btn_mobile{display:none;}
+
+
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p a{transition: all 1s ease-out;}
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p a:hover{ background:rgba(0, 0, 0, 0.5) !important; color:#fff !important; transition: all 1s ease-out;}
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p a:hover .fa{color:#fff !important;}
+
+@media only screen and (max-width: 1024px) {
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p{width: 90%;}
+	
+}
+@media only screen and (max-width: 767px) {
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p strong{font-size: 60px;}
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p{ text-align:center;}
+}
+@media only screen and (max-width: 480px) {
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p strong{font-size: 40px; line-height:normal;}
+}
+
+@media only screen and (max-width: 414px) {
+.uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p a{width: 80px;height: 80px;}
+  .uc-basic-video-teaser .uc-basic-video-teaser-inner .uc-banner-content p strong { font-size: 33px; line-height: normal; margin-top: 15px;}
+}

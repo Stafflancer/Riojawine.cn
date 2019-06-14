@@ -1,0 +1,148 @@
+/* ============================================================================= */
+/* Mailchimp subscribe block. */
+/* ============================================================================= */
+
+.sp-subscribe-form {
+  position   : relative;
+  max-width  : 540px + $grid-gutter-width-base;
+  padding    : 0 $grid-gutter-width-base/2;
+  margin     : 0 auto;
+  text-align : center;
+
+  > .form-inner-wrap {
+    position   : relative;
+    z-index    : 50;
+    -webkit-transition : opacity 0.25s, -webkit-transform 0.25s;
+    transition : opacity 0.25s, -webkit-transform 0.25s;
+    transition : opacity 0.25s, transform 0.25s;
+    transition : opacity 0.25s, transform 0.25s, -webkit-transform 0.25s;
+
+    img {
+      max-width  : 130px;
+      opacity    : 0.2;
+      margin-top : 2rem;
+    }
+
+    p.appear-message {
+      margin-top    : 1rem;
+      margin-bottom : 0;
+    }
+
+    .input-group {
+      width     : 350px;
+      max-width : 100%;
+      margin    : auto;
+    }
+  }
+
+  > .form-output {
+    position    : absolute;
+    top         : 50%; left : 0;
+    padding     : 0 $grid-gutter-width-base/2;
+    width       : 100%; min-height: 118px;
+    z-index     : 100;
+    visibility  : hidden;
+    opacity     : 0;
+    -webkit-transform   : translateY(-50%) scale(0.8);
+            transform   : translateY(-50%) scale(0.8);
+    background  : inherit;
+    -webkit-transition  : all 0.25s;
+    transition  : all 0.25s;
+
+    &:before {
+      font-family : $icon-font-family;
+      font-size   : 70px;
+      line-height : 70px;
+      display     : block;
+      margin      : 0 auto 20px;
+
+      -webkit-animation-duration: 0.5s;
+
+              animation-duration: 0.5s;
+      -webkit-animation-iteration-count: 1;
+              animation-iteration-count: 1;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+    }
+  }
+
+  &.mc-loading, &.mc-invalid, &.mc-valid {
+    > .form-inner-wrap {
+      opacity   : 0;
+      -webkit-transform : scale(0.8);
+              transform : scale(0.8);
+    }
+
+    > .form-output {
+      visibility : visible;
+      opacity    : 1;
+      -webkit-transform  : translateY(-50%) scale(1);
+              transform  : translateY(-50%) scale(1);
+
+      &:before { -webkit-animation-name: sp-mc-form-output-icon; animation-name: sp-mc-form-output-icon; }
+    }
+  }
+
+  > .form-output.valid:before { content: '\f3fd'; color: $brand-success; }
+  > .form-output.error:before { content: '\f404'; color: $brand-danger; }
+
+  &.mc-loading > .form-output:before {
+    content   : '\f45a';
+    color     : inherit;
+    font-size : 55px;
+    -webkit-animation : sp-mc-loading-icon 1s linear infinite;
+            animation : sp-mc-loading-icon 1s linear infinite;
+  }
+}
+
+@-webkit-keyframes sp-mc-loading-icon {
+  from {
+    -webkit-transform : rotate(-360deg);
+            transform : rotate(-360deg);
+  }
+
+  to {
+    -webkit-transform : rotate(0deg);
+            transform : rotate(0deg);
+  }
+}
+
+@keyframes sp-mc-loading-icon {
+  from {
+    -webkit-transform : rotate(-360deg);
+            transform : rotate(-360deg);
+  }
+
+  to {
+    -webkit-transform : rotate(0deg);
+            transform : rotate(0deg);
+  }
+}
+
+@-webkit-keyframes sp-mc-form-output-icon {
+  from {
+    -webkit-transform : rotate(-360deg) scale(0.7);
+            transform : rotate(-360deg) scale(0.7);
+    opacity   : 0.3;
+  }
+
+  to {
+    -webkit-transform : rotate(0deg) scale(1);
+            transform : rotate(0deg) scale(1);
+    opacity   : 1;
+  }
+}
+
+@keyframes sp-mc-form-output-icon {
+  from {
+    -webkit-transform : rotate(-360deg) scale(0.7);
+            transform : rotate(-360deg) scale(0.7);
+    opacity   : 0.3;
+  }
+
+  to {
+    -webkit-transform : rotate(0deg) scale(1);
+            transform : rotate(0deg) scale(1);
+    opacity   : 1;
+  }
+}

@@ -1,0 +1,65 @@
+
+.uc-super-clean-social-icons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc-super-clean-social-icons {
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+.uc-super-clean-social-icons .uc-social-icons-box{
+	display:inline-block;
+	width:20%;
+	margin:0 -2px;
+}
+.uc-super-clean-social-icons .uc-social-icons-box a{
+	font-size:18px;
+	line-height:32px;
+    display: block;
+	padding:10px 10px;
+	border-right:1px solid transparent;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+	font-weight:400;
+	font-family: 'PT Sans', sans-serif;
+}
+.uc-super-clean-social-icons .uc-social-icons-box:hover a{
+	color:#fff !important;
+}
+.uc-super-clean-social-icons .uc-social-icons-box:last-child a{
+	border-right:0px;
+}
+.uc-super-clean-social-icons .uc-social-icons-box span{
+	text-transform:capitalize;
+	display:inline-block;
+	margin-left:7px;
+}
+
+
+@media only screen and (max-width: 760px) {
+	.uc-super-clean-social-icons .uc-social-icons-box a{ font-size:13px;}
+	.uc-super-clean-social-icons .uc-social-icons-box a span{ margin-left:2px;}
+}
+@media only screen and (max-width: 580px) {
+	.uc-super-clean-social-icons .uc-social-icons-box{ width: 33%; margin: 0 -2px 10px;}
+}
+@media only screen and (max-width: 413px) {
+	.uc-super-clean-social-icons .uc-social-icons-box a{ padding:10px 2px; font-size:12px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

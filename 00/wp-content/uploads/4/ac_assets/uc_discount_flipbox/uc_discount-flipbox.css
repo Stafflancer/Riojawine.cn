@@ -1,0 +1,69 @@
+.uc_discount-flipbox * {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*=========================
+ Flip-css ======================= */
+
+.uc_discount-flipbox .flip-box-wrap {display: block;	text-align: center;	position: relative;	-webkit-perspective: 1000px;-o-perspective: 1000px;-ms-perspective: 1000px;perspective: 1000px}
+.uc_discount-flipbox .flip-box-wrap .flip-box {cursor: pointer;position: relative;width: 100%;height: 100%;-webkit-transition: 750ms;transition: 750ms;-ms-perspective: 1000px;-webkit-transform-style: eserve-3d;transform-style: preserve-3d}
+.uc_discount-flipbox .flip-box-wrap .ifb-auto-height .ifb-face, .flip-box-wrap .ifb-custom-height .ifb-face {overflow: hidden}
+.uc_discount-flipbox .flip-box-wrap .ifb-flip-box {height: 100%;	position: relative;	display: block;	-webkit-transform-style: preserve-3d;transform-style: preserve-3d}
+.uc_discount-flipbox .flip-box-wrap .ifb-back, .flip-box-wrap .ifb-front {padding: 0;height: 100%;margin-bottom: 0;-moz-box-sizing: border-box;	-webkit-box-sizing: border-box;	box-sizing: border-box;-webkit-backface-visibility: hidden;backface-visibility: hidden;-webkit-transition: 750ms;	transition: 750ms;-webkit-transform-style: preserve-3d;	transform-style: preserve-3d}
+.uc_discount-flipbox .flip-box-wrap .ifb-front {	z-index: 9;	-webkit-backface-visibility: hidden;backface-visibility: hidden}
+.uc_discount-flipbox .flip-box-wrap .ifb-front * {-webkit-backface-visibility: hidden;backface-visibility: hidden}
+.uc_discount-flipbox .flip-box-wrap .ifb-back {position: absolute;top: 0;z-index: -1}
+.uc_discount-flipbox .flip-box-wrap:hover .ifb-back {z-index: 1}
+.uc_discount-flipbox .flip-box-wrap .ifb-jq-height .ifb-back {display: block;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;	box-sizing: border-box;	height: 100%;bottom: 0}
+.uc_discount-flipbox .flip-box-wrap .horizontal_flip_left .ifb-front {-webkit-transform: rotateY(0);	-ms-transform: rotateY(0);	transform: rotateY(0)}
+.uc_discount-flipbox .flip-box-wrap .horizontal_flip_left .ifb-back {-webkit-transform: rotateY(-180deg);-ms-transform: rotateY(-180deg);transform: rotateY(-180deg)}
+.uc_discount-flipbox .flip-box-wrap .horizontal_flip_left .ifb-hover .ifb-back {-webkit-transform: rotateY(0);-ms-transform: rotateY(0);transform: rotateY(0)}
+.uc_discount-flipbox .flip-box-wrap .horizontal_flip_left .ifb-hover .ifb-front {-webkit-transform: rotateY(180deg);	-ms-transform: rotateY(180deg);	transform: rotateY(180deg)}
+.uc_discount-flipbox .flip-box-wrap .horizontal_flip_right .ifb-front {-webkit-transform: rotateY(0);-ms-transform: rotateY(0);transform: rotateY(0)}
+
+/*=========================
+ Flip-css ======================= */
+.uc_discount-flipbox { height: 371px;}
+.uc_discount-flipbox .flip-box-wrap .ifb-flip-box{height: 371px;}
+		
+		/*=========================
+ front pane inner======================= */
+ .uc_discount-flipbox .uc_front{ overflow:hidden;}
+.uc_discount-flipbox .uc_front > img {width: 100%;}
+.uc_discount-flipbox .uc_front .uc_front_inner{ position:absolute; left:22px; top:22px; width:87px; height:87px; border-radius:50%; text-align:center; }
+.uc_discount-flipbox .uc_front .uc_front_inner span{color:#fff; font-size:26px; line-height:30px; margin:15px 0 0;display: block;}
+.uc_discount-flipbox .uc_front .text-box{position:absolute; right:0px; top:0px; width:42px; height:100%; color:#ffffff; text-align:center; font-size:16px;font-family: 'Montserrat', sans-serif; padding:0px; text-transform:uppercase; letter-spacing:5px;
+writing-mode:tb-rl;
+-ms-writing-mode: tb-rl;
+-webkit-writing-mode: vertical-rl;
+-moz-writing-mode: vertical-rl;
+-ms-writing-mode: vertical-rl;
+
+
+    -webkit-transform:rotate(0deg);
+    -moz-transform:rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform:rotate(0deg);
+    transform: rotate(0deg);
+    white-space:nowrap;
+    display:block;
+    bottom:0;}
+
+
+
+
+		/*=========================
+ Back pane inner======================= */
+
+
+.uc_discount-flipbox .uc_back .uc_front_inner{width:100%; height:100%;text-align: center;}
+.uc_discount-flipbox .uc_back .uc_front_inner .uc_tag{ background:url(top-pic.png) no-repeat top center; width:100%; height:67px;  font-size:39px; color:#f0efef; font-weight:bold;font-family: 'Montserrat', sans-serif;padding: 10px 0 0 0;}
+
+.uc_discount-flipbox .uc_back .uc_front_inner h2{ font-size:16px;  font-weight:normal; font-weight:500; margin:25px 0px 15px; display:inline-block; text-transform:uppercase; position:relative; margin:80px 0 20px;}
+.uc_discount-flipbox .uc_back .uc_front_inner h2 .border{ position:absolute; bottom:-10px; left:50%; transform:translateX(-50%); width:25px; height:2px; background:#fff;}
+.uc_discount-flipbox .uc_back .uc_front_inner p{ font-size:14px; margin:0 9%; line-height:22px;}
+.uc_discount-flipbox .uc_back .uc_front_inner a{  font-size:14px; padding:8px 40px 8px 10px; display:inline-block; border-radius:30px; text-decoration:none; margin:28px 0 0;}
+

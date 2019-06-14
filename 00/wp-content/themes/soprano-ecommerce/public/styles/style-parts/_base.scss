@@ -1,0 +1,142 @@
+/* ============================================================================= */
+/* Base styles for common elements. */
+/* ============================================================================= */
+
+html {
+  -webkit-font-smoothing : antialiased;
+  overflow-x             : hidden;
+}
+
+body {
+  letter-spacing : 0.04em;
+
+  //&::-webkit-scrollbar-track { background : #ddd; }
+  //&::-webkit-scrollbar { width : 6px; background : #ddd; }
+  //&::-webkit-scrollbar-thumb { background : $brand-primary; }
+
+  &.disable-hover { pointer-events : none; }
+}
+
+.sp-theme-root-wrapper {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+}
+
+
+/* ================================= basic scaffolding */
+p { margin-bottom : 2rem; }
+a { -webkit-transition : all 0.25s; transition : all 0.25s; outline: none; }
+hr { border-color : #eee; display : inline-block; width : 100%; }
+button, input, optgroup, select, textarea { font-family : $font-family-base }
+blockquote {
+  padding       : 15px 30px;
+  border-left   : 5px solid #eee;
+  margin-bottom : 1.5rem;
+  p:last-child { margin-bottom : 0; }
+}
+
+.wp-caption,
+.sp-widget-block img,
+.sp-blog-block img { max-width : 100%; height : auto; }
+
+button, input, select, textarea { max-width : 100%; }
+
+table {
+  margin-bottom: 2rem;
+  tr, th, td {padding: 10px 15px; border: 1px solid #eee;}
+}
+
+#sp-wrapper { background : #fff; position : relative; z-index : 10; }
+.sp-marg30 { margin-top : 30px; }
+.sp-marg50 { margin-top : 50px; }
+
+@include media-breakpoint-down(sm) {
+  .text-right { text-align : center !important }
+  .text-left { text-align : center !important }
+  [class^='col-'], [class*=' col-'] { padding-top : 15px; padding-bottom : 15px; }
+  .sp-marg30, .sp-marg50 { margin-top : 30px; }
+}
+
+
+/* ================================= main section styles */
+.sp-section {
+  position         : relative;
+  z-index          : 992;
+  padding-top      : 110px;
+  padding-bottom   : 110px;
+  background-color : #fff;
+
+  &.pt0 { padding-top : 0 !important; }
+  &.pb0 { padding-bottom : 0 !important; }
+  &.none { padding : 0 !important; }
+
+  &.border {
+    border-top : 1px solid #eee;
+  }
+  &.white {
+    color : #fff;
+    h1, h2, h3, h4, h5, h6 { color : #fff; }
+  }
+  &.little {
+    padding-top    : 80px;
+    padding-bottom : 80px;
+    @include media-breakpoint-down(sm) { padding-top : 50px; padding-bottom : 50px; }
+  }
+  &.bg-color-light {
+    background    : #f5f5f5;
+    border-top    : 1px solid #eee;
+    border-bottom : 1px solid #eee;
+  }
+  &.bg-color-dark {
+    background    : #333;
+    border-top    : 1px solid #444;
+    border-bottom : 1px solid #444;
+    color         : #fff;
+  }
+  img { max-width : 100%; height : auto; }
+  p:last-child { margin-bottom : 0; }
+  @include media-breakpoint-down(sm) { padding-top : 80px; padding-bottom : 80px; text-align : center }
+}
+
+.sp-overlay {
+  @include overlay-base();
+  //z-index: -1;
+  background : rgba(0, 0, 0, 0.6);
+}
+
+
+/* ================================= special styles for icon packs */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  margin : 0;
+}
+
+
+/* ================================= jarallax integration */
+.jarallax {
+  background-size     : cover;
+  background-repeat   : no-repeat;
+  background-position : 50% 50%;
+}
+
+
+/* ================================= button vc schortcode */
+.sp-btn-container {
+  display    : inline-block;
+  width      : 100%;
+  margin-top : 15px;
+  .align_center { text-align : center; }
+  .align_left { text-align : left; }
+  .align_right { text-align : right; }
+}
+
+
+/* ================================= bg color swarm effect */
+.sp-color-swarm {
+  position : relative;
+
+  > .sp-color-swarm-svg {
+    @include overlay-base();
+    //z-index : -1;
+  }
+}

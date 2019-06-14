@@ -1,0 +1,27 @@
+/* ============================================================================= */
+/* Site socials VC widget. */
+/* ============================================================================= */
+
+.sp-site-socials {
+  margin    : 0 -12px;
+  font-size : 0;
+  color     : $brand-primary;
+
+  > a {
+    -webkit-transition    : opacity 0.25s;
+    transition    : opacity 0.25s;
+    opacity       : 1;
+    display       : inline-block;
+    color         : inherit;
+    font-size     : 23px;
+    padding       : 0 12px;
+
+    &:hover { opacity : 0.6; }
+  }
+
+  &.align_center { text-align : center; }
+  &.align_left { text-align : left; }
+  &.align_right { text-align : right; }
+
+  @include media-breakpoint-down(sm) { text-align : center !important; }
+}

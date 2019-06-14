@@ -1,0 +1,191 @@
+.uc_alternating_price_table * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_alternating_price_table .uc_content_box{
+	font-family: 'Lato', sans-serif;
+	
+}
+
+.uc_alternating_price_table .uc_content_box a{
+	text-decoration:none;
+	transition:0.5s all ease;
+	-webkit-transition:0.5s all ease;
+	-moz-transition:0.5s all ease;
+	-o-transition:0.5s all ease;
+	-ms-transition:0.5s all ease;
+}
+
+.uc_alternating_price_table .uc_pricing_grid {
+	max-width:480px;
+	text-align: center;
+	margin:0 auto;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	padding: 0;
+	border: none;
+	border-radius: 0.7em;
+	-webkit-border-radius: 0.7em;
+	-o-border-radius: 0.7em;
+	-moz-border-radius: 0.7em;
+}
+
+.uc_alternating_price_table .uc_pricing_grid:hover{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	z-index: 1;
+	border: none;
+}
+
+.uc_alternating_price_table .uc_price_value h3{
+	margin:0;
+}
+
+.uc_alternating_price_table .uc_price_value h3 a{
+	font-size: 1.8em;
+	color:#fff;
+}
+
+.uc_alternating_price_table .uc_price_value{
+	background:#2b2b33;
+	border-bottom:2px solid#fd6e70;
+	padding: 2.8em 1.8em 2em;
+	border-top-left-radius:0.7em;
+	-webkit-border-top-left-radius:0.7em;
+	-o-border-top-left-radius: 0.7em;
+	-moz-border-top-left-radius:0.7em;
+	border-top-right-radius:0.7em;
+	-webkit-border-top-right-radius:0.7em;
+	-o-border-top-right-radius:0.7em;
+	-moz-border-top-left-radius: 0.7em;
+	position: relative;
+}
+
+.uc_alternating_price_table .uc_pricing_grid ul{
+	padding: 0;
+}
+
+.uc_alternating_price_table .uc_pricing_grid ul li{
+	list-style: none;
+}
+
+.uc_alternating_price_table .uc_price_value ul li{
+	list-style: none;
+}
+
+.uc_alternating_price_table .uc_price_value  h5 span{
+	color: #fbd707;
+	font-size: 19px;
+}
+
+.uc_alternating_price_table .uc_price_value lable{
+	color: #817d94;	
+	font-size: 17px;
+}
+.uc_alternating_price_table .uc_price_value h5 span{
+	color:#fe6d72;
+}
+.uc_alternating_price_table .uc_price_value h5 lable{
+	color:#8c8c94;
+}
+.uc_alternating_price_table .uc_price_value h5 {
+	padding: 11px 0;
+	margin:0;
+}
+
+.uc_alternating_price_table .uc_sale_box{
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	height: 130px;
+	width: 143px;
+	text-align: center;
+	z-index: 0;
+	right:0;
+	border-top-right-radius: 0.7em;
+	-o-border-top-right-radius: 0.7em;
+	-moz-border-top-right-radius: 0.7em;
+	-webkit-border-top-right-radius: 0.7em;
+}
+
+.uc_alternating_price_table .uc_sale_box span.uc_on_sale{
+	font-size: 14px;
+	color: #444;
+	background: #fa6e6f;
+	text-transform: uppercase;
+	padding: 58px 35px 17px 40px;
+	width: 281px;
+	text-align: center;
+	display: block;
+	position: absolute;
+	left: -47px;
+	top: -41px;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-transform: rotate(-44deg);
+	-ms-transform: rotate(-44deg);
+	transform: rotate(40deg);
+	box-shadow: 3px -4px 13px 3px rgba(0,0,0,0.75);
+	box-sizing:content-box;
+}
+
+.uc_alternating_price_table .uc_pricing_grid ul li a{
+	color: #C7C4C4;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+	padding: 16px 0;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.uc_alternating_price_table .uc_pricing_grid ul li:nth-child(odd) a{
+	background:#f4f4f4;
+}
+
+
+
+.uc_alternating_price_table .uc_price_bg {
+	background: #fff;
+}
+
+.uc_alternating_price_table .uc_price_bg ul {
+	padding: 0;
+	margin:0;
+}
+
+.uc_alternating_price_table .uc_btn{
+	padding: 2.7em 0em 2.7em;
+	display: block;
+	border-bottom: 2px solid#f96d70;
+}
+
+.uc_alternating_price_table .uc_btn a{
+	color: #ffffff;
+	font-size: 0.9em;
+	font-weight: 500;
+	padding: 0.8em 2em;
+	text-decoration: none;
+	background:#fa6e6f;
+	text-transform:uppercase;
+	-webkit-appearance:none;
+	border-radius:1em;
+	-webkit-border-radius:1em;
+	-o-border-radius:1em;
+	-moz-border-radius:1em;
+	outline: none;
+}
+
+.uc_alternating_price_table .uc_btn a:hover{
+	color: #2b2b33;
+}

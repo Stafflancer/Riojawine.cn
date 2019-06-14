@@ -1,0 +1,125 @@
+
+.uc-bold-instagram-widget * { 
+	margin: 0; 
+	padding: 0;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.uc-bold-instagram-widget{
+	position:relative;
+	vertical-align:top;
+}
+.uc-bold-instagram-widget .uc-widget-container{ 
+	max-width: 100%; 
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box{
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-image-area{
+	clear:both;
+	overflow:hidden;
+	position:relative;
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-image-area ul{ 
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-image-area ul li{ 
+	float:left;
+	width:25%;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-image-area ul li:first-child{ 
+	width:50%;
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-image-area ul li img{ 
+	width:100%;
+	border:0;
+	outline:0;
+	
+	display:block;
+}
+
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area{ 
+	padding: 10px 18px 18px 13px;
+	position:relative;
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area img{
+	display:block;
+	float:left;
+	border-radius:50%;
+	position:relative;
+	margin-right:17px;
+	border:2px solid transparent;
+	margin-top: -65px;
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area .uc-profile-text{
+	float:left;
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area strong{
+	font-size:18px;
+	font-weight:500;
+	display:block;
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area span{
+	font-size:13px;
+	font-weight:300;
+	display:block;
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area a{
+	font-size:16px;
+	font-weight:500;
+	display:block;
+	float:right;
+	padding:3px 22px;
+	text-align:center;
+	border-radius:3px;
+	text-decoration:none;
+	margin-top:17px;
+}
+
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area:before,
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area:after {
+  clear: both;
+}
+
+
+@media only screen and (max-width: 479px) {
+	.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area{ text-align:center;}
+	.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area img,
+	.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area .uc-profile-text,
+	.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area a{ 
+	float:none;}
+	.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area img,
+	.uc-bold-instagram-widget .uc-widget-container .uc-content-box .uc-profile-area a{ display:inline-block; margin:10px 0 0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

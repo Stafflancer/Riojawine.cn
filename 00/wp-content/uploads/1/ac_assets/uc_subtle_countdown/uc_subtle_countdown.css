@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_subtle_countdown * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_subtle_countdown .uc_subtle_countdown_inner{ background-size:cover !important;}
+.uc_subtle_countdown .uc_subtle_countdown_inner .timer { width: 100%; text-align: center; padding:20px 0 25px; clear:both; overflow:hidden;}
+.uc_subtle_countdown .uc_subtle_countdown_inner .timer div{
+	width: 170px;
+	margin: 10px 10px;
+	display:inline-block;
+	text-align: center;
+	text-transform:uppercase;
+	font-family: 'Lato', sans-serif;
+}
+.uc_subtle_countdown .uc_subtle_countdown_inner .timer div span{
+	position:relative;
+	display: block;
+	padding:35px 0;
+	color: #3a3a3a;
+	line-height: 31px;
+	font-weight:900;
+	font-size:50px;
+	border-bottom:2px solid #3a3a3a;
+	background:#49c1b7;
+	border-radius:5px 5px 0 0;
+	
+	background: -webkit-linear-gradient(0deg,#000000,#ffffff);
+	background: -o-linear-gradient(0deg,#000000,#ffffff);
+	background: -moz-linear-gradient(0deg,#000000,#ffffff);
+	background: linear-gradient(0deg,#000000,#ffffff);
+}
+
+.uc_subtle_countdown .uc_subtle_countdown_inner .timer div em{
+	background: #fff;
+	display: block; 
+	position: relative;
+	color: #3a3a3a; 
+	line-height: 31px;
+	font-family: 'Lato', sans-serif; 
+	font-weight:700;
+	font-size:18px;
+	font-style:normal;
+	border-radius:0 0 5px 5px;
+	padding:35px 0;
+	z-index:1;
+}
+
+@media only screen and (max-width: 479px) {
+	.uc_subtle_countdown .uc_subtle_countdown_inner .timer div span{ font-size:38px;}
+	.uc_subtle_countdown .uc_subtle_countdown_inner .timer div em{ font-size:14px;}
+}
+
+@media only screen and (max-width: 413px) {
+	.uc_subtle_countdown .uc_subtle_countdown_inner .timer div span{ font-size:30px;}
+	.uc_subtle_countdown .uc_subtle_countdown_inner .timer div em{ font-size:12px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+.uc-phone-slider * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.uc-phone-slider{
+	position:relative;
+}
+.uc-phone-slider .uc-phone-slider-container{ 
+	max-width: 100%; 
+	display: flex; 
+	height: 100vh;
+	align-items: center;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-slide{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-slide ul li{
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.uc-phone-slider .uc-phone-slider-container .flexslider .slides li { height:100vh; font-size:0px !important;}
+.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-image{ 
+	width:100%;
+}
+
+
+.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content{ 
+	max-width: 100%;
+    padding-left: 10%;
+    position: relative;
+    z-index: 98;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content .uc-content-box {
+    max-width: 54%;
+	border-left:5px solid transparent;
+	padding:47px;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content span {
+    display: block;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content strong{ 
+	display:block; 
+	font-size:30px; 
+	line-height:normal;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	margin:0 0 40px;
+	text-transform:uppercase;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content p {
+    display: block;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+	padding-right: 70px;
+	margin-bottom:70px;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content .uc-btn {
+    border: 2px solid transparent;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 56px;
+    padding: 0px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+    width: 220px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content .uc-btn:hover{
+	background:#fff;
+	color:#000 !important;
+}
+
+
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-control-nav { display:none;}
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-prev{ 
+	background:rgba(255,255,255,0.16) url(left-arrow.png) no-repeat center center; 
+	width:57px; 
+	height:57px; 
+	z-index:99;
+	border-radius:5px;
+	margin-top:-28px;
+	
+}
+
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-next{ 
+	background:rgba(255,255,255,0.16) url(right-arrow.png) no-repeat center center; 
+	width:57px; 
+	height:57px; 
+	z-index:99;
+	border-radius:5px;
+	margin-top:-28px;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flexslider {
+    background:none;
+    border: 0px solid #ffffff;
+    border-radius: 0px;
+    margin: 0px;
+    position: relative;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-direction-nav a::before {
+    content: "";
+    text-shadow: none;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flexslider:hover .flex-direction-nav .flex-prev {
+    left: inherit;
+	right:119px;
+    opacity: 1;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flexslider:hover .flex-direction-nav .flex-next {
+    right: 52px;
+    opacity: 1;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-direction-nav .flex-next {
+    right: 52px;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-direction-nav .flex-prev {
+    left: inherit;
+	right:119px;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-direction-nav .flex-prev,
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-direction-nav .flex-next{
+	top:inherit;
+	bottom: 50px;
+}
+.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-direction-nav a{ opacity:1;}
+@media only screen and (max-width: 959px) {
+	.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content .uc-content-box { max-width: 67%; padding: 20px;}
+	.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content strong{ font-size:26px;}
+}
+@media only screen and (max-width: 767px) {
+	.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content .uc-content-box { max-width: 100%;}
+	.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content strong{ font-size:18px; margin-bottom:20px;}
+	.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content p{ margin-bottom:20px;}
+	.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content span{ font-size:13px;}
+	.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content .uc-btn{ width:auto; line-height:normal; padding:12px 30px;}
+	.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content p{ padding-right:0;}
+	
+	.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-direction-nav .flex-prev,
+	.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-direction-nav .flex-next{ bottom: 10px;}
+	.uc-phone-slider .uc-phone-slider-container .uc-slide .flexslider:hover .flex-direction-nav .flex-prev { right:60px;}
+	.uc-phone-slider .uc-phone-slider-container .uc-slide .flexslider:hover .flex-direction-nav .flex-next { right: 10px;}
+	.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-direction-nav .flex-next { right: 10px;}
+	.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-direction-nav .flex-prev { right:60px;}
+	.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-next, 
+	.uc-phone-slider .uc-phone-slider-container .uc-slide .flex-prev{ width:40px; height:40px;}
+}
+@media only screen and (max-width: 639px) {
+	.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content{ padding-left:4%;}
+}
+@media only screen and (max-width: 413px) {
+	.uc-phone-slider .uc-phone-slider-container .uc-phone-slider-content strong{ font-size:15px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

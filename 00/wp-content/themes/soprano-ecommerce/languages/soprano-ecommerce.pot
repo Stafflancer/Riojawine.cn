@@ -1,0 +1,2091 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-02-28 01:39+0700\n"
+"PO-Revision-Date: 2018-06-01 12:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_attr__;__;_e;_n;_n:1,2;esc_html_e;"
+"esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: third-party-modules/tgmpa\n"
+"X-Poedit-SearchPathExcluded-1: third-party-modules/scss-compiler\n"
+
+#: 404.php:51
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:52
+msgid "Houston, We Have A Problem"
+msgstr ""
+
+#: archive.php:12
+msgid "Archive"
+msgstr ""
+
+#: archive.php:13
+msgid "Search results"
+msgstr ""
+
+#: archive.php:17
+msgid "Latest Posts"
+msgstr ""
+
+#: comments.php:14
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:23
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:30
+msgid "Reply"
+msgstr ""
+
+#: comments.php:33
+msgid "Edit"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:58
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:70
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:74
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:85
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:65
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:87
+#: third-party-modules/visual-composer/templates/mailchimp-form.php:12
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:66
+msgid "Your E-mail"
+msgstr ""
+
+#: comments.php:89
+msgid "Your Website"
+msgstr ""
+
+#: comments.php:89
+msgid "Your Site Url"
+msgstr ""
+
+#: comments.php:91
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:89
+msgid "Your Comment"
+msgstr ""
+
+#: comments.php:93
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:63
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:93
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:63
+msgid "All fields are required."
+msgstr ""
+
+#: comments.php:98
+msgid "Cancel"
+msgstr ""
+
+#: comments.php:99
+msgid "Leave comment"
+msgstr ""
+
+#: header.php:69
+msgid "Enter keyword..."
+msgstr ""
+
+#: internal/helpers.php:126
+msgid "Define menu for this location in dashboard."
+msgstr ""
+
+#: internal/helpers.php:492
+#, php-format
+msgid "Attachment image #%s"
+msgstr ""
+
+#: internal/hooks.php:57
+msgid "Pages:"
+msgstr ""
+
+#: internal/partials/custom_admin_columns.php:62
+msgid "Thumbnail"
+msgstr ""
+
+#: internal/partials/custom_admin_columns.php:80
+msgid "ID"
+msgstr ""
+
+#: internal/partials/custom_admin_columns.php:104
+msgid "Featured image is not set."
+msgstr ""
+
+#: internal/theme-setup.php:84
+msgid "Primary header menu"
+msgstr ""
+
+#: internal/theme-setup.php:85
+msgid "Footer menu"
+msgstr ""
+
+#: internal/theme-setup.php:86
+msgid "404 page menu"
+msgstr ""
+
+#: internal/theme-setup.php:127
+#: third-party-modules/visual-composer/shortcodes/arrow.php:78
+#: third-party-modules/visual-composer/shortcodes/button.php:136
+#: third-party-modules/visual-composer/shortcodes/circle.php:81
+#: third-party-modules/visual-composer/shortcodes/clients.php:113
+#: third-party-modules/visual-composer/shortcodes/contacts.php:116
+#: third-party-modules/visual-composer/shortcodes/countdown.php:80
+#: third-party-modules/visual-composer/shortcodes/faq.php:106
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:109
+#: third-party-modules/visual-composer/shortcodes/intro-buttons.php:96
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:166
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:95
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:108
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:348
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:114
+#: third-party-modules/visual-composer/shortcodes/list.php:114
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:98
+#: third-party-modules/visual-composer/shortcodes/map.php:80
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:131
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:183
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:223
+#: third-party-modules/visual-composer/shortcodes/progress-bar.php:81
+#: third-party-modules/visual-composer/shortcodes/quote.php:88
+#: third-party-modules/visual-composer/shortcodes/services.php:96
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:85
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:160
+#: third-party-modules/visual-composer/shortcodes/team-member.php:152
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:102
+#: third-party-modules/visual-composer/shortcodes/text.php:145
+#: third-party-modules/visual-composer/shortcodes/title.php:102
+msgid "Soprano Theme"
+msgstr ""
+
+#: internal/theme-setup.php:135 internal/theme-setup.php:136
+msgid "General Options"
+msgstr ""
+
+#: internal/theme-setup.php:143
+#: third-party-modules/advanced-custom-fields/fields.php:859
+msgid "Header"
+msgstr ""
+
+#: internal/theme-setup.php:144
+msgid "Header Options"
+msgstr ""
+
+#: internal/theme-setup.php:151
+#: third-party-modules/advanced-custom-fields/fields.php:1107
+msgid "Footer"
+msgstr ""
+
+#: internal/theme-setup.php:152
+msgid "Footer Options"
+msgstr ""
+
+#: internal/theme-setup.php:159
+msgid "Theme Extras"
+msgstr ""
+
+#: internal/theme-setup.php:160
+msgid "Theme Extras Settings"
+msgstr ""
+
+#: internal/widgets.php:28
+msgid "Main Sidebar"
+msgstr ""
+
+#: internal/widgets.php:30
+msgid ""
+"Appears in the blog section and on simple static pages on the right side."
+msgstr ""
+
+#: internal/widgets.php:38
+msgid "Footer Sidebar"
+msgstr ""
+
+#: internal/widgets.php:40
+msgid "Appears at the footer area on the each page of your site."
+msgstr ""
+
+#: internal/widgets.php:49
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: internal/widgets.php:51
+msgid "Appears on the shop pages."
+msgstr ""
+
+#: internal/wp_widgets/most_viewed.php:18
+msgid "Popular posts"
+msgstr ""
+
+#: internal/wp_widgets/most_viewed.php:21
+msgid ""
+"Displays most popular posts of your blog based on views count. Works only "
+"when WP-PostViews plugin is installed."
+msgstr ""
+
+#: internal/wp_widgets/most_viewed.php:61
+#, php-format
+msgid "%d view(s)"
+msgstr ""
+
+#: internal/wp_widgets/most_viewed.php:74
+msgid "Title:"
+msgstr ""
+
+#: internal/wp_widgets/most_viewed.php:78
+msgid "Post count:"
+msgstr ""
+
+#: single-sp-portfolio.php:22
+msgid "Previous"
+msgstr ""
+
+#: single-sp-portfolio.php:30
+msgid "Next"
+msgstr ""
+
+#: single.php:17
+msgid "Featured Post"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:18
+msgid "Hide sidebar"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:21
+msgid "This option allows you to hide sidebar on that particular page."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:37
+#: third-party-modules/advanced-custom-fields/fields.php:485
+msgid "Sidebar position"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:57
+#: third-party-modules/advanced-custom-fields/fields.php:90
+msgid "Inherit from theme options"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:58
+#: third-party-modules/advanced-custom-fields/fields.php:497
+#: third-party-modules/visual-composer/partials/custom-parameters.php:45
+#: third-party-modules/visual-composer/shortcodes/button.php:110
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:51
+msgid "Left"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:59
+#: third-party-modules/advanced-custom-fields/fields.php:498
+#: third-party-modules/visual-composer/partials/custom-parameters.php:47
+#: third-party-modules/visual-composer/shortcodes/button.php:111
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:52
+msgid "Right"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:70
+#: third-party-modules/advanced-custom-fields/fields.php:509
+msgid "Make sidebar sticky"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:91
+#: third-party-modules/advanced-custom-fields/fields.php:521
+#: third-party-modules/advanced-custom-fields/fields.php:1027
+#: third-party-modules/advanced-custom-fields/fields.php:1075
+#: third-party-modules/advanced-custom-fields/fields.php:1553
+#: third-party-modules/visual-composer/partials/custom-animations.php:60
+msgid "Yes"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:92
+#: third-party-modules/advanced-custom-fields/fields.php:522
+#: third-party-modules/advanced-custom-fields/fields.php:1028
+#: third-party-modules/advanced-custom-fields/fields.php:1076
+#: third-party-modules/advanced-custom-fields/fields.php:1554
+msgid "No"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:130
+msgid "Audio/Video post options"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:134
+msgid "oEmbed URL"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:137
+msgid "Paste oEmbed URL of audio/video fragment."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:177
+msgid "Blogroll page options"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:181
+#: third-party-modules/advanced-custom-fields/fields.php:1260
+msgid "Listing layout"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:184
+msgid "Select layout to use on this particular page."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:193
+msgid "Inherit from global theme options"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:194
+#: third-party-modules/advanced-custom-fields/fields.php:1272
+msgid "Chess"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:195
+#: third-party-modules/advanced-custom-fields/fields.php:1273
+msgid "Medium"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:196
+#: third-party-modules/advanced-custom-fields/fields.php:1274
+msgid "Classic"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:197
+#: third-party-modules/advanced-custom-fields/fields.php:1275
+msgid "Masonry"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:208
+msgid "Posts per page"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:211
+msgid "Leave empty to use global value from WordPress options."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:249
+msgid "Gallery post options"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:253
+msgid "Images"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:256
+msgid "Attach images to this blog post."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:272
+#: third-party-modules/advanced-custom-fields/fields.php:694
+#: third-party-modules/advanced-custom-fields/fields.php:875
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:90
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:51
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:320
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:98
+#: third-party-modules/visual-composer/shortcodes/team-member.php:71
+msgid "Image"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:296
+#: third-party-modules/advanced-custom-fields/fields.php:718
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:107
+msgid "Caption"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:337
+#: third-party-modules/advanced-custom-fields/woocommerce_fields.php:18
+msgid "General"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:341
+msgid "Fonts"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:357
+#: third-party-modules/visual-composer/shortcodes/text.php:99
+msgid "Primary font"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:360
+msgid ""
+"The most frequently used font family in the theme. Used in text paragraphs, "
+"menus, widgets and more."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:374
+#: third-party-modules/visual-composer/shortcodes/text.php:100
+msgid "Headings font"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:391
+msgid "Accent font"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:394
+msgid "Used in quotes and hero blocks."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:408
+msgid "Colors"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:424
+#: third-party-modules/visual-composer/shortcodes/button.php:81
+msgid "Primary color"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:427
+msgid ""
+"The main branding color of your site. Used in buttons, headings, backgrounds "
+"and etc."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:439
+msgid "Body background color"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:454
+msgid "Body text color"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:469
+msgid "Sidebars"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:488
+msgid "Select page side for sidebar."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:512
+msgid ""
+"If this option in turned on - sidebar will stick on user's screen when "
+"scrolling."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:533
+msgid "Other"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:549
+msgid "Google Maps API key"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:552
+msgid ""
+"Enter your own key in order to enable Google services in a theme. <a href="
+"\"https://developers.google.com/maps/documentation/javascript/get-api-key\" "
+"target=\"_blank\">Create new key.</a>"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:568
+msgid "Site socials"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:571
+msgid "Leave empty to hide social links from the website."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:587
+#: third-party-modules/visual-composer/shortcodes/arrow.php:43
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:52
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:67
+#: third-party-modules/visual-composer/shortcodes/services.php:55
+msgid "Icon"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:601
+msgid "URL"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:622
+msgid "Default intro background"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:625
+msgid ""
+"Upload default intro block background for search results pages and simple "
+"static pages."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:646
+msgid "\"Go to top\" button"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:658
+#: third-party-modules/advanced-custom-fields/fields.php:1326
+msgid "Enabled"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:659
+msgid "Disabled"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:690
+msgid "Image post options"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:697
+msgid "Uploaded image will be shown on single page of that blog post."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:721
+msgid "Basic HTML is allowed. Can be empty."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:757
+msgid "Link post options"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:761
+#: third-party-modules/visual-composer/shortcodes/arrow.php:52
+#: third-party-modules/visual-composer/shortcodes/button.php:71
+#: third-party-modules/visual-composer/shortcodes/list.php:76
+msgid "Link"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:764
+msgid "Attach here a link that will be featured in this post."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:797
+msgid "Quote post options"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:801
+msgid "Quote text"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:804
+msgid "Type featured quote of this post. Basic HTML is allowed."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:820
+msgid "Quote author"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:823
+msgid "Will be shown under quote text."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:863
+msgid "Logo type"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:876
+#: third-party-modules/visual-composer/shortcodes/clients.php:67
+#: third-party-modules/visual-composer/shortcodes/contacts.php:91
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:83
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:128
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:188
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:73
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:109
+#: third-party-modules/visual-composer/shortcodes/quote.php:47
+#: third-party-modules/visual-composer/shortcodes/services.php:73
+#: third-party-modules/visual-composer/shortcodes/team-member.php:55
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:64
+#: third-party-modules/visual-composer/shortcodes/text.php:81
+msgid "Text"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:887
+msgid "Light logo image"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:919
+msgid "Dark logo image"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:951
+msgid "Logo height"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:954
+msgid "Logo image will be resized automatically to this height."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:980
+msgid "Logo text"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1007
+msgid "Highlight first letter"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1039
+msgid "Header stuck effect"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1042
+msgid ""
+"How effect should be applied to the header when a page gets scrolled down."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1051
+msgid "Transform"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1052
+msgid "Slide-in from top"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1063
+msgid "Hide search from header"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1111
+msgid "Widget columns"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1114
+msgid "Select how much columns should be present in the footer widgets area."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1132
+msgid "Background color"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1147
+#: third-party-modules/visual-composer/shortcodes/quote.php:62
+msgid "Text color"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1162
+msgid "Links color"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1165
+msgid "By default equals to a primary color."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1177
+msgid "Copyright text"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1180
+msgid "<code>@YEAR</code> is equals to current year."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1196
+msgid "Footer mode"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1208
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:119
+msgid "Regular"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1209
+msgid "Fixed with fade"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1240
+msgid "Theme extras"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1244
+msgid "Blog"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1286
+msgid "Related posts mechanism"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1289
+msgid "Select none to disable \"related posts\" feature."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1298
+msgid "Tags"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1299
+msgid "Categories"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1300
+#: third-party-modules/visual-composer/shortcodes/list.php:88
+msgid "None"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1311
+msgid "Mailchimp subscription form"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1345
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:55
+msgid "Form URL"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1348
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:58
+msgid ""
+"This should be something like http://xxxx.us9.list-manage.com/subscribe/post?"
+"u=1368c473b42d831e481262a9c&id=63bbf421ee"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1372
+msgid "Form heading"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1399
+msgid "Form opening text"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1402
+msgid "Basic HTML is allowed."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1428
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:181
+msgid "Portfolio"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1444
+msgid "Slug base"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1447
+msgid ""
+"Used in permalinks for portfolio single item pages. Leave empty to use theme-"
+"default."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1463
+msgid "404 Page"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1479
+msgid "Main headline"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1498
+msgid "Headline subscript"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1517
+msgid "Background image"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/fields.php:1541
+msgid "Enable Ken Burns effect"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/woocommerce_fields.php:14
+msgid "WooCommerce"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/woocommerce_fields.php:34
+msgid "Products per page in listings"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/woocommerce_fields.php:37
+msgid ""
+"How much products should be displayed at listings pages such as search or "
+"category listing. Leave empty to use WordPress default."
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/woocommerce_fields.php:55
+msgid "Related products count"
+msgstr ""
+
+#: third-party-modules/advanced-custom-fields/woocommerce_fields.php:58
+msgid ""
+"How much products should be showcased as related on single product page."
+msgstr ""
+
+#: third-party-modules/demo-import/init.php:16
+msgid "Demo Importer"
+msgstr ""
+
+#: third-party-modules/demo-import/init.php:128
+msgid "Visual Composer parameters tuned."
+msgstr ""
+
+#: third-party-modules/theme-support-beacon/init.php:16
+msgid "Customer Support"
+msgstr ""
+
+#: third-party-modules/theme-support-beacon/init.php:65
+#: third-party-modules/theme-support-beacon/init.php:66
+msgid "PuzzleThemes Support"
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-animations.php:31
+msgid "Animation"
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-animations.php:33
+#: third-party-modules/visual-composer/partials/custom-animations.php:41
+#: third-party-modules/visual-composer/partials/custom-animations.php:49
+#: third-party-modules/visual-composer/partials/custom-animations.php:57
+#: third-party-modules/visual-composer/partials/custom-animations.php:68
+msgid "Entrance animations"
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-animations.php:38
+msgid "Animation delay"
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-animations.php:40
+#: third-party-modules/visual-composer/partials/custom-animations.php:48
+msgid "Enter CSS-valid value like 1s or 250ms."
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-animations.php:46
+msgid "Animation duration"
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-animations.php:55
+msgid "Make this animation sequenced?"
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-animations.php:58
+msgid ""
+"If checked, animation settings above will be applied to children of this "
+"widget in a sequenced order."
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-animations.php:65
+msgid "Children element selector"
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-animations.php:67
+msgid "Enter CSS-valid selector or leave empty."
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-parameters.php:39
+msgid "Text alignment"
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-parameters.php:41
+msgid ""
+"Select text alignment side. If none selected - value will be inherited from "
+"parent element."
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-parameters.php:44
+msgid "None (default)"
+msgstr ""
+
+#: third-party-modules/visual-composer/partials/custom-parameters.php:46
+#: third-party-modules/visual-composer/shortcodes/button.php:109
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:50
+msgid "Center"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/arrow.php:47
+msgid "You can pick up and paste icons <a href=\"#\">here</a>"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/arrow.php:60
+#: third-party-modules/visual-composer/shortcodes/button.php:118
+#: third-party-modules/visual-composer/shortcodes/circle.php:63
+#: third-party-modules/visual-composer/shortcodes/clients.php:95
+#: third-party-modules/visual-composer/shortcodes/contacts.php:98
+#: third-party-modules/visual-composer/shortcodes/countdown.php:63
+#: third-party-modules/visual-composer/shortcodes/faq.php:88
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:92
+#: third-party-modules/visual-composer/shortcodes/intro-buttons.php:78
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:155
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:78
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:90
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:337
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:96
+#: third-party-modules/visual-composer/shortcodes/list.php:96
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:80
+#: third-party-modules/visual-composer/shortcodes/map.php:62
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:113
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:165
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:205
+#: third-party-modules/visual-composer/shortcodes/progress-bar.php:63
+#: third-party-modules/visual-composer/shortcodes/quote.php:70
+#: third-party-modules/visual-composer/shortcodes/services.php:79
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:67
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:149
+#: third-party-modules/visual-composer/shortcodes/team-member.php:134
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:91
+#: third-party-modules/visual-composer/shortcodes/text.php:128
+#: third-party-modules/visual-composer/shortcodes/title.php:84
+msgid "Extra class name"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/arrow.php:63
+#: third-party-modules/visual-composer/shortcodes/button.php:121
+#: third-party-modules/visual-composer/shortcodes/circle.php:66
+#: third-party-modules/visual-composer/shortcodes/clients.php:98
+#: third-party-modules/visual-composer/shortcodes/contacts.php:101
+#: third-party-modules/visual-composer/shortcodes/countdown.php:66
+#: third-party-modules/visual-composer/shortcodes/faq.php:91
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:95
+#: third-party-modules/visual-composer/shortcodes/intro-buttons.php:81
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:158
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:81
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:93
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:340
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:99
+#: third-party-modules/visual-composer/shortcodes/list.php:99
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:83
+#: third-party-modules/visual-composer/shortcodes/map.php:65
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:116
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:168
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:208
+#: third-party-modules/visual-composer/shortcodes/progress-bar.php:66
+#: third-party-modules/visual-composer/shortcodes/quote.php:73
+#: third-party-modules/visual-composer/shortcodes/services.php:82
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:70
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:152
+#: third-party-modules/visual-composer/shortcodes/team-member.php:137
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:94
+#: third-party-modules/visual-composer/shortcodes/text.php:131
+#: third-party-modules/visual-composer/shortcodes/title.php:87
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/arrow.php:68
+#: third-party-modules/visual-composer/shortcodes/button.php:126
+#: third-party-modules/visual-composer/shortcodes/circle.php:71
+#: third-party-modules/visual-composer/shortcodes/clients.php:103
+#: third-party-modules/visual-composer/shortcodes/contacts.php:106
+#: third-party-modules/visual-composer/shortcodes/countdown.php:70
+#: third-party-modules/visual-composer/shortcodes/faq.php:96
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:99
+#: third-party-modules/visual-composer/shortcodes/intro-buttons.php:86
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:85
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:98
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:104
+#: third-party-modules/visual-composer/shortcodes/list.php:104
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:88
+#: third-party-modules/visual-composer/shortcodes/map.php:70
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:121
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:173
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:213
+#: third-party-modules/visual-composer/shortcodes/progress-bar.php:71
+#: third-party-modules/visual-composer/shortcodes/quote.php:78
+#: third-party-modules/visual-composer/shortcodes/services.php:86
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:75
+#: third-party-modules/visual-composer/shortcodes/team-member.php:142
+#: third-party-modules/visual-composer/shortcodes/text.php:135
+#: third-party-modules/visual-composer/shortcodes/title.php:92
+msgid "CSS box"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/arrow.php:70
+#: third-party-modules/visual-composer/shortcodes/button.php:128
+#: third-party-modules/visual-composer/shortcodes/circle.php:73
+#: third-party-modules/visual-composer/shortcodes/clients.php:105
+#: third-party-modules/visual-composer/shortcodes/contacts.php:108
+#: third-party-modules/visual-composer/shortcodes/countdown.php:72
+#: third-party-modules/visual-composer/shortcodes/faq.php:98
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:101
+#: third-party-modules/visual-composer/shortcodes/intro-buttons.php:88
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:87
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:100
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:106
+#: third-party-modules/visual-composer/shortcodes/list.php:106
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:90
+#: third-party-modules/visual-composer/shortcodes/map.php:72
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:123
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:175
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:215
+#: third-party-modules/visual-composer/shortcodes/progress-bar.php:73
+#: third-party-modules/visual-composer/shortcodes/quote.php:80
+#: third-party-modules/visual-composer/shortcodes/services.php:88
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:77
+#: third-party-modules/visual-composer/shortcodes/team-member.php:144
+#: third-party-modules/visual-composer/shortcodes/text.php:137
+#: third-party-modules/visual-composer/shortcodes/title.php:94
+msgid "Design Options"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/arrow.php:76
+msgid "Intro Arrow"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:78
+msgid "Style"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:82
+msgid "Green color"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:83
+msgid "Blue color"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:84
+msgid "Orange color"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:85
+msgid "Red color"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:86
+msgid "White color"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:87
+msgid "Simple (without backdrop)"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:89
+#: third-party-modules/visual-composer/shortcodes/button.php:101
+msgid "Select button size."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:94
+msgid "Size"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:97
+msgid "Default"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:98
+msgid "Large"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:99
+msgid "Small"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:106
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:47
+msgid "Alignment"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:113
+msgid "Select button alignment."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/button.php:134
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:157
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:198
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:129
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:151
+msgid "Button"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/circle.php:45
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:60
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:137
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:178
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:230
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:260
+#: third-party-modules/visual-composer/shortcodes/list.php:68
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:61
+#: third-party-modules/visual-composer/shortcodes/progress-bar.php:55
+#: third-party-modules/visual-composer/shortcodes/services.php:62
+#: third-party-modules/visual-composer/shortcodes/title.php:58
+msgid "Title"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/circle.php:54
+#: third-party-modules/visual-composer/shortcodes/progress-bar.php:46
+msgid "Value"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/circle.php:58
+msgid "From 0.1 to 1."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/circle.php:79
+msgid "Animated Circle"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/clients.php:55
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:73
+#: third-party-modules/visual-composer/shortcodes/quote.php:54
+msgid "Name"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/clients.php:74
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:57
+msgid "Logo"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/clients.php:81
+msgid "Button Text"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/clients.php:88
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:167
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:208
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:140
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:162
+msgid "Button Link"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/clients.php:111
+msgid "Clients"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/contacts.php:54
+msgid "Location"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/contacts.php:62
+msgid "Telephone"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/contacts.php:70
+msgid "E-mail"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/contacts.php:78
+msgid "Bottom Line"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/contacts.php:81
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:72
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:104
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:221
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:73
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:107
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:198
+#: third-party-modules/visual-composer/shortcodes/title.php:77
+msgid "Enable"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/contacts.php:114
+msgid "Contacts"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/countdown.php:46
+msgid "Final date"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/countdown.php:49
+msgid ""
+"Possible formats: <code>YYYY/MM/DD</code>, <code>YYY/MM/DD hh:mm:ss</code>"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/countdown.php:53
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:50
+msgid "Color scheme"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/countdown.php:56
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:53
+msgid "Light"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/countdown.php:57
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:54
+msgid "Dark"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/countdown.php:59
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:56
+msgid "Select color scheme for this element."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/countdown.php:78
+msgid "Countdown Timer"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/faq.php:57
+msgid "Questions & Answers"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/faq.php:63
+msgid "Question"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/faq.php:71
+msgid "Answer"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/faq.php:80
+msgid "Open tab"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/faq.php:83
+msgid ""
+"Which tab should be open by default - type number or leave empty to set all "
+"tabs closed."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/faq.php:104
+msgid "F.A.Q."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:68
+msgid "Number"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:74
+msgid "Min"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:80
+msgid "Delay"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:86
+msgid "Increment"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/fun-fact.php:107
+msgid "Fun Fact"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-buttons.php:46
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:280
+msgid "Button #1"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-buttons.php:54
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:290
+msgid "Button Link #1"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-buttons.php:62
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:300
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:173
+msgid "Button #2"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-buttons.php:70
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:310
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:184
+msgid "Button Link #2"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-buttons.php:94
+msgid "Intro Buttons"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:61
+msgid "Intro height"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:64
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:96
+msgid "Enter a valid CSS value or \"fullscreen\"."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:69
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:101
+msgid "Ken Burns effect"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:78
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:327
+msgid "Dotted overlay"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:81
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:330
+msgid "Add to background"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:87
+msgid "Intro background type"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:91
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:129
+msgid "Video"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:97
+msgid "YouTube video URL"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:100
+msgid "Youtu.be short links are supported."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:109
+msgid "Video start position"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:112
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:124
+msgid "Enter value in seconds or leave this field empty."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:121
+msgid "Video end position"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:133
+msgid "Video placeholder image"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:135
+msgid ""
+"Will be shown until video is loaded and on mobile devices where backgrpund "
+"videos is not properly supported."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:144
+msgid "Intro background image"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:146
+msgid "Upload background image for this intro block."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-container.php:164
+msgid "Intro Container"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:48
+#: third-party-modules/visual-composer/shortcodes/team-member.php:63
+msgid "Type"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:70
+#: third-party-modules/visual-composer/shortcodes/services.php:58
+#, php-format
+msgid ""
+"You can pick up and paste icons <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-image.php:93
+msgid "Intro Image/Icon"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:51
+msgid "Text size"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:54
+msgid "Regular paragraph"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:55
+msgid "Heading 1"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:56
+msgid "Heading 2"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:57
+msgid "Heading 3"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:58
+msgid "Heading 4"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:59
+msgid "Heading 5"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:60
+msgid "Heading 6"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:66
+msgid "Element type"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:69
+msgid "DIV"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:70
+msgid "P"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:71
+msgid "H1"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:72
+msgid "H2"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:73
+msgid "H3"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:74
+msgid "H4"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:75
+msgid "H5"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:76
+msgid "H6"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:78
+msgid ""
+"For better SEO you can define which type of element should be used for this "
+"title."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-inner-text.php:106
+msgid "Intro Inner Text"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:92
+msgid "Slider height"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:110
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:117
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:140
+msgid "Custom options"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:113
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:120
+msgid ""
+"<b>Format:</b> option: value (one per line). <a href=\"http://kenwheeler."
+"github.io/slick/#settings\" target=\"_blank\">Complete list of available "
+"options.</a>"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:118
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:92
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:58
+msgid "Slides"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:124
+msgid "Slide Layout"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:127
+msgid "Standard"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:130
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:159
+msgid "Buttons"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:131
+msgid "Empty"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:147
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:240
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:270
+#: third-party-modules/visual-composer/shortcodes/title.php:66
+msgid "Sub Title"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:218
+msgid "Arrow"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:250
+msgid "Video Link"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:323
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:101
+msgid "Upload image for this slide. Recommended size is at least 1280x800px"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/intro-slider.php:346
+msgid "Intro Slider"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:57
+msgid "Posts query"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:59
+msgid "Build custom query to display posts in this widget."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:70
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:129
+msgid "Columns count"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:71
+msgid "Select layout base columns count."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:75
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:134
+msgid "4 columns"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:76
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:135
+msgid "3 columns"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:77
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:136
+msgid "2 columns"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:83
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:141
+msgid "Gutter size"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:84
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:142
+msgid "How many space should be present between sibling elements."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:88
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:146
+msgid "Regular gutter"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:89
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:147
+msgid "Small gutter"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:90
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:148
+msgid "No gutter"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/latest-blog-posts.php:112
+msgid "Latest Blog Posts"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/list.php:62
+#: third-party-modules/visual-composer/shortcodes/list.php:112
+msgid "Lists"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/list.php:85
+msgid "Border"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/list.php:89
+msgid "Top"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/list.php:90
+msgid "Bottom"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:47
+msgid "Form title"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:63
+msgid "Opening text"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:70
+msgid "Hide image"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:75
+msgid "This will hide Mailchimp logo below email input field."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/mailchimp-form.php:96
+msgid "Mailchimp Subscribe Form"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/map.php:46
+msgid "Height"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/map.php:49
+msgid "Enter value in px."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/map.php:54
+msgid "Address"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/map.php:78
+msgid "Google Map"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:80
+msgid "Date"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:88
+msgid "Service (Tags)"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:96
+msgid "Client"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:104
+msgid "One Line"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio-single.php:129
+msgid "Portfolio Single"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:101
+msgid "Portfolio items"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:107
+msgid "Item ID"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:110
+msgid "ID of item that should be displayed."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:115
+msgid "Item layout"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:120
+msgid "2x wide"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:121
+msgid "2x tall"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:122
+msgid "2x wide, 2x tall"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:130
+msgid "Select portfolio layout base columns count."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:153
+msgid "Filters layout"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:154
+msgid "Here you can control filters block appearance."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:158
+msgid "No layout (hide filter)"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/portfolio.php:160
+msgid "Seamless"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:81
+msgid "Price"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:89
+msgid "Currency"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:96
+msgid "Period"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:103
+#: third-party-modules/visual-composer/shortcodes/services.php:94
+msgid "Services"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:119
+msgid "Button Type"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:122
+msgid "Single"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:123
+msgid "Double"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:195
+msgid "Feature"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/pricing-tables.php:221
+msgid "Pricing Tables"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/progress-bar.php:49
+msgid "From 1 to 100, in %."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/progress-bar.php:79
+msgid "Progress Bar"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/quote.php:86
+msgid "Quote"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:54
+msgid "Select icons alignment."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:59
+msgid "Icons color"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:62
+msgid "Here you can set the initial color of icons in this widget."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/site-socials.php:83
+msgid "Site Socials"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:110
+msgid "Basic HTML and shortcodes is allowed. Can be empty."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:124
+msgid "Responsive options"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:126
+msgid "Responsive Options"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:131
+msgid "Breakpoint"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:134
+msgid "Integer value."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:143
+msgid "Here you can define custom options for only this breakpoint."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/slick-slider.php:158
+msgid "Slick Slider"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/team-member.php:79
+msgid "Facebook"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/team-member.php:86
+msgid "Twitter"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/team-member.php:93
+msgid "Instagram"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/team-member.php:100
+msgid "LinkedIn"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/team-member.php:107
+msgid "Dribbble"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/team-member.php:114
+msgid "Pinterest"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/team-member.php:120
+msgid "Google Plus"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/team-member.php:127
+msgid "YouTube"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/team-member.php:150
+msgid "Team Member"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:67
+msgid "Basic HTML and shortcodes is allowed."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:73
+msgid "Author image"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:76
+msgid "Upload image for this slide. Recommended size is 160x160."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:81
+msgid "Author"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:84
+msgid "Enter testimonial author."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/testimonials.php:100
+msgid "Testimonials Slider"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/text.php:87
+msgid "Signature"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/text.php:94
+msgid "Choose font"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/text.php:96
+msgid "This options is synchronised with theme options."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/text.php:97
+#: third-party-modules/visual-composer/shortcodes/text.php:109
+#: third-party-modules/visual-composer/shortcodes/text.php:117
+#: third-party-modules/visual-composer/shortcodes/text.php:124
+msgid "Typography"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/text.php:105
+msgid "Font size"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/text.php:108
+#: third-party-modules/visual-composer/shortcodes/text.php:116
+msgid "Leave empty to use default."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/text.php:113
+msgid "Line-height"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/text.php:121
+msgid "Text Color"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/text.php:123
+msgid "Select custom text color for text."
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/text.php:143
+msgid "Plain Text"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/title.php:74
+msgid "Line"
+msgstr ""
+
+#: third-party-modules/visual-composer/shortcodes/title.php:100
+msgid "Promo Title"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/countdown-timer.php:11
+msgid "Weeks"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/countdown-timer.php:16
+msgid "Days"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/countdown-timer.php:21
+msgid "Hours"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/countdown-timer.php:26
+msgid "Minutes"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/countdown-timer.php:31
+msgid "Seconds"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/intro-container.php:30
+msgid "Play/pause"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/intro-container.php:34
+msgid "Mute/unmute"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/latest-blog-posts.php:42
+#: tpl-blocks/blog-list-chess.php:37 tpl-blocks/blog-list-classic.php:45
+#: tpl-blocks/blog-list-masonry.php:46 tpl-blocks/blog-list-medium.php:38
+msgid "Read More"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/mailchimp-form.php:14
+msgid "Subscribe"
+msgstr "Suscríbete"
+
+#: third-party-modules/visual-composer/templates/mailchimp-form.php:19
+msgid "Mailchimp logo"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/portfolio.php:8
+msgid "All"
+msgstr ""
+
+#: third-party-modules/visual-composer/templates/portfolio.php:53
+msgid "Read more"
+msgstr ""
+
+#: third-party-modules/woocommerce/init.php:158
+msgid "Already in cart, add again?"
+msgstr ""
+
+#: third-party-modules/woocommerce/init.php:160
+msgid "Already in cart"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/loop/sale-flash.php:30
+#: third-party-modules/woocommerce/templates/single-product/sale-flash.php:30
+msgid "Sale!"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:58
+msgid "Add a review"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:58
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:59
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:68
+msgid "Submit"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:75
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:79
+msgid "Your rating:"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:80
+msgid "Rate&hellip;"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:81
+msgid "Perfect"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:82
+msgid "Good"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:83
+msgid "Average"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:84
+msgid "Not that bad"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:85
+msgid "Very poor"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product-reviews.php:98
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product/product-image.php:48
+msgid "Awaiting product image"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product/related.php:29
+msgid "Related products"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product/tabs/additional-information.php:27
+msgid "Additional information"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product/tabs/description.php:27
+msgid "Description"
+msgstr ""
+
+#: third-party-modules/woocommerce/templates/single-product/up-sells.php:29
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: tpl-blocks/blog-noposts.php:4
+msgid "Sorry, Nothing Found"
+msgstr ""
+
+#: tpl-blocks/blog-noposts.php:8
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: tpl-blocks/blog-noposts.php:12
+msgid ""
+"The posts you are looking for is not available. Maybe you want to perform a "
+"search?"
+msgstr ""
+
+#: tpl-blocks/blog-noposts.php:17
+msgid ""
+"It seems we can't find what you&rsquo;re looking for. Perhaps searching can "
+"help."
+msgstr ""
+
+#: tpl-blocks/blog-related-posts.php:13
+msgid "Related Posts"
+msgstr ""
+
+#: tpl-blocks/password-protected-form.php:15
+msgid ""
+"This content is password protected. To view it please enter password below:"
+msgstr ""
+
+#: tpl-blocks/password-protected-form.php:20
+msgid "Type password here"
+msgstr ""
+
+#: tpl-blocks/password-protected-form.php:21
+msgid "Enter"
+msgstr ""

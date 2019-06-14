@@ -1,0 +1,149 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+.uc_arrow_effect_rounded_button *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder {
+	position:relative;
+	text-align:center;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+.uc_arrow_effect_rounded_button .uc_container_holder button {
+	position: relative;
+	margin: 0;
+	padding: 1em;
+	z-index: 1;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_color-4 {
+	background: #2ecc71;
+	padding:50px 10px;
+}
+
+/* General button style (reset) */
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+/* Button 4 */
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4 {
+	border-radius: 50px;
+	border: 3px solid #fff;
+	color: #fff;
+	overflow: hidden;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4:active {
+	border-color: #17954c;
+	color: #17954c;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4:hover {
+	background: #24b662;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4:before {
+	position: absolute;
+	height: 100%;
+	font-size: 125%;
+	line-height: 3.5;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4:active:before {
+	color: #17954c;
+}
+
+/* Button 4a */
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4a i {
+	position:absolute;
+	left: 130%;
+	top: center;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4a:hover i{
+	position:absolute;
+	left: 80%;
+	
+}
+
+/* Button 4b */
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4b i{
+	left: -50%;
+	position:absolute;
+	top: center;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4b:hover i {
+	position:absolute;
+	left: 12%;
+}
+
+/* Button 4c */
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4c i{
+	left: 70%;
+	opacity: 0;
+	position:absolute;
+	top: center;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4c:hover i{
+	left: 80%;
+	opacity: 1;
+	position:absolute;
+}
+
+/* Button 4d */
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4d i {
+	left: 30%;
+	opacity: 0;
+	position:absolute;
+	top: center;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.uc_arrow_effect_rounded_button .uc_container_holder .uc_btn-4d:hover i{
+	left: 12%;
+	opacity: 1;
+	position:absolute;
+}
+
+
+
+
+

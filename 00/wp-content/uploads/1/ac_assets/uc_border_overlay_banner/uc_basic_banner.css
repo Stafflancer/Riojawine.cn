@@ -1,0 +1,59 @@
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+img{ width:100%; display:block;}
+
+
+.uc_border_overlay_banner{ position:relative;font-family: 'Open Sans', sans-serif; color:#fff;overflow: hidden; background:#fff;}
+.uc_border_overlay_banner .uc_banner-img {float: left; height: 100%; width:100%; }
+.overlay-box{ position:absolute; left:0px; top:0px; height:100%; width:100%; background:rgba(0, 0, 0, 0.5);
+transition: all .2s ease-in-out;
+ -moz-transition: all .2s ease-in-out;
+ -ms-transition: all .2s ease-in-out;
+ -webkit-transition: all .2s ease-in-out;
+ 
+ transform: scale(0);
+ -moz-transform: scale(0);
+ -ms-transform: scale(0);
+ -webkit-transform: scale(0);}
+.uc_border_overlay_banner .uc_content_outer{margin: 3% 2%;border-top:2px solid #ffc177;border-bottom:2px solid #ffc177;position:absolute;left:0;top:0px;width:96%;height:92%;padding:0 2%; transition: all .2s ease-in-out;
+ -moz-transition: all .2s ease-in-out;
+ -ms-transition: all .2s ease-in-out;
+ -webkit-transition: all .2s ease-in-out;
+ 
+ transform: scale(0);
+ -moz-transform: scale(0);
+ -ms-transform: scale(0);
+ -webkit-transform: scale(0);}
+.uc_border_overlay_banner .uc_content_outer .uc_outer{ border-left:2px solid #ffc177; border-right:2px solid #ffc177;height: 100%;}
+
+.uc_border_overlay_banner .uc_banner-content { position:absolute; left:0; top:50%; width:100%; text-align:center; padding:0 30px; transform:translateY(-50%);}
+.uc_border_overlay_banner .uc_banner-content h3{ font-weight:700; font-size:20px;text-transform:uppercase;line-height: 20px;margin: 0px;}
+.uc_border_overlay_banner .uc_banner-content p{ font-weight:400; font-size:14px; margin:25px 0 0px;}
+
+.uc_border_overlay_banner:hover .uc_content_outer{
+	transition: all .2s ease-in-out;
+ -moz-transition: all .2s ease-in-out;
+ -ms-transition: all .2s ease-in-out;
+ -webkit-transition: all .2s ease-in-out;
+ 
+ transform: scale(1);
+ -moz-transform: scale(1);
+ -ms-transform: scale(1);
+ -webkit-transform: scale(1);}
+
+
+.uc_border_overlay_banner:hover .overlay-box{
+	transition: all .2s ease-in-out;
+ -moz-transition: all .2s ease-in-out;
+ -ms-transition: all .2s ease-in-out;
+ -webkit-transition: all .2s ease-in-out;
+ 
+ transform: scale(1);
+ -moz-transform: scale(1);
+ -ms-transform: scale(1);
+ -webkit-transform: scale(1);}
+
+@media only screen and (max-width: 800px) {
+  .uc_border_overlay_banner .uc_banner-content{padding: 0 15px;}
+  .uc_border_overlay_banner .uc_banner-content p{margin: 10px 0 0px;}
+	
+}

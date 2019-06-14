@@ -1,0 +1,605 @@
+
+
+
+
+
+
+
+
+.footer-riojawine {
+	padding: 50px 0;
+	background: #971b2f;
+}
+
+.widget-content ul .lang-item a {
+    padding: unset;
+    display: unset;
+    color: unset;
+    font-size: unset;
+    font-weight: unset;
+}
+
+.footer-riojawine p {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	line-height: normal;
+}
+
+.footer-riojawine ul{
+	padding: 0 0 0 0 !important;
+	margin: 0 0 0 0 !important;
+}
+
+.footer-riojawine ul li{
+	padding: 0 0 0 0 !important;
+	margin: 0 0 0 0 !important;
+}
+
+.insert-page  .footer-riojawine {
+	border: 0px solid #fff;
+}
+
+.insert-page  .footer-riojawine .title-footer-block {
+	padding: 0 0 10px 0;
+	margin: 0 0 15px 0;
+	border-bottom: 1px solid #fff;
+}
+
+.insert-page  .footer-riojawine .title-footer-block p{
+	font-family: 'PT Serif', serif;
+	font-size: 20px;
+	font-weight: 700;
+	color:#fff;
+}
+
+.insert-page .footer-riojawine .vc_wp_custommenu ul.menu {
+	list-style: none;
+	padding: 0;
+}
+
+.insert-page .footer-riojawine .vc_wp_custommenu ul.menu li {
+	color:#fff !important;
+	padding: 0;
+}
+
+.insert-page .footer-riojawine .vc_wp_custommenu ul.menu li a{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	color:#fff !important;
+	text-decoration: none;
+}
+
+.insert-page .footer-riojawine .vc_wp_custommenu ul.menu li a:hover {
+	text-decoration: underline;
+}
+
+.insert-page  .footer-riojawine .contact-footer-block p{
+	font-size: 17px;
+	font-weight: 300;
+	color:#fff !important;
+}
+
+.insert-page  .footer-riojawine .contact-footer-block p a{
+	color:#fff !important;
+}
+
+.insert-page  .footer-riojawine .contact-footer-block p a:hover{
+	text-decoration: underline;
+}
+
+.insert-page  .footer-riojawine .follow-footer-text p{
+	margin: 50px 0 0 0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color:#fff !important;
+	text-align: center;
+}
+
+.icons-footer .uc-classic-round-social-icons .uc-social-icons-box{
+	margin:0 !important;
+	padding: 20px 0;
+}
+
+.icons-footer .uc-classic-round-social-icons .uc-social-icons-box a {
+	width: 35px;
+	height: 35px;
+	padding: 0 !important;
+	margin: 0 5px;
+	line-height: 35px !important;
+	border-radius: 100%;
+	font-size: 18px;
+	color: #fff;
+	border: 2px solid #fff !important;
+	background: none !important;
+}
+
+.icons-footer .uc-classic-round-social-icons .uc-social-icons-box a:hover {
+	color: #971b2f !important;
+	background: #fff !important;
+}
+/*------------------------------------------------------------------ESTILOS SUBFOOTER*/
+
+
+
+
+/*quita margen 35px de las filas insert*/
+.wpb_content_element {
+	margin: 0 !important;
+}
+
+.vc_row.subfooter-riojawine,
+.vc_row[data-vc-full-width].subfooter-riojawine {
+	display: flex;
+	flex-direction: row-reverse;
+	overflow: initial;
+}
+
+.subfooter-riojawine {
+	padding: 10px 0;
+	background: #76232f;
+}
+
+/*copyright*/
+.copyright-subfooter-block p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	color:#fff;
+	margin: 0 !important;
+}
+
+
+/*menu legal*/
+
+.legal-subfooter-block {
+	border:0px solid #fff;
+}
+
+
+ul#menu-aviso-y-politicas-en,ul#menu-aviso-y-politicas {
+	list-style: none;
+	text-align: left;
+	line-height: 20px;
+	margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+ul#menu-aviso-y-politicas-en li,
+ul#menu-aviso-y-politicas li {
+	display: inline-block;
+	padding: 0 0;
+	margin-left: -5px;
+}
+
+ ul#menu-aviso-y-politicas-en li:nth-child(1):after,
+ ul#menu-aviso-y-politicas li:nth-child(1):after,
+ ul#menu-aviso-y-politicas-en li:nth-child(2):after,
+ ul#menu-aviso-y-politicas li:nth-child(2):after{
+	content:"|";
+	color:#fff;
+}
+
+ ul#menu-aviso-y-politicas-en li a,
+ ul#menu-aviso-y-politicas li a {
+	color:#fff;
+	padding: 0 5px;
+	margin: 0;
+	text-decoration: none;
+}
+
+ ul#menu-aviso-y-politicas-en li a:hover,
+ ul#menu-aviso-y-politicas li a:hover {
+	text-decoration: underline;
+}
+
+
+/*menu paises + idiomas*/
+
+
+.country-block {
+	line-height: 10px;
+}
+
+.copyright-subfooter-block .vc_column-inner,
+.legal-subfooter-block .vc_column-inner,
+.selection-country-lang-block .vc_column-inner {
+	padding-top: 0 !important;
+}
+
+.country-block button.btn.btn-secondary.dropdown-toggle{
+	background: none;
+	color:#fff;
+	border: none;
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.country-block button.btn.btn-secondary.dropdown-toggle:focus {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.country-block .dropdown-menu.show {
+	border-radius: 0;
+	margin:0;
+	padding: 10px;
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	background: #fff;
+}
+
+.country-block .dropdown-menu.show a {
+	margin:0;
+	padding: 10px;
+	color:#c5003e;
+}
+
+.country-block .dropdown-menu.show a:hover {
+	background: none;
+	color:#76232f;
+	text-decoration:underline;
+}
+
+
+.country-block .selected-country {
+	font-size: 14px;
+	font-weight: 300;
+	color:#fff;
+}
+
+.lang-block {
+	font-size: 14px;
+	font-weight: 300;
+	color:#fff;
+}
+
+.lang-block ul {
+	margin: 0 0 0 0 !important;
+	padding: 0 0 0 0 !important;
+}
+
+.lang-block ul li {
+	margin: 0 0 0 0 !important;
+	padding: 0 0 0 0 !important;
+}
+
+.lang-block a{
+	font-weight: 300;
+	color:#fff;
+	text-decoration: none;
+}
+
+.lang-block a:hover{
+	color:#fff;
+	text-decoration: underline;
+}
+
+.lang-item{
+	font-size: 14px;
+}
+
+.lang-item-es-en{
+	float: left;
+    display: inline-block;
+    /* border-left: 1px solid #fff; */
+}
+
+.lang-item-es-es{
+	float: left;
+    display: inline-block;
+    /* margin-right: 5px; */
+}
+
+.lang-item-es-es a{
+	padding: 0 5px !important;
+}
+
+.lang-item-es-en a{
+	margin-left: 5px;
+}
+
+.lang-item-es-es:after{
+	content:"|";
+	color:#fff;
+}
+
+.current-lang{
+	color:#fff;
+	text-decoration: underline;
+	float: left;
+    display: inline-block;
+}
+/*menu paises + idiomas*/
+
+
+
+
+/*------------------------------------CLOSE FOOTER + SUBFOOTER*/
+
+.close-footer-riojawine {
+	height: 15px;
+	padding: 0;
+	background:#971b2f url(./../images-modules/bck-close-footer.png) no-repeat center top;
+}
+/*------------------------------------CLOSE FOOTER + SUBFOOTER*/
+
+
+/*------------------------------------NEWSLETTER------------------------*/
+
+.footer-newsletter {
+	padding: 10px 0;
+	background: #f8f8f8;
+	padding-bottom: 35px;
+}
+
+
+.footer-newsletter p{
+	font-size: 17px;
+	font-weight: 300;
+	color:#676767 !important;
+}
+
+.texto-newsletter .title p{
+	font-weight: 600;
+	color: #971b2f !important;
+}
+.texto-newsletter .text-description p{
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.texto-newsletter .title p:before {
+  content: "\f003";
+  display: inline-block;
+  margin-right: 0.5em;
+  font-family: FontAwesome;
+}
+
+.text-checkbox{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	color:#676767 !important;
+}
+
+.text-checkbox a{
+	text-decoration: underline;
+}
+
+.sp-subscribe-form{
+	padding: 0 !important;
+}
+
+.sp-subscribe-form.mc-loading{
+	display: inline-block;
+	width: 100%;
+	max-width: inherit;
+	padding: 0 !important;
+}
+
+.sp-subscribe-form > .form-output {
+	min-height: inherit !important;
+}
+
+.sp-subscribe-form.mc-loading > .form-output{
+	color:#c5003e !important;
+}
+
+.sp-subscribe-form.mc-loading > .form-output::before {
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-size: 24px !important;
+	color:#c5003e !important;
+}
+
+
+
+.sp-subscribe-form > .form-output::before {
+	line-height: normal !important;
+}
+
+
+
+
+
+.sp-subscribe-form > .form-inner-wrap .input-group{
+	width: 100% !important;
+}
+
+.form-control:focus {	
+	-webkit-box-shadow:none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------RESPONSIVE 991-*/
+
+@media (max-width: 991px) {
+.vc_row.subfooter-riojawine,
+.vc_row[data-vc-full-width].subfooter-riojawine {
+	display: inherit;
+	flex-direction:inherit;
+
+}
+	
+/*---newsletter---*/	
+
+	
+.texto-newsletter {
+	width: 100% !important;
+	text-align: center;
+}
+	
+.form-newsletter {
+	width: 100% !important;
+}
+	
+.form-newsletter .vc_column-inner {
+	padding-top: 20px !important;
+}		
+	
+.privacy-text-content {
+	padding-top: 10px;
+	text-align: center;
+}	
+	
+	
+.texto-newsletter .text-description {
+	display:none;
+}
+	
+	
+/*---newsletter---*/		
+	
+	
+	
+	
+	
+/*---footer---*/	
+.insert-page .footer-riojawine {
+	padding: 0;
+}	
+	
+.footer-riojawine .vc_col-sm-3 {
+	width: 33%;
+}
+	
+.footer-riojawine .icons-footer.vc_col-sm-3 {
+	width: 100%;
+}	
+
+.footer-riojawine .icons-footer img {
+	width: 60%;
+}		
+	
+.insert-page .footer-riojawine .follow-footer-text p {
+	margin:10px 0 0 0;		
+}
+/*---footer---*/		
+
+
+/*---subfooter---*/	
+.subfooter-riojawine .legal-subfooter-block {
+width: 60%;
+}
+	
+.subfooter-riojawine .selection-country-lang-block {
+width: 40%;
+}
+
+.subfooter-riojawine .copyright-subfooter-block {
+padding: 20px 0;
+width: 100%;
+text-align: center;
+}	
+
+/*---subfooter---*/	
+	
+	
+
+	
+}
+
+
+/*---------------------------------------------------------------------RESPONSIVE 991-*/
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------RESPONSIVE 767-*/
+@media (max-width: 767px) {
+	
+.footer-riojawine .vc_col-sm-3 {
+	width: 100%;
+}
+
+.footer-riojawine .vc_col-sm-3 p{
+	text-align: left;
+}
+
+.footer-riojawine .icons-footer img {
+	display: none;
+}
+
+.subfooter-riojawine .selection-country-lang-block .country-block,
+.subfooter-riojawine .selection-country-lang-block .lang-block {
+display: inline-block;
+width: auto;
+}
+	
+.subfooter-riojawine .selection-country-lang-block .lang-block ul {
+	float: right;
+}	
+	
+	
+	
+	
+	
+/*---subfooter---*/	
+	
+.subfooter-riojawine .legal-subfooter-block,
+.subfooter-riojawine .selection-country-lang-block{
+	width: 100%;
+	text-align: center;
+}
+
+.subfooter-riojawine .legal-subfooter-block{
+	align-self: center;
+}
+
+.subfooter-riojawine .selection-country-lang-block .country-block {
+	text-align:left;		
+}	
+	
+.subfooter-riojawine .legal-subfooter-block {
+	text-align:center;
+}
+	
+.subfooter-riojawine .copyright-subfooter-block {
+	padding: 10px 0;	
+}
+
+ul#menu-aviso-y-politicas-en, ul#menu-aviso-y-politicas {
+	display: inline-block;	
+}
+	
+/*---subfooter---*/	
+
+
+
+}
+/*---------------------------------------------------------------------RESPONSIVE 767-*/
+
+
+
+
+
+
+

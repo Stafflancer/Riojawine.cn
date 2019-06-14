@@ -1,0 +1,109 @@
+.uc_caption_hover_effects_7* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+
+}
+
+.uc_caption_hover_effects_7 .uc_content_box
+{
+	color: #b3b9bf;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	text-align: left;
+    width:100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+
+}
+
+.uc_caption_hover_effects_7 .uc_content_box img
+{
+	width:100%;
+	max-width:100%;
+}
+
+.uc_caption_hover_effects_7 .uc_content_figure
+{
+	 margin: 0;
+    position:absolute;
+    width: 100%;
+}
+
+.uc_caption_hover_effects_7 .uc_content_figure img
+{
+	display: block;
+    max-width: 100%;
+    position:absolute;
+    width: 100%;
+	z-index: 10;
+}
+
+.uc_caption_hover_effects_7 .uc_figcaption
+{
+	background: #2c3f52 none repeat scroll 0 0;
+    color: #ed4e6e;
+    left: 0;
+    padding: 20px;
+    position:relative;
+    top: 0;
+	backface-visibility: hidden;
+    box-shadow: 0 0 0 0 #2c3f52;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease 0s, height 0.3s ease 0s, box-shadow 0.3s ease 0s;
+    width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.uc_caption_hover_effects_7 .uc_content_figure:hover .uc_figcaption {
+    box-shadow: 0 0 0 10px #2c3f52;
+    height: 130%;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.uc_caption_hover_effects_7 .uc_figcaption h3
+{
+	 color:#ffffff;
+    margin-top: 87%;
+	margin-bottom:0px;
+    padding: 0;
+
+}
+
+.uc_caption_hover_effects_7 .uc_content_figure a
+{
+	bottom: 20px;
+	position: absolute;
+	right: 20px;
+}
+
+.uc_caption_hover_effects_7 .uc_figcaption a
+{
+	background: #ed4e6e none repeat scroll 0 0;
+	border-radius: 2px;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 10px;
+	text-align: center;
+	bottom: 22px;
+	position: absolute;
+	right: 20px;
+	text-decoration:none;
+
+}
+
+
+
+

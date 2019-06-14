@@ -1,0 +1,138 @@
+.uc_jumbo_price_table* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_jumbo_price_table{
+	background-color:#cccccc;
+	padding:60px 0;
+}
+
+.uc_jumbo_price_table .uc_content_box{
+	text-align:center;
+	max-width:460px;
+	margin:0 auto;
+	position:relative;
+	border-radius:5px;
+	top:0px;
+	transition:all 1s ease 0s;
+	-webkit-transition:all 1s ease 0s;
+	-moz-transition:all 1s ease 0s;
+	-ms-transition:all 1s ease 0s;
+}
+
+.uc_jumbo_price_table .uc_content_box:hover
+{
+	background-color: #fff;
+    position: relative;
+    top: -15px;
+	cursor:pointer;
+   	transition: top 1s ease 0s;
+	-webkit-transition: top 1s ease 0s;
+	-moz-transition: top 1s ease 0s;
+	-ms-transition: top 1s ease 0s;
+}
+
+.uc_jumbo_price_table .uc_content_box ul
+{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	display:inline;
+}
+
+.uc_jumbo_price_table .uc_content_box .uc_top_sec
+{
+	background-color:#54ccb5;
+    border-radius: 5px 5px 0 0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.uc_jumbo_price_table .uc_content_box .uc_top_sec h2
+{
+	font-size:23px;
+	margin-top:8px;
+	margin-bottom:0px;
+	line-height:26px;
+	color:#ffffff;
+	font-weight:normal;
+}
+
+.uc_jumbo_price_table .uc_content_box .uc_top_sec span
+{
+	font-size:16px;
+	line-height:23px;
+	color:#447f71;
+	display:block;
+}
+
+.uc_jumbo_price_table .uc_content_box .uc_bottom_sec
+{
+	background:#ffffff;
+	padding:60px;
+	border-radius:0 0 5px 5px;
+}
+
+.uc_jumbo_price_table .uc_content_box .uc_bottom_sec ul
+{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	text-align:left;
+}
+
+.uc_jumbo_price_table .uc_content_box .uc_bottom_sec ul li
+{
+	border-top: 3px solid #e8edef;
+    color: #5f5f5f;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.uc_jumbo_price_table .uc_content_box .uc_bottom_sec ul li:last-child
+{
+	border-bottom: 3px solid #e8edef;
+}
+
+.uc_jumbo_price_table .uc_content_box .uc_bottom_sec ul li span
+{
+	color: #777777;
+    font-weight: lighter;
+}
+
+.uc_jumbo_price_table .uc_content_box p
+{
+	background-color: #f4f4f4;
+    color: #777777;
+    font-size: 0.75em;
+    line-height: 1.8;
+    margin: 2em 0;
+    padding: 1.25em;
+	text-align:left;
+}
+
+.uc_jumbo_price_table .uc_content_box a.uc_btn
+{
+	background-color:#ff8939;
+	border-radius:3px;
+	color:#ffffff;
+	text-align:center;
+	padding:20px 0px;
+	display:block;
+	text-decoration:none;
+}
+
+.uc_jumbo_price_table .uc_content_box .icon-box
+{
+	color:#447f71;
+	font-size:50px;
+}
+
+.uc_jumbo_price_table .uc_content_box a.uc_btn:hover
+{
+	background:#e67b33;
+}

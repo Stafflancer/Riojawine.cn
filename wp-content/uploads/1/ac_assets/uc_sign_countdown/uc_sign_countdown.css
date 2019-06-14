@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_sign_countdown * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_sign_countdown .uc_sign_countdown_inner{ background-size:cover !important;}
+.uc_sign_countdown .uc_sign_countdown_inner .timer { width: 100%; text-align: center; padding:20px 0 25px; clear:both; overflow:hidden;}
+.uc_sign_countdown .uc_sign_countdown_inner .timer div{
+	margin: 0 5px;
+	text-align: center;
+	text-transform:uppercase;
+}
+.uc_sign_countdown .uc_sign_countdown_inner .timer div span{
+	position:relative;
+	display: block;
+	padding:35px 0;
+	color: #fff;
+	line-height: 31px;
+	font-weight:900;
+	font-size:50px;
+	border-bottom:1px solid #b45454;
+	background:#49c1b7;
+	border-radius:5px 5px 0 0;
+}
+.uc_sign_countdown .uc_sign_countdown_inner .timer div:first-child span{
+	background:#de6868;
+}
+.uc_sign_countdown .uc_sign_countdown_inner .timer div:nth-child(3n) span{
+	background:#dea84b;
+}
+.uc_sign_countdown .uc_sign_countdown_inner .timer div:last-child span{
+	background:#75cc72;
+}
+
+
+.uc_sign_countdown .uc_sign_countdown_inner .timer div span:before{
+	background:#fff;
+	content:"";
+	width:3px;
+	height:13px;
+	margin-bottom:-7px;
+	position:absolute;
+	left:17px;
+	bottom:0;
+	z-index:100;
+}
+.uc_sign_countdown .uc_sign_countdown_inner .timer div span:after{
+	background:#fff;
+	content:"";
+	width:3px;
+	height:13px;
+	margin-bottom:-7px;
+	position:absolute;
+	right:17px;
+	bottom:0;
+	z-index:100;
+}
+.uc_sign_countdown .uc_sign_countdown_inner .timer div em{
+	background: #54ded2;
+	display: block; 
+	position: relative;
+	color: #fff; 
+	line-height: 31px;
+	font-weight:700;
+	font-size:18px;
+	font-style:normal;
+	border-radius:0 0 5px 5px;
+	padding:35px 0;
+	z-index:1;
+}
+.uc_sign_countdown .uc_sign_countdown_inner .timer div:first-child em{
+	background: #ff7878;
+}
+.uc_sign_countdown .uc_sign_countdown_inner .timer div:nth-child(3n) em{
+	background: #ffc156;
+}
+.uc_sign_countdown .uc_sign_countdown_inner .timer div:last-child em{
+	background: #86ea83;
+}
+
+
+@media only screen and (max-width: 800px) {
+	.uc_sign_countdown .uc_sign_countdown_inner .timer div span{ font-size:38px;}
+	.uc_sign_countdown .uc_sign_countdown_inner .timer div em{ font-size:14px;}
+}
+
+@media only screen and (max-width: 700px) {
+	.uc_sign_countdown .uc_sign_countdown_inner .timer div span{ font-size:30px;}
+	.uc_sign_countdown .uc_sign_countdown_inner .timer div em{ font-size:12px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_price-tag-food-menu *{margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;}
+   
+
+
+
+.uc_price-tag-food-menu{ height:376px; border:10px solid #fff; overflow:hidden;position:relative;
+-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);}
+
+.uc_price-tag-food-menu .uc_price-tag_pic{font-family: 'Montserrat', sans-serif; position:relative; font-weight:bold; height:320px;}
+.uc_price-tag-food-menu h2{font-size:26px;padding: 15px 0; text-align:center;font-family: 'Roboto Slab', serif; text-transform:uppercase;}
+.uc_price-tag-food-menu p{ padding:5px 25px 5px 15px; background:rgba(0, 0, 0, 0.3); display:inline-block; text-transform:uppercase; border:1px solid #fff; position:absolute; right:0px; bottom:50px;
+-webkit-border-top-left-radius: 15px;
+-webkit-border-bottom-left-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-bottomleft: 15px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;}
+
+
+@media screen and (max-width:414px){
+.uc_price-tag-food-menu h2{ font-size:18px;}	
+}
+
+
+
+
+

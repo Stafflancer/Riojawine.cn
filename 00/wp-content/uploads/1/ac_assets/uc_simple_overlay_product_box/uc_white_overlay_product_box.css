@@ -1,0 +1,26 @@
+
+
+
+.uc_white_overlay_product_box{ background:#f2f2f4;-webkit-box-shadow: 0px 1px 5px 0px rgba(28,27,28,1);-moz-box-shadow: 0px 1px 5px 0px rgba(28,27,28,1);box-shadow: 0px 1px 5px 0px rgba(28,27,28,1); border:8px solid #ffffff; text-align:center; position:relative;}
+.uc_white_overlay_product_box img{ width:100%; display:block;}
+
+.uc_white_overlay_product_box .us_hover_box{ width:100%; height:100%;height:100%; position: absolute; top:0px; left:0px;}
+.uc_white_overlay_product_box .us_hover_box .us_hover_inner_box{ position:absolute; left:0px;width:66%; bottom:25px;margin: 0 7%; background:#ffffff; padding:10%;}
+
+.uc_white_overlay_product_box .us_hover_box .us_hover_inner_box .product-name { color: #000000; font-family:"Open Sans",Arial,sans-serif;  font-size: 19px;  font-weight: 400; margin: 0 0 10px;  text-transform: uppercase; text-transform:uppercase;}
+.uc_white_overlay_product_box .us_hover_box .us_hover_inner_box a{ padding:12px 25px;font-size:14px; color:#ffffff; text-decoration:none;font-family:"Open Sans",Arial,sans-serif;  display: inline-block; background:#000000;transition: all 0.3s ease-in-out 0s;text-transform:uppercase;}
+
+.uc_white_overlay_product_box .us_hover_box:hover .product-name{ color:#ff296a;}
+.uc_white_overlay_product_box .us_hover_box:hover a{  background:#ff296a;}
+
+
+@media only screen and (max-width: 414px) {	
+.simple_overlay_product_box{ width:100% !important; height:100% !important;}
+.uc_white_overlay_product_box .us_hover_box .us_hover_inner_box .product-name {font-size:16px;}
+.uc_white_overlay_product_box .us_hover_box .us_hover_inner_box a{font-size:12px;}
+}
+
+
+
+
+

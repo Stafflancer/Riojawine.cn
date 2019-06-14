@@ -1,0 +1,116 @@
+
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-sizer {
+	width: 25%;
+}
+
+.grid-item {
+	width: calc(25% - 10px);
+}
+
+.grid-item {
+	height: calc(240px - 10px);
+	float: left;
+	background: #fde2ee;
+	margin:5px;
+}
+
+.grid-item--width2 { 
+	width:calc(50% - 10px); 
+	background: #fde2ee; 
+}
+
+.grid-item--height2 { 
+	height: calc(480px - 10px); 
+}
+
+
+
+.grid-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.grid-item:hover img {
+-webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.grid-item:hover .overlay {
+  opacity: 0.7;
+}
+
+.es-video  {
+position: absolute;
+display: block;
+width: 100%;
+height: 100%;
+z-index: 1;
+top: 0;
+background:url(../img_bodegas/icon-video.svg) no-repeat center center;
+}
+
+
+
+
+
+/* ---- responsive-------------------------------------------------991px ---- */
+
+@media (max-width: 991px) { 	
+	.grid-item { height: calc(160px - 10px);}
+	.grid-item--height2 { height: calc(320px - 10px); }
+}
+
+
+/* ---- responsive-------------------------------------------------767px ---- */
+
+@media (max-width: 767px) {
+	.grid-item {  width: calc(50% - 10px);}
+	.grid-item {  height: calc(160px - 10px);}
+	.grid-item--height2 { height: calc(160px - 10px); }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

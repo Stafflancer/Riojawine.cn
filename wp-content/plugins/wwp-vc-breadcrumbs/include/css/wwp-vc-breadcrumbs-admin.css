@@ -1,0 +1,9 @@
+.vc_element-icon.dynamic  {
+    background-image: url(../img/breadcrumb_dyn.jpg);
+}
+.vc_element-icon.stat  {
+    background-image: url(../img/breadcrumb_stat.jpg);
+}
+.vc_element-icon.stat-item  {
+    background-image: url(../img/breadcrumb_stat_item.jpg);
+}

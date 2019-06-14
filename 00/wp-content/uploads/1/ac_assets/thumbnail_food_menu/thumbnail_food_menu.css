@@ -1,0 +1,96 @@
+.uc_thumbnail_food_menu * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.uc_thumbnail_food_menu {
+    position: relative;
+    font-family: Helvetica, ​Arial, ​sans-serif;
+}
+.uc_thumbnail_food_menu ul {
+    margin: 0;
+    padding: 0px;
+    list-style: 0;
+}
+.uc_thumbnail_food_menu ul li {
+    margin-bottom: 25px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.uc_thumbnail_food_menu ul li .uc_menu_list {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-right: 96px;
+    position: relative;
+    text-align: left;
+    font-weight: 700;
+    font-size: 13px;
+}
+.uc_thumbnail_food_menu ul li .uc_item_title {
+    position: relative;
+    z-index: 5;
+    color: #fff;
+  	font-size:20px;
+    padding-right: 10px;
+  	background-color:#000;
+}
+.uc_thumbnail_food_menu ul li span.uc_dots {
+    border-bottom: 2px dashed #ccc;
+    display: block;
+    height: 3px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 1;
+}
+.uc_thumbnail_food_menu ul li .uc_item_price {
+    padding-bottom:5px;
+    padding-top:4px;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 96px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 10px;
+  	background-color:#000;
+}
+.uc_thumbnail_food_menu ul li .uc_item_desc {
+    font-weight: 400;
+    color: #999;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-right:60px;
+}
+.uc_thumbnail_food_menu ul li .uc_item_img {
+    background: #ffffff;
+    border: 1px solid #dedede;
+    display: block;
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 1px;
+    vertical-align: top;
+}
+.uc_thumbnail_food_menu ul li .uc_item_border {
+    background: #ffffff;
+    border: 4px solid #f0f0f0;
+    display: block;
+    overflow: hidden;
+    width: 96px;
+}
+.uc_thumbnail_food_menu ul li .uc_item_border img {
+    display: block;
+    width: 96px;
+}
+.uc_thumbnail_food_menu ul li .uc_container {
+    overflow: hidden;
+    padding-top:5px;
+}

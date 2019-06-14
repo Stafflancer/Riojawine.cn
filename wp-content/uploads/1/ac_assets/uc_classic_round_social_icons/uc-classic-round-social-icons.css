@@ -1,0 +1,37 @@
+
+.uc-classic-round-social-icons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc-classic-round-social-icons {
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+.uc-classic-round-social-icons .uc-social-icons-box{
+	display:inline-block;
+	margin:0 15px 15px;
+	border-radius:50%;
+}
+.uc-classic-round-social-icons .uc-social-icons-box a{
+	font-size:30px;
+	line-height:32px;
+    display: block;
+	padding:27px 0px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+	font-weight:400;
+	font-family: 'PT Sans', sans-serif;
+	border-radius:50%;
+	width:90px;
+	height:90px;
+	border:1px solid transparent;
+}
+.uc-classic-round-social-icons .uc-social-icons-box a:hover{
+	background: inherit !important;
+	color:#fff !important;
+}

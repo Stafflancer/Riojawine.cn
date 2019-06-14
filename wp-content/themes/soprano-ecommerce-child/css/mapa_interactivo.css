@@ -1,0 +1,826 @@
+
+.container-buttons{
+	display: none;
+}
+
+.container-map{
+	display: flex;
+	width: 100%;
+	align-items: center;
+    background: #ffdbee;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	height: 650px;
+	position: relative;
+}
+
+.container-map .contain-left{
+	float:left;
+	width: 30%;
+	height: 100%;
+    display: flex;
+    align-items: center;
+	position: absolute;
+	left: 0;
+}
+
+.container-map .contain-right{
+	float:left;
+	width: 25%;
+	display: block;
+	height: 100%;
+	position: absolute;
+	right: 0;
+    top: 0;
+}
+.container-map .map{
+	float:left;
+	width: 70%;
+	height: 100%;
+	left: 30%;
+	text-align: center;
+	position: absolute;
+}
+.container-map .map svg {
+	height: auto;
+    max-height: 100%;
+    width: 85%;
+    padding: 5%;
+}
+
+.container-map .map g {
+	fill: #ee6079;
+}
+
+.container-map .info_panel {
+  background-color: rgba(255,255,255, .7);
+  padding: .3em;
+  font-size: .8em;
+  font-family: Helvetica, Arial, sans-serif;
+  position: absolute;
+}
+
+.container-map .info_panel::first-line {
+   font-weight: bold;
+}
+
+.container-map .info_view {
+  background-color: blue;
+  padding: .3em;
+  font-size: .8em;
+  font-family: Helvetica, Arial, sans-serif;
+  position: relative;
+  float: left;
+  display: inline-block;
+  height: auto;
+  width: 350px;
+}
+.container-map .rioja-alta,
+.container-map .rioja-baja,
+.container-map .rioja-alavesa{
+	width: 100%;
+	height: 100%;
+	float:left;
+	position: absolute;
+	display: block;
+	top:0;
+	left: 0;
+	-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	background: #fff url(../img_bodegas/marco-datos-bodega.png) no-repeat center bottom;
+}
+
+
+.container-map .st9{
+	fill:#ffdbee;
+}
+
+.container-map #leyendas g{
+	fill:#fff;
+}
+
+.container-map #rioja-baja.active,
+.container-map #rioja-baja:hover{
+	fill:#6a0522;
+	cursor:pointer;
+}
+
+.container-map #rioja-alta.active,
+.container-map #rioja-alta:hover{
+	fill:#9b0f2e;
+	cursor:pointer;
+}
+
+.container-map #rioja-alavesa.active,
+.container-map #rioja-alavesa:hover{
+	fill:#d3004b;
+	cursor:pointer;
+}
+
+.container-map #montes{fill:#f89fc8;}
+
+
+.container-map .zonas-produccion{
+	font-size: 15px;
+	color: #ee6079;
+	line-height: 30px;
+	text-align: left;
+	font-family:Titillium Web;
+	font-weight:400;
+	font-style:normal;
+}
+
+.container-map .text-left{
+	width: 75%;
+	left: 25%;
+	position: absolute;
+}
+
+.container-map .text-left img{    
+	width: 70%;
+    margin-left: 15%;
+}
+
+.container-map .text-left p{
+	font-size: 16px;
+	font-weight: 600px;
+}
+
+.container-map .descubre-territorio{
+	font-size: 48px;
+	color: #c5003e;
+	line-height: 48px;
+	text-align: left;
+	font-family:PT Serif;
+	font-weight:700;
+	font-style:normal;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.container-map .image-container{
+	width: 100%;
+	height: 40%;
+	position: relative;
+}
+
+.container-map .imagen-zona{
+    position: relative;
+    top: 0;
+	width: 100%;
+    height: 100%;
+	object-fit: cover;
+}
+
+
+.container-map .texto-zona{
+	width: 100%;
+	height: 60%;
+	padding: 25px;
+}
+
+.container-map .texto-zona blockquote{
+	font-style: italic;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0 !important;
+    border: 0 !important;
+	
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 4;
+   line-height: 1.5em;
+   max-height: 6em;
+   overflow: hidden;
+}
+
+.container-map .texto-zona p{
+	font-size: 16px;
+	margin-bottom: 20px;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    line-height: 1.5em;
+    max-height: 9em;
+    height: 9em;
+	overflow: hidden;
+}
+
+.show-more{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.close-info{
+	font-size: 25px !important;
+	color:#fff;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+	cursor:pointer;
+}
+
+.right-arrow{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin: 15px;
+	width: 50px;
+    height: 50px;
+	background: #f89fc8; 
+	-moz-border-radius: 25px; 
+	-webkit-border-radius: 25px; 
+	border-radius: 25px;
+	display: flex;
+	align-items: center;
+}
+
+.container-map .right-arrow:hover{
+	background: #ee6079; 
+}
+
+.container-map .right-arrow i{
+    font-size: 25px !important;
+    color: #fff;
+    padding: 4px;
+}
+
+.container-map .capa_negra{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+
+.container-map .nombre-zona{
+    font-family: PT serif;
+    font-size: 26px;
+    font-weight: 600;
+	font-style:normal;
+    position: absolute;
+    bottom: 0;
+	padding:25px;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+/*--------------------MAPA INTERACTIVO ZONAS VISIBLES-------------------------*/
+.container-map-mini{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	background: #ffdbee;
+	height: 650px;
+	position: relative;
+}
+
+.container-map-mini .contain-left{
+	width: 50%;
+	height: 100%;
+	padding: 20px;
+	position: relative;
+}
+
+.container-map-mini .nombre-zona{
+	padding: 0;
+    font-family: PT serif;
+    font-size: 26px;
+    font-weight: 600;
+	font-style:normal;
+	color:#fff;
+	text-align: left;
+}
+
+.container-map-mini .contain-right{
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+
+.container-map-mini  .map{
+	position: absolute;
+	left: 15%;
+	width: 70%;
+    height: 60%;
+	bottom: 2%;
+}
+.container-map-mini .map svg {
+	height: auto;
+	width: 95%;
+	max-height: 90%;
+}
+.container-map-mini .map g {
+	fill: #ee6079;
+}
+
+.container-map-mini .st9{
+	fill:#ffdbee;
+}
+
+.container-map-mini #leyendas g{
+	fill:#fff;
+}
+
+.container-map-mini #rioja-baja.active,
+.container-map-mini #rioja-baja:hover{
+	fill:#6a0522;
+}
+
+.container-map-mini #rioja-alta.active,
+.container-map-mini #rioja-alta:hover{
+	fill:#9b0f2e;
+}
+		
+
+.container-map-mini #rioja-alavesa.active,
+.container-map-mini #rioja-alavesa:hover{
+	fill:#d3004b;
+}
+
+.container-map-mini #montes{fill:#f89fc8;}
+
+
+.container-map-mini .viaje-rioja{
+	font-size: 15px;
+	color: #ee6079;
+	line-height: 30px;
+	text-align: left;
+	font-family:Titillium Web;
+	font-weight:400;
+	font-style:normal;
+}
+
+.container-map-mini .text-left{
+	width: 75%;
+	position: absolute;
+	left: 15%;
+	height: 30%;
+	top: 5%;
+	right: 35%;
+}
+
+
+.container-map-mini .text-left p{
+	font-size: 16px;
+	font-weight: 600px;
+}
+
+.container-map-mini .rutas-vino{
+	font-size: 48px;
+	color: #c5003e;
+	line-height: 48px;
+	text-align: left;
+	font-family:PT Serif;
+	font-weight:700;
+	font-style:normal;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.container-map-mini .image-container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.container-map-mini .imagen-zona{
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container-map-mini .logo-zona{
+	margin-bottom: 10px;	
+}
+
+.container-map-mini .texto-zona{
+	width: 100%;
+	height: 90%;
+	padding: 25px;
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+}
+
+.container-map-mini .texto-zona blockquote{
+	font-weight: 600;
+	font-size: 15px;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+	color: #fff;
+	width: 70%;
+	
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   line-height: 1.5em;        /* fallback */
+   max-height: 3em;
+   overflow: hidden;
+}
+
+.container-map-mini .texto-zona p{
+	font-size: 16px;
+	margin-bottom: 15px;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 9; /* number of lines to show */
+	line-height: 1.5em;        /* fallback */
+	max-height: 13.5em;
+	overflow: hidden;
+}
+
+
+.container-map-mini .capa_negra{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(0,0,0,0.4);
+}
+
+
+.container-map-mini .overlay {
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  height: 100%;
+	  width: 100%;
+	  opacity: 0;
+	  transition: .2s ease;
+	  background-color: #C5003E;
+}
+
+.container-map-mini .rioja-alta,
+.container-map-mini .rioja-alavesa{
+	width: 100%;
+	height: 33.3%;
+	float:left;
+	position: relative;
+	display: block;
+	padding-bottom: 9px;
+	padding-left: 9px;
+	background: transparent url(../images-modules/marco-slider-complement.png) repeat left bottom;
+}
+
+
+.container-map-mini .rioja-baja{
+	width: 100%;
+	height: 33.3%;
+	float:left;
+	position: relative;
+	display: block;
+	padding-left: 9px;
+	background: transparent url(../images-modules/marco-slider-complement.png) repeat left bottom;
+}
+
+
+.container-map-mini .rioja-alta:hover .overlay,
+.container-map-mini .rioja-baja:hover .overlay,
+.container-map-mini .rioja-alavesa:hover .overlay {
+	opacity: 0.4;
+}
+
+
+.container-map-mini .more-info{
+	height: 100%;
+	width: 100%;
+}
+
+.container-map-mini .more-info a{	
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	display: none;
+	z-index: 999;
+}
+
+.container-map-mini .close-info{
+	display: none;
+}
+	
+.container-map-mini .contain-right{
+	display: block;
+}
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 1199 px-----------------------------------*/
+@media (max-width: 1199px) {
+	.container-map .descubre-territorio {
+		font-size: 35px;
+		line-height: 35px;
+	}
+	
+	.container-map .text-left {
+		width: 85%;
+		left: 15%;
+		height: 90%;
+		top: 10%;
+	}
+	
+	.container-map .text-left p {
+		font-size: 15px;
+		line-height: 25px;
+		/* margin-bottom: 20px; */
+	}
+	
+	.container-map .contain-right {
+		width: 30%;
+	}
+	
+	.container-map .image-container {
+		width: 100%;
+		height: 35%;
+		position: relative;
+	}
+	
+	
+	.container-map .map svg{
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	.container-map .nombre-zona {
+		font-size: 23px;
+		padding: 15px;
+	}
+		
+	.container-map .texto-zona blockquote,
+	.container-map .texto-zona p,
+	.show-more button{
+		font-size: 15px;
+	}
+		
+	.show-more{
+		padding-bottom: 0px;
+	}
+	
+	.close-info{
+		font-size: 17px !important;
+	}
+}
+/*--------------------------------------------------------------------------------------------RESPONSIVE 1199 px-----------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 1023 px-----------------------------------*/
+@media (max-width: 1023px) {
+	.container-buttons{
+		display: block;
+	}
+	
+	.container-map-mini .close-info{
+		display: block;
+	}
+	
+	.container-map, .container-map-mini{
+		display: inline-block;
+		padding: 0px;
+		height: auto;
+	}
+
+	.container-map .contain-left{
+		float:left;
+		width: 100%;
+		height: unset;
+		position: relative;
+		display: block;
+		padding: 10px;
+	}
+	.container-map-mini .contain-left{
+		width: 100%;
+		display: block;
+		padding: unset;
+	}
+	
+	.container-map-mini .text-left {
+		width: 100%;
+		position: unset;
+		left: unset;
+		top: unset;
+		right: unset;
+		 padding: 10px;
+		margin-bottom: 0px;
+		text-align: left !important;
+	}
+		
+	.container-map-mini .rutas-vino{
+		margin-bottom: 0px;
+	}
+	
+	.container-map .text-left {
+		width: 100%;
+		height: unset;
+		position: relative;
+		left: 0;
+		text-align: left !important;
+	}
+	
+	.button-rioja-alta,
+	.button-rioja-baja,
+	.button-rioja-alavesa{
+		font-size: 14px !important;
+	}
+	
+	.container-map .descubre-territorio, .container-map-mini .rutas-vino{
+		font-size: 28px;
+		line-height: 1.1em;
+	}
+	
+.container-map .text-left img{
+		display: none;
+	}
+
+	.container-map .contain-right{
+		float:left;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: none;
+	}
+	.container-map-mini .contain-right{
+		width: 100%;
+		height: 100%;
+		float:left;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: none;
+	}
+	.container-map-mini .rioja-alta, .container-map-mini .rioja-alavesa, .container-map-mini .rioja-baja  {
+		width: 100%;
+		height: 100%;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		background: none;
+		float: left;
+		position: absolute;
+		display: block;
+		top: 0;
+		left: 0;
+	}
+	
+	.container-map-mini .texto-zona blockquote {
+		text-overflow: unset;
+		display: unset;
+		-webkit-box-orient: unset;
+		-webkit-line-clamp: unset;
+		line-height: unset;
+		max-height: unset;
+		overflow: unset;
+	}
+	
+	.container-map-mini .logo-ruta{
+		margin-bottom: 15px;
+	}
+	
+	.container-map .texto-zona {
+		width: 100%;
+		height: 80%;
+		padding: 15px;
+	}
+	
+	.container-map-mini .texto-zona {
+		height: unset;
+		padding: 15px;
+		max-height: 75%;
+		position: absolute;
+		bottom: 25%;
+		text-align: left;
+	}
+
+	.container-map-mini .more-info {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		position: absolute;
+		text-align: center;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 25%;
+	}
+	
+	.container-map-mini .more-info a {
+		position: unset;
+		right: unset;
+		bottom: unset;
+		display: unset;
+		top: unset;
+		bottom: unset;
+	}
+	
+	.container-map-mini .rioja-alta:hover .overlay,
+	.container-map-mini .rioja-baja:hover .overlay,
+	.container-map-mini .rioja-alavesa:hover .overlay,
+	.container-map-mini .rioja-alta:active .overlay,
+	.container-map-mini .rioja-baja:active .overlay,
+	.container-map-mini .rioja-alavesa:active .overlay,
+	.container-map-mini .rioja-alta:focus .overlay,
+	.container-map-mini .rioja-baja:focus .overlay,
+	.container-map-mini .rioja-alavesa:focus .overlay {
+		opacity: 0;
+	}
+
+
+	
+	.container-map .map, .container-map-mini .map{
+		float:left;
+		width: 100%;
+		height: unset;
+		left:unset;
+		position: relative;
+		display: block;
+	}
+	
+	.container-map .map{
+		text-align: unset;
+	}
+	
+	.container-map-mini .map{
+		    width: 100%;
+			/* margin-left: 10%; */
+			padding: 10px;
+	}
+	
+	.container-map .map svg, .container-map-mini .map svg{
+		height: auto;
+		width: 100%;
+		padding: 10px;
+		margin: 0px;
+		/* margin-bottom: 30px; */
+	}
+
+	.container-map .descubre-territorio{
+		margin-bottom: 0px;
+	}
+	
+	.container-map .map svg{
+		margin-left: 0px;
+	}
+	
+	.button-map{
+		width: calc(100%/3);
+		border-right: 1px solid #ffdbee !important;
+	}
+	
+	.button-map:last-child{
+		border-right: none !important;
+	}
+	
+	
+}
+/*--------------------------------------------------------------------------------------------RESPONSIVE 1023 px-----------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 575 px-----------------------------------*/
+@media (max-width: 575px) {	
+	.button-rioja-alta,
+	.button-rioja-baja,
+	.button-rioja-alavesa{
+		font-size: 12px !important;
+		padding: 10px 0 !important;
+	}
+	
+	
+	.container-map .image-container {
+		height: 30%;
+	}
+	
+	.container-map .nombre-zona {
+		font-size: 22px;
+		padding: 15px;
+	}
+		
+	.container-map .texto-zona blockquote,
+	.container-map .texto-zona p,
+	.show-more button{
+		font-size: 14px;
+	}
+		
+	.show-more{
+		padding-bottom: 0px;
+	}
+}
+/*--------------------------------------------------------------------------------------------RESPONSIVE 575 px-----------------------------------*/

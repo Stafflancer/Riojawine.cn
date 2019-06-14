@@ -1,0 +1,39 @@
+/* ============================================================================= */
+/* Visual Composer custom text widget. */
+/* ============================================================================= */
+
+.sp-text-widget {
+  line-height : $line-height-base;
+  font-size   : $font-size-base;
+  font-family : $font-family-base;
+  color       : $body-color;
+
+  &.primary-font { font-family : $font-family-base; }
+  &.headings-font { font-family : $headings-font-family; }
+
+  > p {
+    line-height : inherit;
+    font-size   : inherit;
+    color       : inherit;
+  }
+
+  > p:last-of-type {
+    margin-bottom : 0;
+  }
+
+  img {
+    max-width : 100%;
+    height    : auto;
+  }
+
+  > .sp-signature {
+    width          : 100%;
+    font-size      : 23px;
+    display        : block;
+    margin-top     : 20px;
+    font-family    : 'Shadows Into Light', cursive;
+    font-style     : italic;
+    letter-spacing : 2px;
+    @include prefix(transform, rotate(-3deg), webkit);
+  }
+}

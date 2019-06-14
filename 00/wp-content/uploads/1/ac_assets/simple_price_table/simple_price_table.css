@@ -1,0 +1,119 @@
+.uc_simple_price_table * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.uc_simple_price_table .uc-pricing-table {
+    background:#FFF;
+    text-align:left;
+    padding:30px 50px;
+    }
+    
+
+    
+.uc_simple_price_table .uc-pricing-type {
+  font-size: 15px;
+  letter-spacing: 0.16em;
+  margin-bottom: 0;
+  padding-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:400;
+}
+
+.uc_simple_price_table .uc-pricing-table-content {
+    padding:30px 0;
+    font-size:13px;
+    color:#9c9c9c;
+    }
+
+.uc_simple_price_table .uc-pricing-table-content ul {
+  list-style:none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.uc_simple_price_table .uc-pricing-table-content li {
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.uc_simple_price_table .uc-pricing-table-content li::before {
+  content: "\f05d";
+  float: left;
+  font-family: "FontAwesome";
+  font-size: 16px;
+  height: 18px;
+  line-height: 16px;
+  margin-right: 10px;
+  margin-top: 4px;
+  text-align: center;
+  width: 18px;
+}
+
+.uc_simple_price_table .uc-pricing-row {
+  color: #181818;
+  line-height: 1;
+  padding: 25px 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.uc_simple_price_table .uc-currency-symbol {
+  font-size: 20px;
+  position: relative;
+  top: -26px;
+}
+
+.uc_simple_price_table .uc-price-value {
+  font-size: 60px;
+}
+
+.uc_simple_price_table .uc-pricing-row small {
+  font-size: 12px;
+}
+
+.uc_simple_price_table .uc-pricing-row small::before {
+  content: "/";
+  margin-right: 5px;
+}
+
+.uc_simple_price_table .uc-pricing-table-footer {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.uc_simple_price_table .uc-pricing-table > * + * {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.uc_simple_price_table .uc_button {
+    display:inline-block;
+    font-weight: bold;
+    letter-spacing: 0.16em;
+    line-height: 24px;
+    color:#fff;
+    font-size:12px;
+    padding:10px 30px;
+    text-decoration:none;
+    }
+    
+.uc_simple_price_table .uc-pricing-table:hover{
+	color:#fff;
+    }
+    
+.uc_simple_price_table .uc-pricing-table:hover .uc-pricing-row, .uc_simple_price_table .uc-pricing-table:hover .uc-pricing-table-content {
+    color:#fff;
+    }
+    
+.uc_simple_price_table .uc-pricing-table:hover    .uc_button {
+    background:#fff !important;
+    color:#111;
+    }
+    

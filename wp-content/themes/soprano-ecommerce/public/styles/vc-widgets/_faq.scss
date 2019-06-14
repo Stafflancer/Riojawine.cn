@@ -1,0 +1,109 @@
+/* ============================================================================= */
+/* FAQ page. */
+/* ============================================================================= */
+
+.card.sp-faq-card {
+  border        : 1px solid #eee;
+  border-radius : 0;
+  text-align    : left;
+
+  & + .sp-faq-card {
+    margin-top : 15px;
+  }
+
+  // question title
+  > .card-header {
+    padding          : 0.5rem 1.5rem;
+    background-color : #fff;
+    cursor           : pointer;
+    display          : -webkit-box;
+    display          : -ms-flexbox;
+    display          : flex;
+    -webkit-box-align      : center;
+        -ms-flex-align      : center;
+            align-items      : center;
+    border-bottom    : none;
+
+    > .card-title {
+      font-size  : 1.1rem;
+      color      : #333;
+      -webkit-box-flex       : 1;
+          -ms-flex       : 1 1 auto;
+              flex       : 1 1 auto;
+      min-width  : 0;
+      -webkit-transition : color 0.25s;
+      transition : color 0.25s;
+      margin     : 10px 0;
+    }
+
+    > .toggle-icon {
+      -webkit-box-flex        : 0;
+          -ms-flex        : 0 0 auto;
+              flex        : 0 0 auto;
+      margin-left : 20px;
+      color       : $brand-primary;
+      line-height : 1;
+      font-size   : 40px;
+      will-change : transform;
+      -webkit-transition  : -webkit-transform 0.25s;
+      transition  : -webkit-transform 0.25s;
+      transition  : transform 0.25s;
+      transition  : transform 0.25s, -webkit-transform 0.25s;
+    }
+
+    &:hover > .card-title { color : $brand-primary; }
+  }
+
+  // answer for the current question
+  > .card-contents {
+    > .card-contents-inner {
+      border-top : 1px solid #eee;
+      padding    : 1rem 1.5rem;
+    }
+
+    p { margin-bottom : 1rem; }
+    p:last-child { margin-bottom : 0; }
+  }
+
+  // open card state
+  &.card-open {
+    > .card-header > .card-title { color : $brand-primary; }
+    > .card-header > .toggle-icon {
+      -webkit-transform : rotate(45deg);
+              transform : rotate(45deg);
+    }
+  }
+}
+
+.sp-faq-articles {
+  &.border-top {
+    border-top  : 1px solid #ddd;
+    padding-top : 2rem;
+  }
+  &.border-bottom {
+    border-bottom  : 1px solid #ddd;
+    padding-bottom : 2rem;
+  }
+
+  ul {
+    @include reset-box-model(true);
+
+    li {
+      margin-bottom : 15px;
+      &:last-child { margin-bottom : 0; }
+
+      &:before {
+        content       : '\f3d3';
+        font-family   : $icon-font-family;
+        font-size     : 18px;
+        padding-right : 10px;
+        color         : $brand-primary;
+      }
+
+      a {
+        color : #333;
+        &:hover { color : $brand-primary; }
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+/*! ===================================
+ *  Author: Roman Nazarkin, Egor Dankov
+ *  -----------------------------------
+ *  PuzzleThemes
+ *  =================================== */
+
+.sp-notice {
+  position   : relative;
+  display    : -webkit-box;
+  display    : -ms-flexbox;
+  display    : flex;
+  -ms-flex-wrap  : nowrap;
+      flex-wrap  : nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background : #fff;
+  margin     : 50px 20px 25px 0;
+  border     : 1px solid #e5e5e5;
+  -webkit-box-shadow : 0 1px 1px rgba(0, 0, 0, .04);
+          box-shadow : 0 1px 1px rgba(0, 0, 0, .04);
+
+  > .sp-notice-body {
+    -webkit-box-flex     : 1;
+        -ms-flex     : 1 1 0%;
+            flex     : 1 1 0%;
+    position : relative;
+    overflow : hidden;
+
+    > .sp-notice-body-inner {
+      position   : absolute;
+      padding    : 30px;
+      top        : 0; left : 0;
+      width      : 100%;
+      -webkit-transition : all 0.35s;
+      transition : all 0.35s;
+      -webkit-transform  : translateX(-15px);
+              transform  : translateX(-15px);
+      opacity    : 0;
+      visibility : hidden;
+      -webkit-box-sizing : border-box;
+              box-sizing : border-box;
+
+      &.current {
+        -webkit-transition-delay : 0.25s;
+                transition-delay : 0.25s;
+        -webkit-transform        : translateX(0);
+                transform        : translateX(0);
+        opacity          : 1;
+        visibility       : visible;
+      }
+
+      p {
+        font-size : 16px;
+        margin    : 20px 0 0 0;
+        max-width : 600px;
+      }
+
+      h1 {
+        font-weight : 400;
+        margin      : 0;
+        line-height : 1.25;
+      }
+    }
+  }
+
+  > .sp-logo {
+    display         : -webkit-box;
+    display         : -ms-flexbox;
+    display         : flex;
+    -webkit-box-orient  : vertical;
+    -webkit-box-direction  : normal;
+        -ms-flex-direction  : column;
+            flex-direction  : column;
+    -webkit-box-pack : center;
+        -ms-flex-pack : center;
+            justify-content : center;
+    background      : #f7f7f7;
+    padding         : 50px;
+    -webkit-user-select     : none;
+       -moz-user-select     : none;
+        -ms-user-select     : none;
+            user-select     : none;
+    pointer-events  : none;
+
+    img { width : 100px; }
+
+    @media (max-width : 600px) { display : none; }
+  }
+
+  i[class^="em-"] {
+    font-style          : normal;
+    display             : inline-block;
+    margin-left         : 5px;
+    background-size     : 100% 100%;
+    background-repeat   : no-repeat;
+    background-position : center;
+    height              : 1em;
+    width               : 1em;
+    vertical-align      : baseline;
+  }
+
+  i.em-party-popper { background-image : url('./emojis/party-popper.png'); }
+  i.em-glowing-star { background-image : url('./emojis/glowing-star.png'); }
+  i.em-happy-person { background-image : url('./emojis/happy-person.png'); }
+  i.em-clapping-hands { background-image : url('./emojis/clapping-hands.png'); }
+}
+
+.sp-buttons {
+  margin : 20px -5px -5px;
+
+  a {
+    color           : #fff;
+    text-decoration : none;
+    padding         : 7px 15px;
+    border-radius   : 3px;
+    border          : none;
+    margin          : 5px;
+    display         : inline-block;
+    -webkit-transition      : opacity 0.25s;
+    transition      : opacity 0.25s;
+  }
+
+  a:hover { opacity : 0.8; }
+  a:focus { outline : none; }
+
+  a.sp-gray { background : #868e96; }
+  a.sp-green { background : #4caf50; }
+  a.sp-red { background : #f44336; }
+
+  a.sp-seamless {
+    margin-left   : 10px;
+    padding-left  : 0;
+    padding-right : 0;
+    background    : transparent;
+    color         : #72777c;
+    font-style    : italic;
+
+    &:first-child {
+      margin-left : 5px;
+      padding     : 0;
+    }
+  }
+}

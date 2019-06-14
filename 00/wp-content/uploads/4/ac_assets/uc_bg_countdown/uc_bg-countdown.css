@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.uc_bg-countdown * { margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.uc_bg-countdown .uc_bg-countdown_inner{ background-size:cover !important;}
+.uc_bg-countdown .uc_bg-countdown_inner .timer { width: 100%; text-align: center; padding:27px 0; clear:both; overflow:hidden;}
+.uc_bg-countdown .uc_bg-countdown_inner .timer div { 
+	width: 200px; 
+	margin: 1%;
+	text-align: center; 
+	position:relative;
+	display:inline-block;
+	
+}
+.uc_bg-countdown .uc_bg-countdown_inner .timer div em{
+	font-style:normal;
+	display:block;
+	background-size:cover !important;
+	padding:60px 0;
+	color: #fff; 
+	line-height: 31px; 
+	font-size:55px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+}
+.uc_bg-countdown .uc_bg-countdown_inner .timer div span{
+	background:#fff;
+	display: block; 
+	position: relative;
+	line-height: 31px; 
+	font-weight:700;
+	font-size:18px;
+	color:#3a3a3a;
+	padding:25px 0;
+	text-transform:uppercase;
+	font-family: 'Lato', sans-serif;
+	-webkit-box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.31);
+box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.31);
+}
+
+@media only screen and (max-width: 479px) {
+	.uc_bg-countdown .uc_bg-countdown_inner .timer div em{ font-size:38px;}
+	.uc_bg-countdown .uc_bg-countdown_inner .timer div span{ font-size:12px; padding:5px 0;}
+}

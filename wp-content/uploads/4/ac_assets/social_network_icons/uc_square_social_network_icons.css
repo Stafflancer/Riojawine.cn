@@ -1,0 +1,36 @@
+
+.uc_square_social_network_icons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uc_square_social_network_icons{
+	position:relative;
+	width:100%;
+}
+
+.uc_square_social_network_icons .uc_social-links {
+    display: table;
+    margin: 0 auto 30px;
+}
+.uc_square_social_network_icons .uc_social-links a {
+    background-color: #2677fa;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.3em;
+    height: 42px;
+    line-height: 42px;
+    margin: 5px;
+    text-align: center;
+    transition: all 0.3s linear 0s;
+    width: 42px;
+}
+.uc_square_social_network_icons .uc_social-links a:hover {
+	background-color:white;
+}
+.uc_square_social_network_icons .uc_social-links a:hover i{
+	color:#2677fa;
+}

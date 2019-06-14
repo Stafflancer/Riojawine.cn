@@ -1,0 +1,28 @@
+
+.uc-material-social-icons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc-material-social-icons {
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+.uc-material-social-icons .uc-social-icons-box{
+	display:inline-block;
+	margin:0 -2px 0px;
+	width:20%;
+}
+.uc-material-social-icons .uc-social-icons-box a{
+	font-size:30px;
+	line-height:normal;
+    display: block;
+	padding:14px 0px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+	font-weight:400;
+}

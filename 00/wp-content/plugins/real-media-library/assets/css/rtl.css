@@ -1,0 +1,54 @@
+body.activate-aio #wpbody-content {
+    padding-left: 0 !important;
+}
+
+.aio-list-standard a > i {
+    float: right;
+}
+
+.aio-list-standard a .aio-node-name {
+    width: calc(100% - 60px);
+    padding-right: 10px;
+}
+
+.aio-list-standard a span.aio-cnt {
+    float: left;
+    right: unset;
+    left: 10px;
+}
+
+.aio-list-standard ul {
+    padding: 0px 20px 0px 0px;
+}
+
+.aio-expander {
+    left: unset;
+    right: -16px;
+}
+
+body.activate-aio .aio-tree .aio-wrap {
+    margin-left: 15px;
+}
+
+.aio-prepare-create-new .aio-tree-headline a.aio-cancel-create-new {
+    float: left;
+    margin-top: 5px;
+    display: block !important;
+}
+
+.media-modal.rml-media-modal .media-frame:not(.hide-menu) .media-frame-title,
+.media-modal.rml-media-modal .media-frame:not(.hide-menu) .media-frame-router,
+.media-modal.rml-media-modal .media-frame:not(.hide-menu) .media-frame-content,
+.media-modal.rml-media-modal .media-frame:not(.hide-menu) .media-frame-toolbar {
+    left: 0;
+    right: 270px;
+}
+
+@media (max-width: 900px) {
+    .media-modal.rml-media-modal .media-frame:not(.hide-menu) .media-frame-content,
+    .media-modal.rml-media-modal .media-frame:not(.hide-menu) .media-frame-router,
+    .media-modal.rml-media-modal .media-frame:not(.hide-menu) .media-frame-title,
+    .media-modal.rml-media-modal .media-frame:not(.hide-menu) .media-frame-toolbar {
+        right: 0 !important;
+    }
+}

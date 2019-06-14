@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_horizontal_food_menu *{margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;}
+   
+
+.clear{clear:both;}
+.uc_horizontal_food_menu{ border:3px solid #eaeaea; height:255px; width:100%; overflow:hidden; text-align:center;}
+.uc_horizontal_food_menu .uc_fresh_food_menu_pic{ float:left; width:40%; height:255px; }
+.uc_fresh_food_menu_pic img{ width:100%;height: 255px;}
+.uc_horizontal_food_menu .uc_fresh_food_menu_right{ float:left; width:60%; position:relative; height:100%;}
+.uc_horizontal_food_menu .uc_fresh_food_menu_right .uc_fresh_food_menu_inner{ position:absolute;left:0px; top:50%; transform:translatey(-50%); width:100%;font-family: 'Lato', sans-serif; font-size:16px; text-align:center; padding:0 15%;}
+.uc_horizontal_food_menu .uc_fresh_food_menu_right .uc_fresh_food_menu_inner h4{font-family: 'Righteous', cursive; font-size:14px;}
+.uc_horizontal_food_menu .uc_fresh_food_menu_right .uc_fresh_food_menu_inner h4 span{ color:#8f8f8f;}
+.uc_horizontal_food_menu .uc_fresh_food_menu_right .uc_fresh_food_menu_inner h3{font-family: 'Roboto Slab', serif; font-size:22px; margin:15px 0 0;}
+.uc_horizontal_food_menu .uc_fresh_food_menu_right .uc_fresh_food_menu_inner h2{font-family: 'Open Sans', sans-serif; font-size:37px; margin:0px; padding:0px; margin:15px 0;}
+
+
+@media screen and (max-width:414px){
+.uc_horizontal_food_menu .uc_fresh_food_menu_pic{width:100%; float:none;}	
+.uc_horizontal_food_menu .uc_fresh_food_menu_right{ width:100%; float:none;position: inherit;}
+.uc_horizontal_food_menu .uc_fresh_food_menu_right .uc_fresh_food_menu_inner{top: 0;transform: inherit;position: inherit; margin:15px 0;padding:0 15px;}
+.uc_horizontal_food_menu{ height:100%;width: auto;}
+
+}
+

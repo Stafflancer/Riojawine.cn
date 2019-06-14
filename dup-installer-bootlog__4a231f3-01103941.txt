@@ -1,0 +1,22 @@
+May 7 03:56:19 ==DUPLICATOR INSTALLER BOOTSTRAP v1.3.10==
+May 7 03:56:19 ----------------------------------------------------
+May 7 03:56:19 Installer bootstrap start
+May 7 03:56:19 Using archive /home/riojawine/web/riojawine.cn/public_html/20190314_riojawine_4a231f3bc58835c38798_20190501103941_archive.zip
+May 7 03:56:19 Manual extract found so not going to extract dup-installer dir
+May 7 03:56:19 Didn't need to extract the installer.
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer to 755<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/assets to 755<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/classes to 755<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/ctrls to 755<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/lib to 755<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/views to 755<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/dup-archive__4a231f3-01103941.txt to 644<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/dup-database__4a231f3-01103941.sql to 644<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/dup-installer-log__4a231f3-01103941.txt to 644<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/dup-installer-notices__4a231f3-01103941.json to 644<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/dup-scan__4a231f3-01103941.json to 644<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/index.php to 644<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/installer-state.txt to 644<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/main.installer.php to 644<br/>
+May 7 03:56:19 Set permissions of /home/riojawine/web/riojawine.cn/public_html/dup-installer/php.ini to 644<br/>
+May 7 03:56:19 No detected errors so redirecting to the main installer. Main Installer URI = http://riojawine.cn/dup-installer/main.installer.php

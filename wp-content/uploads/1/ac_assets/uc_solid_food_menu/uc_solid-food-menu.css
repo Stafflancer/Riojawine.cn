@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_solid-food-menu *{margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;}
+   
+
+
+.uc_solid-food-menu{  height:400px; overflow:hidden; text-align:center;}
+.uc_solid-food-menu .overlay-box{position: relative;width:100%; height:100%;}
+.uc_solid-food-menu .overlay-box .content-box{ position:absolute; left:0px; top:50%; transform:translateY(-50%); width:100%;}
+.uc_solid-food-menu .overlay-box .content-box .star{ text-align:center; font-size:14px; margin:15px 0;}
+.uc_solid-food-menu .overlay-box .content-box  .pic-box{ width:135px; height:135px; border-radius:50%; display:inline-block}
+
+.uc_solid-food-menu .overlay-box .content-box h2{font-family: 'Playfair Display', serif; font-size:27px; margin:0 0 20px;}
+.uc_solid-food-menu .overlay-box .content-box p{font-family: 'Rajdhani', sans-serif; font-size:20px; font-weight:600;}
+

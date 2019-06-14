@@ -1,0 +1,1921 @@
+/*
+    Theme Name: Soprano Child
+    Description: Powerful WordPress theme designed in a clean and minimalistic style. This theme can be used for any type of website, business, corporate, portfolio, products, marketing, etc. Soprano has been coded with love in PHP, HTML5, CSS3 and JavaScript. It is compatible with much premium plugins.
+    Template: soprano-ecommerce
+    Author: PuzzleThemes
+    Author URI: http://puzzlethemes.net/
+    Version: 1.0-child
+	Text Domain: soprano-ecommerce-child
+    License: GNU General Public License version 1.0
+    License URI: https://www.gnu.org/licenses/gpl-1.0.html
+*/
+
+/* here comes your styles */
+
+/*TOP BAR*/
+.top-bar-language{
+	float: right;
+    padding: 0 10px;
+}
+
+.top-bar-language .current-lang,
+.top-bar-language .lang-item-es-es:after {
+    color: #c5003e;
+}
+
+/*HOME VIDEO*/
+
+
+.video-autoplay div{
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.video-autoplay .slider-item .intro-body{
+	display: none;
+}
+
+.video-autoplay .intro-bg-video{
+	display: block;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.video-autoplay .intro-bg-video video{
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+/*HOME VIDEO*/
+
+
+p::selection {
+    background: #c5003e;
+    color: #fff;
+}
+
+/* Firefox */
+::-moz-selection {
+    background: #c5003e;
+    color: #fff;
+}
+
+
+.title-last-news{
+	margin-bottom: 40px;
+}
+
+.general_search_results a:hover, .general_search_results a:hover h5{
+	text-decoration:none;	
+    color: #c5003e;
+}
+
+.general_search_results h5{
+    font-size: 20px;
+    line-height: 24px;
+	padding: 0px;
+}
+
+.general_search_results li{
+    margin-bottom: 30px;
+    list-style: none;
+    margin-left: 25px;
+}
+
+.general_search_results a{
+	color: #333;
+}
+
+.general_search_text, .general_search_text p{
+	font-size: 14px;
+}
+
+/*----------PAGINACIÓN NOTICIAS----------*/
+.sp-pagination ul {
+    margin: 0;
+    padding: 20px 0 !important;
+    border: 0;
+    height: 80px;
+    /* background: #fff; */
+    list-style: none;
+}
+
+
+.sp-pagination ul li{
+    display: inline-block !important;
+    margin: 0 2px !important;
+}
+
+.sp-pagination ul li a, .sp-pagination ul li span.page-numbers.current{
+    width: 100% !important;
+    height: 100% !important;
+	display: unset !important;
+	font-weight: 400 !important;
+	font-size: 16px !important;
+    padding: 2px 10px !important;
+    text-decoration: none !important;
+    border: 2px solid #c5003e !important;
+}
+
+.sp-pagination ul li a, .sp-pagination ul li span{
+	color: #c5003e !important;
+	background: #fff;
+}
+
+.sp-pagination ul li span.page-numbers.current{
+    background: #c5003e;
+    color: #fff !important;
+    border: 2px solid #c5003e;
+}
+
+.sp-pagination ul li a:hover{
+    background: #c5003e;
+    color: #fff !important;
+    border: 2px solid #c5003e;
+}
+/*----------PAGINACIÓN NOTICIAS----------*/
+
+
+
+
+
+
+
+/*--------------------GRID RIOJA TV---------------------*/
+
+.svc_grid_title{
+	text-transform: none !important;
+	font-size: 24px !important;
+    color: #333333;
+    line-height: 32px;
+    text-align: left;
+    font-family: PT Serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 15px 0;
+	margin-top: 15px;
+}
+
+
+.svc_post_grid article{
+	border-bottom: none !important;
+	box-shadow: none !important;
+    width: 31% !important;
+    margin: 1% !important;
+	height: 210px !important;
+	position: relative !important;
+	left: unset !important;
+	top: unset !important;
+	
+}
+
+.svc_post_grid header,
+.svc_post_image,
+.svc_post_grid header > a,
+.svc_post_grid .relative_div{
+	width: 100% !important;
+	height: 100% !important;
+	background-color: rgba(197, 0, 62, 0.5);
+}
+
+.svc_title:hover,
+.svc_post_cat:hover{
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+.svc_post_image{
+	object-fit: cover !important;
+}
+
+.svc_title, .svc_post_cat a{
+	color: #fff !important;
+}
+
+.svc_post_cat a:last-child{
+	display: none;
+}
+
+.velo-magenta-noticias-rioja{
+	position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #C5003E;
+    opacity: 0.2;
+}
+
+.velo-magenta-noticias-rioja.show-overlay{
+    opacity: 0.2;
+}
+
+.velo-magenta-noticias-rioja.hide-overlay{
+    opacity: 0;
+}
+
+/*--------------------GRID RIOJA TV---------------------*/
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------ESTILOS--------------DESACTIVADOS*/
+
+footer {
+	display:none !important;
+}
+
+.sp-intro:not(.fullscreen):first-child {
+	padding-top:0 !important;
+}
+
+
+/*-------------------------------GLOBAL STYLES*/
+em{
+    font-size: 20px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+ul li a {
+	text-decoration: none;
+	color:#c5003e;
+}
+
+ul li a:hover {
+	text-decoration: underline;
+	color:#c5003e !important;
+}
+
+p a {
+	text-decoration: none;
+	color:#c5003e;
+}
+
+
+p a:hover {
+	text-decoration: underline;
+	color:#c5003e !important;
+}
+
+span a {
+	text-decoration: none;
+	color:#c5003e;
+}
+
+span a:hover {
+	text-decoration: underline;
+	color:#c5003e;
+}
+
+p {
+	padding:0 0 0 0;
+	margin-bottom: 0;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.wpb_text_column ul {
+	list-style: square;
+	font-size: 20px;
+	margin: 10px 35px;
+	font-family: 'Titillium Web', sans-serif;
+	padding-left: 35px !important;
+}
+
+.wpb_text_column ul ul{
+	list-style: circle;
+	
+}
+
+.wpb_text_column ol {
+	font-size: 20px;
+	margin: 10px 35px;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+.wpb_text_column ul li {
+	padding:5px 0;
+}
+
+.wpb_text_column ul ul li {
+	padding:5px 0;
+}
+
+.wpb_text_column ol li {
+	padding:15px 0;
+}
+
+.no-results{
+	text-align: center;
+}
+
+.text-no-results{
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    font-family: 'PT Serif';
+    font-style: italic;
+}
+
+
+.sp-intro .intro-bg:before{
+	opacity: 0.2 !important;
+}
+
+/*-----------------------------------------headings*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding: 0;
+	text-transform: none;
+}
+
+
+
+
+
+h1 {
+font-size: 64px;
+line-height: 84px;
+color: #fff;
+text-align: center;
+font-family: PT Serif;
+font-weight: 700;
+padding: 10px 0;
+}
+
+
+.wine_detail h1 {
+color:#333;
+text-align:left;
+}
+
+h2 {
+font-size: 20px;
+color: #aeb862;
+line-height: 30px;
+text-align: left;
+font-family: Titillium Web;
+font-weight: 400;
+font-style: normal;
+padding: 0 0 0 0;
+}
+
+.wine_detail h2 {
+	font-family: PT Serif;
+	font-weight: 700;
+	color:#333;
+}
+
+
+
+h3 {
+font-size: 48px;
+color: #c5003e;
+line-height: 56px;
+text-align: left;
+font-family: PT Serif;
+font-weight: 700;
+font-style: normal;
+padding: 10px 0;
+}
+
+
+h4 {
+font-size: 24px;
+color: #333333;
+line-height: 32px;
+text-align: left;
+font-family: PT Serif;
+font-weight: 700;
+font-style: normal;
+padding: 15px 0;
+}
+
+h4.wpmm-mega-block-title,
+h4.uc_classic_carousel_title,
+h4.post-short-text{
+text-align: left;
+}
+
+
+
+
+h5 {
+font-size: 24px;
+line-height: 32px;
+text-align: left;
+font-family: PT Serif;
+font-weight: 700;
+font-style: normal;
+padding: 15px 0;
+}
+
+
+h6 {
+	
+}
+
+.head-table-riojawine {
+	display: table;
+	width: 100%;
+	margin: 20px 0 0 0;
+	border-bottom: 1px solid #fff;
+	background: #971b2f;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: PT Serif;
+	padding: 10px 20px;
+	float: left;
+	-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+}
+
+table {
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+.head-table-riojawine p{
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+#siteNotice{
+	width: 35%;
+    height: 100px;
+    float: left;
+}
+
+#siteNotice img{
+	width: 100%;
+    height: 100px;
+    padding: 5px;
+	object-position: center;
+}
+
+#bodyContent{
+	width: 65%;
+    float: left;
+	padding: 10px;
+}
+
+#firstHeading {
+    width: 100%;
+    font-size: 18px;
+    color: #333;
+    float: left;
+	overflow: hidden;
+    text-align: left;
+    font-family: PT Serif;
+    font-weight: 700;
+    padding: 10px 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 22px;
+    max-height: 62px;
+}
+
+.bodyContentEmail{
+	width: 100%;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+     
+	float: left;
+	
+	font-size: 16px;
+	
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-height: 18px;
+    max-height: 18px;
+    height: 18px;
+}
+
+.bodyContentAddress{    
+	margin: 5px 0;
+    float: left;
+    font-size: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 20px;
+    max-height: 42px;
+}
+
+.bodyContentEtiqueta{
+	font-size: 15px;
+    float: left;
+    width: 100%;
+    font-weight: 600;
+}
+/*------------------------------------------------headings----------*/
+
+
+
+/*-----------------------------------------ROWS: BACKGROUNDS--------*/
+
+.row-destacados {
+	background: url(img-sections/bck-destacados-home.svg) no-repeat center right;
+}
+
+.row-noticias {
+	background: url(img-sections/bck-noticias-home.svg) no-repeat center center;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------ROWS: BACKGROUNDS--------*/
+
+
+
+
+
+#sp-footer > .sp-end-footer {
+	background: #ff00ff !important;
+}
+
+
+
+
+/*-------------------------------GLOBAL STYLES*/
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------ESTILOS BOTONES*/
+
+.form-newsletter .btn-primary{
+	width: 80%;
+}
+
+/*fill*/
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle,
+.btn-primary.outline:not(:disabled):not(.disabled).active, .btn-primary.outline:not(:disabled):not(.disabled):active, .show > .btn-primary.outline.dropdown-toggle {
+color: #fff;
+background-color: #76232F;
+border-color: #76232F;
+}
+
+.btn-primary.solid-white:not(:disabled):not(.disabled).active, .btn-primary.solid-white:not(:disabled):not(.disabled):active, .show > .btn-primary.solid-white.dropdown-toggle,
+.btn-primary.ghost:not(:disabled):not(.disabled).active, .btn-primary.ghost:not(:disabled):not(.disabled):active, .show > .btn-primary.ghost.dropdown-toggle{
+color: #fff;
+background-color: #767676;
+border-color: #767676;
+}
+/*fill*/
+
+
+
+
+/*BUTTON DEFAULT*/
+.btn.btn-primary {
+border-radius: 0 !important;
+-webkit-box-shadow:none !important;
+box-shadow:none !important;	
+}
+
+.btn.btn-primary,
+.btn.btn-primary:active{
+color: #fff;
+background-color: #c5003e;
+border:2px solid #c5003e;
+padding: 8px 22px;
+font-weight: 400;
+margin:0 auto;
+border-radius: 0;
+-webkit-transition: background-color 0.2s ease-out;
+-moz-transition: background-color 0.2s ease-out;
+-o-transition: background-color 0.2s ease-out;
+transition: background-color 0.2s ease-out;
+}
+
+.btn.btn-primary:hover {
+color: #c5003e;
+background-color: #fff;
+border-color: #c5003e;
+}
+
+.btn.btn-primary:focus {
+color: #fff;
+background-color: #76232F;
+border-color: #76232F;
+}
+/*BUTTON DEFAULT*/
+
+
+
+/*BUTTON OUTLINE*/
+.btn-primary.outline,
+.btn-primary.outline:active {
+color: #c5003e;
+background-color: transparent;
+border-color: #c5003e;
+}
+
+
+
+.btn-primary.outline:hover {
+color: #fff;
+background-color: #c5003e;
+border-color: #c5003e;
+}
+
+.btn-primary.outline:focus {
+color: #fff;
+background-color: #76232F;
+border-color: #76232F;
+}
+
+
+.btn-primary.outline:disabled,
+.btn-primary.outline:disabled:hover {
+color: #676767;
+background-color: transparent;
+border-color: #676767;
+}
+
+/*BUTTON OUTLINE*/
+
+
+
+/*BUTTON SOLID WHITE*/
+.btn-primary.solid-white,
+.btn-primary.solid-white:active {
+color: #333;
+background-color: #fff;
+border-color: #fff;
+}
+.btn-primary.solid-white:hover {
+color: #fff;
+background-color: transparent;
+border-color: #fff;
+}
+
+.btn-primary.solid-white:focus {
+color: #fff;
+background-color: #767676;
+border-color: #767676;
+}
+/*BUTTON SOLID WHITE*/
+
+
+
+/*BUTTON GHOST*/
+.btn-primary.ghost,
+.btn-primary.ghost:active {
+color: #fff;
+background-color: transparent;
+border-color: #fff;
+}
+.btn-primary.ghost:hover {
+color: #333;
+background-color: #fff;
+border-color: #fff;
+}
+
+.btn-primary.ghost:focus {
+color: #fff;
+background-color: #767676;
+border-color: #767676;
+}
+/*BUTTON GHOST*/
+
+
+/*---------------------------------------------------------------------------------------------------ESTILOS SLIDERS*/
+
+.slider-item .intro-body {
+	width: 50%;
+}
+
+.slider-item .intro-body p,
+.slider-item .intro-body h4 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: none;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------PAGINACIÓN*/
+
+.row.pagination {
+	position:relative;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 30px 0;
+	width: 100%;
+	height: auto;
+	border-radius: 0;
+	text-align: center;
+}
+
+.row.pagination ul{
+	display: inline-block;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+
+.row.pagination ul li{
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.row.pagination ul li a{
+	width: 100%;
+	height: 100%;
+	padding:2px 10px;
+	text-decoration: none;
+	border:2px solid #c5003e;
+}
+
+.row.pagination ul li a:hover{
+	width: 100%;
+	height: 100%;
+	background: #c5003e;
+	color: #fff !important;
+	border:2px solid #c5003e;
+}
+
+.row.pagination ul li a.active{
+	background: #c5003e;
+	color: #fff;
+	border:2px solid #c5003e;
+}
+/*-------------------------------------------------------------------------------------------------------PAGINACIÓN*/
+
+
+
+
+
+/*-------------------------------LINKS----------------------------*/
+.link-container{
+	display: inline-flex;
+    align-items: center;
+}
+
+
+a.link-white{
+	color: #fff;	
+    display: flex;
+    align-items: center;
+}
+
+.link-white span{
+	text-decoration: underline;
+}
+
+a.link-white span:hover,
+a.link-white span:focus{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+a.link-white:before {
+	content: "\f144";
+	display: inline-block;
+	margin-right: 0.5em;
+	font-size: 40px;
+	font-family: FontAwesome;
+}
+
+
+
+/*--------------------------------------MINI SLIDE SIN TITULO-----------------------------------*/
+.slide-mini-no-title .intro-title-3,
+.slide-mini-no-title .btn,
+.slide-mini-no-title-reduced .intro-title-3,
+.slide-mini-no-title-reduced .btn{
+	display: none;
+	
+}
+
+.slide-mini-no-title .intro-title-1,
+.slide-mini-no-title-reduced .intro-title-1{
+	font-size: 65px !important;
+    font-weight: 600;
+	left: 0;
+
+}
+
+.slide-mini-no-title{    
+	height: 259px !important;
+	padding-bottom: 10px;
+    width: 100%;
+	background: #fff url(./img_bodegas/marco-datos-bodega.png) repeat-x center bottom;
+}
+
+.slide-mini-no-title-reduced{    
+	height: 259px !important;
+	padding-bottom: 10px;
+    width: 100%;
+	background: #fff url(./img_bodegas/marco-datos-bodega.png) repeat-x center bottom;
+}
+
+/*--------------------------------------MINI SLIDE SIN TITULO-----------------------------------*/
+
+
+/*--------------------------------------CONTACTO----------------------------------------*/
+
+.contact-left-data h3{
+	font-size: 42px;
+    line-height: 42px;
+    padding: 5px 0;
+}
+/*--------------------------------------CONTACTO----------------------------------------*/
+
+
+
+/*--------------------------------------WIDGET MENÚ ÚLTIMO POST----------------------------------------*/
+.wpmm-cat{
+    font-weight: 600;
+    color: #c5003e !important;
+}
+
+.wpmm-cat:hover{
+    text-decoration: underline;
+}
+
+.wpmm-image-left-section{
+	position: relative;
+}
+
+/* .wpmm-pro-recent-posts-widget .layout1 li:hover div{ */
+	/* background: unset !important; */
+    /* transition: unset !important; */
+    /* -webkit-transition: unset !important; */
+    /* -ms-transition: unset !important; */
+/* } */
+
+.wpmm-pro-recent-posts-widget .wpmm-recentposts-section{
+	overflow: unset !important;
+}
+
+.wpmm-recent-posts-title .overlay-image {
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  opacity: 0 !important;
+  
+  transition: .2s ease !important;
+  background-color: #76232f !important;
+}
+
+.wpmm-recent-posts-title:hover .wpmm-image-left-section img{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+}
+
+.wpmm-image-left-section:hover .overlay-image {
+	opacity: 0.7 !important;
+}
+
+.wpmm-image-left-section:hover .wpmm-recent-posts-title {
+    text-decoration: underline;
+    color: #c5003e !important;
+}
+
+.wpmm-display-date{
+	font-family: 'Titillium Web' !important;
+    color: #333 !important;
+    margin-bottom: 10px !important;
+}
+
+/*--------------------------------------WIDGET MENÚ ÚLTIMO POST----------------------------------------*/
+
+
+
+/*--------------------------------------CATEGORÍAS LATERAL----------------------------------------*/
+
+.widget_categories{
+	padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.widget_categories h4.widget-title{
+	padding: 0px !important;
+    margin-bottom: 25px !important;
+    color: #76232f;
+    text-align: left;
+    font-size: 16px !important;
+    border-bottom: 1px solid;
+}
+
+.widget_categories ul li{
+	padding-bottom: 5px;
+    font-size: 14px;
+	list-style: square;
+    margin-left: 30px;
+}
+
+/*--------------------------------------CATEGORÍAS LATERAL----------------------------------------*/
+
+
+
+
+/*--------------------------------------TABLAS AÑADAS RIOJA-----------------------------------*/
+.table-anadas-rioja  th,
+.table-anadas-rioja  tr,
+.table-anadas-rioja  td{
+border: none;
+}
+
+.table-anadas-rioja  th,
+.table-anadas-rioja  td{
+border-bottom: 1px solid #eee;
+}
+
+
+
+.table-anadas-rioja  {
+display: inline-block;
+float: left;
+width: calc(100%/4 - 30px);
+margin: 15px;
+padding:0 0 0 0;
+-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+}
+
+.table-anadas-rioja  th {
+width: 50%;
+background: #333;
+color:#fff;
+font-weight: 300;
+}
+
+.table-anadas-rioja  tr {
+width: 100%;
+}
+
+.table-anadas-rioja  td {
+width:calc(100%/2 - 30px);
+}
+/*--------------------------------------TABLAS AÑADAS RIOJA-----------------------------------*/
+
+
+
+
+
+/*--------------------------------------TABLAS GENERICAS-----------------------------------*/
+
+table.nuevas-tablas  {
+float: left;
+width: 100%;
+margin: 0 0 50px 0 !important;
+padding:0 0 0 0;
+-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+}
+
+table.nuevas-tablas th,
+table.nuevas-tablas tr,
+table.nuevas-tablas td {
+	border:none;
+	font-size: 20px;
+}
+
+table.nuevas-tablas  th {
+background: #333;
+color:#fff;
+font-weight: 300;
+}
+
+
+table.nuevas-tablas  tr {
+width: 100%;
+}
+
+table.nuevas-tablas  td {
+width:auto;
+}
+
+
+
+table.nuevas-tablas tr:nth-child(even) {background: #F7F7F7}
+table.nuevas-tablas tr:nth-child(odd) {background: #FFF}
+
+
+table.nuevas-tablas ul,
+table.nuevas-tablas p ul {
+	padding-left: 35px !important;
+}
+
+
+/*--------------------------------------TABLAS GENERICAS-----------------------------------*/
+
+
+
+/*-------------------------------LISTADO NOTICIAS--------------------------------*/
+
+
+
+article.sp-blog-block.masonry {
+	-webkit-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+}
+
+
+
+article.sp-blog-block.masonry .sp-blog-meta,
+article.sp-blog-block.masonry .entry-excerpt,
+article.sp-blog-block.masonry .sp-blog-read {
+	display:none;
+}
+
+
+.entry-title a{
+    font-family: PT Serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 32px;
+    max-height: 96px;
+    height: 96px;
+    overflow: hidden;
+}
+
+.entry-title a:hover {
+    text-decoration: underline;
+}
+
+article{
+	background: #fff url(./images-modules/marco-datos-visita.png) no-repeat center bottom;
+}
+
+#sp-blog-grid:first-child {
+	width:100%;
+}
+
+.container_image{
+	width: 100%;
+}
+
+.item-primary .velo-magenta-noticias-rioja {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    bottom: 20px;
+    display: block;
+    width: calc(100% - 20px);
+    height: calc(100% - 30px);
+}
+
+.post-item-mini .container_image{
+	width: 100%;
+    position: relative;
+}
+
+.container_image img{
+	width: 100%;
+	height: 260px;
+    object-fit: cover;
+}
+
+.sp-blog-image a:hover img{
+	transition: unset;
+}
+
+.category_post {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none !important;
+    /* padding-right: 5px; */
+}
+
+.date-post {
+    text-transform: uppercase;
+}
+
+.uc_classic_carousel_date {
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+
+.category_post::after {
+    content: "|";
+    color: #c5003e;
+    margin: 0 0.6em;
+}
+
+.post-item-contain{
+	padding: 5px 20px;
+    text-align: left;
+    height: 160px;
+}
+
+.sp-blog-block p{
+	margin: 0px;
+	padding: 0px;
+}
+
+p.date-group{
+	border-bottom: 1px solid #474747;
+    padding: 0;
+    text-transform: capitalize;
+	font-size: 16px;
+}
+
+p.date-group::before{
+	content: "\f274";
+	display: inline-block;
+	margin-right: 0.5em;
+	font-size: 16px;
+	color: #aeb862;
+	font-family: FontAwesome;
+}
+
+.shuffle-item{
+	margin: 10px 0;
+}
+
+.container-post-mini {
+	width:100%;
+	display: inline-block;
+}
+
+.post-item-mini{
+	float: left;
+	padding: 0;
+}
+
+.post-item-large{
+	padding: 0 16px;
+}
+
+.post-item-mini.left {
+	padding-right: 8px;
+}
+.post-item-mini.right {
+	padding-left: 8px;
+}
+
+.item-primary{
+	position: relative;
+    min-height: 400px;
+    box-shadow: 0px 5px 10px rgba(51, 51, 51, 0.2);
+    background: #fff url(./images-modules/marco-datos-visita.png) no-repeat center bottom;
+}
+
+.item-primary .container_image{
+	position: absolute;
+	top: 0;
+	height: 100%;
+    padding: 10px;
+     padding-bottom: 20px;
+}
+
+.item-primary .container_image img{
+	height: 100%;
+    object-fit: cover;
+}
+
+.item-primary .post-item-contain{
+    position: absolute;
+    bottom: 0;
+}
+
+.item-primary p, .item-primary span a, .item-primary span, .item-primary .entry-title a{
+	color: #fff;
+}
+.item-primary span a:hover, .item-primary .entry-title a:hover{
+	color: #fff;
+}
+
+.item-primary .date-post::before{
+	color: #fff;
+}
+
+.item-primary .capa_negra{
+    position: absolute;
+	top: 10px;
+    right: 10px;
+    left: 10px;
+    bottom: 20px;
+    display: block;
+    background: rgba(0,0,0,0.4);
+}
+
+.cover-news{
+    background: transparent url(./img_posts/cover-news-bg.jpg) repeat-y 0 0;
+	background-size: contain;
+    margin: 0;
+    padding: 40px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.search-form-dates{
+	margin: 0px;
+	margin-bottom: 40px;
+}
+
+.dates-posts{
+	height:40px;
+    background: #eee;
+    text-transform: capitalize;
+    border: 1px solid #c5c5c5;
+    padding: 0 20px;
+    color: #6d6c6c;
+}
+
+/*-------------------------------LISTADO NOTICIAS--------------------------------*/
+
+
+/*-------------------------------NEWSLETTER SIDEBAR----------------------------------*/
+.newsletter-sidebar{
+	padding: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+    text-align: center;
+	background: #fde2ee;
+}
+
+
+.title-sidebar-newsletter h4{
+	font-size: 16px;
+	text-align: center;
+}
+
+.title-sidebar-newsletter h4:before {
+    content: "\f003";
+    display: inline-block;
+    margin-right: 0.5em;
+    font-family: FontAwesome;
+}
+
+.text-sidebar-newsletter p{
+	font-size: 14px;
+    margin-bottom: 15px;
+    padding: 0;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+.text-sidebar-newsletter .wpb_wrapper{
+	margin-bottom: 30px !important;
+}
+
+.newsletter-sidebar #sp-subscribe-input{
+	width: 100%;
+	height: 35px;
+    margin-bottom: 10px;
+}
+
+.newsletter-sidebar .input-group-btn{
+	width: 100%;
+    margin-bottom: 10px;
+}
+
+.newsletter-sidebar button{
+	width: 100%;
+}
+
+
+.newsletter-sidebar button,
+.newsletter-sidebar button:active{
+color: #fff!important;
+background-color: #c5003e!important;
+border:2px solid #c5003e!important;
+padding: 8px 22px!important;
+font-weight: 400!important;
+margin:0 auto!important;
+border-radius: 0!important;
+-webkit-transition: background-color 0.2s ease-out!important;
+-moz-transition: background-color 0.2s ease-out!important;
+-o-transition: background-color 0.2s ease-out!important;
+transition: background-color 0.2s ease-out!important;
+}
+
+.newsletter-sidebar button:hover {
+color: #c5003e!important;
+background-color: #fff!important;
+border-color: #c5003e!important;
+}
+
+.newsletter-sidebar button:focus {
+color: #fff !important;
+background-color: #76232F !important;
+border-color: #76232F !important;
+}
+
+.text-sidebar-newsletter p:before {
+    content: "\f00c";
+    display: inline-block;
+    margin-right: 0.5em;
+    font-family: FontAwesome;
+}
+
+
+
+
+
+.wpb_raw_code.wpb_content_element.wpb_raw_html.privacy-text-content {
+	display: inline-block;
+	width: 100%;
+}
+
+.sp-subscribe-form > .form-output::before {
+	display: inline-block !important;
+	width: 100%;
+	padding: 0 !important;
+	margin: 0 !important;
+	line-height: normal !important;
+}
+
+
+.sp-subscribe-form > .form-output.error::before,
+.sp-subscribe-form > .form-output.valid::before
+{
+	display: inline-block !important;
+	width: 100%;
+	padding: 0 !important;
+	margin: 0 !important;
+	line-height: normal !important;
+	font-size: 18px;
+}
+
+
+
+
+
+/*-------------------------------NEWSLETTER SIDEBAR----------------------------------*/
+
+
+
+
+
+/*--------------------------------SEACRH BAR SIDEBAR-----------------------------------*/
+
+.widget_search{
+	border: 1px solid #eee;
+	
+}
+
+.sp-sidebar form.search-form input{
+    border-radius: 0px !important; 
+	-moz-border-radius: 0px !important; 
+    -webkit-border-radius: 0px !important;	
+    border: none;
+}
+.sp-sidebar form.search-form input[name="s"] {
+    width: 85%;
+    float: left;
+	border: none;
+}
+
+.search-form button{
+	width: 15%;
+    float: left;
+    border: none;
+    padding: 2px;
+    font-size: 20px;
+    background: none;
+}
+
+.search-form button:hover{
+	width: 15%;
+    color: #c5003e;
+	cursor:pointer;
+}
+
+.sp-sidebar form.search-form input[type="submit"] {
+    background: transparent;
+    color: #333;
+}
+
+
+
+/*--------------------------------SEACRH BAR SIDEBAR-----------------------------------*/
+
+
+
+/*--------------------------------RIOJA TV CARRUSEL-----------------------------------*/
+.riojatv_carousel{
+	font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.uc_image_carousel_container_holder:hover .riojatv_carousel{
+	text-decoration: underline;
+}
+
+/*--------------------------------RIOJA TV CARRUSEL-----------------------------------*/
+
+
+
+.owl-item img{
+	height: 260px !important;
+}
+
+.owl-item:first-child img{
+	height: 100% !important;
+}
+
+
+
+
+	.row-noticias {
+		padding:150px  0;
+	}
+	
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 1199 px-----------------------------------*/
+@media (max-width: 1199px) {
+	h1 {
+	font-size: 56px;
+	line-height: 64px;
+	}
+
+	h2 {
+	font-size: 17px;
+	line-height: 25px;
+	}
+
+	h3 {
+	font-size: 36px;
+	line-height: 44px;
+	}
+
+	h4 {
+	font-size: 20px;
+	}
+
+	h5 {
+	font-size: 20px;
+	line-height: 30px;
+	}
+
+	h6 {
+
+	}
+	
+	
+	.wpb_text_column ul {
+		font-size: 17px;
+	}
+		
+	/*intro slider*/
+	.slider-item .intro-body {
+		width: 90%;
+	}
+	/*intro slider*/	
+		
+
+	table.nuevas-tablas th,
+	table.nuevas-tablas tr,
+	table.nuevas-tablas td {
+		font-size: 16px;
+	}
+			
+		
+	/*tablas añadas*/
+	.table-anadas-rioja  {
+	width: calc(100%/2 - 30px);
+	}	
+			
+	.table-anadas-rioja  th {
+	width: 100%;
+	}
+
+		
+	/*tablas añadas*/	
+	
+	
+	
+	.wwp-vc-breadcrumbs .current {
+		max-width: 45ch;
+	}
+	
+
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 1199 px-----------------------------------*/
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 1023 px-----------------------------------*/
+@media (max-width: 1023px) {
+	
+	
+	.wwp-vc-breadcrumbs .current {
+		max-width: 24ch;
+	}
+	
+		
+	.svc_post_grid article{
+		width: 48% !important;
+		height: 150px !important;
+	}
+	
+	.svc_title{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	
+	.svc_post_grid article section p {
+		margin-bottom: 0px !important;
+	}
+}
+/*--------------------------------------------------------------------------------------------RESPONSIVE 1023 px-----------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 991 px-----------------------------------*/
+
+@media (max-width: 991px) {
+	h1 {
+	font-size: 48px;
+	line-height: 56px;
+	}
+
+	h2 {
+	font-size: 17px;
+	line-height: 25px;
+	}
+
+	h3 {
+	font-size: 24px;
+	line-height: 32px;
+	}
+
+	h4 {
+	font-size: 20px;
+	}
+
+	h5 {
+	font-size: 20px;
+	line-height: 30px;
+	}
+
+	h6 {
+
+	}
+	
+	.dates-posts {
+		width: 100%;
+	}
+	
+	p {
+		margin: 10px 0;
+	}
+}
+/*--------------------------------------------------------------------------------------------RESPONSIVE 991 px-----------------------------------*/
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 767 px-----------------------------------*/
+@media (max-width: 767px) {
+	h1 {
+	font-size: 32px;
+	line-height: 48px;
+	}
+
+	h2 {
+	font-size: 17px;
+	line-height: 25px;
+	}
+
+	h3 {
+	font-size: 24px;
+	line-height: 25px;
+	}
+
+	h4 {
+	font-size: 17px;
+	}
+
+	h5 {
+	font-size: 17px;
+	line-height: 25px;
+	}
+
+	h6 {
+
+	}
+	/*tablas añadas*/
+	.table-anadas-rioja  {
+		width: 100%;
+		margin: 30px 0;
+	}
+		
+	/*tablas añadas*/	
+		
+	
+	.wwp-vc-breadcrumbs .current {
+		max-width: 45ch;
+	}
+	
+	.newsletter-sidebar{
+		display: none;
+	}
+	
+	.sidebar-column{
+		order: 0 !important;
+	}
+	
+	.row-noticias {
+		padding:40px 0;
+	}
+	
+}
+/*--------------------------------------------------------------------------------------------RESPONSIVE 767 px-----------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 575 px-----------------------------------*/
+
+@media (max-width: 575px){
+	#sp-header {
+		padding: 0px !important;
+	}
+	
+	.wwp-vc-breadcrumbs {
+		padding: 0px 0 !important;
+	}
+
+	.wwp-vc-breadcrumbs .current {
+		max-width: 45ch;
+	}
+	
+	.svc_post_grid article{
+		width: 93% !important;
+	}
+}
+
+@media (max-width: 525px){
+	
+	.wwp-vc-breadcrumbs .current {
+		max-width: 19ch;
+	}
+	
+}
+
+/*--------------------------------------------------------------------------------------------RESPONSIVE 575 px-----------------------------------*/
+
+
+
+
+
+
+ /* ------------------------------------------------------- OPEN COOKIES ------------------------------------------------------- */
+
+#cookieChoiceInfo {
+background-color: rgba(250, 250, 250, 0.95) !important;
+padding: 30px 80px 30px 50px !important;
+border-top: 1px solid #c5003e;
+color: #666;
+font-style: italic;
+letter-spacing: 0.01em;
+}
+
+#cookieChoiceDismissIcon {
+width: 80px !important;
+  background-size: 30px auto !important;
+  background-position: 50% !important;
+  background-color: #c5003e !important;
+  background-image: url("../../uploads/1/2018/09/close_cookies.png") !important;
+}
+
+#cookieChoiceDismissIcon:hover {
+  background-size: 40px auto !important;
+}
+
+#cookieChoiceInfo span {
+display: block;
+}
+
+#cookieChoiceInfo div a {
+color: #c5003e;
+margin: 20px 10px 0 !important;
+text-transform: uppercase;
+border: 1px solid #c5003e;
+padding: 5px 10px;
+display: inline-block;
+font-style: normal;
+background-color: #fff;
+}
+
+#cookieChoiceInfo div a:hover {
+color: #fff;
+background-color: #c5003e;
+}
+/* -------------------------------------------------------CLOSE COOKIES ------------------------------------------------------- */
+
+/* media 767px */
+@media (max-width: 767px) {
+
+#cookieChoiceInfo {
+padding: 20px 50px 20px 20px !important;
+font-size: 12px;
+}
+
+#cookieChoiceInfo div {
+padding-right: 20px !important;
+}
+
+#cookieChoiceInfo div a {
+margin: 15px 10px 0 !important;
+}
+
+#cookieChoiceDismissIcon {
+width: 50px !important;
+background-size: 20px auto !important;
+}
+
+#cookieChoiceDismissIcon:hover {
+background-size: 25px auto !important;
+}
+
+}
+
+/* -------------------------------------------------------CLOSE COOKIES ------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------OPEN RUTA DE MIGAS ------------------------------------------------------- */
+.wwp-vc-breadcrumbs {
+	list-style: outside none none;
+	margin: 0;
+	padding: 35px 0 !important;
+}
+
+.wwp-vc-breadcrumbs li {
+    font-size: 14px;
+}
+.wwp-vc-breadcrumbs li::after {
+    content: "/" !important;
+}
+
+.wwp-vc-breadcrumbs li:last-child::after {
+    content: "" !important;
+}
+
+.wwp-vc-breadcrumbs .current {
+    overflow: hidden;
+    max-width: 75ch;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wwp-vc-breadcrumbs .visited a{
+    font-weight: 600;
+	color: #737373;
+}
+
+.wwp-vc-breadcrumbs a:hover{
+	text-decoration: underline;
+	color: #c5003e;
+}
+
+.current a{
+    font-weight: 400;
+	color: #737373;
+}
+
+#breadcrumb-5b9f8735090b2 li::after {
+	 content: "/" !important;
+}
+
+.wwp-vc-breadcrumbs li {
+	display: inline-block;
+	float: left;
+	position: relative;
+	margin: 0.5em 0;
+}
+
+.wwp-vc-breadcrumbs li::after {
+    color: #959fa5;
+    display: inline-block;
+    margin: 0 0.6em;
+}
+
+.wwp-vc-breadcrumbs li::after {
+    margin: 0 1em;
+}
+
+.wwp-vc-breadcrumbs .visited a {
+    font-weight: 600;
+    color: #737373;
+}
+
+
+.wwp-vc-breadcrumbs li::after {
+    color: #959fa5;
+    display: inline-block;
+    margin: 0 0.6em;
+}
+
+
+/* -------------------------------------------------------CLOSE RUTA DE MIGAS ------------------------------------------------------- */
+
+.fa-qq:before {
+    /* content: ""; */
+    /* background: url(https://riojawine.w-p.life/wp-content/uploads/1/2019/04/qq-icon.png); */
+    width: 20px;
+    height: 20px;
+    content: url(/wp-content/uploads/1/2019/04/qq-icon.png)!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

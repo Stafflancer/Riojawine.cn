@@ -1,0 +1,39 @@
+
+.uc_hexagram_countdown *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc_hexagram_countdown .uc_countdown_box{
+	position:relative;
+	font-family: 'Lato', sans-serif;
+	font-weight:normal;
+	text-align:center;
+}
+.uc_hexagram_countdown .uc_countdown_box .uc_countdown span{
+    color: #f19f0f;
+    display: inline-block;
+    font-size: 22px;
+	font-size:60px;
+	margin:8px 12px;
+}
+.uc_hexagram_countdown .uc_countdown_box .uc_countdown strong{
+	background:url(hexagram-img.png) no-repeat center center;
+	display:block;
+	padding:37px 0px;
+	width:100%;
+	font-weight:400;
+	margin-bottom:25px;
+  width:160px;
+  text-align:center;
+}
+.uc_hexagram_countdown .uc_countdown_box .uc_countdown b{
+	display:block;
+	font-weight:400;
+	font-size:8px;
+	font-size:20px;
+	font-weight:400;
+	color:#fff;
+}

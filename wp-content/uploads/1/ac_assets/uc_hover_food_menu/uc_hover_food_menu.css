@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.uc_hover_food_menu *{margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;}
+   
+
+
+.uc_hover_food_menu{  height:280px; width:100%; overflow:hidden; text-align:center;position:relative;}
+.uc_hover_food_menu .uc_horizontal_food_menu_pic{ width:100%; height:100%;}
+.uc_hover_food_menu .overlay-box{background:#F00;opacity:0.7;position:absolute;width:100%; height:100%;left:0px; top:0px;display:none;}
+.uc_hover_food_menu .hover-box{ position:absolute; left:0px; top:0px; width:100%; height:100%; padding:15px;display:none;}
+.uc_hover_food_menu .hover-box .border{ width:100%; height:100%;border:3px dotted #ffffff; position:relative;} 
+.uc_hover_food_menu .hover-box .border .content-box{ position:absolute; left:0px; top:50%; width:100%;transform:translatey(-50%);opacity:1;font-family: 'Open Sans', sans-serif; font-size:20px;}
+.uc_hover_food_menu .hover-box .border .content-box h2{font-family: 'Pacifico', cursive; font-size:29px; margin:0px 0 25px;}
+.uc_hover_food_menu .hover-box .border .content-box h3{font-family: 'Pacifico', cursive; font-size:18px; margin-bottom:10px;}
+.uc_hover_food_menu:hover .hover-box{ display:block;}
+.uc_hover_food_menu:hover .overlay-box{ display:block;}
+
+
+
